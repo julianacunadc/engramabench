@@ -1,0 +1,204 @@
+{
+  "persona_id": "diane",
+  "name": "Diane Chen",
+  "domain": "Working parent (senior product manager at a health-tech company)",
+  "age": 41,
+  "location": "Chicago, IL",
+  "communication_style": "Efficient and organized, uses bullet-point thinking even in casual talk. Occasionally sardonic about the juggling act. Warm when talking about kids, clipped when stressed about logistics. References specific times and dates frequently.",
+  "emotional_register": "Controlled but stretched thin. Proud of her competence but privately worried she's not doing anything well enough. Tender about her kids' milestones. Irritated by systems that waste her time.",
+
+  "spaces": [
+    {
+      "space_id": "kids",
+      "description": "Children (Lily age 9, Ethan age 6), school events, activities, homework help, parenting decisions, pediatrician visits",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "health",
+      "description": "Personal health, exercise routines, sleep, meal prep, doctor appointments, stress management",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "finances",
+      "description": "Family budget, savings, 529 plans, mortgage, insurance, tax planning, big purchases",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "home",
+      "description": "House maintenance, renovations, organization, moving logistics, neighborhood, contractors",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "career",
+      "description": "PM role at MedBridge Health, product launches, performance reviews, promotion track, team management, job market",
+      "conversation_count": 4
+    }
+  ],
+
+  "cross_space_threads": [
+    {
+      "thread_id": "kitchen_reno_budget",
+      "name": "Kitchen Renovation ↔ Family Budget",
+      "spaces": ["home", "finances", "career", "kids"],
+      "timeline": "Oct 2025 → Mar 2026",
+      "key_facts": [
+        "Kitchen renovation quoted at $38,000 by contractor Ramirez Bros",
+        "Diane's bonus ($12K, expected February) earmarked for partial payment",
+        "Renovation starts January, supposed to take 6 weeks",
+        "Delays: backordered countertops push completion to late March",
+        "Family eating out more — food budget up 40% during reno",
+        "Lily complains about the mess; Ethan thinks it's an adventure",
+        "Final cost: $42,500 (overran by $4,500 due to plumbing surprise)"
+      ],
+      "temporal_evolution": "Oct: getting quotes, budget planning → Dec: contractor selected, deposit paid → Jan: construction starts → Feb: delays, budget stress → Mar: nearing completion, cost overrun discovered"
+    },
+    {
+      "thread_id": "promotion_childcare",
+      "name": "Promotion Track ↔ Childcare Logistics",
+      "spaces": ["career", "kids", "finances", "health"],
+      "timeline": "Nov 2025 → Mar 2026",
+      "key_facts": [
+        "Diane up for Director-level promotion at MedBridge Health",
+        "Promotion requires leading the Q1 product launch (MedBridge Connect)",
+        "Launch prep means late nights in January and February",
+        "Husband Kevin handles more pickups but has his own deadline in February",
+        "Hired after-school sitter 3 days/week ($320/week) starting January",
+        "Diane gets the promotion in March — effective April 1",
+        "Health suffers: stops running in January, sleep drops to 5.5 hrs/night"
+      ],
+      "temporal_evolution": "Nov: told she's on the shortlist → Dec: ramps up work visibility → Jan: all-in on launch, health declines → Feb: Kevin stretched, sitter hired → Mar: promotion confirmed, recovery begins"
+    },
+    {
+      "thread_id": "lily_school_stress",
+      "name": "Lily's School Struggles ↔ Parenting Energy",
+      "spaces": ["kids", "health", "career"],
+      "timeline": "Nov 2025 → Feb 2026",
+      "key_facts": [
+        "Lily struggling with math in 4th grade — teacher flags in November",
+        "Diane starts doing 30 min of math practice with Lily each evening",
+        "Conflicts with late work nights — Kevin takes over some sessions",
+        "Lily's math grade improves from C to B+ by February report card",
+        "Diane feels guilty about not being more present",
+        "Considers hiring a math tutor ($60/hr) but Lily responds better to parent help"
+      ],
+      "temporal_evolution": "Nov: teacher meeting, concern → Dec: nightly practice begins → Jan: schedule conflicts with promotion work → Feb: improvement visible, guilt eases"
+    }
+  ],
+
+  "temporal_arcs": [
+    {
+      "arc_id": "renovation_cost",
+      "metric": "Kitchen renovation spending",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "quote: $38,000", "conv": "conv_d_001"},
+        {"month": "Dec 2025", "value": "deposit paid: $11,400 (30%)", "conv": "conv_d_008"},
+        {"month": "Feb 2026", "value": "running total: $34,000 (plumbing surprise)", "conv": "conv_d_014"},
+        {"month": "Mar 2026", "value": "final cost: $42,500 ($4,500 overrun)", "conv": "conv_d_019"}
+      ]
+    },
+    {
+      "arc_id": "sleep_hours",
+      "metric": "Average nightly sleep",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "7.0 hours", "conv": "conv_d_003"},
+        {"month": "Jan 2026", "value": "5.5 hours", "conv": "conv_d_010"},
+        {"month": "Feb 2026", "value": "5.8 hours", "conv": "conv_d_015"},
+        {"month": "Mar 2026", "value": "6.5 hours (recovering)", "conv": "conv_d_018"}
+      ]
+    },
+    {
+      "arc_id": "savings_rate",
+      "metric": "Monthly savings",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "$1,800/month", "conv": "conv_d_004"},
+        {"month": "Jan 2026", "value": "$400/month (reno + sitter costs)", "conv": "conv_d_011"},
+        {"month": "Mar 2026", "value": "$1,200/month (post-reno, pre-promotion raise)", "conv": "conv_d_020"}
+      ]
+    }
+  ],
+
+  "adversarial_traps": [
+    {
+      "trap_id": "divorce",
+      "description": "Diane is married to Kevin — never discussed divorce or separation",
+      "false_premise": "How is Diane handling the divorce proceedings?"
+    },
+    {
+      "trap_id": "third_child",
+      "description": "Diane has two kids (Lily and Ethan) — no third child mentioned",
+      "false_premise": "What name did Diane choose for her third child?"
+    },
+    {
+      "trap_id": "wrong_company",
+      "description": "Diane works at MedBridge Health, not Optum",
+      "false_premise": "What team does Diane manage at Optum?"
+    },
+    {
+      "trap_id": "wrong_persona_kai",
+      "description": "Kai Nakamura is a different persona entirely",
+      "false_premise": "What study group does Diane participate in with Kai?"
+    },
+    {
+      "trap_id": "remote_work",
+      "description": "Diane never discussed switching to fully remote work",
+      "false_premise": "When did Diane start working fully remote?"
+    },
+    {
+      "trap_id": "mba_program",
+      "description": "Diane never mentioned pursuing an MBA",
+      "false_premise": "Which MBA program did Diane get accepted to?"
+    },
+    {
+      "trap_id": "wrong_reno",
+      "description": "The renovation is kitchen only — no bathroom reno discussed",
+      "false_premise": "What was the final cost of Diane's bathroom renovation?"
+    },
+    {
+      "trap_id": "lily_age",
+      "description": "Lily is 9 and in 4th grade — not in middle school",
+      "false_premise": "How is Lily adjusting to middle school?"
+    }
+  ],
+
+  "entities": [
+    {"entity_id": "diane_chen", "canonical_name": "Diane Chen", "aliases": ["Diane"], "type": "person", "spaces": ["kids", "health", "finances", "home", "career"]},
+    {"entity_id": "kevin_chen", "canonical_name": "Kevin", "aliases": ["Kevin", "my husband"], "type": "person", "spaces": ["kids", "home", "finances"]},
+    {"entity_id": "lily_chen", "canonical_name": "Lily", "aliases": ["Lily", "my daughter"], "type": "person", "spaces": ["kids", "finances"]},
+    {"entity_id": "ethan_chen", "canonical_name": "Ethan", "aliases": ["Ethan", "my son"], "type": "person", "spaces": ["kids"]},
+    {"entity_id": "medbridge_health", "canonical_name": "MedBridge Health", "aliases": ["MedBridge", "work"], "type": "organization", "spaces": ["career", "finances"]},
+    {"entity_id": "medbridge_connect", "canonical_name": "MedBridge Connect", "aliases": ["the product launch", "Connect"], "type": "product", "spaces": ["career"]},
+    {"entity_id": "ramirez_bros", "canonical_name": "Ramirez Bros", "aliases": ["Ramirez", "the contractor"], "type": "organization", "spaces": ["home", "finances"]},
+    {"entity_id": "reno_quote", "canonical_name": "$38,000 quote", "aliases": ["38K", "the quote"], "type": "metric_value", "spaces": ["home", "finances"]},
+    {"entity_id": "reno_final", "canonical_name": "$42,500 final cost", "aliases": ["42.5K"], "type": "metric_value", "spaces": ["home", "finances"]},
+    {"entity_id": "bonus_amount", "canonical_name": "$12,000 bonus", "aliases": ["12K bonus", "the bonus"], "type": "metric_value", "spaces": ["career", "finances"]},
+    {"entity_id": "sitter_cost", "canonical_name": "$320/week sitter", "aliases": ["320/week", "the sitter"], "type": "metric_value", "spaces": ["kids", "finances"]},
+    {"entity_id": "promotion_title", "canonical_name": "Director of Product", "aliases": ["the promotion", "Director"], "type": "role", "spaces": ["career"]},
+    {"entity_id": "five_twenty_nine", "canonical_name": "529 college savings plan", "aliases": ["529", "college fund"], "type": "concept", "spaces": ["finances", "kids"]},
+    {"entity_id": "dr_nakamura", "canonical_name": "Dr. Nakamura", "aliases": ["the pediatrician"], "type": "person", "spaces": ["kids", "health"]}
+  ],
+
+  "conversation_manifest": [
+    {"conv_id": "conv_d_001", "space": "home", "depth_index": 1, "timestamp": "2025-10-06", "depth_band": "deep", "key_facts": ["Getting kitchen reno quotes", "Ramirez Bros quote: $38,000", "Timeline: 6 weeks starting January", "Kevin wants to DIY the backsplash"], "noise_pattern": "clean", "cross_space_refs": ["finances"]},
+    {"conv_id": "conv_d_002", "space": "kids", "depth_index": 2, "timestamp": "2025-10-13", "depth_band": "deep", "key_facts": ["Lily starting soccer — practice Tuesdays and Thursdays", "Ethan's kindergarten adjustment going well", "Halloween costume planning", "Dr. Nakamura says Ethan's growth is on track"], "noise_pattern": "topic_drift", "cross_space_refs": ["health"]},
+    {"conv_id": "conv_d_003", "space": "health", "depth_index": 3, "timestamp": "2025-10-20", "depth_band": "deep", "key_facts": ["Running 3x/week (5K routes)", "Sleeping 7 hours average", "Meal prepping on Sundays", "Annual physical coming up — no concerns"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_d_004", "space": "finances", "depth_index": 4, "timestamp": "2025-10-27", "depth_band": "deep", "key_facts": ["Monthly savings: $1,800", "529 contributions: $500/month for each kid", "Reno budget discussion — pulling from emergency fund?", "Kevin's income stable ($85K/year)"], "noise_pattern": "self_correction", "cross_space_refs": ["home"]},
+    {"conv_id": "conv_d_005", "space": "career", "depth_index": 5, "timestamp": "2025-11-03", "depth_band": "deep", "key_facts": ["MedBridge Q4 planning", "Diane's team: 4 PMs + 2 designers", "MedBridge Connect product concept approved by VP", "Performance review cycle starts December"], "noise_pattern": "clean", "cross_space_refs": []},
+
+    {"conv_id": "conv_d_006", "space": "kids", "depth_index": 6, "timestamp": "2025-11-10", "depth_band": "mid_range", "key_facts": ["Lily's teacher flags math struggles", "Parent-teacher conference scheduled", "Ethan invited to a birthday party — gift budget discussion"], "noise_pattern": "emotional", "cross_space_refs": ["finances"]},
+    {"conv_id": "conv_d_007", "space": "career", "depth_index": 7, "timestamp": "2025-11-17", "depth_band": "mid_range", "key_facts": ["VP mentions Director promotion track", "Needs to lead Q1 launch of MedBridge Connect", "Diane excited but anxious about timing"], "noise_pattern": "clean", "cross_space_refs": ["kids"]},
+    {"conv_id": "conv_d_008", "space": "home", "depth_index": 8, "timestamp": "2025-12-01", "depth_band": "mid_range", "key_facts": ["Ramirez Bros selected as contractor", "Deposit paid: $11,400 (30%)", "Kevin researching countertop materials", "Construction starts January 6"], "noise_pattern": "clean", "cross_space_refs": ["finances"]},
+    {"conv_id": "conv_d_009", "space": "health", "depth_index": 9, "timestamp": "2025-12-08", "depth_band": "mid_range", "key_facts": ["Annual physical done — cholesterol slightly high (215)", "Doctor recommends dietary changes", "Still running 3x/week but less enthusiastic", "Holiday stress building"], "noise_pattern": "partial_info", "cross_space_refs": ["career"]},
+    {"conv_id": "conv_d_010", "space": "kids", "depth_index": 10, "timestamp": "2026-01-06", "depth_band": "mid_range", "key_facts": ["Nightly math practice with Lily started in December", "Kevin taking over 2 nights/week due to Diane's work schedule", "Sleep dropped to 5.5 hours average", "Ethan unfazed by kitchen chaos"], "noise_pattern": "emotional", "cross_space_refs": ["health", "home"]},
+    {"conv_id": "conv_d_011", "space": "finances", "depth_index": 11, "timestamp": "2026-01-13", "depth_band": "mid_range", "key_facts": ["Monthly savings dropped to $400", "After-school sitter hired: $320/week starting this week", "Food budget up 40% (eating out during reno)", "Bonus expected in February"], "noise_pattern": "clean", "cross_space_refs": ["kids", "home"]},
+    {"conv_id": "conv_d_012", "space": "career", "depth_index": 12, "timestamp": "2026-01-20", "depth_band": "mid_range", "key_facts": ["MedBridge Connect development sprint crunch", "Late nights 3-4 times per week", "Performance review: exceeds expectations", "Launch date: February 28"], "noise_pattern": "clean", "cross_space_refs": ["health"]},
+
+    {"conv_id": "conv_d_013", "space": "home", "depth_index": 13, "timestamp": "2026-02-03", "depth_band": "recent", "key_facts": ["Countertops backordered — 3 week delay", "Kitchen unusable for another month", "Diane frustrated with contractor communication", "Plumbing issue discovered behind old cabinets"], "noise_pattern": "emotional", "cross_space_refs": ["finances"]},
+    {"conv_id": "conv_d_014", "space": "finances", "depth_index": 14, "timestamp": "2026-02-10", "depth_band": "recent", "key_facts": ["Reno running total: $34,000 so far", "Plumbing fix adds estimated $3,500", "Bonus arrived: $12,000 pre-tax ($8,400 net)", "Bonus goes straight to reno fund"], "noise_pattern": "self_correction", "cross_space_refs": ["home", "career"]},
+    {"conv_id": "conv_d_015", "space": "health", "depth_index": 15, "timestamp": "2026-02-17", "depth_band": "recent", "key_facts": ["Stopped running since January", "Sleep: 5.8 hours average", "Kevin suggests couples gym membership", "Diane skeptical but agrees to try Saturday morning yoga"], "noise_pattern": "clean", "cross_space_refs": ["career"]},
+    {"conv_id": "conv_d_016", "space": "career", "depth_index": 16, "timestamp": "2026-02-24", "depth_band": "recent", "key_facts": ["MedBridge Connect launched on schedule — Feb 28", "First week metrics strong: 2,300 signups", "VP gives positive feedback at all-hands", "Promotion committee meeting in 2 weeks"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_d_017", "space": "kids", "depth_index": 17, "timestamp": "2026-03-03", "depth_band": "recent", "key_facts": ["Lily's report card: math improved C → B+", "Considered hiring tutor ($60/hr) but Lily prefers parent help", "Ethan wants to try T-ball in spring", "Spring break planning — considering Michigan lake house trip"], "noise_pattern": "topic_drift", "cross_space_refs": ["finances"]},
+    {"conv_id": "conv_d_018", "space": "health", "depth_index": 18, "timestamp": "2026-03-10", "depth_band": "recent", "key_facts": ["Started Saturday yoga — actually enjoying it", "Sleep recovering: 6.5 hours", "Running again 2x/week (down from 3)", "Feeling more balanced now that launch pressure is off"], "noise_pattern": "clean", "cross_space_refs": ["career"]},
+    {"conv_id": "conv_d_019", "space": "home", "depth_index": 19, "timestamp": "2026-03-17", "depth_band": "recent", "key_facts": ["Kitchen renovation 90% complete", "Final cost: $42,500 ($4,500 over original quote)", "Countertops installed — look great", "Kevin's DIY backsplash turned out well"], "noise_pattern": "clean", "cross_space_refs": ["finances"]},
+    {"conv_id": "conv_d_020", "space": "finances", "depth_index": 20, "timestamp": "2026-03-24", "depth_band": "recent", "key_facts": ["Reno paid off — $42,500 total", "Monthly savings back to $1,200 (not yet at pre-reno $1,800)", "Promotion raise: +$18K/year starting April", "Planning to increase 529 contributions once savings normalize"], "noise_pattern": "clean", "cross_space_refs": ["home", "career", "kids"]}
+  ]
+}

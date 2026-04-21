@@ -1,0 +1,63 @@
+{
+  "conversation_id": "conv_k_015",
+  "persona_id": "kai",
+  "space_id": "career_prep",
+  "timestamp": "2026-02-10",
+  "depth_index": 15,
+  "messages": [
+    {
+      "role": "user",
+      "content": "okay so... I just finished the Google on-site today and I'm kind of a mess right now. 5 rounds total and I think I did okay on 3 of them? the coding rounds felt pretty solid, behavioral was fine, but the system design one... ugh",
+      "message_id": "msg_k_015_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds exhausting! System design rounds can be really tricky even for experienced engineers. What specifically felt shaky about it?",
+      "message_id": "msg_k_015_02"
+    },
+    {
+      "role": "user",
+      "content": "I think I got too caught up in the details early on and didn't zoom out to the big picture fast enough? like they asked about designing a chat system and I immediately dove into database schemas instead of talking about the overall architecture first. the interviewer had to redirect me a couple times which... not great",
+      "message_id": "msg_k_015_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That's actually a really common mistake, and the fact that you recognized it shows good self-awareness. Did you manage to cover the high-level design after the redirection?",
+      "message_id": "msg_k_015_04"
+    },
+    {
+      "role": "user",
+      "content": "yeah I think so? we talked through load balancing, caching, all that. but I'm just... ugh I hate not knowing. and the thing is Cohere moved me to the final round too so now I'm just sitting here waiting on both and my brain is going in circles. I literally can't focus on anything else right now",
+      "message_id": "msg_k_015_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Having two final rounds pending would make anyone anxious! That's actually a great position to be in though - you have options. How are you handling the waiting period?",
+      "message_id": "msg_k_015_06"
+    },
+    {
+      "role": "user",
+      "content": "not well honestly. I keep refreshing my email every 5 minutes which is ridiculous because they said they'd get back to me by end of week. I should be working on my thesis but I can't concentrate on anything. might need to talk to my therapist about this because the anxiety is getting pretty bad",
+      "message_id": "msg_k_015_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Definitely sounds like a good idea to check in with your therapist. The combination of job interviews and thesis work is a lot of pressure. Maybe try setting specific times to check email instead of constantly refreshing?",
+      "message_id": "msg_k_015_08"
+    },
+    {
+      "role": "user",
+      "content": "yeah that's... probably smart. I think part of me is just so ready to be done with all this uncertainty you know? like whether it's Google or Cohere or someone else, I just want to know what's next. the waiting is killing me more than the actual interviews were",
+      "message_id": "msg_k_015_09"
+    }
+  ],
+  "mentioned_entities": [
+    "google",
+    "university_counseling"
+  ],
+  "cross_space_refs": [
+    "wellness"
+  ],
+  "summary": "Kai discusses completing their Google on-site interview, feeling confident about most rounds but worried about the system design portion. They're anxiously waiting for results from both Google and Cohere while struggling to focus on thesis work.",
+  "fact_count": 4
+}

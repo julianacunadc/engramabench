@@ -1,0 +1,323 @@
+{
+  "persona_id": "carlos",
+  "persona_name": "Carlos Mendoza",
+  "generated_at": "2026-04-19T02:45:14.869298+00:00",
+  "generator_model": "claude-sonnet-4-20250514",
+  "generator_temperature": 0.7,
+  "generator_max_tokens": 3000,
+  "blueprint_hash": "sha256:bf7c0d8a7a63bc65e939363ee9d64671b2a9e7cffa06d63b17ea2d26f5307ebe",
+  "total_conversations": 20,
+  "total_tokens": 67152,
+  "total_cost_estimate_usd": 0.4258,
+  "total_generation_time_s": 360.21,
+  "conversations": [
+    {
+      "conversation_id": "conv_c_001",
+      "space_id": "investors",
+      "depth_index": 1,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 2003,
+      "output_tokens": 932,
+      "total_tokens": 2935,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019989,
+      "generation_time_s": 16.4,
+      "semantic_warnings": [
+        "Key fact may be missing: 'First Kaszek meeting' (checked terms: ['first kaszek'])",
+        "Key fact may be missing: 'MRR at $45K' (checked terms: ['$45k'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_002",
+      "space_id": "product",
+      "depth_index": 2,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 2127,
+      "output_tokens": 940,
+      "total_tokens": 3067,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020481,
+      "generation_time_s": 18.13,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_003",
+      "space_id": "hiring",
+      "depth_index": 3,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 2020,
+      "output_tokens": 874,
+      "total_tokens": 2894,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.01917,
+      "generation_time_s": 17.19,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_004",
+      "space_id": "market",
+      "depth_index": 4,
+      "depth_band": "deep",
+      "messages_generated": 9,
+      "input_tokens": 2147,
+      "output_tokens": 902,
+      "total_tokens": 3049,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019971,
+      "generation_time_s": 17.52,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Colombian SMB market 2M+ potential users' (checked terms: ['colombian'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_005",
+      "space_id": "product",
+      "depth_index": 5,
+      "depth_band": "deep",
+      "messages_generated": 8,
+      "input_tokens": 2398,
+      "output_tokens": 829,
+      "total_tokens": 3227,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019629,
+      "generation_time_s": 17.71,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Deciding to open UX designer position' (checked terms: ['deciding'])",
+        "Cross-space ref to 'hiring' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_006",
+      "space_id": "investors",
+      "depth_index": 6,
+      "depth_band": "mid_range",
+      "messages_generated": 8,
+      "input_tokens": 2302,
+      "output_tokens": 744,
+      "total_tokens": 3046,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.018066,
+      "generation_time_s": 15.68,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_007",
+      "space_id": "investors",
+      "depth_index": 7,
+      "depth_band": "mid_range",
+      "messages_generated": 10,
+      "input_tokens": 2448,
+      "output_tokens": 1055,
+      "total_tokens": 3503,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.023169,
+      "generation_time_s": 20.08,
+      "semantic_warnings": [
+        "Key fact may be missing: 'MRR $52K' (checked terms: ['$52k'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_008",
+      "space_id": "market",
+      "depth_index": 8,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2418,
+      "output_tokens": 914,
+      "total_tokens": 3332,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020964,
+      "generation_time_s": 18.12,
+      "semantic_warnings": [
+        "Cross-space ref to 'product' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_009",
+      "space_id": "hiring",
+      "depth_index": 9,
+      "depth_band": "mid_range",
+      "messages_generated": 10,
+      "input_tokens": 2211,
+      "output_tokens": 917,
+      "total_tokens": 3128,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020388,
+      "generation_time_s": 17.93,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Negotiating salary' (checked terms: ['negotiating'])",
+        "Cross-space ref to 'personal' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_010",
+      "space_id": "personal",
+      "depth_index": 10,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2348,
+      "output_tokens": 925,
+      "total_tokens": 3273,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020919,
+      "generation_time_s": 17.71,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Considering therapy' (checked terms: ['considering'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_011",
+      "space_id": "product",
+      "depth_index": 11,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2645,
+      "output_tokens": 840,
+      "total_tokens": 3485,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020535,
+      "generation_time_s": 16.08,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_012",
+      "space_id": "hiring",
+      "depth_index": 12,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2320,
+      "output_tokens": 848,
+      "total_tokens": 3168,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.01968,
+      "generation_time_s": 16.32,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Carlos relieved' (checked terms: ['carlos'])",
+        "Cross-space ref to 'personal' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_013",
+      "space_id": "market",
+      "depth_index": 13,
+      "depth_band": "recent",
+      "messages_generated": 10,
+      "input_tokens": 2519,
+      "output_tokens": 968,
+      "total_tokens": 3487,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.022077,
+      "generation_time_s": 18.81,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_014",
+      "space_id": "investors",
+      "depth_index": 14,
+      "depth_band": "recent",
+      "messages_generated": 12,
+      "input_tokens": 2592,
+      "output_tokens": 1099,
+      "total_tokens": 3691,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.024261,
+      "generation_time_s": 19.77,
+      "semantic_warnings": [
+        "Cross-space ref to 'product' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_015",
+      "space_id": "hiring",
+      "depth_index": 15,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2429,
+      "output_tokens": 863,
+      "total_tokens": 3292,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020232,
+      "generation_time_s": 17.26,
+      "semantic_warnings": [
+        "Cross-space ref to 'product' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_016",
+      "space_id": "personal",
+      "depth_index": 16,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2515,
+      "output_tokens": 933,
+      "total_tokens": 3448,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.02154,
+      "generation_time_s": 18.59,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_017",
+      "space_id": "product",
+      "depth_index": 17,
+      "depth_band": "recent",
+      "messages_generated": 12,
+      "input_tokens": 2799,
+      "output_tokens": 1070,
+      "total_tokens": 3869,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.024447,
+      "generation_time_s": 19.28,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_018",
+      "space_id": "product",
+      "depth_index": 18,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2865,
+      "output_tokens": 849,
+      "total_tokens": 3714,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.02133,
+      "generation_time_s": 15.34,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_c_019",
+      "space_id": "investors",
+      "depth_index": 19,
+      "depth_band": "recent",
+      "messages_generated": 10,
+      "input_tokens": 2718,
+      "output_tokens": 1146,
+      "total_tokens": 3864,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.025344,
+      "generation_time_s": 22.43,
+      "semantic_warnings": [
+        "Cross-space ref to 'personal' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_c_020",
+      "space_id": "personal",
+      "depth_index": 20,
+      "depth_band": "recent",
+      "messages_generated": 11,
+      "input_tokens": 2630,
+      "output_tokens": 1050,
+      "total_tokens": 3680,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.02364,
+      "generation_time_s": 19.86,
+      "semantic_warnings": [
+        "Cross-space ref to 'investors' not explicitly found in text"
+      ]
+    }
+  ]
+}

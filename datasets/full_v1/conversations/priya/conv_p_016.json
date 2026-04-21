@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_p_016",
+  "persona_id": "priya",
+  "space_id": "collaboration",
+  "timestamp": "2026-02-24",
+  "depth_index": 16,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Good news - my RECOMB talk got accepted! Pretty excited since the conference is in Boston this year, so no travel headaches for once. Should be a nice venue to present the methylation work.",
+      "message_id": "msg_p_016_01"
+    },
+    {
+      "role": "assistant",
+      "content": "Congratulations on the RECOMB acceptance! Having it in Boston is definitely convenient. What aspect of the methylation work will you be focusing on in the talk?",
+      "message_id": "msg_p_016_02"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! I'm thinking the single-cell integration pipeline, maybe some of the validation results. Actually, speaking of which, Marcus and I are planning a joint poster too - his group has some complementary tissue data that pairs really well with our computational approach.",
+      "message_id": "msg_p_016_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a great combination. How are things going with the collaboration logistics, especially given the complexity of coordinating between labs?",
+      "message_id": "msg_p_016_04"
+    },
+    {
+      "role": "user",
+      "content": "Well, it's functional. Marcus and I... let's just say we've had our differences lately but we're making it work. The authorship thing from a few months back really tested things, but we got through it. Now it's more about staying focused on the science rather than the politics.",
+      "message_id": "msg_p_016_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It's good that you've found a way to move forward productively. Joint posters can be tricky to coordinate, but they often showcase the work really well when done right.",
+      "message_id": "msg_p_016_06"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. And honestly, after all the drama with the Nature Methods submission and then pivoting to Genome Biology, I'm just happy to have something positive happening. The poster format might actually work better for showing the integrated results anyway. Less space constraints than a paper.",
+      "message_id": "msg_p_016_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a great perspective. Posters do allow for more visual storytelling and direct interaction with the audience. Are you planning to have both lab members present together at the poster session?",
+      "message_id": "msg_p_016_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, probably Anika from my side and Li from Marcus's group. They actually work well together despite all the supervisor drama. Sometimes I think the students are more mature about collaboration than we are! But anyway, should be good exposure for both of them.",
+      "message_id": "msg_p_016_09"
+    },
+    {
+      "role": "assistant",
+      "content": "That's often the case - students can focus purely on the science without the institutional pressures. It sounds like having Anika and Li present together will be a great learning experience for both of them.",
+      "message_id": "msg_p_016_10"
+    }
+  ],
+  "mentioned_entities": [
+    "recomb_conference",
+    "marcus_wei",
+    "anika_patel",
+    "li_chen",
+    "nature_methods",
+    "genome_biology"
+  ],
+  "cross_space_refs": [
+    "publications"
+  ],
+  "summary": "Priya shares news about her accepted RECOMB talk in Boston and discusses planning a joint poster with Marcus Wei's group. Despite past authorship conflicts, their collaboration remains functional with students from both labs presenting together.",
+  "fact_count": 4
+}

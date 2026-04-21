@@ -1,0 +1,69 @@
+{
+  "conversation_id": "conv_d_001",
+  "persona_id": "diane",
+  "space_id": "home",
+  "timestamp": "2025-10-06",
+  "depth_index": 1,
+  "messages": [
+    {
+      "role": "user",
+      "content": "So I got the quote back from Ramirez Bros for the kitchen renovation. Thirty-eight thousand dollars.",
+      "message_id": "msg_d_001_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a significant investment. How does that compare to what you were expecting?",
+      "message_id": "msg_d_001_02"
+    },
+    {
+      "role": "user",
+      "content": "Honestly? I was hoping for closer to thirty. But they're including everything - cabinets, countertops, appliances, the works. Six week timeline starting in January which actually works better for us anyway.",
+      "message_id": "msg_d_001_03"
+    },
+    {
+      "role": "assistant",
+      "content": "January timing does give you more time to plan financially. What's included in that 38K breakdown?",
+      "message_id": "msg_d_001_04"
+    },
+    {
+      "role": "user",
+      "content": "Labor, materials, permits. The only thing Kevin wants to tackle himself is the backsplash - thinks he can save us maybe two grand doing the tile work. I'm letting him have that one.",
+      "message_id": "msg_d_001_05"
+    },
+    {
+      "role": "assistant",
+      "content": "DIY backsplash could definitely help with costs. Are you comfortable with the overall budget impact?",
+      "message_id": "msg_d_001_06"
+    },
+    {
+      "role": "user",
+      "content": "We'll need to run the numbers properly. Between this and everything else we have going on financially, it's going to be tight. But the kitchen is basically falling apart at this point.",
+      "message_id": "msg_d_001_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like it's necessary work then. Have you gotten quotes from other contractors to compare?",
+      "message_id": "msg_d_001_08"
+    },
+    {
+      "role": "user",
+      "content": "Still waiting on two more quotes, but Ramirez came highly recommended from our neighbors. Their timeline works and honestly, I just want this project locked in so I can stop thinking about it.",
+      "message_id": "msg_d_001_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Getting it scheduled and planned out will definitely reduce the mental load. The January start gives you a few months to finalize everything.",
+      "message_id": "msg_d_001_10"
+    }
+  ],
+  "mentioned_entities": [
+    "ramirez_bros",
+    "reno_quote",
+    "kevin_chen"
+  ],
+  "cross_space_refs": [
+    "finances"
+  ],
+  "summary": "Diane discusses receiving a $38,000 kitchen renovation quote from Ramirez Bros with a 6-week timeline starting in January. Kevin plans to DIY the backsplash to save money, and she's considering the financial impact.",
+  "fact_count": 4
+}

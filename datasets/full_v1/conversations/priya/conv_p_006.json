@@ -1,0 +1,67 @@
+{
+  "conversation_id": "conv_p_006",
+  "persona_id": "priya",
+  "space_id": "grants",
+  "timestamp": "2025-11-25",
+  "depth_index": 6,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Finally got the R01 specific aims locked down after weeks of back and forth with Marcus. Can you help me double-check the budget structure? We're requesting 1.2 million over five years.",
+      "message_id": "msg_p_006_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great progress on finalizing the aims! For a $1.2M over 5 years R01, what's your current breakdown between personnel, equipment, and other costs? I can help you review the structure.",
+      "message_id": "msg_p_006_02"
+    },
+    {
+      "role": "user",
+      "content": "Right now I have about 60% going to personnel - my salary, Anika's stipend, plus a new postdoc position. Equipment is around 25% mostly for the sequencing costs and compute infrastructure. The rest is travel, supplies, indirect costs.",
+      "message_id": "msg_p_006_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That distribution sounds reasonable for computational biology work. The 60/25/15 split is pretty standard. Are you planning to ramp up personnel costs in later years as the project scales, or keeping it relatively flat?",
+      "message_id": "msg_p_006_04"
+    },
+    {
+      "role": "user",
+      "content": "Good question - I'm front-loading year 1 and 2 with the equipment purchases, then shifting more budget to personnel in years 3-5. Marcus as co-PI will handle the Stanford side of things, so his portion is separate but coordinated.",
+      "message_id": "msg_p_006_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Smart approach to front-load equipment costs. With Marcus confirmed as co-PI, are you splitting the budget 50/50 between institutions, or is it weighted differently based on the work distribution?",
+      "message_id": "msg_p_006_06"
+    },
+    {
+      "role": "user",
+      "content": "We settled on roughly 65/35 split with me taking the larger share since most of the computational infrastructure will be here. Marcus gets enough to support his postdoc and their experimental validation work. Honestly relieved we worked through the collaboration issues - there was a moment where I thought he might pull out entirely.",
+      "message_id": "msg_p_006_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you've navigated the collaboration dynamics well. The 65/35 split makes sense given the infrastructure requirements. With the aims finalized and budget structured, you're in good shape for the February submission deadline.",
+      "message_id": "msg_p_006_08"
+    },
+    {
+      "role": "user",
+      "content": "Exactly - now I just need to get the preliminary data section solid. The Nature Methods paper is going to be crucial for that, assuming we can get it published in time. But at least the core grant framework is locked down now.",
+      "message_id": "msg_p_006_09"
+    }
+  ],
+  "mentioned_entities": [
+    "nih_r01",
+    "marcus_wei",
+    "anika_patel",
+    "nature_methods",
+    "stanford",
+    "r01_budget"
+  ],
+  "cross_space_refs": [
+    "collaboration"
+  ],
+  "summary": "Priya discusses finalizing the R01 specific aims and budget structure with Marcus as co-PI confirmed. They've settled on a $1.2M budget over 5 years with a 65/35 institutional split, and she's relieved they worked through earlier collaboration tensions.",
+  "fact_count": 3
+}

@@ -1,0 +1,74 @@
+{
+  "conversation_id": "conv_d_012",
+  "persona_id": "diane",
+  "space_id": "career",
+  "timestamp": "2026-01-20",
+  "depth_index": 12,
+  "messages": [
+    {
+      "role": "user",
+      "content": "I need to talk through this MedBridge Connect crunch situation. We're in full sprint mode and I'm basically living at the office.",
+      "message_id": "msg_d_012_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds intense. How are you managing the workload with the launch coming up?",
+      "message_id": "msg_d_012_02"
+    },
+    {
+      "role": "user",
+      "content": "It's 3-4 late nights per week now. The development team is pushing hard to hit February 28th and honestly, I'm barely keeping up. Kevin's been handling more of the evening routine with the kids.",
+      "message_id": "msg_d_012_03"
+    },
+    {
+      "role": "assistant",
+      "content": "February 28th is coming up fast. Are you feeling confident about making that launch date?",
+      "message_id": "msg_d_012_04"
+    },
+    {
+      "role": "user",
+      "content": "We'll make it, but at what cost? I'm running on maybe 5 hours of sleep most nights. The good news is my performance review came back exceeds expectations, so all this grinding is being noticed.",
+      "message_id": "msg_d_012_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Congratulations on the strong performance review! That's validation that your hard work is paying off. How are you holding up physically with the reduced sleep?",
+      "message_id": "msg_d_012_06"
+    },
+    {
+      "role": "user",
+      "content": "Not great, to be honest. I stopped running completely this month - just no time or energy. My body feels like it's running on fumes. But if this Connect launch goes well, it could really set me up for that Director role.",
+      "message_id": "msg_d_012_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're in a challenging balance between career advancement and personal wellbeing. Have you thought about what you'll do to recover once the launch is behind you?",
+      "message_id": "msg_d_012_08"
+    },
+    {
+      "role": "user",
+      "content": "March can't come fast enough. I keep telling myself it's temporary, but man, this sprint is brutal. At least the kitchen reno will be wrapping up around the same time, so maybe life will feel normal again.",
+      "message_id": "msg_d_012_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Having multiple major projects ending around the same time should give you some breathing room. You're juggling a lot right now.",
+      "message_id": "msg_d_012_10"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, it's a lot. But the team is solid and we're hitting our milestones. Just need to power through these next 5 weeks and then hopefully I can get back to taking care of myself.",
+      "message_id": "msg_d_012_11"
+    }
+  ],
+  "mentioned_entities": [
+    "medbridge_connect",
+    "kevin_chen",
+    "promotion_title"
+  ],
+  "cross_space_refs": [
+    "health"
+  ],
+  "summary": "Diane discusses the intense MedBridge Connect development crunch with late nights 3-4 times per week leading up to the February 28th launch. Despite receiving an exceeds expectations performance review, she's struggling with only 5 hours of sleep and has stopped exercising completely.",
+  "fact_count": 4
+}

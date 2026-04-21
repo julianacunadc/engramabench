@@ -1,0 +1,83 @@
+{
+  "conversation_id": "conv_k_012",
+  "persona_id": "kai",
+  "space_id": "wellness",
+  "timestamp": "2026-01-12",
+  "depth_index": 12,
+  "messages": [
+    {
+      "role": "user",
+      "content": "so I finally did it... started therapy through the university counseling center. first session was Tuesday and honestly? kinda overwhelming but also... needed?",
+      "message_id": "msg_k_012_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a big step, especially when you're already dealing with so much. How are you feeling about it overall?",
+      "message_id": "msg_k_012_02"
+    },
+    {
+      "role": "user",
+      "content": "mixed I guess? like on a scale of 1-10 I'm maybe at a 5 right now which is... better than December but still pretty rough. the therapist was nice though, didn't make me feel like I was broken or whatever",
+      "message_id": "msg_k_012_03"
+    },
+    {
+      "role": "assistant",
+      "content": "A 5 is progress from where you were. What kinds of things did you talk about in the session?",
+      "message_id": "msg_k_012_04"
+    },
+    {
+      "role": "user",
+      "content": "mostly about how I've been isolating myself... which was hard because I know it's true but hearing it out loud hit different. Jess actually brought this up to me last week too - she was really sweet about it, said she missed hanging out and was worried",
+      "message_id": "msg_k_012_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like Jess cares about you a lot. Having someone notice and reach out can be really meaningful, even when it's hard to hear.",
+      "message_id": "msg_k_012_06"
+    },
+    {
+      "role": "user",
+      "content": "yeah she's been amazing honestly. I felt so guilty because I've been such a terrible roommate and friend lately... skipping game nights, barely talking to anyone. but she just listened and didn't make me feel worse about it",
+      "message_id": "msg_k_012_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That guilt makes sense, but it sounds like Jess understands you're going through a tough time. Did the therapist have any suggestions for moving forward?",
+      "message_id": "msg_k_012_08"
+    },
+    {
+      "role": "user",
+      "content": "actually yeah - she suggested making structured social time non-negotiable, like scheduling it the same way I'd schedule a class or meeting. which sounds so clinical when I say it but... maybe that's what I need right now? like I can't trust myself to just 'feel like' being social",
+      "message_id": "msg_k_012_09"
+    },
+    {
+      "role": "assistant",
+      "content": "That actually sounds really practical. When you're struggling, having that structure can take the decision-making pressure off and just make it happen automatically.",
+      "message_id": "msg_k_012_10"
+    },
+    {
+      "role": "user",
+      "content": "exactly! and honestly after talking to Jess I realized how much I miss just... normal conversations? not everything has to be about thesis stress or career stuff. sometimes I just want to complain about bad Netflix shows or whatever",
+      "message_id": "msg_k_012_11"
+    },
+    {
+      "role": "assistant",
+      "content": "Those lighter moments are so important for your mental health. It's good that you're recognizing what you're missing and taking steps to get it back.",
+      "message_id": "msg_k_012_12"
+    },
+    {
+      "role": "user",
+      "content": "thanks... I'm trying to be gentle with myself about this whole process. therapy feels like admitting defeat sometimes but I know that's not true. just gonna take it one session at a time I guess",
+      "message_id": "msg_k_012_13"
+    }
+  ],
+  "mentioned_entities": [
+    "university_counseling",
+    "jess"
+  ],
+  "cross_space_refs": [
+    "social"
+  ],
+  "summary": "Kai reflects on starting therapy through the university counseling center after a supportive conversation with roommate Jess about isolation. The therapist suggested structured social time as a strategy, and Kai is cautiously optimistic about the process.",
+  "fact_count": 4
+}

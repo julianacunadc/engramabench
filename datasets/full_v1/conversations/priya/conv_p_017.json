@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_p_017",
+  "persona_id": "priya",
+  "space_id": "teaching",
+  "timestamp": "2026-03-03",
+  "depth_index": 17,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Finally getting a breather with spring semester. BIO-501 is so much more manageable than that computational genomics nightmare in the fall.",
+      "message_id": "msg_p_017_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a relief! What's different about BIO-501 that makes it easier to handle?",
+      "message_id": "msg_p_017_02"
+    },
+    {
+      "role": "user",
+      "content": "It's the graduate seminar - only 12 students compared to 75 in BIO-342. Much lighter workload overall. Plus I'm being strategic about the readings this time.",
+      "message_id": "msg_p_017_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Strategic how? Are you choosing different types of papers or sources?",
+      "message_id": "msg_p_017_04"
+    },
+    {
+      "role": "user",
+      "content": "I'm using papers from my own research as the core readings. Partly selfish since I know the material inside and out, but also practical - the students get to see how real research develops over time.",
+      "message_id": "msg_p_017_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That's clever - it gives you less prep work while providing students with authentic research narratives. Are you including some of your recent publications?",
+      "message_id": "msg_p_017_06"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, including some of the work that's been through the publication gauntlet recently. The students can see the evolution from initial hypothesis to final paper, including all the messy revisions. It's educational for them and efficient for me.",
+      "message_id": "msg_p_017_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That transparency about the research process is probably really valuable for graduate students. How are they responding to seeing the behind-the-scenes aspects?",
+      "message_id": "msg_p_017_08"
+    },
+    {
+      "role": "user",
+      "content": "They're eating it up actually. Much more engaged than when I assigned random papers they had no connection to. And honestly, after last semester's grading marathon that killed my lab productivity, I needed something that wouldn't completely derail my research again.",
+      "message_id": "msg_p_017_09"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you've found a good balance between effective teaching and protecting your research time. That's not easy to achieve.",
+      "message_id": "msg_p_017_10"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. Patterson wouldn't give me that course release I requested, so I had to get creative. This way I can actually focus on the lab again without completely phoning in my teaching responsibilities.",
+      "message_id": "msg_p_017_11"
+    }
+  ],
+  "mentioned_entities": [
+    "dr_patterson"
+  ],
+  "cross_space_refs": [
+    "publications"
+  ],
+  "summary": "Priya discusses her spring graduate seminar BIO-501, which has only 12 students and is much more manageable than her fall course. She's strategically using her own research papers as readings, making the course easier to teach while providing authentic research experiences for students.",
+  "fact_count": 4
+}

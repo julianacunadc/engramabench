@@ -1,0 +1,692 @@
+[
+  {
+    "question": "What is the deadline for Priya's R01 proposal?",
+    "expected_answer": "February 5th",
+    "answer_type": "date",
+    "depth_band": "deep",
+    "required_spaces": [
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_001"
+    ],
+    "evidence_message_ids": [
+      "msg_p_001_09"
+    ],
+    "notes": "Basic factual recall from early conversation about grant deadline",
+    "query_id": "q_p_001",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many lab members want to use the new sequencing protocol?",
+    "expected_answer": "4",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "lab"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_002"
+    ],
+    "evidence_message_ids": [
+      "msg_p_002_03",
+      "msg_p_002_05"
+    ],
+    "notes": "Counting specific lab members mentioned: Anika, Ravi, Li Chen, Maya",
+    "query_id": "q_p_002",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is Marcus in relation to Priya's R01 grant?",
+    "expected_answer": "co-PI",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_05",
+      "msg_p_006_07"
+    ],
+    "notes": "Testing recall of collaborator role identification",
+    "query_id": "q_p_003",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many students are in Priya's Computational Genomics course?",
+    "expected_answer": "75",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "teaching"
+    ],
+    "query_space": "teaching",
+    "evidence_conversation_ids": [
+      "conv_p_007"
+    ],
+    "evidence_message_ids": [
+      "msg_p_007_03"
+    ],
+    "notes": "Specific enrollment number mentioned in teaching context",
+    "query_id": "q_p_004",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which journal did Priya resubmit her paper to after the Nature Methods rejection?",
+    "expected_answer": "Genome Biology",
+    "answer_type": "entity",
+    "depth_band": "recent",
+    "required_spaces": [
+      "publications"
+    ],
+    "query_space": "publications",
+    "evidence_conversation_ids": [
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_013_01"
+    ],
+    "notes": "Journal name recall from publication workflow",
+    "query_id": "q_p_005",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "When did Priya submit her R01 proposal?",
+    "expected_answer": "February 5, 2026",
+    "answer_type": "date",
+    "depth_band": "recent",
+    "required_spaces": [
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_014"
+    ],
+    "evidence_message_ids": [
+      "msg_p_014_01"
+    ],
+    "notes": "Actual submission date from final conversation",
+    "query_id": "q_p_006",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the total budget amount for the R01 grant that involves collaboration between Priya and Marcus?",
+    "expected_answer": "$1.2 million over 5 years",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_011_03",
+      "msg_p_013_09"
+    ],
+    "notes": "Budget mentioned across multiple grant conversations and collaboration contexts",
+    "query_id": "q_p_007",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What are the names of the two PhD students in Priya's lab?",
+    "expected_answer": "Anika, Ravi",
+    "answer_type": "set",
+    "depth_band": "deep",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_002",
+      "conv_p_003"
+    ],
+    "evidence_message_ids": [
+      "msg_p_002_03",
+      "msg_p_003_07"
+    ],
+    "notes": "Lab members mentioned across lab management and teaching contexts",
+    "query_id": "q_p_008",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is the co-PI on the R01 grant that was submitted in February 2026?",
+    "expected_answer": "Marcus",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_014",
+      "conv_p_005",
+      "conv_p_009"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_07",
+      "msg_p_011_09",
+      "msg_p_014_07",
+      "msg_p_005_01",
+      "msg_p_009_07"
+    ],
+    "notes": "Tests cross-space connection between grant collaboration and authorship disputes",
+    "query_id": "q_p_009",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What paper was crucial for the R01 preliminary data section despite being rejected by Nature Methods?",
+    "expected_answer": "Genome Biology submission",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_008",
+      "conv_p_013",
+      "conv_p_014",
+      "conv_p_019"
+    ],
+    "evidence_message_ids": [
+      "msg_p_008_01",
+      "msg_p_013_07",
+      "msg_p_014_05",
+      "msg_p_019_05"
+    ],
+    "notes": "Tests connection between publication timeline and grant submission requirements",
+    "query_id": "q_p_010",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which lab members were involved in the authorship dispute with Marcus's collaboration?",
+    "expected_answer": "Anika, Marcus's postdoc",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "publications"
+    ],
+    "query_space": "collaboration",
+    "evidence_conversation_ids": [
+      "conv_p_004",
+      "conv_p_005",
+      "conv_p_009",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_004_05",
+      "msg_p_005_03",
+      "msg_p_009_03",
+      "msg_p_013_05"
+    ],
+    "notes": "Tests cross-space tracking of personnel involved in collaboration conflicts",
+    "query_id": "q_p_011",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the total budget amount for the R01 grant that involves collaboration between Priya's lab and Marcus's lab?",
+    "expected_answer": "$1.2 million over 5 years",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_014",
+      "conv_p_005",
+      "conv_p_009"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_011_03",
+      "msg_p_014_03",
+      "msg_p_005_07",
+      "msg_p_009_07"
+    ],
+    "notes": "Cross-space connection requiring information from both grants and collaboration spaces about the joint R01 proposal",
+    "query_id": "q_p_012",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the timeline for the Nature Methods paper submission change from the initial plan in October 2025 to the final Genome Biology resubmission?",
+    "expected_answer": "October: planned to submit Nature Methods by end of week, December: Nature Methods rejected the paper, February: resubmitted to Genome Biology instead",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "publications",
+    "evidence_conversation_ids": [
+      "conv_p_004",
+      "conv_p_008",
+      "conv_p_013",
+      "conv_p_014"
+    ],
+    "evidence_message_ids": [
+      "msg_p_004_01",
+      "msg_p_008_01",
+      "msg_p_013_01",
+      "msg_p_014_05"
+    ],
+    "notes": "Tracks how publication timeline evolved and impacted grant submission strategy",
+    "query_id": "q_p_013",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the lab size when the R01 was initially planned versus when the grant score was announced?",
+    "expected_answer": "October 2025: 4 people (including Maya), March 2026: 5 people (Maya graduated, Javier and Sarah joined)",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "lab"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_002",
+      "conv_p_010",
+      "conv_p_018",
+      "conv_p_019"
+    ],
+    "evidence_message_ids": [
+      "msg_p_002_03",
+      "msg_p_010_01",
+      "msg_p_018_01",
+      "msg_p_019_01"
+    ],
+    "notes": "Shows how lab composition changed during the grant application timeline",
+    "query_id": "q_p_014",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the final authorship arrangement that resolved the collaboration dispute between Priya and Marcus?",
+    "expected_answer": "Anika first author, Marcus's postdoc second, Marcus and Priya co-corresponding",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "publications"
+    ],
+    "query_space": "collaboration",
+    "evidence_conversation_ids": [
+      "conv_p_005",
+      "conv_p_009",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_005_03",
+      "msg_p_009_03",
+      "msg_p_013_05"
+    ],
+    "notes": "Tracks evolution of authorship dispute from initial agreement to conflict to final resolution across collaboration and publications spaces",
+    "query_id": "q_p_015",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the R01 budget amount change from the initial planning phase to the final submission?",
+    "expected_answer": "$1.2 million over 5 years",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_014",
+      "conv_p_005"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_011_03",
+      "msg_p_014_03",
+      "msg_p_005_09"
+    ],
+    "notes": "Tests temporal consistency of budget planning across collaboration and grants spaces from November through February",
+    "query_id": "q_p_016",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's lab meeting schedule change between October 2025 and December 2025 due to teaching demands?",
+    "expected_answer": "cancelled lab meeting three times in December due to grading",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "teaching",
+    "evidence_conversation_ids": [
+      "conv_p_002",
+      "conv_p_007"
+    ],
+    "evidence_message_ids": [
+      "msg_p_007_01",
+      "msg_p_007_11"
+    ],
+    "notes": "Tracks deterioration of lab management due to teaching overload",
+    "query_id": "q_p_017",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the delay in reviewing Anika's protocol in January 2026, and what teaching issue caused this delay?",
+    "expected_answer": "two weeks delay due to being buried in grading for Computational Genomics",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_010",
+      "conv_p_012"
+    ],
+    "evidence_message_ids": [
+      "msg_p_010_03",
+      "msg_p_012_03"
+    ],
+    "notes": "Shows direct impact of teaching load on lab productivity and student progress",
+    "query_id": "q_p_018",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the Nature Methods paper rejection in December 2025 ultimately impact the R01 grant application strategy and timeline?",
+    "expected_answer": "The Nature Methods rejection forced a strategic pivot that actually strengthened the R01 application. The paper was resubmitted to Genome Biology with major statistical improvements after reviewer criticism, and was cited as 'under review' in the preliminary data section of the R01 submitted in February 2026. This pivot provided stronger statistical foundation for the grant while meeting the submission deadline.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_008",
+      "conv_p_013",
+      "conv_p_014"
+    ],
+    "evidence_message_ids": [
+      "msg_p_008_07",
+      "msg_p_013_07",
+      "msg_p_013_11",
+      "msg_p_014_05"
+    ],
+    "notes": "Requires synthesizing publication setback with grant strategy adaptation",
+    "query_id": "q_p_019",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What factors contributed to the evolution of lab productivity and management challenges from October 2025 through March 2026?",
+    "expected_answer": "Lab productivity was constrained by teaching overload (75 students, one TA) causing cancelled meetings and delayed protocol reviews, compounded by personnel changes (Maya graduated in December reducing lab to 3 people) and PI attention split between grant writing and grading. Recovery began with strategic teaching approach in spring 2026 and lab expansion to 5 people with new PhD student and rotation student.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_007",
+      "conv_p_010",
+      "conv_p_012",
+      "conv_p_017",
+      "conv_p_018"
+    ],
+    "evidence_message_ids": [
+      "msg_p_007_01",
+      "msg_p_010_01",
+      "msg_p_010_03",
+      "msg_p_012_05",
+      "msg_p_017_03",
+      "msg_p_018_01"
+    ],
+    "notes": "Synthesizes teaching load impact on lab management across multiple conversations",
+    "query_id": "q_p_020",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did the Marcus Wei collaboration dynamics shift from initial success to conflict and eventual resolution across the grant and publication timeline?",
+    "expected_answer": "The collaboration evolved from productive partnership in November 2025 with resolved authorship (Anika first, Marcus's postdoc second, co-corresponding) to December conflict over first authorship claims, threatening both paper submission and R01 co-PI arrangement. Resolution came through maintaining original authorship agreement and successful joint grant submission, though tensions persisted through budget revision disputes in January 2026.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants",
+      "publications"
+    ],
+    "query_space": "collaboration",
+    "evidence_conversation_ids": [
+      "conv_p_005",
+      "conv_p_009",
+      "conv_p_011",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_005_03",
+      "msg_p_009_03",
+      "msg_p_009_07",
+      "msg_p_011_05",
+      "msg_p_013_05"
+    ],
+    "notes": "Traces collaboration conflict evolution across multiple project contexts",
+    "query_id": "q_p_021",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What were the key interconnected factors that enabled the successful R01 submission and strong scoring despite multiple setbacks?",
+    "expected_answer": "Success resulted from strategic adaptation to setbacks: Nature Methods rejection led to stronger statistical methods for Genome Biology resubmission, authorship conflicts were resolved maintaining Marcus as co-PI, budget was structured at $1.2M over 5 years with 65/35 institutional split, and preliminary data section leveraged the under-review GB paper. The 18th percentile score reflected this integrated approach overcoming publication and collaboration challenges.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_013",
+      "conv_p_014",
+      "conv_p_019"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_013_07",
+      "msg_p_014_03",
+      "msg_p_014_05",
+      "msg_p_019_01",
+      "msg_p_019_05"
+    ],
+    "notes": "Synthesizes multiple challenge resolution strategies leading to grant success",
+    "query_id": "q_p_022",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_p_023",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What phase is Priya's clinical trial currently in?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya's lab does computational biology, not clinical trials",
+    "query_space": "lab"
+  },
+  {
+    "query_id": "q_p_024",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "How much funding did Priya raise for her biotech startup?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya never discussed founding or joining a startup",
+    "query_space": "publications"
+  },
+  {
+    "query_id": "q_p_025",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "When was Priya's paper accepted by Cell?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Paper was submitted to Nature Methods then Genome Biology, never to Cell",
+    "query_space": "grants"
+  },
+  {
+    "query_id": "q_p_026",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What music project is Priya working on with Sam Torres?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam Torres is a different persona entirely",
+    "query_space": "teaching"
+  },
+  {
+    "query_id": "q_p_027",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "When did Priya receive her tenure decision?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya is pre-tenure but no decision has been made yet",
+    "query_space": "collaboration"
+  },
+  {
+    "query_id": "q_p_028",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What was Priya's NSF CAREER grant budget?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya applied for NIH R01, not NSF CAREER",
+    "query_space": "lab"
+  },
+  {
+    "query_id": "q_p_029",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What did Priya present at the Paris conference?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya attended RECOMB in Boston, never mentioned Paris",
+    "query_space": "publications"
+  },
+  {
+    "query_id": "q_p_030",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "How often does Priya visit Marcus's lab at MIT?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Marcus Wei is at Stanford, not MIT",
+    "query_space": "grants"
+  }
+]

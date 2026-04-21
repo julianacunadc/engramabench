@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv_s_014",
+  "persona_id": "sam",
+  "space_id": "business",
+  "timestamp": "2026-01-26",
+  "depth_index": 14,
+  "messages": [
+    {
+      "role": "user",
+      "content": "dude the patreon numbers are actually wild right now... 215 patrons pulling in $1,420 a month. like that's real money, you know? enough to actually breathe a little",
+      "message_id": "msg_s_014_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's fantastic growth! What do you think has been driving the increase in patrons lately?",
+      "message_id": "msg_s_014_02"
+    },
+    {
+      "role": "user",
+      "content": "honestly it's those process videos. people are obsessed with watching the sausage get made, you know? i'll do like a 3 minute timelapse of me building a track or sketching out album art and boom - engagement goes through the roof",
+      "message_id": "msg_s_014_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That makes sense - there's something mesmerizing about watching creative work unfold. Have you been able to leverage that growth in other ways?",
+      "message_id": "msg_s_014_04"
+    },
+    {
+      "role": "user",
+      "content": "oh absolutely. finally had the confidence to bump my commission rate from $400 to $600 per piece. was terrified clients would bail but... they didn't? still booking solid. feels surreal charging what i'm actually worth",
+      "message_id": "msg_s_014_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a significant jump - good for you for valuing your work appropriately. How are you planning to celebrate or invest this newfound stability?",
+      "message_id": "msg_s_014_06"
+    },
+    {
+      "role": "user",
+      "content": "well funny you ask... planning this crater lake trip next weekend. been craving that kind of raw natural inspiration, you know? sometimes you need to step away from the screens and just... absorb. the way light hits water, how silence has texture",
+      "message_id": "msg_s_014_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds perfect for recharging creatively. Nature has a way of resetting your perspective, especially after periods of intense work.",
+      "message_id": "msg_s_014_08"
+    },
+    {
+      "role": "user",
+      "content": "exactly. and honestly with the EP stuff wrapping up soon and commission work finally feeling sustainable... maybe i can actually plan more than two weeks ahead for once? wild concept",
+      "message_id": "msg_s_014_09"
+    }
+  ],
+  "mentioned_entities": [
+    "patreon",
+    "commission_rate",
+    "crater_lake"
+  ],
+  "cross_space_refs": [
+    "commissions",
+    "inspiration"
+  ],
+  "summary": "Sam celebrates reaching 215 Patreon patrons earning $1,420/month, crediting process videos for the growth. This success enabled raising commission rates from $400 to $600 per piece, and Sam is planning a creative retreat to Crater Lake next weekend.",
+  "fact_count": 4
+}

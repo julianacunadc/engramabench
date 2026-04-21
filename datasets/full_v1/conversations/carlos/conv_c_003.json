@@ -1,0 +1,67 @@
+{
+  "conversation_id": "conv_c_003",
+  "persona_id": "carlos",
+  "space_id": "hiring",
+  "timestamp": "2025-10-17",
+  "depth_index": 3,
+  "messages": [
+    {
+      "role": "user",
+      "content": "We officially started the senior engineer search today. Need someone who can handle both React and Python - our stack is getting complex and I can't keep doing all the technical interviews myself.",
+      "message_id": "msg_c_003_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a smart move to bring in senior talent. What's your timeline for filling this role?",
+      "message_id": "msg_c_003_02"
+    },
+    {
+      "role": "user",
+      "content": "Ideally within 6 weeks. The onboarding flow issues are killing us - it's literally our number one product complaint right now. We need someone who can own that entire experience from frontend to backend.",
+      "message_id": "msg_c_003_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Six weeks is aggressive but doable. What's your budget range for this position?",
+      "message_id": "msg_c_003_04"
+    },
+    {
+      "role": "user",
+      "content": "That's the tricky part. We're capped at $4,800 per month - I know it's not Silicon Valley money but for Bogotá it should be competitive for the right person.",
+      "message_id": "msg_c_003_05"
+    },
+    {
+      "role": "assistant",
+      "content": "For the Colombian market, that's actually quite competitive for a senior role. Are you planning to post on local job boards or also look internationally for remote candidates?",
+      "message_id": "msg_c_003_06"
+    },
+    {
+      "role": "user",
+      "content": "Starting local first. We need someone who understands the LATAM fintech space and can work our timezone. Plus with that salary cap, international remote might be tough unless we find someone in a similar cost market.",
+      "message_id": "msg_c_003_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That makes sense. Local talent will also have better context for your user base. Have you updated your job description to emphasize the React and Python requirements?",
+      "message_id": "msg_c_003_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, those are must-haves. We can't afford to hire someone who needs months to ramp up on either technology. The product roadmap is too aggressive and we're already behind on fixing the user experience issues.",
+      "message_id": "msg_c_003_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds like you have a clear vision for what you need. Good luck with the search - finding the right senior engineer will definitely help accelerate your product improvements.",
+      "message_id": "msg_c_003_10"
+    }
+  ],
+  "mentioned_entities": [
+    "salary_cap"
+  ],
+  "cross_space_refs": [
+    "product"
+  ],
+  "summary": "Carlos discusses starting the search for a senior engineer with React and Python experience, mentioning the $4,800/month salary cap and the urgent need to fix onboarding flow issues. He plans to focus on local Colombian talent first.",
+  "fact_count": 3
+}

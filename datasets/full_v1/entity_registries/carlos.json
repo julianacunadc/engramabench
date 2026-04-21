@@ -1,0 +1,207 @@
+{
+  "version": "2.0",
+  "persona_id": "carlos",
+  "entity_count": 15,
+  "type_counts": {
+    "person": 3,
+    "organization": 4,
+    "product": 1,
+    "concept": 1,
+    "metric_value": 3,
+    "metric": 3
+  },
+  "entities": [
+    {
+      "entity_id": "carlos_mendoza",
+      "canonical_name": "Carlos Mendoza",
+      "aliases": [
+        "Carlos"
+      ],
+      "type": "person",
+      "spaces": [
+        "investors",
+        "product",
+        "hiring",
+        "market",
+        "personal"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "kaszek_ventures",
+      "canonical_name": "Kaszek Ventures",
+      "aliases": [
+        "Kaszek"
+      ],
+      "type": "organization",
+      "spaces": [
+        "investors",
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "andrea_gomez",
+      "canonical_name": "Andrea Gómez",
+      "aliases": [
+        "Andrea"
+      ],
+      "type": "person",
+      "spaces": [
+        "investors"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "lucia_torres",
+      "canonical_name": "Lucía Torres",
+      "aliases": [
+        "Lucía",
+        "Lucia"
+      ],
+      "type": "person",
+      "spaces": [
+        "hiring",
+        "personal",
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "payflow",
+      "canonical_name": "PayFlow",
+      "aliases": [
+        "the product",
+        "la app"
+      ],
+      "type": "product",
+      "spaces": [
+        "product",
+        "investors",
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "finflow",
+      "canonical_name": "FinFlow",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "market",
+        "investors"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "bancolombia",
+      "canonical_name": "Bancolombia",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "product",
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "rappi",
+      "canonical_name": "Rappi",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "series_a",
+      "canonical_name": "Series A",
+      "aliases": [
+        "la Serie A",
+        "the round"
+      ],
+      "type": "concept",
+      "spaces": [
+        "investors",
+        "personal"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "bridge_round",
+      "canonical_name": "$500K bridge round",
+      "aliases": [
+        "bridge",
+        "500K"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "investors"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "mrr",
+      "canonical_name": "MRR",
+      "aliases": [
+        "monthly recurring revenue"
+      ],
+      "type": "metric",
+      "spaces": [
+        "investors",
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "churn",
+      "canonical_name": "Churn rate",
+      "aliases": [
+        "churn"
+      ],
+      "type": "metric",
+      "spaces": [
+        "investors",
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "nps",
+      "canonical_name": "NPS",
+      "aliases": [
+        "Net Promoter Score"
+      ],
+      "type": "metric",
+      "spaces": [
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "salary_cap",
+      "canonical_name": "$4,800/month",
+      "aliases": [
+        "4800"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "hiring"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "finflow_price",
+      "canonical_name": "$29/month",
+      "aliases": [
+        "29 dollars"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "market"
+      ],
+      "persona_id": "carlos"
+    }
+  ]
+}

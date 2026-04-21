@@ -1,0 +1,323 @@
+{
+  "persona_id": "priya",
+  "persona_name": "Priya Sharma",
+  "generated_at": "2026-04-19T02:31:05.692462+00:00",
+  "generator_model": "claude-sonnet-4-20250514",
+  "generator_temperature": 0.7,
+  "generator_max_tokens": 3000,
+  "blueprint_hash": "sha256:8601105e38abf7e1d95fb981df784eb69481153e3928cac080dde020b63a5925",
+  "total_conversations": 20,
+  "total_tokens": 64809,
+  "total_cost_estimate_usd": 0.4288,
+  "total_generation_time_s": 386.8,
+  "conversations": [
+    {
+      "conversation_id": "conv_p_001",
+      "space_id": "grants",
+      "depth_index": 1,
+      "depth_band": "deep",
+      "messages_generated": 9,
+      "input_tokens": 1856,
+      "output_tokens": 1084,
+      "total_tokens": 2940,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021828,
+      "generation_time_s": 23.33,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_002",
+      "space_id": "lab",
+      "depth_index": 2,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 1926,
+      "output_tokens": 937,
+      "total_tokens": 2863,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019833,
+      "generation_time_s": 18.22,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_003",
+      "space_id": "teaching",
+      "depth_index": 3,
+      "depth_band": "deep",
+      "messages_generated": 9,
+      "input_tokens": 1841,
+      "output_tokens": 966,
+      "total_tokens": 2807,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020013,
+      "generation_time_s": 18.79,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_004",
+      "space_id": "publications",
+      "depth_index": 4,
+      "depth_band": "deep",
+      "messages_generated": 8,
+      "input_tokens": 2075,
+      "output_tokens": 769,
+      "total_tokens": 2844,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.01776,
+      "generation_time_s": 13.09,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_005",
+      "space_id": "collaboration",
+      "depth_index": 5,
+      "depth_band": "deep",
+      "messages_generated": 9,
+      "input_tokens": 2001,
+      "output_tokens": 870,
+      "total_tokens": 2871,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019053,
+      "generation_time_s": 16.26,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Marcus Wei collaboration going well' (checked terms: ['marcus wei'])",
+        "Cross-space ref to 'publications' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_006",
+      "space_id": "grants",
+      "depth_index": 6,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2257,
+      "output_tokens": 979,
+      "total_tokens": 3236,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021456,
+      "generation_time_s": 19.13,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_007",
+      "space_id": "teaching",
+      "depth_index": 7,
+      "depth_band": "mid_range",
+      "messages_generated": 11,
+      "input_tokens": 2079,
+      "output_tokens": 1036,
+      "total_tokens": 3115,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021777,
+      "generation_time_s": 20.21,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_008",
+      "space_id": "publications",
+      "depth_index": 8,
+      "depth_band": "mid_range",
+      "messages_generated": 12,
+      "input_tokens": 2275,
+      "output_tokens": 1263,
+      "total_tokens": 3538,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.02577,
+      "generation_time_s": 24.3,
+      "semantic_warnings": [
+        "Cross-space ref to 'grants' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_009",
+      "space_id": "collaboration",
+      "depth_index": 9,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2250,
+      "output_tokens": 889,
+      "total_tokens": 3139,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020085,
+      "generation_time_s": 17.42,
+      "semantic_warnings": [
+        "Cross-space ref to 'publications' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_010",
+      "space_id": "lab",
+      "depth_index": 10,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2281,
+      "output_tokens": 916,
+      "total_tokens": 3197,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020583,
+      "generation_time_s": 19.16,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Undergrad Maya graduated' (checked terms: ['undergrad maya'])",
+        "Key fact may be missing: 'Priya couldn't review protocol due to teaching' (checked terms: ['priya'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_011",
+      "space_id": "grants",
+      "depth_index": 11,
+      "depth_band": "mid_range",
+      "messages_generated": 10,
+      "input_tokens": 2398,
+      "output_tokens": 1085,
+      "total_tokens": 3483,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.023469,
+      "generation_time_s": 22.23,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Priya scrambling to save collaboration' (checked terms: ['priya'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_012",
+      "space_id": "teaching",
+      "depth_index": 12,
+      "depth_band": "mid_range",
+      "messages_generated": 10,
+      "input_tokens": 2209,
+      "output_tokens": 934,
+      "total_tokens": 3143,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020637,
+      "generation_time_s": 17.9,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_013",
+      "space_id": "publications",
+      "depth_index": 13,
+      "depth_band": "recent",
+      "messages_generated": 12,
+      "input_tokens": 2454,
+      "output_tokens": 1144,
+      "total_tokens": 3598,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.024522,
+      "generation_time_s": 21.9,
+      "semantic_warnings": [
+        "Cross-space ref to 'grants' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_014",
+      "space_id": "grants",
+      "depth_index": 14,
+      "depth_band": "recent",
+      "messages_generated": 10,
+      "input_tokens": 2526,
+      "output_tokens": 1046,
+      "total_tokens": 3572,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.023268,
+      "generation_time_s": 20.95,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Cited Genome Biology paper as under-review' (checked terms: ['cited genome biology'])",
+        "Key fact may be missing: 'Total budget $1.2M confirmed' (checked terms: ['$1.2m', 'total'])",
+        "Cross-space ref to 'publications' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_015",
+      "space_id": "lab",
+      "depth_index": 15,
+      "depth_band": "recent",
+      "messages_generated": 8,
+      "input_tokens": 2417,
+      "output_tokens": 863,
+      "total_tokens": 3280,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020196,
+      "generation_time_s": 18.04,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Planning rotation project' (checked terms: ['planning'])",
+        "Cross-space ref to 'grants' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_016",
+      "space_id": "collaboration",
+      "depth_index": 16,
+      "depth_band": "recent",
+      "messages_generated": 10,
+      "input_tokens": 2403,
+      "output_tokens": 1007,
+      "total_tokens": 3410,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.022314,
+      "generation_time_s": 19.78,
+      "semantic_warnings": [
+        "Cross-space ref to 'publications' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_017",
+      "space_id": "teaching",
+      "depth_index": 17,
+      "depth_band": "recent",
+      "messages_generated": 11,
+      "input_tokens": 2318,
+      "output_tokens": 943,
+      "total_tokens": 3261,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021099,
+      "generation_time_s": 16.86,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_018",
+      "space_id": "lab",
+      "depth_index": 18,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2492,
+      "output_tokens": 865,
+      "total_tokens": 3357,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020451,
+      "generation_time_s": 16.9,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_p_019",
+      "space_id": "grants",
+      "depth_index": 19,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2634,
+      "output_tokens": 1011,
+      "total_tokens": 3645,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.023067,
+      "generation_time_s": 24.07,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Likely funded (payline is 23rd)' (checked terms: ['likely'])",
+        "Key fact may be missing: 'Priya relieved but cautious' (checked terms: ['priya'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_p_020",
+      "space_id": "publications",
+      "depth_index": 20,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2584,
+      "output_tokens": 926,
+      "total_tokens": 3510,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021642,
+      "generation_time_s": 18.26,
+      "semantic_warnings": [
+        "Cross-space ref to 'grants' not explicitly found in text"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1390 @@
+[
+  {
+    "conversation_id": "conv_d_001",
+    "persona_id": "diane",
+    "space_id": "home",
+    "timestamp": "2025-10-06",
+    "depth_index": 1,
+    "messages": [
+      {
+        "role": "user",
+        "content": "So I got the quote back from Ramirez Bros for the kitchen renovation. Thirty-eight thousand dollars.",
+        "message_id": "msg_d_001_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant investment. How does that compare to what you were expecting?",
+        "message_id": "msg_d_001_02"
+      },
+      {
+        "role": "user",
+        "content": "Honestly? I was hoping for closer to thirty. But they're including everything - cabinets, countertops, appliances, the works. Six week timeline starting in January which actually works better for us anyway.",
+        "message_id": "msg_d_001_03"
+      },
+      {
+        "role": "assistant",
+        "content": "January timing does give you more time to plan financially. What's included in that 38K breakdown?",
+        "message_id": "msg_d_001_04"
+      },
+      {
+        "role": "user",
+        "content": "Labor, materials, permits. The only thing Kevin wants to tackle himself is the backsplash - thinks he can save us maybe two grand doing the tile work. I'm letting him have that one.",
+        "message_id": "msg_d_001_05"
+      },
+      {
+        "role": "assistant",
+        "content": "DIY backsplash could definitely help with costs. Are you comfortable with the overall budget impact?",
+        "message_id": "msg_d_001_06"
+      },
+      {
+        "role": "user",
+        "content": "We'll need to run the numbers properly. Between this and everything else we have going on financially, it's going to be tight. But the kitchen is basically falling apart at this point.",
+        "message_id": "msg_d_001_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like it's necessary work then. Have you gotten quotes from other contractors to compare?",
+        "message_id": "msg_d_001_08"
+      },
+      {
+        "role": "user",
+        "content": "Still waiting on two more quotes, but Ramirez came highly recommended from our neighbors. Their timeline works and honestly, I just want this project locked in so I can stop thinking about it.",
+        "message_id": "msg_d_001_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Getting it scheduled and planned out will definitely reduce the mental load. The January start gives you a few months to finalize everything.",
+        "message_id": "msg_d_001_10"
+      }
+    ],
+    "mentioned_entities": [
+      "ramirez_bros",
+      "reno_quote",
+      "kevin_chen"
+    ],
+    "cross_space_refs": [
+      "finances"
+    ],
+    "summary": "Diane discusses receiving a $38,000 kitchen renovation quote from Ramirez Bros with a 6-week timeline starting in January. Kevin plans to DIY the backsplash to save money, and she's considering the financial impact.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_002",
+    "persona_id": "diane",
+    "space_id": "kids",
+    "timestamp": "2025-10-13",
+    "depth_index": 2,
+    "messages": [
+      {
+        "role": "user",
+        "content": "So Lily's starting soccer next week - practice on Tuesdays and Thursdays. She's excited but I'm already mentally calculating the pickup logistics with everything else going on.",
+        "message_id": "msg_d_002_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great that she's excited about soccer! The Tuesday/Thursday schedule sounds manageable. Are you thinking about carpooling with other parents to help with the logistics?",
+        "message_id": "msg_d_002_02"
+      },
+      {
+        "role": "user",
+        "content": "Maybe, though I barely know the other parents yet. At least Ethan's kindergarten adjustment is going really well - his teacher says he's settling in nicely. Speaking of which, we had his checkup with Dr. Nakamura last week and she says his growth is right on track.",
+        "message_id": "msg_d_002_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's wonderful news about Ethan! It sounds like he's thriving in kindergarten. How's he feeling about it himself?",
+        "message_id": "msg_d_002_04"
+      },
+      {
+        "role": "user",
+        "content": "He loves it, which is such a relief. Oh, and now both kids are already talking Halloween costumes - Ethan wants to be a dinosaur and Lily's going back and forth between a witch and some character from a show I don't watch. The costume planning stress starts early this year apparently.",
+        "message_id": "msg_d_002_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Halloween planning in mid-October - that's actually pretty good timing! A dinosaur costume sounds fun and probably easier to find than whatever character Lily's considering.",
+        "message_id": "msg_d_002_06"
+      },
+      {
+        "role": "user",
+        "content": "True. Though with the kitchen reno quote sitting on my desk at 38K, I'm thinking more about DIY costumes this year. Kevin thinks I'm overthinking it but every expense feels bigger right now, you know?",
+        "message_id": "msg_d_002_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That makes total sense - big home expenses definitely put everything else in perspective. DIY costumes can be really fun though, and the kids might enjoy helping make them.",
+        "message_id": "msg_d_002_08"
+      },
+      {
+        "role": "user",
+        "content": "You're right. Plus with that sitter we're hiring starting in January at 320 a week, I need to get better at this whole budget balancing act. At least the soccer fees aren't too bad - just the gear and gas money for all those Tuesday Thursday trips.",
+        "message_id": "msg_d_002_09"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're being really thoughtful about planning ahead. The soccer investment will probably pay off in keeping Lily active and social, and those Tuesday/Thursday routines might actually help structure your week.",
+        "message_id": "msg_d_002_10"
+      }
+    ],
+    "mentioned_entities": [
+      "lily_chen",
+      "ethan_chen",
+      "dr_nakamura",
+      "reno_quote",
+      "kevin_chen",
+      "sitter_cost"
+    ],
+    "cross_space_refs": [
+      "health"
+    ],
+    "summary": "Diane discusses Lily starting soccer and Ethan's successful kindergarten adjustment. The conversation drifts to Halloween costume planning and budget concerns related to the kitchen renovation quote and upcoming childcare costs.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_003",
+    "persona_id": "diane",
+    "space_id": "health",
+    "timestamp": "2025-10-20",
+    "depth_index": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hey, I'm trying to get my health routine locked down before the holidays hit. Can you help me think through what's working and what needs tweaking?",
+        "message_id": "msg_d_003_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely! What does your current routine look like? Let's start with the basics - exercise, sleep, and nutrition.",
+        "message_id": "msg_d_003_02"
+      },
+      {
+        "role": "user",
+        "content": "Exercise is solid - I'm running 3 times a week, doing 5K routes around the neighborhood. Takes about 30 minutes each time, usually Tuesday, Thursday, Saturday mornings before the kids wake up.",
+        "message_id": "msg_d_003_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great consistent schedule. How are you feeling during and after those runs? And what about sleep - are you getting enough recovery time?",
+        "message_id": "msg_d_003_04"
+      },
+      {
+        "role": "user",
+        "content": "Sleep has actually been better lately. I'm averaging about 7 hours a night, which feels like a win with everything going on. The runs help me sleep deeper too.",
+        "message_id": "msg_d_003_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Seven hours is solid, especially with your schedule. What about nutrition? That's often the trickiest piece to manage consistently.",
+        "message_id": "msg_d_003_06"
+      },
+      {
+        "role": "user",
+        "content": "I've gotten into meal prepping on Sundays - batch cooking proteins and chopping vegetables. Makes weekday dinners so much faster when I'm not scrambling at 6pm. Plus I actually eat lunch now instead of just grabbing whatever.",
+        "message_id": "msg_d_003_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That Sunday prep strategy is smart - it removes so much daily decision fatigue. Sounds like you've built a really sustainable routine. Any upcoming health appointments or goals you're working toward?",
+        "message_id": "msg_d_003_08"
+      },
+      {
+        "role": "user",
+        "content": "My annual physical is coming up next month. First time in a while I'm actually looking forward to it instead of dreading it. No real concerns this year, which feels good.",
+        "message_id": "msg_d_003_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That's such a good feeling - going into a checkup confident about your health habits. It sounds like you've found a rhythm that works even with a busy schedule. Any areas where you feel like you could optimize further?",
+        "message_id": "msg_d_003_10"
+      },
+      {
+        "role": "user",
+        "content": "Honestly, I think the key is just protecting this routine when things get chaotic. The holidays are coming, work might get intense, and I know how easy it is to let the good habits slide.",
+        "message_id": "msg_d_003_11"
+      },
+      {
+        "role": "assistant",
+        "content": "Smart to think ahead. Maybe identify which elements are non-negotiable versus which ones you could temporarily scale back if needed? That way you maintain momentum even during busy periods.",
+        "message_id": "msg_d_003_12"
+      }
+    ],
+    "mentioned_entities": [],
+    "cross_space_refs": [],
+    "summary": "Diane reviews her current health routine, highlighting consistent running 3x/week, improved sleep averaging 7 hours, and effective Sunday meal prepping. She's feeling confident heading into her upcoming annual physical with no health concerns.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_004",
+    "persona_id": "diane",
+    "space_id": "finances",
+    "timestamp": "2025-10-27",
+    "depth_index": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Okay I need to think through this kitchen thing more carefully. We're putting away $1,800 a month right now, plus the 529 contributions - that's $500 each for Lily and Ethan. So we're saving $2,800 total monthly.",
+        "message_id": "msg_d_004_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's solid savings discipline. Are you looking at how the kitchen renovation fits into that picture?",
+        "message_id": "msg_d_004_02"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, the Ramirez quote is 38K and Kevin's bringing in his usual 85K annually, so that's stable. But I'm wondering if we should pull from the emergency fund or... actually no, wait. Let me think about this differently.",
+        "message_id": "msg_d_004_03"
+      },
+      {
+        "role": "assistant",
+        "content": "What's making you reconsider the approach?",
+        "message_id": "msg_d_004_04"
+      },
+      {
+        "role": "user",
+        "content": "Well, if we keep saving $1,800 monthly we could have the reno paid for in about 21 months without touching emergency funds. But that doesn't account for the fact that we're already eating out way more - our food budget is up 40% since we started this whole kitchen discussion.",
+        "message_id": "msg_d_004_05"
+      },
+      {
+        "role": "assistant",
+        "content": "So the renovation costs are already impacting your budget before you've even started construction?",
+        "message_id": "msg_d_004_06"
+      },
+      {
+        "role": "user",
+        "content": "Exactly. And that's just from not wanting to cook in the current disaster zone. Actually, scratch that 21 month timeline - if we're bleeding an extra few hundred monthly on takeout, the math changes completely.",
+        "message_id": "msg_d_004_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Have you calculated what the total cost would be if you factor in the increased food expenses during the renovation period?",
+        "message_id": "msg_d_004_08"
+      },
+      {
+        "role": "user",
+        "content": "That's what I need to figure out. The college fund contributions aren't negotiable - those 529 payments stay at $500 each no matter what. But maybe we do need to dip into emergency savings if it means getting this kitchen functional faster and stopping the takeout hemorrhage.",
+        "message_id": "msg_d_004_09"
+      }
+    ],
+    "mentioned_entities": [
+      "ramirez_bros",
+      "reno_quote",
+      "kevin_chen",
+      "lily_chen",
+      "ethan_chen",
+      "five_twenty_nine"
+    ],
+    "cross_space_refs": [
+      "home"
+    ],
+    "summary": "Diane analyzes the family's monthly savings of $1,800 and $500 per child for 529 plans while reconsidering how to fund the $38,000 kitchen renovation, factoring in increased food costs and Kevin's stable $85K income.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_005",
+    "persona_id": "diane",
+    "space_id": "career",
+    "timestamp": "2025-11-03",
+    "depth_index": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Need to prep for Q4 planning sessions this week. My team's grown to 4 PMs plus 2 designers now, which is great but also means way more coordination overhead.",
+        "message_id": "msg_d_005_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant team expansion. What are your main priorities for Q4 planning with the larger team?",
+        "message_id": "msg_d_005_02"
+      },
+      {
+        "role": "user",
+        "content": "Biggest thing is that MedBridge Connect finally got VP approval last week. Been pushing that concept for months, so now we need to figure out realistic delivery timelines and resource allocation.",
+        "message_id": "msg_d_005_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on getting Connect approved! How are you thinking about dividing the work across your expanded PM team?",
+        "message_id": "msg_d_005_04"
+      },
+      {
+        "role": "user",
+        "content": "That's the million dollar question. I'm thinking two PMs on Connect, one on maintenance and bug fixes for existing products, and one on the smaller feature requests that keep piling up. The designers can split between Connect and the feature work.",
+        "message_id": "msg_d_005_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a solid distribution. Are there any dependencies or resource conflicts you're anticipating?",
+        "message_id": "msg_d_005_06"
+      },
+      {
+        "role": "user",
+        "content": "Main concern is that performance review cycle starts in December, so everyone's going to be distracted and anxious. Plus I need to make sure my own review reflects this team growth and the Connect win. Timing is everything.",
+        "message_id": "msg_d_005_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Good point about the performance review timing. Have you started documenting your team's achievements and the Connect approval process for your review?",
+        "message_id": "msg_d_005_08"
+      },
+      {
+        "role": "user",
+        "content": "Started a running doc but need to be more systematic about it. The VP approval for Connect is definitely going in there - that was a big strategic win. Also need to highlight how I've managed the team scaling without dropping any balls.",
+        "message_id": "msg_d_005_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Smart approach. Having concrete examples of both strategic wins and operational excellence should make for a strong review case.",
+        "message_id": "msg_d_005_10"
+      }
+    ],
+    "mentioned_entities": [
+      "medbridge_health",
+      "medbridge_connect"
+    ],
+    "cross_space_refs": [],
+    "summary": "Diane discusses Q4 planning for her expanded team of 4 PMs and 2 designers at MedBridge Health. She's strategizing resource allocation for the newly VP-approved MedBridge Connect product while preparing for the December performance review cycle.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_006",
+    "persona_id": "diane",
+    "space_id": "kids",
+    "timestamp": "2025-11-10",
+    "depth_index": 6,
+    "messages": [
+      {
+        "role": "user",
+        "content": "So Lily's teacher emailed me today about her math struggles. I knew something was off when she kept avoiding homework but I thought it was just... I don't know, being nine.",
+        "message_id": "msg_d_006_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That must be concerning to hear from the teacher. What specifically did they mention about her math performance?",
+        "message_id": "msg_d_006_02"
+      },
+      {
+        "role": "user",
+        "content": "She's falling behind on multiplication tables and word problems. The teacher wants to schedule a parent-teacher conference which honestly makes my stomach drop. Like I'm failing her somehow.",
+        "message_id": "msg_d_006_03"
+      },
+      {
+        "role": "assistant",
+        "content": "It's natural to feel that way, but reaching out early shows the teacher cares about Lily's progress. A conference can help you understand exactly where she needs support and create a plan together.",
+        "message_id": "msg_d_006_04"
+      },
+      {
+        "role": "user",
+        "content": "You're right. I just feel stretched so thin already with the kitchen reno eating our budget and now I'm wondering if we should get her a tutor but that's more money we don't really have right now.",
+        "message_id": "msg_d_006_05"
+      },
+      {
+        "role": "assistant",
+        "content": "There are often free or low-cost options to explore first - many schools have peer tutoring programs, and sometimes older students volunteer. You could also ask the teacher about specific resources or techniques you can use at home.",
+        "message_id": "msg_d_006_06"
+      },
+      {
+        "role": "user",
+        "content": "That's actually helpful. And speaking of money stress, Ethan got invited to his friend Marcus's birthday party next weekend and I need to figure out the gift budget. Everything feels like it costs more than it should right now.",
+        "message_id": "msg_d_006_07"
+      },
+      {
+        "role": "assistant",
+        "content": "What's your usual range for kids' birthday gifts? Sometimes setting a consistent amount helps take the decision stress out of it.",
+        "message_id": "msg_d_006_08"
+      },
+      {
+        "role": "user",
+        "content": "We usually do twenty to twenty-five dollars but with everything tight I'm thinking more like fifteen. Is that terrible? I don't want Ethan to feel embarrassed or the other parents to think we're cheap.",
+        "message_id": "msg_d_006_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Fifteen dollars can definitely get you a thoughtful gift that any six-year-old would love. Most parents understand budget constraints, and kids care more about the fun of giving than the price tag. You could even involve Ethan in picking something special within that range.",
+        "message_id": "msg_d_006_10"
+      },
+      {
+        "role": "user",
+        "content": "That's true. He'd probably love helping choose something. I just need to stop catastrophizing every little expense when we're already committed to this whole kitchen thing.",
+        "message_id": "msg_d_006_11"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're managing a lot right now. Taking things one decision at a time, like scheduling that conference and finding a nice gift for Ethan's friend, can help make it all feel more manageable.",
+        "message_id": "msg_d_006_12"
+      }
+    ],
+    "mentioned_entities": [
+      "lily_chen",
+      "ethan_chen"
+    ],
+    "cross_space_refs": [
+      "finances"
+    ],
+    "summary": "Diane discusses Lily's math struggles and an upcoming parent-teacher conference, while also worrying about gift budget for Ethan's friend's birthday party amid kitchen renovation financial stress.",
+    "fact_count": 3
+  },
+  {
+    "conversation_id": "conv_d_007",
+    "persona_id": "diane",
+    "space_id": "career",
+    "timestamp": "2025-11-17",
+    "depth_index": 7,
+    "messages": [
+      {
+        "role": "user",
+        "content": "So that happened. My VP just pulled me into a one-on-one and basically said I'm being considered for Director of Product. Like, the actual promotion track we've been dancing around for months.",
+        "message_id": "msg_d_007_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's huge! What did they say about timeline and expectations?",
+        "message_id": "msg_d_007_02"
+      },
+      {
+        "role": "user",
+        "content": "Here's the thing - they want me to lead the Q1 launch of MedBridge Connect. Full ownership, cross-functional team coordination, the works. It's basically the test case for whether I can handle director-level responsibilities.",
+        "message_id": "msg_d_007_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a significant opportunity. How are you feeling about taking on that scope?",
+        "message_id": "msg_d_007_04"
+      },
+      {
+        "role": "user",
+        "content": "Excited and terrified in equal measure. Q1 is going to be insane - Connect launch, plus I've got Lily needing extra math help every night, and we're still dealing with kitchen renovation chaos. The timing feels impossible but also like I can't say no.",
+        "message_id": "msg_d_007_05"
+      },
+      {
+        "role": "assistant",
+        "content": "The timing does sound challenging. Have you thought about what support systems you'd need to make this work?",
+        "message_id": "msg_d_007_06"
+      },
+      {
+        "role": "user",
+        "content": "That's exactly what I need to figure out. We already hired the after-school sitter for January - 320 a week but worth every penny if this promotion comes through. I just keep thinking about whether I can actually do justice to both the launch and being present for the kids.",
+        "message_id": "msg_d_007_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're already thinking strategically about the logistics. What would success look like for you on both fronts?",
+        "message_id": "msg_d_007_08"
+      },
+      {
+        "role": "user",
+        "content": "Good question. For Connect - clean launch, user adoption targets hit, minimal technical debt. For home - Lily's math progress continues, Ethan doesn't feel neglected, and I don't completely lose my mind during the kitchen renovation. Honestly, I think I can pull this off, but the next few months are going to test everything.",
+        "message_id": "msg_d_007_09"
+      },
+      {
+        "role": "assistant",
+        "content": "You seem to have a clear view of what needs to happen. When do you need to give them an answer about taking on the Connect launch?",
+        "message_id": "msg_d_007_10"
+      },
+      {
+        "role": "user",
+        "content": "End of this week. Which means I need to have the hard conversation with Kevin tonight about what this actually means for our family logistics. But honestly? I think I'm going to say yes. This is the break I've been working toward.",
+        "message_id": "msg_d_007_11"
+      }
+    ],
+    "mentioned_entities": [
+      "promotion_title",
+      "medbridge_connect",
+      "lily_chen",
+      "ethan_chen",
+      "sitter_cost",
+      "kevin_chen"
+    ],
+    "cross_space_refs": [
+      "kids"
+    ],
+    "summary": "Diane discusses being offered a Director promotion track that requires leading the Q1 MedBridge Connect launch. She's excited but anxious about balancing the increased responsibility with family needs during an already challenging period.",
+    "fact_count": 3
+  },
+  {
+    "conversation_id": "conv_d_008",
+    "persona_id": "diane",
+    "space_id": "home",
+    "timestamp": "2025-12-01",
+    "depth_index": 8,
+    "messages": [
+      {
+        "role": "user",
+        "content": "So we officially pulled the trigger. Ramirez Bros got the contract and I wrote them a check for $11,400 yesterday - that's the 30% deposit to get things rolling.",
+        "message_id": "msg_d_008_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a big milestone! How are you feeling about moving forward with the renovation?",
+        "message_id": "msg_d_008_02"
+      },
+      {
+        "role": "user",
+        "content": "Honestly? Relief mixed with mild terror. The deposit hit our checking account hard but we knew this was coming. Kevin's been obsessing over countertop materials all weekend - I think he's looked at granite samples about fifty times.",
+        "message_id": "msg_d_008_03"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like Kevin's really invested in getting the details right. Have you two settled on a material yet?",
+        "message_id": "msg_d_008_04"
+      },
+      {
+        "role": "user",
+        "content": "Not yet, but he's narrowed it down to three options. I keep telling him we need to decide soon since construction starts January 6th. That gives us about five weeks to finalize everything.",
+        "message_id": "msg_d_008_05"
+      },
+      {
+        "role": "assistant",
+        "content": "January 6th will be here before you know it. Are you prepared for the disruption to your daily routine?",
+        "message_id": "msg_d_008_06"
+      },
+      {
+        "role": "user",
+        "content": "As prepared as anyone can be for living without a kitchen for two months, I guess. We're already eating out way more than usual just thinking about it - our food budget is probably going to be a disaster. But hey, at least we'll have a beautiful new kitchen when it's done.",
+        "message_id": "msg_d_008_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It'll definitely be worth it in the end. Having a timeline and contractor locked in should help reduce some of the uncertainty.",
+        "message_id": "msg_d_008_08"
+      },
+      {
+        "role": "user",
+        "content": "Exactly. The unknowns were killing me more than the actual expense. Now I can mentally prepare for January chaos and start planning workarounds for meals and morning routines.",
+        "message_id": "msg_d_008_09"
+      }
+    ],
+    "mentioned_entities": [
+      "ramirez_bros",
+      "kevin_chen"
+    ],
+    "cross_space_refs": [
+      "finances"
+    ],
+    "summary": "Diane confirms that Ramirez Bros has been selected as the contractor for their kitchen renovation, with a $11,400 deposit paid and construction starting January 6th. Kevin is still researching countertop materials while Diane prepares mentally for the upcoming disruption.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_009",
+    "persona_id": "diane",
+    "space_id": "health",
+    "timestamp": "2025-12-08",
+    "depth_index": 9,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Got my annual physical results back. Cholesterol came in at... let me check... 215. Which is apparently slightly high now?",
+        "message_id": "msg_d_009_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, 215 is considered borderline high - the recommended level is under 200. What did your doctor suggest?",
+        "message_id": "msg_d_009_02"
+      },
+      {
+        "role": "user",
+        "content": "Dietary changes, of course. Less saturated fat, more fiber, the usual. I'm still running three times a week but honestly? I'm just going through the motions lately. Not feeling it the way I used to.",
+        "message_id": "msg_d_009_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's understandable - sometimes exercise motivation ebbs and flows. Are there other factors affecting your energy or enthusiasm for running?",
+        "message_id": "msg_d_009_04"
+      },
+      {
+        "role": "user",
+        "content": "Holiday stress is definitely building. Work is insane right now with year-end reviews and... well, other things brewing. Plus all the usual December chaos with the kids' school events and family stuff.",
+        "message_id": "msg_d_009_05"
+      },
+      {
+        "role": "assistant",
+        "content": "The holidays can definitely compound stress from other areas. For the cholesterol, would it help to start with small dietary swaps rather than major changes during an already stressful time?",
+        "message_id": "msg_d_009_06"
+      },
+      {
+        "role": "user",
+        "content": "That's probably smart. I was thinking about trying to overhaul everything at once but that never works out. Maybe just swap out some of the quick dinner options we've been relying on. The kids have been doing better with their routines so I might actually have bandwidth for meal prep again.",
+        "message_id": "msg_d_009_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a realistic approach. Small, sustainable changes tend to stick better than dramatic overhauls, especially during busy periods. How are you feeling about the running - would mixing up your routes or timing help with motivation?",
+        "message_id": "msg_d_009_08"
+      },
+      {
+        "role": "user",
+        "content": "Maybe. I've been doing the same 5K loop for months. Might try some different neighborhoods or even just different times of day. Though honestly, keeping any exercise routine going right now feels like a win.",
+        "message_id": "msg_d_009_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely - maintaining consistency during stressful periods is definitely a win. Even if the enthusiasm isn't there, you're still getting the cardiovascular benefits and stress relief.",
+        "message_id": "msg_d_009_10"
+      }
+    ],
+    "mentioned_entities": [],
+    "cross_space_refs": [
+      "career"
+    ],
+    "summary": "Diane discusses her annual physical results showing slightly elevated cholesterol at 215. Her doctor recommended dietary changes, and while she's maintaining her 3x weekly running routine, her enthusiasm has waned due to building holiday stress and work pressures.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_010",
+    "persona_id": "diane",
+    "space_id": "kids",
+    "timestamp": "2026-01-06",
+    "depth_index": 10,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm completely wiped. Been doing math practice with Lily every night since December and it's killing me. Getting maybe 5.5 hours of sleep on average.",
+        "message_id": "msg_d_010_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds exhausting. How is the math practice going with Lily? Is it helping her confidence?",
+        "message_id": "msg_d_010_02"
+      },
+      {
+        "role": "user",
+        "content": "Oh it's definitely helping - her grades are improving. But I'm barely functional at work and Kevin had to step in. He's taking over 2 nights a week now because I'm working so late with this promotion push.",
+        "message_id": "msg_d_010_03"
+      },
+      {
+        "role": "assistant",
+        "content": "It's good that Kevin can share the load. Are you able to maintain any kind of routine for yourself with everything going on?",
+        "message_id": "msg_d_010_04"
+      },
+      {
+        "role": "user",
+        "content": "Routine? What routine. I haven't run in weeks, barely sleeping, and we're still eating takeout half the time because of the kitchen mess. At least Ethan's completely unfazed by all the chaos - kid's rolling with the punches better than I am.",
+        "message_id": "msg_d_010_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Kids can be surprisingly resilient. It sounds like you're juggling a lot right now - the promotion track, renovation, and Lily's academics. Is there anything you can temporarily let go of?",
+        "message_id": "msg_d_010_06"
+      },
+      {
+        "role": "user",
+        "content": "That's the thing - I can't let go of the math help because she needs it, can't pause the promotion because the timing matters, and we're already committed to the renovation. I just feel like I'm failing at everything.",
+        "message_id": "msg_d_010_07"
+      },
+      {
+        "role": "assistant",
+        "content": "You're not failing - you're managing multiple major life changes at once. The fact that Lily's math is improving shows your efforts are working. Maybe focus on protecting those 5.5 hours of sleep as much as possible?",
+        "message_id": "msg_d_010_08"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, you're right. Kevin's been great about picking up the slack on math nights. And honestly, seeing Lily get more confident with fractions makes the exhaustion worth it. I just need to remember this phase won't last forever.",
+        "message_id": "msg_d_010_09"
+      }
+    ],
+    "mentioned_entities": [
+      "lily_chen",
+      "kevin_chen",
+      "ethan_chen"
+    ],
+    "cross_space_refs": [
+      "health",
+      "home"
+    ],
+    "summary": "Diane discusses feeling overwhelmed by nightly math practice with Lily since December, averaging only 5.5 hours of sleep. Kevin is helping by taking over 2 nights per week due to her work schedule, while Ethan remains unaffected by the ongoing kitchen renovation chaos.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_011",
+    "persona_id": "diane",
+    "space_id": "finances",
+    "timestamp": "2026-01-13",
+    "depth_index": 11,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Need to look at our budget numbers again. The kitchen reno plus the new sitter is really hitting us hard.",
+        "message_id": "msg_d_011_01"
+      },
+      {
+        "role": "assistant",
+        "content": "I can help you review your budget. What specific changes are you seeing in your monthly expenses?",
+        "message_id": "msg_d_011_02"
+      },
+      {
+        "role": "user",
+        "content": "Our monthly savings dropped to $400. Used to be putting away $1,800 back in October before all this started.",
+        "message_id": "msg_d_011_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant drop. What are the main drivers behind the $1,400 reduction?",
+        "message_id": "msg_d_011_04"
+      },
+      {
+        "role": "user",
+        "content": "Well, we hired the after-school sitter this week - $320 per week for Lily and Ethan since I'm swamped at work. Plus our food budget is up 40% because we're eating out constantly during the renovation.",
+        "message_id": "msg_d_011_05"
+      },
+      {
+        "role": "assistant",
+        "content": "The sitter cost alone is about $1,280 monthly, which explains most of the difference. How long do you expect these elevated expenses to continue?",
+        "message_id": "msg_d_011_06"
+      },
+      {
+        "role": "user",
+        "content": "Kitchen should be done by March, so the food situation will improve. The sitter might be longer term though - depends how the promotion track goes. At least my bonus is expected in February.",
+        "message_id": "msg_d_011_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That February bonus should provide some relief. Are you planning to use it to offset these temporary expenses or put it toward the renovation costs?",
+        "message_id": "msg_d_011_08"
+      },
+      {
+        "role": "user",
+        "content": "Probably split it. We already paid the 30% deposit to Ramirez Bros, but we'll need more for the final payment. Just trying to keep our heads above water until things settle down.",
+        "message_id": "msg_d_011_09"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you have a clear timeline for when some of these costs will decrease. Would it help to map out a month-by-month projection through March?",
+        "message_id": "msg_d_011_10"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, that would be good. Need to make sure we can still cover everything without dipping into the kids' college funds.",
+        "message_id": "msg_d_011_11"
+      }
+    ],
+    "mentioned_entities": [
+      "sitter_cost",
+      "lily_chen",
+      "ethan_chen",
+      "bonus_amount",
+      "ramirez_bros",
+      "five_twenty_nine"
+    ],
+    "cross_space_refs": [
+      "kids",
+      "home"
+    ],
+    "summary": "Diane reviews her strained budget, noting monthly savings dropped to $400 due to new $320/week sitter costs and increased food expenses during kitchen renovation. She discusses timeline for relief and plans for February bonus allocation.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_012",
+    "persona_id": "diane",
+    "space_id": "career",
+    "timestamp": "2026-01-20",
+    "depth_index": 12,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to talk through this MedBridge Connect crunch situation. We're in full sprint mode and I'm basically living at the office.",
+        "message_id": "msg_d_012_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds intense. How are you managing the workload with the launch coming up?",
+        "message_id": "msg_d_012_02"
+      },
+      {
+        "role": "user",
+        "content": "It's 3-4 late nights per week now. The development team is pushing hard to hit February 28th and honestly, I'm barely keeping up. Kevin's been handling more of the evening routine with the kids.",
+        "message_id": "msg_d_012_03"
+      },
+      {
+        "role": "assistant",
+        "content": "February 28th is coming up fast. Are you feeling confident about making that launch date?",
+        "message_id": "msg_d_012_04"
+      },
+      {
+        "role": "user",
+        "content": "We'll make it, but at what cost? I'm running on maybe 5 hours of sleep most nights. The good news is my performance review came back exceeds expectations, so all this grinding is being noticed.",
+        "message_id": "msg_d_012_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on the strong performance review! That's validation that your hard work is paying off. How are you holding up physically with the reduced sleep?",
+        "message_id": "msg_d_012_06"
+      },
+      {
+        "role": "user",
+        "content": "Not great, to be honest. I stopped running completely this month - just no time or energy. My body feels like it's running on fumes. But if this Connect launch goes well, it could really set me up for that Director role.",
+        "message_id": "msg_d_012_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're in a challenging balance between career advancement and personal wellbeing. Have you thought about what you'll do to recover once the launch is behind you?",
+        "message_id": "msg_d_012_08"
+      },
+      {
+        "role": "user",
+        "content": "March can't come fast enough. I keep telling myself it's temporary, but man, this sprint is brutal. At least the kitchen reno will be wrapping up around the same time, so maybe life will feel normal again.",
+        "message_id": "msg_d_012_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Having multiple major projects ending around the same time should give you some breathing room. You're juggling a lot right now.",
+        "message_id": "msg_d_012_10"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, it's a lot. But the team is solid and we're hitting our milestones. Just need to power through these next 5 weeks and then hopefully I can get back to taking care of myself.",
+        "message_id": "msg_d_012_11"
+      }
+    ],
+    "mentioned_entities": [
+      "medbridge_connect",
+      "kevin_chen",
+      "promotion_title"
+    ],
+    "cross_space_refs": [
+      "health"
+    ],
+    "summary": "Diane discusses the intense MedBridge Connect development crunch with late nights 3-4 times per week leading up to the February 28th launch. Despite receiving an exceeds expectations performance review, she's struggling with only 5 hours of sleep and has stopped exercising completely.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_013",
+    "persona_id": "diane",
+    "space_id": "home",
+    "timestamp": "2026-02-03",
+    "depth_index": 13,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I'm about to lose it with Ramirez. Just got off the phone and apparently our countertops are backordered for another 3 weeks. THREE WEEKS. On top of everything else that's gone wrong.",
+        "message_id": "msg_d_013_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's incredibly frustrating, especially when you're already dealing with renovation delays. What does this mean for your overall timeline?",
+        "message_id": "msg_d_013_02"
+      },
+      {
+        "role": "user",
+        "content": "It means we're looking at another month without a kitchen. Another MONTH. We've been living like this since December and I'm so tired of takeout and washing dishes in the bathroom sink. The kids are asking when they can have cereal again and I don't even know what to tell them.",
+        "message_id": "msg_d_013_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds exhausting for the whole family. How has the contractor been handling communication about these delays?",
+        "message_id": "msg_d_013_04"
+      },
+      {
+        "role": "user",
+        "content": "That's the worst part - Ramirez barely communicates unless I call him directly. I found out about the plumbing issue behind the old cabinets from one of his workers, not from him. Apparently they discovered it last week but nobody thought to mention it to the person paying for this nightmare.",
+        "message_id": "msg_d_013_05"
+      },
+      {
+        "role": "assistant",
+        "content": "A plumbing issue sounds like it could affect both timeline and budget. Have you gotten details about what needs to be fixed?",
+        "message_id": "msg_d_013_06"
+      },
+      {
+        "role": "user",
+        "content": "Not really, just that there's 'some pipe work that needs attention.' Super helpful, right? I'm dreading what this is going to cost on top of the 38K we already committed to. Our food budget is already up 40% from eating out constantly, and with my bonus finally coming this month I was hoping we'd be in better shape financially.",
+        "message_id": "msg_d_013_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you need clearer communication from the contractor about both the plumbing costs and realistic timelines. Have you considered setting up regular check-ins or requiring written updates?",
+        "message_id": "msg_d_013_08"
+      },
+      {
+        "role": "user",
+        "content": "You know what, you're right. I've been too passive about this because I didn't want to be 'that client' but clearly being polite isn't working. I'm calling him tomorrow morning and demanding a full breakdown of what's left, including this mystery plumbing work and actual dates, not just 'soon' and 'we'll see.'",
+        "message_id": "msg_d_013_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a solid plan. Getting everything documented will help you manage both the timeline and budget going forward. You deserve clear communication on a project this size.",
+        "message_id": "msg_d_013_10"
+      }
+    ],
+    "mentioned_entities": [
+      "ramirez_bros",
+      "reno_quote",
+      "bonus_amount"
+    ],
+    "cross_space_refs": [
+      "finances"
+    ],
+    "summary": "Diane vents frustration about kitchen renovation delays, including 3-week backordered countertops and poor contractor communication. She discovers an undisclosed plumbing issue and decides to demand better updates from Ramirez Bros.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_014",
+    "persona_id": "diane",
+    "space_id": "finances",
+    "timestamp": "2026-02-10",
+    "depth_index": 14,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Okay so the bonus finally hit my account today. 12K pre-tax which comes out to... wait let me check... 8,400 net. Better than I expected honestly.",
+        "message_id": "msg_d_014_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great news! The net amount being higher than expected is always a nice surprise. Are you planning to allocate it toward any specific goals?",
+        "message_id": "msg_d_014_02"
+      },
+      {
+        "role": "user",
+        "content": "Yeah it's all going straight into the reno fund. We're at 34,000 so far on the kitchen and now Ramirez is telling me we need another 3,500 for some plumbing issue they found behind the wall. Actually no wait, let me be more precise - we've spent 34K total, not just paid Ramirez that much.",
+        "message_id": "msg_d_014_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Got it - so $34K total spending across all renovation costs. The additional $3,500 for unexpected plumbing work is frustrating but unfortunately pretty common when opening up walls. At least the bonus timing worked out well to help cover it.",
+        "message_id": "msg_d_014_04"
+      },
+      {
+        "role": "user",
+        "content": "Exactly. I mean we budgeted for some overruns but this is getting expensive. The original quote was 38K and we're already almost there before they even finish. Thank god for MedBridge's bonus structure this year.",
+        "message_id": "msg_d_014_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're approaching the original budget faster than anticipated. With the $8,400 from your bonus going directly to the reno fund, that should help cushion the plumbing surprise. Are you still on track for the late March completion date?",
+        "message_id": "msg_d_014_06"
+      },
+      {
+        "role": "user",
+        "content": "That's the plan. The countertops are still backordered but Ramirez says they can work around that timeline. I just need this thing done - we've been eating takeout way too much and it's killing our food budget. Plus Kevin's getting tired of washing dishes in the bathroom sink.",
+        "message_id": "msg_d_014_07"
+      },
+      {
+        "role": "assistant",
+        "content": "The disruption to daily routines definitely adds hidden costs beyond the renovation itself. Having a functional kitchen back will probably save money pretty quickly once you can cook at home regularly again. Hopefully those countertops arrive on schedule!",
+        "message_id": "msg_d_014_08"
+      }
+    ],
+    "mentioned_entities": [
+      "bonus_amount",
+      "ramirez_bros",
+      "reno_quote",
+      "kevin_chen",
+      "medbridge_health"
+    ],
+    "cross_space_refs": [
+      "home",
+      "career"
+    ],
+    "summary": "Diane discusses her bonus arriving ($12K pre-tax, $8,400 net) and allocating it entirely to the kitchen renovation fund. The project has reached $34K in total spending with an additional $3,500 needed for unexpected plumbing work.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_015",
+    "persona_id": "diane",
+    "space_id": "health",
+    "timestamp": "2026-02-17",
+    "depth_index": 15,
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need to get back on track with my health. Haven't been running since January and I'm barely sleeping 5.8 hours a night on average. This work crunch is killing me.",
+        "message_id": "msg_d_015_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a tough combination - lack of exercise and sleep deprivation can really compound each other. What's been the biggest barrier to getting back to running?",
+        "message_id": "msg_d_015_02"
+      },
+      {
+        "role": "user",
+        "content": "Time, honestly. Between the product launch prep keeping me up until midnight and Lily's math homework sessions, I just can't find the windows I used to have. Kevin's been suggesting we get a couples gym membership.",
+        "message_id": "msg_d_015_03"
+      },
+      {
+        "role": "assistant",
+        "content": "A couples membership could help with accountability and make it more social. What's your initial reaction to that idea?",
+        "message_id": "msg_d_015_04"
+      },
+      {
+        "role": "user",
+        "content": "I'm skeptical, to be honest. We've tried the 'let's work out together' thing before and it never sticks. But maybe something low-key to start? I told him I'd try Saturday morning yoga if he's serious about it.",
+        "message_id": "msg_d_015_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Saturday morning yoga sounds like a gentle way to test the waters. It's also great for stress relief, which might help with your sleep quality too.",
+        "message_id": "msg_d_015_06"
+      },
+      {
+        "role": "user",
+        "content": "Yeah, I need something for the stress. The sleep thing is partially work but also just my brain not shutting off. Even when Lily's math grades improved to a B+ last week, I'm still lying there at night thinking about all the things I'm not doing well enough.",
+        "message_id": "msg_d_015_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're carrying a lot of mental load. Yoga might actually be perfect for that - the mindfulness component could help with the racing thoughts at bedtime. How are you feeling about committing to the Saturday sessions?",
+        "message_id": "msg_d_015_08"
+      },
+      {
+        "role": "user",
+        "content": "I think I can manage Saturdays, especially if it means Kevin and I actually spend time together that isn't about logistics or kids' schedules. Worst case scenario, I get an hour of stretching and we figure out it's not for us.",
+        "message_id": "msg_d_015_09"
+      }
+    ],
+    "mentioned_entities": [
+      "kevin_chen",
+      "lily_chen"
+    ],
+    "cross_space_refs": [
+      "career"
+    ],
+    "summary": "Diane discusses her declining health habits since January, including stopped running and poor sleep averaging 5.8 hours. She's skeptical but agrees to try Saturday morning yoga with Kevin as part of a couples gym membership to address stress and reconnect.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_016",
+    "persona_id": "diane",
+    "space_id": "career",
+    "timestamp": "2026-02-24",
+    "depth_index": 16,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Okay so Connect officially launches Friday. Feb 28th. All the sprint work and late nights are finally paying off.",
+        "message_id": "msg_d_016_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's exciting! How are you feeling about the launch after all the preparation?",
+        "message_id": "msg_d_016_02"
+      },
+      {
+        "role": "user",
+        "content": "Honestly? Cautiously optimistic. The beta feedback was solid and we hit all our internal milestones. But you never know until real users get their hands on it.",
+        "message_id": "msg_d_016_03"
+      },
+      {
+        "role": "assistant",
+        "content": "What metrics will you be watching most closely in those first few days?",
+        "message_id": "msg_d_016_04"
+      },
+      {
+        "role": "user",
+        "content": "User signups obviously. We're targeting 1,500 in the first week but honestly if we hit 2,000 I'd be thrilled. Also watching engagement - are people actually using the core features or just signing up and bouncing.",
+        "message_id": "msg_d_016_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Those sound like solid benchmarks. How has leadership been responding to the pre-launch progress?",
+        "message_id": "msg_d_016_06"
+      },
+      {
+        "role": "user",
+        "content": "Actually really well. The VP gave us a shoutout at last week's all-hands which felt good after all those 11pm nights in January. Said the team execution was exemplary or something like that.",
+        "message_id": "msg_d_016_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That recognition must feel great, especially given how much you've invested in this launch. What's next on your radar?",
+        "message_id": "msg_d_016_08"
+      },
+      {
+        "role": "user",
+        "content": "Well the promotion committee meets in two weeks. March 10th I think. So if Connect performs well out of the gate that should help my case for Director. Timing couldn't be better honestly.",
+        "message_id": "msg_d_016_09"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like everything is aligning well for you. Are you feeling prepared for that committee review?",
+        "message_id": "msg_d_016_10"
+      },
+      {
+        "role": "user",
+        "content": "As prepared as I can be. The Connect launch is my biggest deliverable but I've got the team growth metrics and the Q4 results too. Just need the first week numbers to be strong and I think I'll have a solid story.",
+        "message_id": "msg_d_016_11"
+      },
+      {
+        "role": "assistant",
+        "content": "Sounds like you've built a compelling case. Here's hoping those first week signups exceed your expectations!",
+        "message_id": "msg_d_016_12"
+      }
+    ],
+    "mentioned_entities": [
+      "medbridge_connect",
+      "promotion_title"
+    ],
+    "cross_space_refs": [],
+    "summary": "Diane discusses the upcoming MedBridge Connect launch on Feb 28th, expecting strong first-week signups and positive VP feedback. The promotion committee meeting in two weeks could benefit from strong launch metrics.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_017",
+    "persona_id": "diane",
+    "space_id": "kids",
+    "timestamp": "2026-03-03",
+    "depth_index": 17,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Got Lily's report card today and her math grade jumped from C to B+! All those evening sessions really paid off. She was so proud showing me.",
+        "message_id": "msg_d_017_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's wonderful! It sounds like the consistent practice sessions you and Kevin have been doing with her really made a difference. How is she feeling about math now?",
+        "message_id": "msg_d_017_02"
+      },
+      {
+        "role": "user",
+        "content": "Much more confident. We actually talked about getting a tutor - found one for 60 an hour - but Lily said she likes working with us better. Which honestly saves money right now with all the kitchen stuff still happening.",
+        "message_id": "msg_d_017_03"
+      },
+      {
+        "role": "assistant",
+        "content": "It's great that she prefers working with you and Kevin - that parent connection probably helps her feel more supported. And yes, avoiding the tutor cost is a nice bonus during renovation time.",
+        "message_id": "msg_d_017_04"
+      },
+      {
+        "role": "user",
+        "content": "Speaking of money, Ethan's been asking about T-ball for spring. Registration's like 120 plus equipment. But he's so excited about it, keeps practicing his swing with a plastic bat in the living room.",
+        "message_id": "msg_d_017_05"
+      },
+      {
+        "role": "assistant",
+        "content": "T-ball sounds like it would be perfect for him at 6! The cost seems reasonable for a spring activity, and it's great that he's already showing so much enthusiasm.",
+        "message_id": "msg_d_017_06"
+      },
+      {
+        "role": "user",
+        "content": "Yeah I think we'll do it. And we're trying to figure out spring break - Kevin found this lake house rental in Michigan that looks amazing. Kids would love it but it's pricey. Might depend on when this kitchen finally gets finished.",
+        "message_id": "msg_d_017_07"
+      },
+      {
+        "role": "assistant",
+        "content": "A lake house trip sounds like a great way to celebrate getting through the renovation period! Michigan has some beautiful spots. Have you gotten any updates on the kitchen timeline?",
+        "message_id": "msg_d_017_08"
+      },
+      {
+        "role": "user",
+        "content": "Ramirez says late March now, fingers crossed. The countertops were backordered forever. But honestly after months of takeout and eating in the living room, we're all ready for a real kitchen again.",
+        "message_id": "msg_d_017_09"
+      },
+      {
+        "role": "assistant",
+        "content": "I bet you are! It'll be so nice to have your space back and cook at home again. The timing might work out well - finish the kitchen, then reward yourselves with that lake house trip.",
+        "message_id": "msg_d_017_10"
+      }
+    ],
+    "mentioned_entities": [
+      "lily_chen",
+      "kevin_chen",
+      "ethan_chen",
+      "ramirez_bros"
+    ],
+    "cross_space_refs": [
+      "finances"
+    ],
+    "summary": "Diane celebrates Lily's math improvement from C to B+ and discusses avoiding a $60/hr tutor since Lily prefers parent help. Conversation drifts to Ethan wanting T-ball and potential spring break lake house trip in Michigan, with timing dependent on kitchen renovation completion.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_018",
+    "persona_id": "diane",
+    "space_id": "health",
+    "timestamp": "2026-03-10",
+    "depth_index": 18,
+    "messages": [
+      {
+        "role": "user",
+        "content": "So I actually did something for myself this weekend - started going to this Saturday morning yoga class. Never thought I'd be a yoga person but honestly? I'm kind of loving it.",
+        "message_id": "msg_d_018_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's wonderful! What drew you to try yoga, and what are you enjoying about it?",
+        "message_id": "msg_d_018_02"
+      },
+      {
+        "role": "user",
+        "content": "Well, I needed something that wasn't running. I was doing 3x a week before but dropped to zero in January when work got crazy. Now I'm back to running twice a week but my body was craving something different. The yoga is more about slowing down, which apparently I desperately needed.",
+        "message_id": "msg_d_018_03"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're finding a good balance between different types of movement. How has the shift back to exercise been affecting other areas of your health?",
+        "message_id": "msg_d_018_04"
+      },
+      {
+        "role": "user",
+        "content": "Sleep is finally getting better. I'm averaging 6.5 hours now, which feels like luxury compared to January and February. Those were brutal - I was running on maybe 5.5 hours a night with the MedBridge Connect launch prep.",
+        "message_id": "msg_d_018_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant improvement! Product launches can really take a toll. How are you feeling overall now that the launch pressure is behind you?",
+        "message_id": "msg_d_018_06"
+      },
+      {
+        "role": "user",
+        "content": "Honestly? More balanced than I've felt in months. The launch was successful but I was completely fried by February. Now I can actually think about taking care of myself again instead of just surviving each day. The yoga thing is part of that - it's my one hour a week where I'm not managing anyone or anything.",
+        "message_id": "msg_d_018_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It's great that you're prioritizing that self-care time. Having that dedicated hour sounds like it's serving multiple purposes - physical activity and mental reset.",
+        "message_id": "msg_d_018_08"
+      },
+      {
+        "role": "user",
+        "content": "Exactly. And the Saturday timing works well - Kevin can handle the kids for that hour, and it sets a better tone for the weekend. I'm hoping to keep this up even when work gets intense again, which it inevitably will.",
+        "message_id": "msg_d_018_09"
+      }
+    ],
+    "mentioned_entities": [
+      "kevin_chen",
+      "medbridge_connect"
+    ],
+    "cross_space_refs": [
+      "career"
+    ],
+    "summary": "Diane shares that she's started Saturday yoga classes and is enjoying the slower pace. Her sleep has improved to 6.5 hours nightly, and she's running twice weekly again after stopping during the intense MedBridge Connect launch period. She feels more balanced now that work pressure has eased.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_019",
+    "persona_id": "diane",
+    "space_id": "home",
+    "timestamp": "2026-03-17",
+    "depth_index": 19,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Finally! The kitchen is basically done. Ramirez finished the last cabinet door this morning and I'm sitting here with actual coffee from my actual coffee maker in my actual kitchen for the first time since October.",
+        "message_id": "msg_d_019_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That must feel amazing after all these months! How did everything turn out compared to what you were expecting?",
+        "message_id": "msg_d_019_02"
+      },
+      {
+        "role": "user",
+        "content": "Honestly? Better than I hoped. The countertops look incredible - worth every day of that three week delay. Kevin surprised me too. Remember how worried I was about him doing the backsplash himself? Turns out he's got hidden tile skills. It looks professional.",
+        "message_id": "msg_d_019_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's wonderful! It sounds like Kevin really stepped up. What's the final damage budget-wise?",
+        "message_id": "msg_d_019_04"
+      },
+      {
+        "role": "user",
+        "content": "Oof. Forty-two five. So we went over the original 38K quote by about four and a half thousand. That surprise plumbing issue in February really got us. But honestly, at this point I'm just grateful it's 90% complete and we can actually cook again.",
+        "message_id": "msg_d_019_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant overrun, but it sounds like you're handling it well. Will the extra costs impact your other financial plans much?",
+        "message_id": "msg_d_019_06"
+      },
+      {
+        "role": "user",
+        "content": "We'll absorb it. My bonus covered most of the base cost, and we had some buffer built in. The eating out budget the last five months probably added another grand on top of everything, but that's behind us now. I'm just ready to meal prep again and get back to normal routines.",
+        "message_id": "msg_d_019_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It'll be nice to have your home base back. What's left in that final 10% to wrap things up?",
+        "message_id": "msg_d_019_08"
+      },
+      {
+        "role": "user",
+        "content": "Just touch-up paint and the final electrical inspection. Ramirez says we should have that done by Friday. Then it's officially official. I'm planning to cook a proper family dinner this weekend - first time since October that we'll all sit around our own table eating food from our own kitchen.",
+        "message_id": "msg_d_019_09"
+      }
+    ],
+    "mentioned_entities": [
+      "kevin_chen",
+      "ramirez_bros",
+      "reno_quote",
+      "reno_final",
+      "bonus_amount"
+    ],
+    "cross_space_refs": [
+      "finances"
+    ],
+    "summary": "Diane celebrates her kitchen renovation being 90% complete after months of work. The final cost came to $42,500, over the original $38,000 quote, but she's satisfied with the results including Kevin's successful DIY backsplash work.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_d_020",
+    "persona_id": "diane",
+    "space_id": "finances",
+    "timestamp": "2026-03-24",
+    "depth_index": 20,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Finally! Kitchen is done and we made our last payment to Ramirez Bros today. Total damage: $42,500. More than the 38K quote but honestly, after living through three months of takeout and no functional kitchen, I'm just glad it's over.",
+        "message_id": "msg_d_020_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on getting through the renovation! That's a significant expense but having a functional kitchen back must be such a relief. How are you feeling about the budget impact now that it's complete?",
+        "message_id": "msg_d_020_02"
+      },
+      {
+        "role": "user",
+        "content": "Well, the good news is our monthly savings are back up to $1,200 now that we're not bleeding money on the reno anymore. Still not back to our pre-renovation $1,800 because we're still paying the sitter, but it's progress. And starting April 1st, my promotion kicks in with an $18K annual raise, so that'll help a lot.",
+        "message_id": "msg_d_020_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's excellent news about the promotion and raise! The timing works out well - just as you're recovering from the renovation expenses. What are your priorities for allocating that extra income?",
+        "message_id": "msg_d_020_04"
+      },
+      {
+        "role": "user",
+        "content": "First priority is getting our emergency fund back to where it was. Then I want to bump up the 529 contributions for Lily and Ethan - we've been at the bare minimum during this whole kitchen saga. Once our monthly savings normalize back to the $1,800 range, I'm thinking we can increase the college fund contributions significantly.",
+        "message_id": "msg_d_020_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a solid plan - rebuilding the emergency fund first, then increasing the 529 contributions once your cash flow stabilizes. With the promotion raise, you should be able to get back to that $1,800 monthly savings level relatively quickly.",
+        "message_id": "msg_d_020_06"
+      },
+      {
+        "role": "user",
+        "content": "Exactly. Kevin and I were just talking about how this whole experience taught us we need bigger buffers. The plumbing surprise that added $4,500 to the final cost really caught us off guard. But at least the kitchen looks amazing and the kids love the new island for homework time.",
+        "message_id": "msg_d_020_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Those unexpected costs during renovations are so common but still stressful when they hit. It's great that you're taking the lesson about bigger buffers to heart. And having the kids enjoy the new space for homework makes all the financial stress worth it in the end.",
+        "message_id": "msg_d_020_08"
+      },
+      {
+        "role": "user",
+        "content": "True. Now I just need to survive the next week of work before the promotion officially starts. The Connect launch really took it out of me these past few months, but it's paying off. Literally.",
+        "message_id": "msg_d_020_09"
+      }
+    ],
+    "mentioned_entities": [
+      "ramirez_bros",
+      "reno_final",
+      "reno_quote",
+      "promotion_title",
+      "lily_chen",
+      "ethan_chen",
+      "five_twenty_nine",
+      "kevin_chen",
+      "medbridge_connect"
+    ],
+    "cross_space_refs": [
+      "home",
+      "career",
+      "kids"
+    ],
+    "summary": "Diane celebrates completing her kitchen renovation, which cost $42,500 total. Her monthly savings have recovered to $1,200 and will improve further with her April promotion raise of $18K annually. She plans to rebuild emergency funds first, then increase 529 college contributions once savings normalize.",
+    "fact_count": 4
+  }
+]

@@ -1,0 +1,5 @@
+# EngramaBench — Python dependencies
+# Scorer (no external dependencies beyond stdlib)
+# Baselines
+openai>=1.0
+mem0ai>=0.1.0

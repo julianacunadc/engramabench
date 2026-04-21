@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv_p_009",
+  "persona_id": "priya",
+  "space_id": "collaboration",
+  "timestamp": "2025-12-16",
+  "depth_index": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "I cannot believe Marcus is doing this. He just emailed me saying his postdoc should be first author on our joint paper because quote unquote she developed the core algorithm. This is absolutely ridiculous.",
+      "message_id": "msg_p_009_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a frustrating situation. What's your perspective on the contributions to the paper?",
+      "message_id": "msg_p_009_02"
+    },
+    {
+      "role": "user",
+      "content": "Anika did 60% of the computational work! She built the entire pipeline, ran all the analyses, generated every figure. Marcus's postdoc contributed one algorithm that we ended up modifying heavily anyway. This authorship dispute is going to kill our submission timeline.",
+      "message_id": "msg_p_009_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Have you documented the specific contributions each person made? That might help in discussions with Marcus.",
+      "message_id": "msg_p_009_04"
+    },
+    {
+      "role": "user",
+      "content": "Oh I have spreadsheets, commit logs, everything. But Marcus is being completely unreasonable. He's pushing so hard for his postdoc as first author and I'm like, based on what? The authorship dispute officially begins now I guess because I'm not backing down on this.",
+      "message_id": "msg_p_009_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you have strong evidence for your position. How do you think this might affect your other collaborative work with Marcus?",
+      "message_id": "msg_p_009_06"
+    },
+    {
+      "role": "user",
+      "content": "That's what I'm worried about. We have the R01 together and if this gets ugly... I mean, we were supposed to submit to Nature Methods next week but now everything's on hold. Anika is stressed, I'm stressed, and Marcus is being completely unreasonable about the whole thing.",
+      "message_id": "msg_p_009_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Would it be worth trying to have a formal discussion with clear criteria for authorship contributions before this escalates further?",
+      "message_id": "msg_p_009_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I think I need to set up a call with him this week. I just hate that it's come to this. The collaboration was going so well back in November and now it feels like it's all falling apart over egos. I need to protect Anika's work though - she deserves recognition for what she's done.",
+      "message_id": "msg_p_009_09"
+    }
+  ],
+  "mentioned_entities": [
+    "marcus_wei",
+    "anika_patel",
+    "nature_methods",
+    "nih_r01"
+  ],
+  "cross_space_refs": [
+    "publications"
+  ],
+  "summary": "Priya is upset about an authorship dispute with Marcus Wei, who wants his postdoc as first author despite Anika doing 60% of the computational work. The conflict threatens their paper submission timeline and broader collaboration.",
+  "fact_count": 3
+}

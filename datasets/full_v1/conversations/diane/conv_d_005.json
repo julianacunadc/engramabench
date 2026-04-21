@@ -1,0 +1,66 @@
+{
+  "conversation_id": "conv_d_005",
+  "persona_id": "diane",
+  "space_id": "career",
+  "timestamp": "2025-11-03",
+  "depth_index": 5,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Need to prep for Q4 planning sessions this week. My team's grown to 4 PMs plus 2 designers now, which is great but also means way more coordination overhead.",
+      "message_id": "msg_d_005_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a significant team expansion. What are your main priorities for Q4 planning with the larger team?",
+      "message_id": "msg_d_005_02"
+    },
+    {
+      "role": "user",
+      "content": "Biggest thing is that MedBridge Connect finally got VP approval last week. Been pushing that concept for months, so now we need to figure out realistic delivery timelines and resource allocation.",
+      "message_id": "msg_d_005_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Congratulations on getting Connect approved! How are you thinking about dividing the work across your expanded PM team?",
+      "message_id": "msg_d_005_04"
+    },
+    {
+      "role": "user",
+      "content": "That's the million dollar question. I'm thinking two PMs on Connect, one on maintenance and bug fixes for existing products, and one on the smaller feature requests that keep piling up. The designers can split between Connect and the feature work.",
+      "message_id": "msg_d_005_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a solid distribution. Are there any dependencies or resource conflicts you're anticipating?",
+      "message_id": "msg_d_005_06"
+    },
+    {
+      "role": "user",
+      "content": "Main concern is that performance review cycle starts in December, so everyone's going to be distracted and anxious. Plus I need to make sure my own review reflects this team growth and the Connect win. Timing is everything.",
+      "message_id": "msg_d_005_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Good point about the performance review timing. Have you started documenting your team's achievements and the Connect approval process for your review?",
+      "message_id": "msg_d_005_08"
+    },
+    {
+      "role": "user",
+      "content": "Started a running doc but need to be more systematic about it. The VP approval for Connect is definitely going in there - that was a big strategic win. Also need to highlight how I've managed the team scaling without dropping any balls.",
+      "message_id": "msg_d_005_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Smart approach. Having concrete examples of both strategic wins and operational excellence should make for a strong review case.",
+      "message_id": "msg_d_005_10"
+    }
+  ],
+  "mentioned_entities": [
+    "medbridge_health",
+    "medbridge_connect"
+  ],
+  "cross_space_refs": [],
+  "summary": "Diane discusses Q4 planning for her expanded team of 4 PMs and 2 designers at MedBridge Health. She's strategizing resource allocation for the newly VP-approved MedBridge Connect product while preparing for the December performance review cycle.",
+  "fact_count": 4
+}

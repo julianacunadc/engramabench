@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_d_017",
+  "persona_id": "diane",
+  "space_id": "kids",
+  "timestamp": "2026-03-03",
+  "depth_index": 17,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Got Lily's report card today and her math grade jumped from C to B+! All those evening sessions really paid off. She was so proud showing me.",
+      "message_id": "msg_d_017_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's wonderful! It sounds like the consistent practice sessions you and Kevin have been doing with her really made a difference. How is she feeling about math now?",
+      "message_id": "msg_d_017_02"
+    },
+    {
+      "role": "user",
+      "content": "Much more confident. We actually talked about getting a tutor - found one for 60 an hour - but Lily said she likes working with us better. Which honestly saves money right now with all the kitchen stuff still happening.",
+      "message_id": "msg_d_017_03"
+    },
+    {
+      "role": "assistant",
+      "content": "It's great that she prefers working with you and Kevin - that parent connection probably helps her feel more supported. And yes, avoiding the tutor cost is a nice bonus during renovation time.",
+      "message_id": "msg_d_017_04"
+    },
+    {
+      "role": "user",
+      "content": "Speaking of money, Ethan's been asking about T-ball for spring. Registration's like 120 plus equipment. But he's so excited about it, keeps practicing his swing with a plastic bat in the living room.",
+      "message_id": "msg_d_017_05"
+    },
+    {
+      "role": "assistant",
+      "content": "T-ball sounds like it would be perfect for him at 6! The cost seems reasonable for a spring activity, and it's great that he's already showing so much enthusiasm.",
+      "message_id": "msg_d_017_06"
+    },
+    {
+      "role": "user",
+      "content": "Yeah I think we'll do it. And we're trying to figure out spring break - Kevin found this lake house rental in Michigan that looks amazing. Kids would love it but it's pricey. Might depend on when this kitchen finally gets finished.",
+      "message_id": "msg_d_017_07"
+    },
+    {
+      "role": "assistant",
+      "content": "A lake house trip sounds like a great way to celebrate getting through the renovation period! Michigan has some beautiful spots. Have you gotten any updates on the kitchen timeline?",
+      "message_id": "msg_d_017_08"
+    },
+    {
+      "role": "user",
+      "content": "Ramirez says late March now, fingers crossed. The countertops were backordered forever. But honestly after months of takeout and eating in the living room, we're all ready for a real kitchen again.",
+      "message_id": "msg_d_017_09"
+    },
+    {
+      "role": "assistant",
+      "content": "I bet you are! It'll be so nice to have your space back and cook at home again. The timing might work out well - finish the kitchen, then reward yourselves with that lake house trip.",
+      "message_id": "msg_d_017_10"
+    }
+  ],
+  "mentioned_entities": [
+    "lily_chen",
+    "kevin_chen",
+    "ethan_chen",
+    "ramirez_bros"
+  ],
+  "cross_space_refs": [
+    "finances"
+  ],
+  "summary": "Diane celebrates Lily's math improvement from C to B+ and discusses avoiding a $60/hr tutor since Lily prefers parent help. Conversation drifts to Ethan wanting T-ball and potential spring break lake house trip in Michigan, with timing dependent on kitchen renovation completion.",
+  "fact_count": 4
+}

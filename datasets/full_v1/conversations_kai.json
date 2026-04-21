@@ -1,0 +1,1445 @@
+[
+  {
+    "conversation_id": "conv_k_001",
+    "persona_id": "kai",
+    "space_id": "courses",
+    "timestamp": "2025-10-06",
+    "depth_index": 1,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, can you help me think through my course load this semester? I'm taking 3 courses and it's feeling like a lot more than I expected",
+        "message_id": "msg_k_001_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Of course! What courses are you taking this semester?",
+        "message_id": "msg_k_001_02"
+      },
+      {
+        "role": "user",
+        "content": "Advanced NLP, Statistical ML, and Ethics in AI. On paper it seemed reasonable but the workload is heavier than expected, especially with my thesis work happening at the same time",
+        "message_id": "msg_k_001_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a solid lineup but definitely intensive. How are the individual courses structured? Are there major projects or mostly exams?",
+        "message_id": "msg_k_001_04"
+      },
+      {
+        "role": "user",
+        "content": "Advanced NLP has this group project that's worth like 40% of the grade. I got paired with Preethi which is actually great because she's really sharp, but it means I can't just phone it in you know?",
+        "message_id": "msg_k_001_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a good problem to have though - working with someone competent usually makes the project better and more manageable. What's the project focus?",
+        "message_id": "msg_k_001_06"
+      },
+      {
+        "role": "user",
+        "content": "We get to pick our own topic as long as it involves some kind of language model fine-tuning. Preethi suggested doing something with bias detection which could actually tie into my thesis work if I'm clever about it",
+        "message_id": "msg_k_001_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a smart way to make your coursework work double duty. Are the other two courses more traditional exam-based?",
+        "message_id": "msg_k_001_08"
+      },
+      {
+        "role": "user",
+        "content": "Statistical ML is mostly problem sets and a final, which I can handle. Ethics in AI is more discussion-heavy with papers, which honestly takes more time than I thought it would. Reading all these philosophy papers and then writing responses... it's just a different kind of brain work than I'm used to",
+        "message_id": "msg_k_001_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Philosophy papers definitely require a different reading approach than technical papers. Have you considered blocking out specific time slots for each type of coursework to help manage the cognitive switching?",
+        "message_id": "msg_k_001_10"
+      },
+      {
+        "role": "user",
+        "content": "yeah that's probably smart. I think I've been trying to just squeeze everything in whenever and it's not working. maybe I should do the ethics readings in the mornings when my brain is fresher and save the coding stuff for later",
+        "message_id": "msg_k_001_11"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a good plan. Morning focus for the more conceptual work and coding when you can get into a flow state later. How are you feeling about balancing this with your research commitments?",
+        "message_id": "msg_k_001_12"
+      },
+      {
+        "role": "user",
+        "content": "honestly that's the part that's stressing me out the most. I keep telling myself the coursework will directly help my research but some weeks it feels like I'm just treading water in both areas instead of making real progress in either",
+        "message_id": "msg_k_001_13"
+      }
+    ],
+    "mentioned_entities": [
+      "preethi",
+      "nlp_focus"
+    ],
+    "cross_space_refs": [
+      "research"
+    ],
+    "summary": "Kai discusses their challenging course load of Advanced NLP, Statistical ML, and Ethics in AI, mentioning a group project with Preethi and concerns about balancing coursework with thesis research. The workload is heavier than expected.",
+    "fact_count": 3
+  },
+  {
+    "conversation_id": "conv_k_002",
+    "persona_id": "kai",
+    "space_id": "research",
+    "timestamp": "2025-10-13",
+    "depth_index": 2,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey so I finally finished the literature review for my thesis (thank god) but now I'm kinda stressed about the next phase. my topic is low-resource NLP for under-represented languages which is super interesting but also... overwhelming? like there's so much work to do",
+        "message_id": "msg_k_002_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a really compelling research area! Finishing the lit review is a huge milestone. What's feeling most overwhelming about moving forward?",
+        "message_id": "msg_k_002_02"
+      },
+      {
+        "role": "user",
+        "content": "well Dr. Reeves wants my experiment plan by November which honestly feels super tight? and I keep getting distracted thinking about... other stuff. like I have this ML theory assignment due next week that's eating my brain (sorry, courses bleeding into research thoughts lol)",
+        "message_id": "msg_k_002_03"
+      },
+      {
+        "role": "assistant",
+        "content": "November does sound tight for a solid experiment plan. Are you thinking of starting with a specific language or language family for your experiments?",
+        "message_id": "msg_k_002_04"
+      },
+      {
+        "role": "user",
+        "content": "yeah I'm leaning toward maybe Quechua or some other indigenous South American languages? but then I started reading about code-switching in multilingual communities and now I'm wondering if I should pivot to that instead... ugh this is why lit reviews are dangerous, you just keep finding cool tangents",
+        "message_id": "msg_k_002_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Code-switching is fascinating but sounds like it could be a pretty different direction. Have you talked through the scope question with Dr. Reeves? Sometimes advisors can help narrow things down.",
+        "message_id": "msg_k_002_06"
+      },
+      {
+        "role": "user",
+        "content": "we have lab meeting every Friday so I'll probably bring it up then. honestly Reeves has been pretty hands-off which is good but also terrifying? like I want the freedom but also... guidance would be nice sometimes. especially with all the pressure around timelines and stuff",
+        "message_id": "msg_k_002_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That balance between independence and guidance is tricky in grad school. The Friday lab meetings sound like a good regular touchpoint though. Are you the only one working on low-resource NLP in the lab?",
+        "message_id": "msg_k_002_08"
+      },
+      {
+        "role": "user",
+        "content": "nah there's like two other people doing related stuff but they're PhD students so they're way further along. sometimes I feel like I'm just scrambling to keep up... anyway sorry I'm rambling, I think I just needed to brain dump about this whole experiment planning thing. thanks for listening to my thesis anxiety spiral haha",
+        "message_id": "msg_k_002_09"
+      },
+      {
+        "role": "assistant",
+        "content": "No worries at all! It sounds like you're making solid progress even if it doesn't always feel like it. Good luck with the experiment planning and that ML theory assignment.",
+        "message_id": "msg_k_002_10"
+      }
+    ],
+    "mentioned_entities": [
+      "dr_reeves",
+      "nlp_focus"
+    ],
+    "cross_space_refs": [
+      "courses"
+    ],
+    "summary": "Kai discusses finishing their literature review on low-resource NLP for under-represented languages and feeling overwhelmed about creating an experiment plan by November for Dr. Reeves. The conversation drifts from thesis planning to potential research pivots and lab dynamics.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_003",
+    "persona_id": "kai",
+    "space_id": "wellness",
+    "timestamp": "2025-10-20",
+    "depth_index": 3,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey so I've been thinking about how I'm doing overall this semester and honestly? like if I had to rate my wellbeing right now I'd say maybe 7 out of 10 which feels... surprisingly good?",
+        "message_id": "msg_k_003_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! A 7/10 is solid, especially during grad school. What do you think is contributing to that positive feeling?",
+        "message_id": "msg_k_003_02"
+      },
+      {
+        "role": "user",
+        "content": "I think it's a few things honestly. I've been climbing twice a week at Seattle Bouldering Project which has been SO good for my brain - like having something completely unrelated to NLP research where I can just focus on the wall in front of me, you know?",
+        "message_id": "msg_k_003_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Physical activity that gets you completely present can be such a mental reset. How's your sleep been with the regular climbing schedule?",
+        "message_id": "msg_k_003_04"
+      },
+      {
+        "role": "user",
+        "content": "actually pretty decent! I'm getting about 7 hours most nights which for me is like... functional human territory haha. I think the climbing helps tire me out in a good way so I'm not lying in bed thinking about thesis stuff at midnight",
+        "message_id": "msg_k_003_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Seven hours is a solid baseline, and it sounds like the climbing is helping with both physical and mental fatigue. What else is contributing to feeling good about the semester?",
+        "message_id": "msg_k_003_06"
+      },
+      {
+        "role": "user",
+        "content": "I mean there's still the whole ACL deadline looming in January and Reeves expecting me to have something ready, but like... I'm feeling more on top of things than I expected? the literature review is done and I'm not completely drowning in coursework. plus I've been actually seeing friends more - went to this board game night last week which was nice",
+        "message_id": "msg_k_003_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're finding a good balance between work and social connections. That board game night sounds like it was a nice break from the academic grind.",
+        "message_id": "msg_k_003_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah exactly! I think maybe I was worried I'd be more stressed by now but honestly I'm feeling good about the semester so far. like obviously there's still a ton of work ahead but I don't feel like I'm drowning which is... progress?",
+        "message_id": "msg_k_003_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Absolutely that's progress! Recognizing when things are going well is just as important as addressing problems. It sounds like you've found some good strategies that are working for you.",
+        "message_id": "msg_k_003_10"
+      }
+    ],
+    "mentioned_entities": [
+      "climbing",
+      "nlp_focus",
+      "acl_deadline",
+      "dr_reeves"
+    ],
+    "cross_space_refs": [
+      "social"
+    ],
+    "summary": "Kai reflects on feeling good about the semester so far, rating their wellbeing at 7/10. They discuss how regular climbing, decent sleep, and maintaining social connections are contributing to their positive outlook despite upcoming thesis pressures.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_004",
+    "persona_id": "kai",
+    "space_id": "social",
+    "timestamp": "2025-10-27",
+    "depth_index": 4,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so I'm trying to figure out costumes for this Halloween party next weekend and I'm completely blanking... like everyone in my weekly game night group is going and I don't want to show up looking like I put zero effort in",
+        "message_id": "msg_k_004_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Halloween costume stress is real! What kind of vibe is the party going for - more creative/funny or classic spooky? And do you want something you can put together easily or are you up for a DIY project?",
+        "message_id": "msg_k_004_02"
+      },
+      {
+        "role": "user",
+        "content": "honestly probably something easy because between thesis stuff and... well everything else I'm kind of stretched thin. my roommate Jess keeps telling me I need to get out more (she's in law school so she gets the whole academic stress thing) but then when I do make plans I stress about the time I'm not working",
+        "message_id": "msg_k_004_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's such a classic grad school catch-22. It sounds like Jess has good perspective on balancing things. For easy costumes - what about something you could pull from clothes you already have? Like a 'generic college student' or 'overworked grad student' could be pretty meta and funny.",
+        "message_id": "msg_k_004_04"
+      },
+      {
+        "role": "user",
+        "content": "haha okay that's actually not terrible... though honestly I've been trying to do more social stuff lately. like I started dating this person Alex who I met at the climbing gym and they're way better at the whole work-life balance thing than I am. makes me realize how much I've been in my own head about everything",
+        "message_id": "msg_k_004_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome that you're dating someone who models good balance! Climbers tend to be pretty grounded people. It's funny how being around someone with different habits can make you more aware of your own patterns. Are they going to the Halloween party too?",
+        "message_id": "msg_k_004_06"
+      },
+      {
+        "role": "user",
+        "content": "yeah they might come! which is another reason I don't want to look completely ridiculous... but also like, our grad school friends are pretty chill. we do game night every week and nobody really cares about appearances that much. I think I'm overthinking this costume thing the same way I overthink everything else lately",
+        "message_id": "msg_k_004_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you have a really solid friend group if you're doing weekly game nights - that's actually pretty impressive consistency for grad students! And you're probably right that you're overthinking it. What games do you all usually play?",
+        "message_id": "msg_k_004_08"
+      },
+      {
+        "role": "user",
+        "content": "oh we rotate between like Catan, Wingspan, sometimes Codenames... actually that reminds me I should probably check if anyone wants to do a group costume theme. might be easier than trying to come up with something solo. plus then if I look ridiculous at least we all look ridiculous together",
+        "message_id": "msg_k_004_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Group costumes are such a great idea! Way less pressure on any individual person and usually more fun. Board game characters could actually work really well - like everyone picks a different game piece or something. Sounds like you've got this figured out!",
+        "message_id": "msg_k_004_10"
+      }
+    ],
+    "mentioned_entities": [
+      "jess",
+      "climbing"
+    ],
+    "cross_space_refs": [
+      "wellness"
+    ],
+    "summary": "Kai discusses Halloween party costume planning with grad school friends, mentioning their weekly game night group, roommate Jess's advice about work-life balance, and their new relationship with Alex from the climbing gym. The conversation drifts from costume stress to social dynamics and overthinking patterns.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_005",
+    "persona_id": "kai",
+    "space_id": "career_prep",
+    "timestamp": "2025-11-03",
+    "depth_index": 5,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so I finally did it - updated my resume for ML engineer roles and sent out applications to Google, Anthropic, and Cohere. feels weird to be officially job hunting while still in grad school but here we are",
+        "message_id": "msg_k_005_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a big step! How are you feeling about making that transition from academic research to industry roles? What made you focus on those three companies specifically?",
+        "message_id": "msg_k_005_02"
+      },
+      {
+        "role": "user",
+        "content": "honestly it feels like I'm living a double life right now? like I'm still supposed to be working on my thesis and the ACL paper deadline is coming up in January, but I also know I need to get my applications in early. Google and Anthropic are obvious choices for NLP work, and Cohere is doing some really interesting stuff with language models",
+        "message_id": "msg_k_005_03"
+      },
+      {
+        "role": "assistant",
+        "content": "The timing does sound tricky with the ACL deadline looming. Have you had a chance to discuss your industry plans with Dr. Reeves, or are you keeping that separate for now?",
+        "message_id": "msg_k_005_04"
+      },
+      {
+        "role": "user",
+        "content": "ugh no I haven't told Reeves yet and I'm kind of dreading it. Preethi mentioned that he takes it personally when students leave for industry, and he's been assuming I'll do a PhD after my MS. I completely overhauled my LinkedIn profile too which feels like another step toward making this real, but I'm worried about him seeing it",
+        "message_id": "msg_k_005_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a tough position to be in. It sounds like you're torn between not wanting to disappoint your advisor and pursuing what feels right for your career. What's your plan for eventually having that conversation with him?",
+        "message_id": "msg_k_005_06"
+      },
+      {
+        "role": "user",
+        "content": "I think maybe I'll wait until I hear back from some of these applications? like it feels less hypothetical if I actually have an offer in hand. but then again that might make it worse because it'll seem like I was hiding it. I don't know, the whole thing is stressing me out but I also feel good about taking action on the job search",
+        "message_id": "msg_k_005_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It makes sense that you'd want to have concrete options before that conversation. At least you're being proactive about your career path, even if the timing with your advisor feels complicated. How long do you think you'll wait before deciding when to tell him?",
+        "message_id": "msg_k_005_08"
+      },
+      {
+        "role": "user",
+        "content": "probably by the end of November? I figure I should hear back from at least one of these companies by then, and if not then I'll know I need to apply to more places. plus the longer I wait the weirder it gets, especially with the ACL deadline coming up. he's going to want to know if I'm committed to getting that paper submitted",
+        "message_id": "msg_k_005_09"
+      }
+    ],
+    "mentioned_entities": [
+      "google",
+      "acl_2026",
+      "dr_reeves",
+      "preethi",
+      "acl_deadline"
+    ],
+    "cross_space_refs": [
+      "research"
+    ],
+    "summary": "Kai discusses sending out job applications to three major AI companies while struggling with how to tell their advisor Dr. Reeves about their industry plans. They feel conflicted about pursuing industry roles while still working on their thesis and ACL paper deadline.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_006",
+    "persona_id": "kai",
+    "space_id": "courses",
+    "timestamp": "2025-11-17",
+    "depth_index": 6,
+    "messages": [
+      {
+        "role": "user",
+        "content": "Just got my Advanced NLP midterm back and honestly feeling pretty good about it - scored 88% which is way better than I was expecting",
+        "message_id": "msg_k_006_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great score! Sounds like your preparation paid off. How did you feel about the exam content when you were taking it?",
+        "message_id": "msg_k_006_02"
+      },
+      {
+        "role": "user",
+        "content": "The transformer architecture questions were tricky but manageable. I think working on that group project with Preethi has actually been helping - we've been diving deep into attention mechanisms and it's starting to click",
+        "message_id": "msg_k_006_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's awesome that the group project is reinforcing the concepts! It sounds like you and Preethi make a good team. How's the project itself progressing?",
+        "message_id": "msg_k_006_04"
+      },
+      {
+        "role": "user",
+        "content": "Yeah it's going really well actually. We're both pretty organized and our schedules align well for meeting up. Way better than some of the horror stories I've heard about group work",
+        "message_id": "msg_k_006_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Good group dynamics can make such a difference! Are you working on anything else interesting in your courses right now?",
+        "message_id": "msg_k_006_06"
+      },
+      {
+        "role": "user",
+        "content": "I've got this Ethics in AI paper due soon that I'm actually excited about. Decided to focus on bias in LLMs - feels super relevant given everything that's happening in the field right now",
+        "message_id": "msg_k_006_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a really timely and important topic. Have you found any particular aspects of LLM bias that you want to focus on, or are you taking a broader approach?",
+        "message_id": "msg_k_006_08"
+      },
+      {
+        "role": "user",
+        "content": "I'm thinking of looking at how training data composition affects representation of different groups, maybe with some case studies. There's so much research coming out on this stuff it's hard to keep up but also really fascinating",
+        "message_id": "msg_k_006_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a solid approach - training data bias is such a foundational issue. The case study angle should make it concrete and engaging too. Good luck with the writing!",
+        "message_id": "msg_k_006_10"
+      }
+    ],
+    "mentioned_entities": [
+      "nlp_focus",
+      "preethi"
+    ],
+    "cross_space_refs": [],
+    "summary": "Kai shares excitement about scoring 88% on their Advanced NLP midterm and discusses how their group project with Preethi is going well. They also mention working on an Ethics in AI paper about bias in LLMs, focusing on training data composition effects.",
+    "fact_count": 3
+  },
+  {
+    "conversation_id": "conv_k_007",
+    "persona_id": "kai",
+    "space_id": "research",
+    "timestamp": "2025-11-24",
+    "depth_index": 7,
+    "messages": [
+      {
+        "role": "user",
+        "content": "ugh so I just had my advisor meeting with Reeves and... I'm kind of spiraling a bit? Like he's really pushing for me to submit to ACL 2026 and I know the deadline is January 15th which is honestly not that far away and I haven't even finished setting up my experiments yet",
+        "message_id": "msg_k_007_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That does sound stressful - January 15th is less than two months away. What stage are your experiments at right now?",
+        "message_id": "msg_k_007_02"
+      },
+      {
+        "role": "user",
+        "content": "I literally just started the experiment setup yesterday... I'm working with this Yoruba-English dataset which is exciting but also terrifying because low-resource NLP is hard and there's so much that could go wrong. The training is gonna take forever and what if the results suck?",
+        "message_id": "msg_k_007_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Starting with a Yoruba-English dataset sounds like important work for under-resourced languages. Two months is tight but not impossible for getting initial results. What's making you feel most anxious about it?",
+        "message_id": "msg_k_007_04"
+      },
+      {
+        "role": "user",
+        "content": "honestly it's not just the timeline... Reeves keeps hinting that I should do a PhD after my MS and like, he's not wrong that this research could be really impactful but I've been applying to industry jobs (which he doesn't know about) and I'm just... I don't know if I want to commit to 5 more years of this stress",
+        "message_id": "msg_k_007_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a really tough position - feeling pressure to pursue a path you're not sure about while keeping your other options private. Have you thought about how you might approach that conversation with Dr. Reeves eventually?",
+        "message_id": "msg_k_007_06"
+      },
+      {
+        "role": "user",
+        "content": "god no I'm terrified to tell him... Preethi mentioned that he takes it kind of personally when students leave for industry and I really don't want to disappoint him. But also like, I need to figure out what I actually want? Maybe I should just focus on getting this ACL paper done first and deal with the career stuff later",
+        "message_id": "msg_k_007_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It makes sense to focus on one major challenge at a time. Getting solid experimental results for ACL could actually help clarify your feelings about research too - you might discover whether you enjoy the process enough to want to continue with a PhD.",
+        "message_id": "msg_k_007_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah that's... actually a really good point. Maybe I'm overthinking this whole thing (shocking, I know). I should probably just dive into the Yoruba-English experiments and see what happens. Worst case scenario the paper gets rejected and I learn something, right?",
+        "message_id": "msg_k_007_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Exactly - even if ACL doesn't work out, you'll have valuable experience with low-resource NLP and a clearer sense of whether research energizes you or drains you. That's useful information either way.",
+        "message_id": "msg_k_007_10"
+      }
+    ],
+    "mentioned_entities": [
+      "dr_reeves",
+      "acl_2026",
+      "acl_deadline",
+      "preethi"
+    ],
+    "cross_space_refs": [
+      "career_prep"
+    ],
+    "summary": "Kai feels overwhelmed by Dr. Reeves pushing for an ACL 2026 submission with a January deadline while secretly applying to industry jobs. They're just starting experiments with a Yoruba-English dataset and worried about disappointing their advisor who hints at PhD expectations.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_008",
+    "persona_id": "kai",
+    "space_id": "social",
+    "timestamp": "2025-12-01",
+    "depth_index": 8,
+    "messages": [
+      {
+        "role": "user",
+        "content": "ugh I bailed on game night again last night... that's like the second time in a row now? maybe third? I'm losing track honestly",
+        "message_id": "msg_k_008_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds frustrating. What's been making it hard to show up lately?",
+        "message_id": "msg_k_008_02"
+      },
+      {
+        "role": "user",
+        "content": "I don't know, just... everything feels like too much right now? Like I keep making plans and then when the time comes I just can't. Plus things with Alex didn't work out so that whole situation is just awkward now",
+        "message_id": "msg_k_008_03"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry about things with Alex. It makes sense that you'd need some space to process that. Are your friends understanding about you needing to step back?",
+        "message_id": "msg_k_008_04"
+      },
+      {
+        "role": "user",
+        "content": "I think so? I mean I haven't really explained what's going on... I just keep saying I'm busy with school stuff which isn't totally wrong but also isn't the whole story. And now I'm realizing I've been cancelling on other stuff too, not just game night",
+        "message_id": "msg_k_008_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're dealing with a lot right now. Sometimes pulling back socially can be a way of coping with stress, but it can also make things feel more isolating. What feels most manageable for you?",
+        "message_id": "msg_k_008_06"
+      },
+      {
+        "role": "user",
+        "content": "honestly I don't know... but I do need to figure something out because Jess's birthday is coming up and I can't bail on that. she's been such a good roommate and friend, especially lately when I've been kind of a mess. I should probably plan something nice for her",
+        "message_id": "msg_k_008_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a really thoughtful way to reconnect. Planning something for Jess could be a good step back into social situations at your own pace. Do you have any ideas for what she might enjoy?",
+        "message_id": "msg_k_008_08"
+      },
+      {
+        "role": "user",
+        "content": "maybe something low-key? she's always stressed about law school so probably not a big party... I was thinking maybe just a nice dinner or something we could do at home. I need to ask around and see when people are free but without making it obvious it's for her birthday",
+        "message_id": "msg_k_008_09"
+      },
+      {
+        "role": "assistant",
+        "content": "A low-key celebration sounds perfect, especially if she's been stressed. Planning something thoughtful like that might also help you feel more connected to your friend group again, even if you start small.",
+        "message_id": "msg_k_008_10"
+      }
+    ],
+    "mentioned_entities": [
+      "jess"
+    ],
+    "cross_space_refs": [
+      "wellness"
+    ],
+    "summary": "Kai discusses feeling overwhelmed and cancelling social plans repeatedly, including missing game night for the second time in a row. Things with Alex didn't work out, and Kai has been withdrawing socially but wants to plan something special for roommate Jess's upcoming birthday.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_009",
+    "persona_id": "kai",
+    "space_id": "research",
+    "timestamp": "2025-12-08",
+    "depth_index": 9,
+    "messages": [
+      {
+        "role": "user",
+        "content": "ugh finally got the first experiment results back and they're... not great. F1 of 0.72 when I was targeting 0.78. Three weeks of compute time for this",
+        "message_id": "msg_k_009_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's frustrating after waiting so long for results. What was your baseline expectation going into this experiment?",
+        "message_id": "msg_k_009_02"
+      },
+      {
+        "role": "user",
+        "content": "I mean, 0.78 was probably optimistic but I thought I'd at least hit 0.75? The whole approach felt solid when I was designing it. Had my meeting with Reeves yesterday and he said the results are 'promising but need work' which is basically academic speak for 'meh'",
+        "message_id": "msg_k_009_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Academic advisor feedback can be diplomatically vague. Did he suggest any specific directions for improvement?",
+        "message_id": "msg_k_009_04"
+      },
+      {
+        "role": "user",
+        "content": "yeah he wants me to try data augmentation next. which makes sense I guess but honestly I'm just... tired? like this whole process is so slow and I keep second-guessing everything. maybe I'm not cut out for research (sorry, having a moment here)",
+        "message_id": "msg_k_009_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Research can be really mentally taxing, especially when results don't match expectations. Are you getting support outside of work to help process the stress?",
+        "message_id": "msg_k_009_06"
+      },
+      {
+        "role": "user",
+        "content": "not really tbh. I've been kind of isolating lately which probably isn't helping. Jess keeps asking if I want to hang out but I just feel like I need to be working all the time, you know? even though clearly working more hours isn't translating to better results",
+        "message_id": "msg_k_009_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're in a cycle where the pressure is making it harder to think clearly about the research itself. Sometimes stepping back can actually help with problem-solving.",
+        "message_id": "msg_k_009_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah you're probably right. maybe I should actually take Jess up on that game night invitation instead of staring at these disappointing numbers all evening. the data augmentation experiments can wait until tomorrow I guess",
+        "message_id": "msg_k_009_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a good plan. Sometimes the best thing you can do for your research is give your brain a break from it.",
+        "message_id": "msg_k_009_10"
+      }
+    ],
+    "mentioned_entities": [
+      "f1_score_final",
+      "dr_reeves",
+      "jess"
+    ],
+    "cross_space_refs": [
+      "wellness"
+    ],
+    "summary": "Kai shares disappointing first experiment results (F1=0.72 vs target 0.78) after three weeks of compute time. Dr. Reeves called the results 'promising but need work' and suggested data augmentation, but Kai is feeling frustrated and has been isolating from social activities.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_010",
+    "persona_id": "kai",
+    "space_id": "wellness",
+    "timestamp": "2025-12-15",
+    "depth_index": 10,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey so I've been thinking about this whole wellness check-in thing and honestly? I'm probably at like a 4 out of 10 right now. maybe lower. I don't know, everything feels kind of... off?",
+        "message_id": "msg_k_010_01"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm sorry to hear you're struggling. A 4/10 sounds really tough. What's been contributing to feeling off lately?",
+        "message_id": "msg_k_010_02"
+      },
+      {
+        "role": "user",
+        "content": "it's like... okay so I used to go climbing twice a week, right? and I just completely stopped. haven't been to the gym in like three weeks. and my sleep is absolutely destroyed - I'm getting maybe 5 hours a night if I'm lucky. mostly I'm just staring at screens all day, probably 14 hours easy between research stuff and just mindless scrolling",
+        "message_id": "msg_k_010_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds exhausting - the combination of poor sleep and excessive screen time can really compound stress. What's been keeping you from climbing? That seemed like something you really enjoyed.",
+        "message_id": "msg_k_010_04"
+      },
+      {
+        "role": "user",
+        "content": "I think I just... I don't know, I feel like such a fraud right now? like everyone in the lab is doing these amazing things and I'm over here struggling with basic experiments. my F1 scores are garbage, the ACL deadline is looming, and I keep thinking maybe I don't actually belong in grad school at all. the imposter syndrome is hitting HARD",
+        "message_id": "msg_k_010_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Imposter syndrome can be really overwhelming, especially when you're dealing with research challenges and deadlines. It sounds like you're being really hard on yourself. Have you been able to talk to anyone about how you're feeling?",
+        "message_id": "msg_k_010_06"
+      },
+      {
+        "role": "user",
+        "content": "not really... Jess has been asking if I'm okay because I've been basically hiding in my room, but I don't want to dump all this on her. and I definitely can't tell Reeves that I'm questioning everything when he's expecting me to have this paper ready. it's like I'm stuck in this weird spiral where the worse I feel, the more I isolate, and then I feel worse because I'm isolating",
+        "message_id": "msg_k_010_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That isolation spiral is really common but so difficult to break out of. It sounds like you're carrying a lot alone right now. Even small steps like reaching out to Jess or getting back to climbing once might help interrupt that cycle. Have you considered talking to someone at the university counseling center?",
+        "message_id": "msg_k_010_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah maybe... I keep telling myself I should but then I think 'what am I even going to say? that I can't handle grad school like everyone else?' ugh this is so stupid. I used to be fine, like back in October I was actually doing okay, climbing regularly, felt pretty good about things. now I'm just... this",
+        "message_id": "msg_k_010_09"
+      },
+      {
+        "role": "assistant",
+        "content": "You're not stupid at all - what you're describing sounds like a really natural response to intense academic pressure and major life decisions. The fact that you were doing well in October shows this isn't permanent. Sometimes reaching out for support is exactly what helps us get back to that better place.",
+        "message_id": "msg_k_010_10"
+      }
+    ],
+    "mentioned_entities": [
+      "jess",
+      "dr_reeves",
+      "acl_deadline",
+      "university_counseling",
+      "climbing",
+      "f1_score_final"
+    ],
+    "cross_space_refs": [
+      "research",
+      "social"
+    ],
+    "summary": "Kai opens up about their declining mental health, rating their wellbeing at 4/10. They discuss stopping climbing, sleeping only 5 hours, excessive screen time, and intense imposter syndrome related to research struggles and the upcoming ACL deadline.",
+    "fact_count": 5
+  },
+  {
+    "conversation_id": "conv_k_011",
+    "persona_id": "kai",
+    "space_id": "career_prep",
+    "timestamp": "2026-01-05",
+    "depth_index": 11,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so update on the job hunt - I've now sent out 8 total applications which feels like a lot but also maybe not enough? anyway the good news is I got phone screens with Google and Cohere",
+        "message_id": "msg_k_011_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great progress! Getting phone screens with both Google and Cohere is a really positive sign. How did those conversations go?",
+        "message_id": "msg_k_011_02"
+      },
+      {
+        "role": "user",
+        "content": "the Cohere one was... okay I think? hard to tell honestly. but Google went really well and they're actually moving me to the on-site round which is exciting but also terrifying",
+        "message_id": "msg_k_011_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on making it to Google's on-site! That's a significant milestone. What's making you feel terrified about it?",
+        "message_id": "msg_k_011_04"
+      },
+      {
+        "role": "user",
+        "content": "well partly just the usual interview anxiety but also the timing is brutal. like I'm supposed to be cramming for this on-site while also trying to finish my thesis experiments and honestly the interview prep is eating into my thesis time in a major way",
+        "message_id": "msg_k_011_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a tough balance to strike. The competing priorities between thesis work and interview prep can be really stressful. Have you been able to set any boundaries around time allocation?",
+        "message_id": "msg_k_011_06"
+      },
+      {
+        "role": "user",
+        "content": "not really? I keep telling myself I'll just do a quick leetcode problem or review system design for like an hour but then it turns into three hours and suddenly I haven't touched my NLP experiments all day. it's like... I know the thesis should be priority but this Google opportunity feels too big to mess up",
+        "message_id": "msg_k_011_07"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're caught between two important opportunities, and both feel high-stakes right now. Have you considered creating a more structured schedule that explicitly blocks time for each priority?",
+        "message_id": "msg_k_011_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah I probably should do that. maybe like mornings for thesis work when my brain is fresh and afternoons for interview stuff? or wait actually that might be backwards since the coding problems require more mental energy... ugh I don't know, I just need to figure this out before I completely tank one or both of these things",
+        "message_id": "msg_k_011_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Both approaches could work - it really depends on when you personally feel most sharp for different types of work. Maybe try one schedule for a few days and see how it feels, then adjust if needed. You don't have to get it perfect right away.",
+        "message_id": "msg_k_011_10"
+      }
+    ],
+    "mentioned_entities": [
+      "google",
+      "nlp_focus"
+    ],
+    "cross_space_refs": [
+      "research"
+    ],
+    "summary": "Kai updates on job search progress, having sent 8 applications and received phone screens from Google and Cohere. Google is moving them to on-site interviews, but the interview preparation is significantly cutting into thesis work time, creating a stressful balance between competing priorities.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_012",
+    "persona_id": "kai",
+    "space_id": "wellness",
+    "timestamp": "2026-01-12",
+    "depth_index": 12,
+    "messages": [
+      {
+        "role": "user",
+        "content": "so I finally did it... started therapy through the university counseling center. first session was Tuesday and honestly? kinda overwhelming but also... needed?",
+        "message_id": "msg_k_012_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a big step, especially when you're already dealing with so much. How are you feeling about it overall?",
+        "message_id": "msg_k_012_02"
+      },
+      {
+        "role": "user",
+        "content": "mixed I guess? like on a scale of 1-10 I'm maybe at a 5 right now which is... better than December but still pretty rough. the therapist was nice though, didn't make me feel like I was broken or whatever",
+        "message_id": "msg_k_012_03"
+      },
+      {
+        "role": "assistant",
+        "content": "A 5 is progress from where you were. What kinds of things did you talk about in the session?",
+        "message_id": "msg_k_012_04"
+      },
+      {
+        "role": "user",
+        "content": "mostly about how I've been isolating myself... which was hard because I know it's true but hearing it out loud hit different. Jess actually brought this up to me last week too - she was really sweet about it, said she missed hanging out and was worried",
+        "message_id": "msg_k_012_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like Jess cares about you a lot. Having someone notice and reach out can be really meaningful, even when it's hard to hear.",
+        "message_id": "msg_k_012_06"
+      },
+      {
+        "role": "user",
+        "content": "yeah she's been amazing honestly. I felt so guilty because I've been such a terrible roommate and friend lately... skipping game nights, barely talking to anyone. but she just listened and didn't make me feel worse about it",
+        "message_id": "msg_k_012_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That guilt makes sense, but it sounds like Jess understands you're going through a tough time. Did the therapist have any suggestions for moving forward?",
+        "message_id": "msg_k_012_08"
+      },
+      {
+        "role": "user",
+        "content": "actually yeah - she suggested making structured social time non-negotiable, like scheduling it the same way I'd schedule a class or meeting. which sounds so clinical when I say it but... maybe that's what I need right now? like I can't trust myself to just 'feel like' being social",
+        "message_id": "msg_k_012_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That actually sounds really practical. When you're struggling, having that structure can take the decision-making pressure off and just make it happen automatically.",
+        "message_id": "msg_k_012_10"
+      },
+      {
+        "role": "user",
+        "content": "exactly! and honestly after talking to Jess I realized how much I miss just... normal conversations? not everything has to be about thesis stress or career stuff. sometimes I just want to complain about bad Netflix shows or whatever",
+        "message_id": "msg_k_012_11"
+      },
+      {
+        "role": "assistant",
+        "content": "Those lighter moments are so important for your mental health. It's good that you're recognizing what you're missing and taking steps to get it back.",
+        "message_id": "msg_k_012_12"
+      },
+      {
+        "role": "user",
+        "content": "thanks... I'm trying to be gentle with myself about this whole process. therapy feels like admitting defeat sometimes but I know that's not true. just gonna take it one session at a time I guess",
+        "message_id": "msg_k_012_13"
+      }
+    ],
+    "mentioned_entities": [
+      "university_counseling",
+      "jess"
+    ],
+    "cross_space_refs": [
+      "social"
+    ],
+    "summary": "Kai reflects on starting therapy through the university counseling center after a supportive conversation with roommate Jess about isolation. The therapist suggested structured social time as a strategy, and Kai is cautiously optimistic about the process.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_013",
+    "persona_id": "kai",
+    "space_id": "research",
+    "timestamp": "2026-01-15",
+    "depth_index": 13,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so we literally just hit submit on the ACL paper like 20 minutes ago... honestly not sure how I feel about it? like we made the deadline which is good but",
+        "message_id": "msg_k_013_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Sounds like you're having mixed feelings about it. What's making you uncertain?",
+        "message_id": "msg_k_013_02"
+      },
+      {
+        "role": "user",
+        "content": "well the results did improve from December - we got F1 up to 0.76 with the data augmentation stuff which is decent I guess. but the results section feels so rushed? like I wanted to do more analysis but we were literally writing until the last minute",
+        "message_id": "msg_k_013_03"
+      },
+      {
+        "role": "assistant",
+        "content": "0.76 is a solid improvement from where you were before. What kind of additional analysis were you hoping to include?",
+        "message_id": "msg_k_013_04"
+      },
+      {
+        "role": "user",
+        "content": "more error analysis, maybe some ablations on the augmentation techniques... actually wait no that's not totally fair, Reeves did help a lot with the writing in the final push. he's listed as co-author which makes sense since he basically rewrote the intro and related work sections",
+        "message_id": "msg_k_013_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It's good that you had that support from your advisor. Collaborative writing is pretty common in research papers. Are you worried the reviewers will notice the rushed feel?",
+        "message_id": "msg_k_013_06"
+      },
+      {
+        "role": "user",
+        "content": "maybe? I don't know, like the technical content is solid but I keep thinking about all the things we could have explored more deeply. plus I've been so stressed about this deadline that I completely neglected my coursework - have two assignments due this week that I haven't even started",
+        "message_id": "msg_k_013_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a tough balance - research deadlines vs coursework. Now that the paper is submitted, you can refocus on those assignments. How are you feeling about the whole experience overall?",
+        "message_id": "msg_k_013_08"
+      },
+      {
+        "role": "user",
+        "content": "honestly? relieved but also kind of empty? like we worked so hard to hit this deadline and now it's just... out there. and I keep second-guessing whether we should have waited for the next conference cycle to do it properly. but Reeves was pretty insistent about ACL 2026 so here we are",
+        "message_id": "msg_k_013_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That post-submission feeling is really common - the anticlimax after such intense work. Give yourself some credit for meeting a major deadline. What's next on your research timeline?",
+        "message_id": "msg_k_013_10"
+      },
+      {
+        "role": "user",
+        "content": "well now I need to focus on the thesis itself since that defense is coming up in May... and catch up on coursework obviously. just hoping this whole ACL submission was worth the stress you know?",
+        "message_id": "msg_k_013_11"
+      },
+      {
+        "role": "assistant",
+        "content": "Even if the paper doesn't get accepted, you've learned a lot about the submission process and pushed your research forward. That experience will definitely help with your thesis work.",
+        "message_id": "msg_k_013_12"
+      }
+    ],
+    "mentioned_entities": [
+      "acl_2026",
+      "acl_deadline",
+      "f1_score_final",
+      "dr_reeves",
+      "thesis_defense"
+    ],
+    "cross_space_refs": [
+      "courses"
+    ],
+    "summary": "Kai reflects on submitting their ACL paper on deadline, feeling mixed about the rushed results section despite improved F1 scores. They acknowledge Dr. Reeves' co-authorship and help with writing while expressing concern about neglected coursework.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_014",
+    "persona_id": "kai",
+    "space_id": "research",
+    "timestamp": "2026-02-02",
+    "depth_index": 14,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so I think I finally have something worth celebrating here... remember how I was stuck at F1=0.76 for the ACL submission? well I tried this new experiment with a cross-lingual transfer approach and it actually worked",
+        "message_id": "msg_k_014_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great news! What kind of improvement did you see with the cross-lingual transfer approach?",
+        "message_id": "msg_k_014_02"
+      },
+      {
+        "role": "user",
+        "content": "F1 improved to 0.81! like, that's actually above what Reeves was hoping for originally (he wanted 0.78 minimum). this is definitely going to be the main result for my thesis",
+        "message_id": "msg_k_014_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant jump from 0.76 to 0.81 - definitely thesis-worthy results! Are you planning to incorporate this into your current writing?",
+        "message_id": "msg_k_014_04"
+      },
+      {
+        "role": "user",
+        "content": "yeah exactly, I'm in the middle of writing chapters 3 and 4 right now and this gives me so much more confidence in the technical contribution. chapter 3 is the methodology and chapter 4 is results and analysis",
+        "message_id": "msg_k_014_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Sounds like you're making solid progress on the writing front too. How are you managing the writing process - doing it all yourself or getting feedback along the way?",
+        "message_id": "msg_k_014_06"
+      },
+      {
+        "role": "user",
+        "content": "oh Preethi has been amazing actually, she's helping with proofreading as I go. it's nice having someone else in the lab who gets the technical details but can also catch when I'm being unclear or too jargony",
+        "message_id": "msg_k_014_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Having a lab mate who can provide both technical and writing feedback is invaluable. It sounds like you're in a much better position now with these strong results and good support for the writing process.",
+        "message_id": "msg_k_014_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah honestly it feels like things are finally clicking together. like I was so stressed about whether I'd have enough for a solid thesis but now with 0.81 and this cross-lingual approach working... I think I actually have something meaningful to defend",
+        "message_id": "msg_k_014_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a great feeling to have! It sounds like all the hard work is paying off and you're building toward a strong thesis defense. The improvement from your earlier experiments to these results really shows your growth as a researcher.",
+        "message_id": "msg_k_014_10"
+      }
+    ],
+    "mentioned_entities": [
+      "f1_score_final",
+      "dr_reeves",
+      "preethi",
+      "acl_2026"
+    ],
+    "cross_space_refs": [],
+    "summary": "Kai shares exciting news about a breakthrough in their thesis research - a new cross-lingual transfer approach that improved their F1 score to 0.81, which exceeds their advisor's original target. They're currently writing chapters 3 and 4 of their thesis with help from lab mate Preethi for proofreading.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_015",
+    "persona_id": "kai",
+    "space_id": "career_prep",
+    "timestamp": "2026-02-10",
+    "depth_index": 15,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so... I just finished the Google on-site today and I'm kind of a mess right now. 5 rounds total and I think I did okay on 3 of them? the coding rounds felt pretty solid, behavioral was fine, but the system design one... ugh",
+        "message_id": "msg_k_015_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds exhausting! System design rounds can be really tricky even for experienced engineers. What specifically felt shaky about it?",
+        "message_id": "msg_k_015_02"
+      },
+      {
+        "role": "user",
+        "content": "I think I got too caught up in the details early on and didn't zoom out to the big picture fast enough? like they asked about designing a chat system and I immediately dove into database schemas instead of talking about the overall architecture first. the interviewer had to redirect me a couple times which... not great",
+        "message_id": "msg_k_015_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's actually a really common mistake, and the fact that you recognized it shows good self-awareness. Did you manage to cover the high-level design after the redirection?",
+        "message_id": "msg_k_015_04"
+      },
+      {
+        "role": "user",
+        "content": "yeah I think so? we talked through load balancing, caching, all that. but I'm just... ugh I hate not knowing. and the thing is Cohere moved me to the final round too so now I'm just sitting here waiting on both and my brain is going in circles. I literally can't focus on anything else right now",
+        "message_id": "msg_k_015_05"
+      },
+      {
+        "role": "assistant",
+        "content": "Having two final rounds pending would make anyone anxious! That's actually a great position to be in though - you have options. How are you handling the waiting period?",
+        "message_id": "msg_k_015_06"
+      },
+      {
+        "role": "user",
+        "content": "not well honestly. I keep refreshing my email every 5 minutes which is ridiculous because they said they'd get back to me by end of week. I should be working on my thesis but I can't concentrate on anything. might need to talk to my therapist about this because the anxiety is getting pretty bad",
+        "message_id": "msg_k_015_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Definitely sounds like a good idea to check in with your therapist. The combination of job interviews and thesis work is a lot of pressure. Maybe try setting specific times to check email instead of constantly refreshing?",
+        "message_id": "msg_k_015_08"
+      },
+      {
+        "role": "user",
+        "content": "yeah that's... probably smart. I think part of me is just so ready to be done with all this uncertainty you know? like whether it's Google or Cohere or someone else, I just want to know what's next. the waiting is killing me more than the actual interviews were",
+        "message_id": "msg_k_015_09"
+      }
+    ],
+    "mentioned_entities": [
+      "google",
+      "university_counseling"
+    ],
+    "cross_space_refs": [
+      "wellness"
+    ],
+    "summary": "Kai discusses completing their Google on-site interview, feeling confident about most rounds but worried about the system design portion. They're anxiously waiting for results from both Google and Cohere while struggling to focus on thesis work.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_016",
+    "persona_id": "kai",
+    "space_id": "social",
+    "timestamp": "2026-02-17",
+    "depth_index": 16,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so I actually went climbing yesterday for the first time in like... two months? felt good to get back on the wall even though my grip strength is basically nonexistent now",
+        "message_id": "msg_k_016_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great that you got back to climbing! Two months is a decent break - how did it feel overall? Just the grip strength that felt off or were you rusty in other ways too?",
+        "message_id": "msg_k_016_02"
+      },
+      {
+        "role": "user",
+        "content": "honestly everything felt rusty but in a weirdly satisfying way? like my body remembered the movements but had to relearn them. been trying to get back into social stuff more consistently - Jess and I are doing weekly dinners now which has been nice",
+        "message_id": "msg_k_016_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a really positive shift! Weekly dinners with your roommate is such a good way to build in regular social connection. How's that been working out with everything else you have going on?",
+        "message_id": "msg_k_016_04"
+      },
+      {
+        "role": "user",
+        "content": "yeah it's been good, we just cook something simple and catch up. also finally went back to game night last week - first time since like November I think? everyone was cool about it but I definitely felt weird just showing up again after ghosting for months",
+        "message_id": "msg_k_016_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It can feel awkward to re-engage after being away, but it sounds like your friends were understanding. That's a good sign that they care about you being there. What made you feel ready to go back to game night?",
+        "message_id": "msg_k_016_06"
+      },
+      {
+        "role": "user",
+        "content": "honestly my therapist has been pushing me to do more structured social stuff as like non-negotiable self care. which sounds cheesy but it's working I guess? speaking of social dynamics though, Preethi mentioned something kinda concerning about Reeves the other day",
+        "message_id": "msg_k_016_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Good that the therapy approach is helping! What did Preethi say about Reeves? That sounds like it might be weighing on you.",
+        "message_id": "msg_k_016_08"
+      },
+      {
+        "role": "user",
+        "content": "she said he takes it really personally when students leave for industry instead of staying in academia. like apparently he got pretty cold with this one student who took a job at Microsoft a couple years ago. which is... not great timing for me to hear that given everything",
+        "message_id": "msg_k_016_09"
+      },
+      {
+        "role": "assistant",
+        "content": "Oh wow, that timing is definitely not ideal. Are you feeling more pressure now about how to handle that conversation with him, or were you already worried about his reaction?",
+        "message_id": "msg_k_016_10"
+      },
+      {
+        "role": "user",
+        "content": "I mean I was already dreading it but now I'm like actively spiraling about it. like what if he stops supporting my thesis work if he finds out I'm interviewing? but also I can't just keep this secret forever especially if things work out with Google",
+        "message_id": "msg_k_016_11"
+      },
+      {
+        "role": "assistant",
+        "content": "That's such a tough position to be in. The uncertainty about his reaction versus needing to be honest about your plans. Have you thought about when or how you might bring it up, or are you still figuring that out?",
+        "message_id": "msg_k_016_12"
+      },
+      {
+        "role": "user",
+        "content": "honestly no idea. part of me thinks I should wait until I actually have an offer in hand but then part of me thinks that makes it worse? like hey surprise I've been lying to you for months. ugh anyway sorry this got heavy - was supposed to be talking about climbing and game nights",
+        "message_id": "msg_k_016_13"
+      },
+      {
+        "role": "assistant",
+        "content": "No need to apologize - these things are all connected anyway. It sounds like getting back into climbing and social stuff is helping you process some of the bigger stressful decisions. That's actually pretty healthy.",
+        "message_id": "msg_k_016_14"
+      }
+    ],
+    "mentioned_entities": [
+      "climbing",
+      "jess",
+      "preethi",
+      "dr_reeves",
+      "google",
+      "university_counseling"
+    ],
+    "cross_space_refs": [
+      "wellness",
+      "research"
+    ],
+    "summary": "Kai shares about returning to climbing after a two-month break and resuming social activities like game nights and weekly dinners with roommate Jess. The conversation shifts to concerns about advisor Dr. Reeves after Preethi warned that he takes industry departures personally, creating anxiety about revealing job applications.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_017",
+    "persona_id": "kai",
+    "space_id": "courses",
+    "timestamp": "2026-02-24",
+    "depth_index": 17,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey so I just got my grades back for winter quarter and honestly feeling pretty good about how things wrapped up academically at least",
+        "message_id": "msg_k_017_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! How did your courses go?",
+        "message_id": "msg_k_017_02"
+      },
+      {
+        "role": "user",
+        "content": "the Advanced NLP group project that Preethi and I worked on got submitted and we actually scored really well on it. like better than I expected given how stressed I was about everything else going on with thesis stuff and job interviews",
+        "message_id": "msg_k_017_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Nice work! It sounds like you and Preethi made a good team. What was the project on?",
+        "message_id": "msg_k_017_04"
+      },
+      {
+        "role": "user",
+        "content": "we did sentiment analysis on social media posts but with a focus on detecting implicit bias in the training data. actually ties into my ethics paper too - I wrote about LLM bias for the Ethics in AI class and got some really positive feedback from the prof on that one",
+        "message_id": "msg_k_017_05"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a really relevant topic right now. Sounds like your coursework is connecting well with your research interests too.",
+        "message_id": "msg_k_017_06"
+      },
+      {
+        "role": "user",
+        "content": "yeah exactly, and honestly I'm kind of relieved because spring quarter is going to be way different. I'm only taking 1 actual course since the rest is just thesis credits. which is both exciting and terrifying because it means I really need to focus on finishing up my research",
+        "message_id": "msg_k_017_07"
+      },
+      {
+        "role": "assistant",
+        "content": "That transition from coursework to full research focus can definitely feel like a big shift. How are you feeling about having that dedicated thesis time?",
+        "message_id": "msg_k_017_08"
+      },
+      {
+        "role": "user",
+        "content": "I mean it's what I need right now especially with everything that's been happening. the thesis defense is coming up in May and I've been making good progress on the experiments - got my F1 score up to 0.81 finally. but having just one course means I can really dive deep into writing chapters 3 and 4",
+        "message_id": "msg_k_017_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That F1 improvement sounds significant! It's good that you'll have the time to really focus on the writing phase. Are you feeling more confident about the May defense timeline?",
+        "message_id": "msg_k_017_10"
+      },
+      {
+        "role": "user",
+        "content": "honestly yeah I think I am. like the coursework ending on a high note definitely helps with confidence. and having fewer distractions from classes means I can put more energy into the research side of things which is where I really need to be right now",
+        "message_id": "msg_k_017_11"
+      }
+    ],
+    "mentioned_entities": [
+      "preethi",
+      "f1_score_final",
+      "thesis_defense"
+    ],
+    "cross_space_refs": [
+      "research"
+    ],
+    "summary": "Kai reflects on finishing winter quarter coursework successfully, including a well-received Advanced NLP group project with Preethi and positive feedback on an ethics paper about LLM bias. They're transitioning to spring quarter with only thesis credits and one course, allowing focus on research and thesis writing.",
+    "fact_count": 3
+  },
+  {
+    "conversation_id": "conv_k_018",
+    "persona_id": "kai",
+    "space_id": "research",
+    "timestamp": "2026-03-03",
+    "depth_index": 18,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so I finally finished the thesis draft and sent it to Reeves last week... honestly wasn't sure I'd make it but here we are",
+        "message_id": "msg_k_018_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a huge milestone! How are you feeling about it now that it's done? What was Reeves' initial reaction?",
+        "message_id": "msg_k_018_02"
+      },
+      {
+        "role": "user",
+        "content": "he got back to me pretty quickly actually - just minor comments on formatting and a few clarifications in chapter 4. nothing major which is... honestly a relief? I was expecting way more pushback",
+        "message_id": "msg_k_018_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That's great news! Minor comments usually mean the content is solid. Have you been able to schedule your defense date yet?",
+        "message_id": "msg_k_018_04"
+      },
+      {
+        "role": "user",
+        "content": "yeah we locked in May 12th for the defense. gives me about two months to prep and make the revisions. also means I can focus on other things now (like actually hearing back from companies lol)",
+        "message_id": "msg_k_018_05"
+      },
+      {
+        "role": "assistant",
+        "content": "May 12th sounds like good timing - not too rushed but not dragging it out either. Are you still waiting on the ACL reviews too?",
+        "message_id": "msg_k_018_06"
+      },
+      {
+        "role": "user",
+        "content": "ugh yes, ACL reviews are still pending. the waiting is honestly the worst part. I submitted in January and they said notifications would be mid-March so... any day now I guess",
+        "message_id": "msg_k_018_07"
+      },
+      {
+        "role": "assistant",
+        "content": "The ACL review timeline is always nerve-wracking. At least with the thesis draft done and defense scheduled, you've got the major pieces in place regardless of how the conference reviews go.",
+        "message_id": "msg_k_018_08"
+      },
+      {
+        "role": "user",
+        "content": "exactly, and honestly having the thesis wrapped up means I can actually think clearly about what comes next. the whole job search thing has been on the back burner for too long",
+        "message_id": "msg_k_018_09"
+      }
+    ],
+    "mentioned_entities": [
+      "dr_reeves",
+      "acl_2026",
+      "thesis_defense"
+    ],
+    "cross_space_refs": [
+      "career_prep"
+    ],
+    "summary": "Kai updates on completing their thesis draft, receiving minor feedback from Dr. Reeves, and confirming their defense date for May 12, 2026. They're still waiting on ACL reviews and can now focus on job search decisions.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_019",
+    "persona_id": "kai",
+    "space_id": "career_prep",
+    "timestamp": "2026-03-10",
+    "depth_index": 19,
+    "messages": [
+      {
+        "role": "user",
+        "content": "okay so... I got the Google offer. $165K base in Mountain View. And Cohere came back with $145K remote. I think I'm gonna take Google but god I'm so anxious about telling Reeves",
+        "message_id": "msg_k_019_01"
+      },
+      {
+        "role": "assistant",
+        "content": "Congratulations on both offers! That's a great outcome from your interview process. What's making you lean toward Google over the remote option?",
+        "message_id": "msg_k_019_02"
+      },
+      {
+        "role": "user",
+        "content": "honestly the money is part of it but also like... Google feels more legit? I know that's probably shallow but my parents will understand Google in a way they won't get Cohere. Plus Mountain View is expensive but it's where everything happens in ML right now",
+        "message_id": "msg_k_019_03"
+      },
+      {
+        "role": "assistant",
+        "content": "Those aren't shallow reasons at all - location and company recognition matter for career trajectory. But it sounds like telling Dr. Reeves is weighing on you more than the decision itself?",
+        "message_id": "msg_k_019_04"
+      },
+      {
+        "role": "user",
+        "content": "ugh yes. I keep putting it off and I know that's making it worse. Preethi warned me that he takes it personally when people leave for industry and like... he's been a good advisor, you know? I don't want him to think I'm just using the program as a stepping stone",
+        "message_id": "msg_k_019_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It's understandable to feel conflicted about disappointing someone who's invested in you. Have you thought about how you want to frame the conversation? Maybe focusing on what you've learned rather than what you're leaving behind?",
+        "message_id": "msg_k_019_06"
+      },
+      {
+        "role": "user",
+        "content": "maybe... I just keep spiraling about it. Like I finally got my thesis draft done and the defense is in May and now I have to have this awkward conversation about how I'm not doing a PhD. I've been losing sleep over it which is stupid because my therapist keeps telling me I can't control other people's reactions",
+        "message_id": "msg_k_019_07"
+      },
+      {
+        "role": "assistant",
+        "content": "Your therapist is right - you can only control how you approach the conversation, not how he responds. It sounds like you've accomplished a lot with your thesis despite juggling job applications. When are you thinking of having the conversation with Dr. Reeves?",
+        "message_id": "msg_k_019_08"
+      },
+      {
+        "role": "user",
+        "content": "I need to decide on Google by Friday so... probably tomorrow? I accepted mentally already I just need to make it official. And tell Reeves before I sign anything because that feels like the right thing to do even though I'm terrified",
+        "message_id": "msg_k_019_09"
+      },
+      {
+        "role": "assistant",
+        "content": "That timeline makes sense - giving him a heads up before you officially accept shows respect for your working relationship. You've got this, and remember that choosing industry doesn't diminish the value of what you've accomplished in your MS program.",
+        "message_id": "msg_k_019_10"
+      }
+    ],
+    "mentioned_entities": [
+      "google",
+      "google_salary",
+      "dr_reeves",
+      "preethi",
+      "university_counseling"
+    ],
+    "cross_space_refs": [
+      "research",
+      "wellness"
+    ],
+    "summary": "Kai shares receiving job offers from Google ($165K, Mountain View) and Cohere ($145K, remote), deciding to accept Google. The main anxiety centers on telling advisor Dr. Reeves about leaving academia for industry, with concerns about disappointing him despite completing thesis work.",
+    "fact_count": 4
+  },
+  {
+    "conversation_id": "conv_k_020",
+    "persona_id": "kai",
+    "space_id": "wellness",
+    "timestamp": "2026-03-17",
+    "depth_index": 20,
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, so I've been thinking about how much better I feel lately? like I'd honestly rate my wellbeing at 8/10 right now which is wild considering where I was in December",
+        "message_id": "msg_k_020_01"
+      },
+      {
+        "role": "assistant",
+        "content": "That's a significant improvement! What do you think has contributed most to feeling better?",
+        "message_id": "msg_k_020_02"
+      },
+      {
+        "role": "user",
+        "content": "honestly I think it's the clarity more than anything? like I finally told Reeves about the Google offer last week and it was awkward as hell but went okay. he was definitely disappointed but he agreed to write me a recommendation letter anyway",
+        "message_id": "msg_k_020_03"
+      },
+      {
+        "role": "assistant",
+        "content": "That must have been a tough conversation, but it sounds like it went better than expected. How did you approach telling him?",
+        "message_id": "msg_k_020_04"
+      },
+      {
+        "role": "user",
+        "content": "I basically just ripped the band-aid off and said I'd accepted an industry position. he got quiet for like 30 seconds which felt like forever, then asked if I was sure about not doing the PhD. when I said yes he just nodded and said he'd support whatever I decided",
+        "message_id": "msg_k_020_05"
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like he handled it professionally even if he was disappointed. How are you feeling about the industry decision now?",
+        "message_id": "msg_k_020_06"
+      },
+      {
+        "role": "user",
+        "content": "honestly? really good. like I have this clarity now that industry is the right call for me, at least for now. and I'm back to climbing twice a week again which feels amazing, plus I'm actually sleeping 7 hours most nights instead of the 4-5 I was getting during thesis crunch",
+        "message_id": "msg_k_020_07"
+      },
+      {
+        "role": "assistant",
+        "content": "The sleep and exercise routine returning is huge for wellbeing. It sounds like having that career decision made has lifted a weight off your shoulders.",
+        "message_id": "msg_k_020_08"
+      },
+      {
+        "role": "user",
+        "content": "exactly! and Jess noticed too, she said I seem way less stressed when I'm around the apartment. it's funny how much mental energy I was spending just on the uncertainty of what comes after graduation",
+        "message_id": "msg_k_020_09"
+      },
+      {
+        "role": "assistant",
+        "content": "It's great that your roommate has noticed the positive change too. How are you feeling about wrapping up your thesis now that the career path is settled?",
+        "message_id": "msg_k_020_10"
+      },
+      {
+        "role": "user",
+        "content": "way less pressure honestly. like I still want to do good work and defend well in May, but it's not this make-or-break thing anymore where my entire future depends on it. I can just focus on finishing strong without all the anxiety about what it means for my career",
+        "message_id": "msg_k_020_11"
+      }
+    ],
+    "mentioned_entities": [
+      "dr_reeves",
+      "google",
+      "jess",
+      "thesis_defense"
+    ],
+    "cross_space_refs": [
+      "research",
+      "career_prep",
+      "social"
+    ],
+    "summary": "Kai reflects on significantly improved wellbeing (8/10) after telling their advisor about accepting Google's offer and gaining clarity about choosing industry over academia. They've returned to regular climbing and better sleep habits.",
+    "fact_count": 5
+  }
+]

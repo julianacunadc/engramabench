@@ -1,0 +1,62 @@
+{
+  "conversation_id": "conv_d_014",
+  "persona_id": "diane",
+  "space_id": "finances",
+  "timestamp": "2026-02-10",
+  "depth_index": 14,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Okay so the bonus finally hit my account today. 12K pre-tax which comes out to... wait let me check... 8,400 net. Better than I expected honestly.",
+      "message_id": "msg_d_014_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great news! The net amount being higher than expected is always a nice surprise. Are you planning to allocate it toward any specific goals?",
+      "message_id": "msg_d_014_02"
+    },
+    {
+      "role": "user",
+      "content": "Yeah it's all going straight into the reno fund. We're at 34,000 so far on the kitchen and now Ramirez is telling me we need another 3,500 for some plumbing issue they found behind the wall. Actually no wait, let me be more precise - we've spent 34K total, not just paid Ramirez that much.",
+      "message_id": "msg_d_014_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Got it - so $34K total spending across all renovation costs. The additional $3,500 for unexpected plumbing work is frustrating but unfortunately pretty common when opening up walls. At least the bonus timing worked out well to help cover it.",
+      "message_id": "msg_d_014_04"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. I mean we budgeted for some overruns but this is getting expensive. The original quote was 38K and we're already almost there before they even finish. Thank god for MedBridge's bonus structure this year.",
+      "message_id": "msg_d_014_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're approaching the original budget faster than anticipated. With the $8,400 from your bonus going directly to the reno fund, that should help cushion the plumbing surprise. Are you still on track for the late March completion date?",
+      "message_id": "msg_d_014_06"
+    },
+    {
+      "role": "user",
+      "content": "That's the plan. The countertops are still backordered but Ramirez says they can work around that timeline. I just need this thing done - we've been eating takeout way too much and it's killing our food budget. Plus Kevin's getting tired of washing dishes in the bathroom sink.",
+      "message_id": "msg_d_014_07"
+    },
+    {
+      "role": "assistant",
+      "content": "The disruption to daily routines definitely adds hidden costs beyond the renovation itself. Having a functional kitchen back will probably save money pretty quickly once you can cook at home regularly again. Hopefully those countertops arrive on schedule!",
+      "message_id": "msg_d_014_08"
+    }
+  ],
+  "mentioned_entities": [
+    "bonus_amount",
+    "ramirez_bros",
+    "reno_quote",
+    "kevin_chen",
+    "medbridge_health"
+  ],
+  "cross_space_refs": [
+    "home",
+    "career"
+  ],
+  "summary": "Diane discusses her bonus arriving ($12K pre-tax, $8,400 net) and allocating it entirely to the kitchen renovation fund. The project has reached $34K in total spending with an additional $3,500 needed for unexpected plumbing work.",
+  "fact_count": 4
+}

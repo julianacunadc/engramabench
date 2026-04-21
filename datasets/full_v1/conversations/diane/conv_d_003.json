@@ -1,0 +1,73 @@
+{
+  "conversation_id": "conv_d_003",
+  "persona_id": "diane",
+  "space_id": "health",
+  "timestamp": "2025-10-20",
+  "depth_index": 3,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey, I'm trying to get my health routine locked down before the holidays hit. Can you help me think through what's working and what needs tweaking?",
+      "message_id": "msg_d_003_01"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely! What does your current routine look like? Let's start with the basics - exercise, sleep, and nutrition.",
+      "message_id": "msg_d_003_02"
+    },
+    {
+      "role": "user",
+      "content": "Exercise is solid - I'm running 3 times a week, doing 5K routes around the neighborhood. Takes about 30 minutes each time, usually Tuesday, Thursday, Saturday mornings before the kids wake up.",
+      "message_id": "msg_d_003_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a great consistent schedule. How are you feeling during and after those runs? And what about sleep - are you getting enough recovery time?",
+      "message_id": "msg_d_003_04"
+    },
+    {
+      "role": "user",
+      "content": "Sleep has actually been better lately. I'm averaging about 7 hours a night, which feels like a win with everything going on. The runs help me sleep deeper too.",
+      "message_id": "msg_d_003_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Seven hours is solid, especially with your schedule. What about nutrition? That's often the trickiest piece to manage consistently.",
+      "message_id": "msg_d_003_06"
+    },
+    {
+      "role": "user",
+      "content": "I've gotten into meal prepping on Sundays - batch cooking proteins and chopping vegetables. Makes weekday dinners so much faster when I'm not scrambling at 6pm. Plus I actually eat lunch now instead of just grabbing whatever.",
+      "message_id": "msg_d_003_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That Sunday prep strategy is smart - it removes so much daily decision fatigue. Sounds like you've built a really sustainable routine. Any upcoming health appointments or goals you're working toward?",
+      "message_id": "msg_d_003_08"
+    },
+    {
+      "role": "user",
+      "content": "My annual physical is coming up next month. First time in a while I'm actually looking forward to it instead of dreading it. No real concerns this year, which feels good.",
+      "message_id": "msg_d_003_09"
+    },
+    {
+      "role": "assistant",
+      "content": "That's such a good feeling - going into a checkup confident about your health habits. It sounds like you've found a rhythm that works even with a busy schedule. Any areas where you feel like you could optimize further?",
+      "message_id": "msg_d_003_10"
+    },
+    {
+      "role": "user",
+      "content": "Honestly, I think the key is just protecting this routine when things get chaotic. The holidays are coming, work might get intense, and I know how easy it is to let the good habits slide.",
+      "message_id": "msg_d_003_11"
+    },
+    {
+      "role": "assistant",
+      "content": "Smart to think ahead. Maybe identify which elements are non-negotiable versus which ones you could temporarily scale back if needed? That way you maintain momentum even during busy periods.",
+      "message_id": "msg_d_003_12"
+    }
+  ],
+  "mentioned_entities": [],
+  "cross_space_refs": [],
+  "summary": "Diane reviews her current health routine, highlighting consistent running 3x/week, improved sleep averaging 7 hours, and effective Sunday meal prepping. She's feeling confident heading into her upcoming annual physical with no health concerns.",
+  "fact_count": 4
+}

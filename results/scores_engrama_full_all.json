@@ -1,0 +1,55 @@
+{
+  "system": "engrama_full",
+  "variant": "full",
+  "scorer_version": "1.4.0",
+  "personas": {
+    "carlos": {
+      "single_space_f1": 0.5,
+      "cross_space_f1": 0.6991,
+      "temporal_cross_space_f1": 0.2313,
+      "adversarial_accuracy": 0.875,
+      "emergent_insight_score": 0.2889,
+      "composite_score": 0.5294
+    },
+    "diane": {
+      "single_space_f1": 0.7576,
+      "cross_space_f1": 0.5939,
+      "temporal_cross_space_f1": 0.219,
+      "adversarial_accuracy": 0.75,
+      "emergent_insight_score": 0.3344,
+      "composite_score": 0.5329
+    },
+    "kai": {
+      "single_space_f1": 0.6667,
+      "cross_space_f1": 0.6548,
+      "temporal_cross_space_f1": 0.3223,
+      "adversarial_accuracy": 0.625,
+      "emergent_insight_score": 0.2504,
+      "composite_score": 0.4928
+    },
+    "priya": {
+      "single_space_f1": 0.5,
+      "cross_space_f1": 0.5192,
+      "temporal_cross_space_f1": 0.3654,
+      "adversarial_accuracy": 1.0,
+      "emergent_insight_score": 0.3635,
+      "composite_score": 0.5716
+    },
+    "sam": {
+      "single_space_f1": 0.5741,
+      "cross_space_f1": 0.799,
+      "temporal_cross_space_f1": 0.4772,
+      "adversarial_accuracy": 0.75,
+      "emergent_insight_score": 0.2442,
+      "composite_score": 0.5569
+    }
+  },
+  "scores": {
+    "single_space_f1": 0.5997,
+    "cross_space_f1": 0.6532,
+    "temporal_cross_space_f1": 0.323,
+    "adversarial_accuracy": 0.8,
+    "emergent_insight_score": 0.2963,
+    "composite_score": 0.5367
+  }
+}

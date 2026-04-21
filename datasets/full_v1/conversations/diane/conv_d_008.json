@@ -1,0 +1,63 @@
+{
+  "conversation_id": "conv_d_008",
+  "persona_id": "diane",
+  "space_id": "home",
+  "timestamp": "2025-12-01",
+  "depth_index": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "So we officially pulled the trigger. Ramirez Bros got the contract and I wrote them a check for $11,400 yesterday - that's the 30% deposit to get things rolling.",
+      "message_id": "msg_d_008_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a big milestone! How are you feeling about moving forward with the renovation?",
+      "message_id": "msg_d_008_02"
+    },
+    {
+      "role": "user",
+      "content": "Honestly? Relief mixed with mild terror. The deposit hit our checking account hard but we knew this was coming. Kevin's been obsessing over countertop materials all weekend - I think he's looked at granite samples about fifty times.",
+      "message_id": "msg_d_008_03"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like Kevin's really invested in getting the details right. Have you two settled on a material yet?",
+      "message_id": "msg_d_008_04"
+    },
+    {
+      "role": "user",
+      "content": "Not yet, but he's narrowed it down to three options. I keep telling him we need to decide soon since construction starts January 6th. That gives us about five weeks to finalize everything.",
+      "message_id": "msg_d_008_05"
+    },
+    {
+      "role": "assistant",
+      "content": "January 6th will be here before you know it. Are you prepared for the disruption to your daily routine?",
+      "message_id": "msg_d_008_06"
+    },
+    {
+      "role": "user",
+      "content": "As prepared as anyone can be for living without a kitchen for two months, I guess. We're already eating out way more than usual just thinking about it - our food budget is probably going to be a disaster. But hey, at least we'll have a beautiful new kitchen when it's done.",
+      "message_id": "msg_d_008_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It'll definitely be worth it in the end. Having a timeline and contractor locked in should help reduce some of the uncertainty.",
+      "message_id": "msg_d_008_08"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. The unknowns were killing me more than the actual expense. Now I can mentally prepare for January chaos and start planning workarounds for meals and morning routines.",
+      "message_id": "msg_d_008_09"
+    }
+  ],
+  "mentioned_entities": [
+    "ramirez_bros",
+    "kevin_chen"
+  ],
+  "cross_space_refs": [
+    "finances"
+  ],
+  "summary": "Diane confirms that Ramirez Bros has been selected as the contractor for their kitchen renovation, with a $11,400 deposit paid and construction starting January 6th. Kevin is still researching countertop materials while Diane prepares mentally for the upcoming disruption.",
+  "fact_count": 4
+}

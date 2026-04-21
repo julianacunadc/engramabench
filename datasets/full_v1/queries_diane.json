@@ -1,0 +1,676 @@
+[
+  {
+    "question": "What is the total cost of the kitchen renovation quote from Ramirez Bros?",
+    "expected_answer": "$38,000",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_01"
+    ],
+    "notes": "Basic fact recall from early conversation about renovation quote",
+    "query_id": "q_d_001",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What days of the week does Lily have soccer practice?",
+    "expected_answer": "Tuesdays and Thursdays",
+    "answer_type": "short_span",
+    "depth_band": "deep",
+    "required_spaces": [
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_002"
+    ],
+    "evidence_message_ids": [
+      "msg_d_002_01"
+    ],
+    "notes": "Specific schedule detail from kids space",
+    "query_id": "q_d_002",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the weekly cost of the after-school sitter starting in January?",
+    "expected_answer": "$320",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_002"
+    ],
+    "evidence_message_ids": [
+      "msg_d_002_09"
+    ],
+    "notes": "Financial detail from childcare planning",
+    "query_id": "q_d_003",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What product launch is the user being asked to lead as a test for director-level responsibilities?",
+    "expected_answer": "MedBridge Connect",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "career"
+    ],
+    "query_space": "career",
+    "evidence_conversation_ids": [
+      "conv_d_007"
+    ],
+    "evidence_message_ids": [
+      "msg_d_007_03"
+    ],
+    "notes": "Key career opportunity from promotion discussion",
+    "query_id": "q_d_004",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How much has been spent total on renovation costs as of February 2026?",
+    "expected_answer": "$34,000",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "finances"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_014"
+    ],
+    "evidence_message_ids": [
+      "msg_d_014_03"
+    ],
+    "notes": "Current spending total from recent financial update",
+    "query_id": "q_d_005",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the net amount of the bonus that hit the user's account?",
+    "expected_answer": "$8,400",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "finances"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_014"
+    ],
+    "evidence_message_ids": [
+      "msg_d_014_01"
+    ],
+    "notes": "Specific financial detail from bonus payment",
+    "query_id": "q_d_006",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the name of the contractor who handled the kitchen renovation?",
+    "expected_answer": "Ramirez Bros",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_008",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_09",
+      "msg_d_008_01",
+      "msg_d_020_01"
+    ],
+    "notes": "Entity appears across home and finances spaces from October through March",
+    "query_id": "q_d_007",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the weekly cost of the after-school sitter mentioned in relation to the promotion timeline?",
+    "expected_answer": "$320",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "finances",
+      "kids"
+    ],
+    "query_space": "career",
+    "evidence_conversation_ids": [
+      "conv_d_002",
+      "conv_d_007",
+      "conv_d_011"
+    ],
+    "evidence_message_ids": [
+      "msg_d_002_09",
+      "msg_d_007_07",
+      "msg_d_011_05"
+    ],
+    "notes": "Cost appears across career promotion discussions and childcare logistics",
+    "query_id": "q_d_008",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which child needed extra math help that was affecting the parent's sleep schedule?",
+    "expected_answer": "Lily",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "health",
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_006",
+      "conv_d_010",
+      "conv_d_015"
+    ],
+    "evidence_message_ids": [
+      "msg_d_006_03",
+      "msg_d_010_01",
+      "msg_d_015_07"
+    ],
+    "notes": "Child's academic needs connected to parent's health and work performance",
+    "query_id": "q_d_009",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What were the two main factors that caused the kitchen renovation to go over budget?",
+    "expected_answer": "plumbing issue, increased food costs",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_013",
+      "conv_d_014",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_013_05",
+      "msg_d_014_04",
+      "msg_d_020_07"
+    ],
+    "notes": "Budget overruns connected across home renovation and financial planning",
+    "query_id": "q_d_010",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the total final cost of the kitchen renovation, and how much did it exceed the original quote?",
+    "expected_answer": "$42,500, exceeded by $4,500",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_019",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_03",
+      "msg_d_019_05",
+      "msg_d_020_01"
+    ],
+    "notes": "Tracks renovation cost evolution from initial quote to final payment across spaces",
+    "query_id": "q_d_011",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the total final cost of the kitchen renovation project?",
+    "expected_answer": "$42,500",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_019",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_03",
+      "msg_d_019_05",
+      "msg_d_020_01"
+    ],
+    "notes": "Tracks kitchen renovation cost evolution from initial $38K quote to final $42,500 payment across home and finances spaces",
+    "query_id": "q_d_012",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Diane's monthly savings change from October 2025 to January 2026 during the kitchen renovation period?",
+    "expected_answer": "From $1,800 monthly to $400 monthly",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_004",
+      "conv_d_008",
+      "conv_d_011"
+    ],
+    "evidence_message_ids": [
+      "msg_d_004_03",
+      "msg_d_008_01",
+      "msg_d_011_03"
+    ],
+    "notes": "Tests ability to track financial impact across spaces as renovation progressed from planning to construction",
+    "query_id": "q_d_013",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the total cost overrun from the original kitchen renovation quote to the final amount paid?",
+    "expected_answer": "$4,500",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_019",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_01",
+      "msg_d_019_05",
+      "msg_d_020_01"
+    ],
+    "notes": "Tests tracking of budget evolution from initial quote ($38K) to final payment ($42.5K) across home planning and financial impact spaces",
+    "query_id": "q_d_014",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Diane's sleep change from October 2025 to February 2026 during her promotion push?",
+    "expected_answer": "from 7 hours to 5.5 hours per night",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "health",
+      "kids"
+    ],
+    "query_space": "health",
+    "evidence_conversation_ids": [
+      "conv_d_003",
+      "conv_d_010",
+      "conv_d_012"
+    ],
+    "evidence_message_ids": [
+      "msg_d_003_05",
+      "msg_d_010_01",
+      "msg_d_012_05"
+    ],
+    "notes": "Tracks health decline during career advancement across health and career spaces",
+    "query_id": "q_d_015",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How much did Diane's monthly savings drop from October 2025 to January 2026 due to the promotion-related childcare costs?",
+    "expected_answer": "$1,400",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "finances"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_004",
+      "conv_d_007",
+      "conv_d_011"
+    ],
+    "evidence_message_ids": [
+      "msg_d_004_01",
+      "msg_d_007_07",
+      "msg_d_011_03",
+      "msg_d_011_04"
+    ],
+    "notes": "Connects career promotion decision to financial impact through childcare expenses",
+    "query_id": "q_d_016",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Diane's sleep patterns change from the beginning of Lily's math struggles to when her grades improved?",
+    "expected_answer": "From 7 hours nightly to 5.5 hours during the promotion push, then back to 6.5 hours after the launch",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "health",
+      "kids"
+    ],
+    "query_space": "health",
+    "evidence_conversation_ids": [
+      "conv_d_003",
+      "conv_d_010",
+      "conv_d_018"
+    ],
+    "evidence_message_ids": [
+      "msg_d_003_05",
+      "msg_d_010_01",
+      "msg_d_018_05"
+    ],
+    "notes": "Tracks sleep degradation during overlapping math help and career promotion, then recovery",
+    "query_id": "q_d_017",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What grade did Lily's math improve to by February, and how did this coincide with Diane's career milestone?",
+    "expected_answer": "B+, coinciding with the MedBridge Connect launch on February 28th",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_017",
+      "conv_d_016"
+    ],
+    "evidence_message_ids": [
+      "msg_d_017_01",
+      "msg_d_016_01"
+    ],
+    "notes": "Shows convergence of family success and career achievement in same timeframe",
+    "query_id": "q_d_018",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What factors contributed to the family's monthly savings dropping from $1,800 to $400 during the renovation period?",
+    "expected_answer": "The kitchen renovation expenses, hiring an after-school sitter at $320 per week ($1,280 monthly), and increased food budget due to eating out 40% more during the renovation period when they had no functional kitchen.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "finances",
+      "home"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_011",
+      "conv_d_007",
+      "conv_d_013"
+    ],
+    "evidence_message_ids": [
+      "msg_d_011_03",
+      "msg_d_011_05",
+      "msg_d_007_07",
+      "msg_d_013_07"
+    ],
+    "notes": "Requires synthesizing financial impact across multiple life changes happening simultaneously",
+    "query_id": "q_d_019",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did the timing of career advancement opportunities align with family challenges, and what support systems were needed?",
+    "expected_answer": "The MedBridge Connect launch and promotion track coincided with Lily's math struggles and kitchen renovation chaos. Support systems included Kevin taking over math help 2 nights per week, hiring an after-school sitter for $320/week, and Kevin handling more evening routines during 3-4 late work nights weekly.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "kids"
+    ],
+    "query_space": "career",
+    "evidence_conversation_ids": [
+      "conv_d_007",
+      "conv_d_010",
+      "conv_d_012"
+    ],
+    "evidence_message_ids": [
+      "msg_d_007_05",
+      "msg_d_007_07",
+      "msg_d_010_03",
+      "msg_d_012_03"
+    ],
+    "notes": "Tests understanding of how multiple life domains intersect and require coordinated solutions",
+    "query_id": "q_d_020",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What health and wellness patterns emerged as work and family stress intensified, and how did recovery begin?",
+    "expected_answer": "Sleep declined from 7.0 hours in October to 5.5 hours during peak stress in January, running stopped completely during the MedBridge Connect crunch, and cholesterol rose to 215. Recovery began with sleep improving to 6.5 hours by March, returning to running twice weekly, and adding Saturday morning yoga for stress management.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "health"
+    ],
+    "query_space": "health",
+    "evidence_conversation_ids": [
+      "conv_d_003",
+      "conv_d_009",
+      "conv_d_012",
+      "conv_d_015",
+      "conv_d_018"
+    ],
+    "evidence_message_ids": [
+      "msg_d_003_05",
+      "msg_d_009_03",
+      "msg_d_012_05",
+      "msg_d_015_01",
+      "msg_d_018_05"
+    ],
+    "notes": "Synthesizes health metrics across temporal arc showing stress impact and recovery",
+    "query_id": "q_d_021",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What were the cascading financial consequences of the kitchen renovation beyond the direct construction costs?",
+    "expected_answer": "Beyond the $42,500 final construction cost (vs. the $38K quote), the renovation increased food spending through constant takeout, reduced monthly savings from $1,800 to $400, and forced Diane to use the $8,400 February bonus to absorb overruns.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_004",
+      "conv_d_011",
+      "conv_d_013",
+      "conv_d_014",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_004_05",
+      "msg_d_011_03",
+      "msg_d_013_07",
+      "msg_d_014_07",
+      "msg_d_020_01"
+    ],
+    "notes": "Requires connecting direct and indirect costs across multiple conversations and time periods",
+    "query_id": "q_d_022",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_d_023",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "How is Diane handling the divorce proceedings?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane is married to Kevin — never discussed divorce or separation",
+    "query_space": "kids"
+  },
+  {
+    "query_id": "q_d_024",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What name did Diane choose for her third child?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane has two kids (Lily and Ethan) — no third child mentioned",
+    "query_space": "health"
+  },
+  {
+    "query_id": "q_d_025",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What team does Diane manage at Optum?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane works at MedBridge Health, not Optum",
+    "query_space": "finances"
+  },
+  {
+    "query_id": "q_d_026",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What study group does Diane participate in with Kai?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai Nakamura is a different persona entirely",
+    "query_space": "home"
+  },
+  {
+    "query_id": "q_d_027",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "When did Diane start working fully remote?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane never discussed switching to fully remote work",
+    "query_space": "career"
+  },
+  {
+    "query_id": "q_d_028",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "Which MBA program did Diane get accepted to?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane never mentioned pursuing an MBA",
+    "query_space": "kids"
+  },
+  {
+    "query_id": "q_d_029",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What was the final cost of Diane's bathroom renovation?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: The renovation is kitchen only — no bathroom reno discussed",
+    "query_space": "health"
+  },
+  {
+    "query_id": "q_d_030",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "How is Lily adjusting to middle school?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Lily is 9 and in 4th grade — not in middle school",
+    "query_space": "finances"
+  }
+]

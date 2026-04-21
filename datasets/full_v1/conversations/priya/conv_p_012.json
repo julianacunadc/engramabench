@@ -1,0 +1,66 @@
+{
+  "conversation_id": "conv_p_012",
+  "persona_id": "priya",
+  "space_id": "teaching",
+  "timestamp": "2026-01-20",
+  "depth_index": 12,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Well that's that. Patterson officially denied my course release request for spring. So much for hoping the department would actually support faculty research productivity.",
+      "message_id": "msg_p_012_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's disappointing news. What reason did Dr. Patterson give for denying the request?",
+      "message_id": "msg_p_012_02"
+    },
+    {
+      "role": "user",
+      "content": "The usual bureaucratic nonsense about enrollment numbers and departmental teaching obligations. Never mind that I've been drowning trying to balance everything since October. Remember when I had to cancel lab meetings three times in November just to keep up with grading?",
+      "message_id": "msg_p_012_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that was a really challenging period for your lab schedule. How are you planning to manage the spring teaching load now that it's confirmed at one course?",
+      "message_id": "msg_p_012_04"
+    },
+    {
+      "role": "user",
+      "content": "Honestly? I have no idea. My spring teaching load is confirmed at one course, which sounds manageable until you realize it's going to be another large enrollment situation. And with the lab down to just three people now that our undergrad graduated, I can't afford to have my attention split like it was last semester.",
+      "message_id": "msg_p_012_05"
+    },
+    {
+      "role": "assistant",
+      "content": "The timing does seem particularly challenging with your smaller lab team. Have you considered any strategies to streamline your teaching approach this semester?",
+      "message_id": "msg_p_012_06"
+    },
+    {
+      "role": "user",
+      "content": "I'm going to have to be ruthless about boundaries this time. Set specific office hours and stick to them, maybe use more automated grading tools. The reality is Patterson's decision means I need to find ways to protect my research time that don't require his approval.",
+      "message_id": "msg_p_012_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a practical approach. Creating those clear boundaries between teaching and research time should help prevent the kind of conflicts you experienced last semester.",
+      "message_id": "msg_p_012_08"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. I can't have another situation where Anika's experiments get delayed by two weeks because I'm too swamped to review protocols. The lab has to come first, even if it means being less available to students than I'd ideally like to be.",
+      "message_id": "msg_p_012_09"
+    },
+    {
+      "role": "assistant",
+      "content": "It's a difficult balance, but protecting your research capacity is important for your long-term success. Your students will ultimately benefit more from having a productive, focused advisor than one who's spread too thin.",
+      "message_id": "msg_p_012_10"
+    }
+  ],
+  "mentioned_entities": [
+    "dr_patterson",
+    "anika_patel"
+  ],
+  "cross_space_refs": [],
+  "summary": "Priya discusses Dr. Patterson's denial of her course release request and confirms her spring teaching load at one course. She reflects on past challenges balancing teaching and research, and plans to set stricter boundaries to protect lab productivity.",
+  "fact_count": 3
+}

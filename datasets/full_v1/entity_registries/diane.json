@@ -1,0 +1,209 @@
+{
+  "version": "2.0",
+  "persona_id": "diane",
+  "entity_count": 14,
+  "type_counts": {
+    "person": 5,
+    "organization": 2,
+    "product": 1,
+    "metric_value": 4,
+    "role": 1,
+    "concept": 1
+  },
+  "entities": [
+    {
+      "entity_id": "diane_chen",
+      "canonical_name": "Diane Chen",
+      "aliases": [
+        "Diane"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "health",
+        "finances",
+        "home",
+        "career"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "kevin_chen",
+      "canonical_name": "Kevin",
+      "aliases": [
+        "Kevin",
+        "my husband"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "lily_chen",
+      "canonical_name": "Lily",
+      "aliases": [
+        "Lily",
+        "my daughter"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "ethan_chen",
+      "canonical_name": "Ethan",
+      "aliases": [
+        "Ethan",
+        "my son"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "medbridge_health",
+      "canonical_name": "MedBridge Health",
+      "aliases": [
+        "MedBridge",
+        "work"
+      ],
+      "type": "organization",
+      "spaces": [
+        "career",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "medbridge_connect",
+      "canonical_name": "MedBridge Connect",
+      "aliases": [
+        "the product launch",
+        "Connect"
+      ],
+      "type": "product",
+      "spaces": [
+        "career"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "ramirez_bros",
+      "canonical_name": "Ramirez Bros",
+      "aliases": [
+        "Ramirez",
+        "the contractor"
+      ],
+      "type": "organization",
+      "spaces": [
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "reno_quote",
+      "canonical_name": "$38,000 quote",
+      "aliases": [
+        "38K",
+        "the quote"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "reno_final",
+      "canonical_name": "$42,500 final cost",
+      "aliases": [
+        "42.5K"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "bonus_amount",
+      "canonical_name": "$12,000 bonus",
+      "aliases": [
+        "12K bonus",
+        "the bonus"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "career",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "sitter_cost",
+      "canonical_name": "$320/week sitter",
+      "aliases": [
+        "320/week",
+        "the sitter"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "kids",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "promotion_title",
+      "canonical_name": "Director of Product",
+      "aliases": [
+        "the promotion",
+        "Director"
+      ],
+      "type": "role",
+      "spaces": [
+        "career"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "five_twenty_nine",
+      "canonical_name": "529 college savings plan",
+      "aliases": [
+        "529",
+        "college fund"
+      ],
+      "type": "concept",
+      "spaces": [
+        "finances",
+        "kids"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "dr_nakamura",
+      "canonical_name": "Dr. Nakamura",
+      "aliases": [
+        "the pediatrician"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "health"
+      ],
+      "persona_id": "diane"
+    }
+  ]
+}

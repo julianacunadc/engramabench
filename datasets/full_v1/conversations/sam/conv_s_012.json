@@ -1,0 +1,77 @@
+{
+  "conversation_id": "conv_s_012",
+  "persona_id": "sam",
+  "space_id": "commissions",
+  "timestamp": "2026-01-05",
+  "depth_index": 12,
+  "messages": [
+    {
+      "role": "user",
+      "content": "ok so i'm officially done taking on new work for a while. had to turn down two inquiries this week which feels weird but also... necessary? my creative energy is like a battery that's been running on 5% for months",
+      "message_id": "msg_s_012_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a really healthy boundary to set. What's your current workload looking like?",
+      "message_id": "msg_s_012_02"
+    },
+    {
+      "role": "user",
+      "content": "just the indie game studio piece now, which is actually fun work. but vex... god, vex brewing is still hanging over me like a storm cloud. 5 weeks overdue at this point. every time i open that file i just freeze up",
+      "message_id": "msg_s_012_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Five weeks overdue sounds really stressful. What's been making that project so difficult to finish?",
+      "message_id": "msg_s_012_04"
+    },
+    {
+      "role": "user",
+      "content": "scope creep from hell. started as one beer label, now they want three variants with different seasonal themes but same budget. and i said yes because i was desperate for the 800 bucks back in november. classic mistake",
+      "message_id": "msg_s_012_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a tough spot. Have you been able to communicate with them about the scope changes?",
+      "message_id": "msg_s_012_06"
+    },
+    {
+      "role": "user",
+      "content": "barely. they keep sending these passive aggressive check-in emails. anyway i'm working on this scope-of-work template so this never happens again. like actual boundaries written down before any money changes hands",
+      "message_id": "msg_s_012_07"
+    },
+    {
+      "role": "assistant",
+      "content": "A solid template sounds like it could save you a lot of headaches. What are you including in it?",
+      "message_id": "msg_s_012_08"
+    },
+    {
+      "role": "user",
+      "content": "revision limits, deliverable specs, timeline with kill fees if they go radio silent. all the stuff i wish i'd had locked down before. the patreon growth has been good enough that i can actually afford to be picky now",
+      "message_id": "msg_s_012_09"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great that the Patreon success is giving you more leverage. Sounds like you're setting yourself up much better for future projects.",
+      "message_id": "msg_s_012_10"
+    },
+    {
+      "role": "user",
+      "content": "exactly. like having only one active commission feels so spacious compared to juggling four back in november. i can actually breathe and think about my own work again instead of just putting out client fires",
+      "message_id": "msg_s_012_11"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're finding a much healthier balance. Protecting that creative energy seems like the right call.",
+      "message_id": "msg_s_012_12"
+    }
+  ],
+  "mentioned_entities": [
+    "vex_brewing"
+  ],
+  "cross_space_refs": [
+    "business"
+  ],
+  "summary": "Sam discusses declining new commissions to protect creative energy, dealing with the overdue Vex Brewing project that's 5 weeks late due to scope creep, and working on a scope-of-work template for future clients. Only has one active commission now with the indie game studio.",
+  "fact_count": 4
+}

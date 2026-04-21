@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv_d_009",
+  "persona_id": "diane",
+  "space_id": "health",
+  "timestamp": "2025-12-08",
+  "depth_index": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Got my annual physical results back. Cholesterol came in at... let me check... 215. Which is apparently slightly high now?",
+      "message_id": "msg_d_009_01"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, 215 is considered borderline high - the recommended level is under 200. What did your doctor suggest?",
+      "message_id": "msg_d_009_02"
+    },
+    {
+      "role": "user",
+      "content": "Dietary changes, of course. Less saturated fat, more fiber, the usual. I'm still running three times a week but honestly? I'm just going through the motions lately. Not feeling it the way I used to.",
+      "message_id": "msg_d_009_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That's understandable - sometimes exercise motivation ebbs and flows. Are there other factors affecting your energy or enthusiasm for running?",
+      "message_id": "msg_d_009_04"
+    },
+    {
+      "role": "user",
+      "content": "Holiday stress is definitely building. Work is insane right now with year-end reviews and... well, other things brewing. Plus all the usual December chaos with the kids' school events and family stuff.",
+      "message_id": "msg_d_009_05"
+    },
+    {
+      "role": "assistant",
+      "content": "The holidays can definitely compound stress from other areas. For the cholesterol, would it help to start with small dietary swaps rather than major changes during an already stressful time?",
+      "message_id": "msg_d_009_06"
+    },
+    {
+      "role": "user",
+      "content": "That's probably smart. I was thinking about trying to overhaul everything at once but that never works out. Maybe just swap out some of the quick dinner options we've been relying on. The kids have been doing better with their routines so I might actually have bandwidth for meal prep again.",
+      "message_id": "msg_d_009_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a realistic approach. Small, sustainable changes tend to stick better than dramatic overhauls, especially during busy periods. How are you feeling about the running - would mixing up your routes or timing help with motivation?",
+      "message_id": "msg_d_009_08"
+    },
+    {
+      "role": "user",
+      "content": "Maybe. I've been doing the same 5K loop for months. Might try some different neighborhoods or even just different times of day. Though honestly, keeping any exercise routine going right now feels like a win.",
+      "message_id": "msg_d_009_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely - maintaining consistency during stressful periods is definitely a win. Even if the enthusiasm isn't there, you're still getting the cardiovascular benefits and stress relief.",
+      "message_id": "msg_d_009_10"
+    }
+  ],
+  "mentioned_entities": [],
+  "cross_space_refs": [
+    "career"
+  ],
+  "summary": "Diane discusses her annual physical results showing slightly elevated cholesterol at 215. Her doctor recommended dietary changes, and while she's maintaining her 3x weekly running routine, her enthusiasm has waned due to building holiday stress and work pressures.",
+  "fact_count": 4
+}

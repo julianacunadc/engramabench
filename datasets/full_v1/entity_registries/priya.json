@@ -1,0 +1,197 @@
+{
+  "version": "2.0",
+  "persona_id": "priya",
+  "entity_count": 14,
+  "type_counts": {
+    "person": 5,
+    "concept": 3,
+    "organization": 3,
+    "metric_value": 3
+  },
+  "entities": [
+    {
+      "entity_id": "priya_sharma",
+      "canonical_name": "Priya Sharma",
+      "aliases": [
+        "Priya"
+      ],
+      "type": "person",
+      "spaces": [
+        "lab",
+        "publications",
+        "grants",
+        "teaching",
+        "collaboration"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "anika_patel",
+      "canonical_name": "Anika Patel",
+      "aliases": [
+        "Anika"
+      ],
+      "type": "person",
+      "spaces": [
+        "lab",
+        "publications",
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "marcus_wei",
+      "canonical_name": "Marcus Wei",
+      "aliases": [
+        "Marcus"
+      ],
+      "type": "person",
+      "spaces": [
+        "collaboration",
+        "publications",
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "dr_patterson",
+      "canonical_name": "Dr. Patterson",
+      "aliases": [
+        "Patterson",
+        "the chair"
+      ],
+      "type": "person",
+      "spaces": [
+        "teaching",
+        "lab"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "li_chen",
+      "canonical_name": "Li Chen",
+      "aliases": [
+        "Li"
+      ],
+      "type": "person",
+      "spaces": [
+        "lab"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "nih_r01",
+      "canonical_name": "NIH R01",
+      "aliases": [
+        "R01",
+        "the grant",
+        "NIH grant"
+      ],
+      "type": "concept",
+      "spaces": [
+        "grants",
+        "publications",
+        "collaboration"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "nature_methods",
+      "canonical_name": "Nature Methods",
+      "aliases": [
+        "NatMeth"
+      ],
+      "type": "organization",
+      "spaces": [
+        "publications"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "genome_biology",
+      "canonical_name": "Genome Biology",
+      "aliases": [
+        "GB"
+      ],
+      "type": "organization",
+      "spaces": [
+        "publications"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "stanford",
+      "canonical_name": "Stanford University",
+      "aliases": [
+        "Stanford"
+      ],
+      "type": "organization",
+      "spaces": [
+        "collaboration"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "bio_342",
+      "canonical_name": "BIO-342",
+      "aliases": [
+        "Computational Genomics",
+        "the course"
+      ],
+      "type": "concept",
+      "spaces": [
+        "teaching"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "recomb_conference",
+      "canonical_name": "RECOMB 2026",
+      "aliases": [
+        "RECOMB"
+      ],
+      "type": "concept",
+      "spaces": [
+        "collaboration",
+        "publications"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "r01_budget",
+      "canonical_name": "$1.2M over 5 years",
+      "aliases": [
+        "1.2 million"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "bio342_enrollment",
+      "canonical_name": "75 students",
+      "aliases": [
+        "75"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "teaching"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "r01_percentile",
+      "canonical_name": "18th percentile",
+      "aliases": [
+        "18th"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "grants"
+      ],
+      "persona_id": "priya"
+    }
+  ]
+}

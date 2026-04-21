@@ -1,0 +1,70 @@
+{
+  "conversation_id": "conv_c_009",
+  "persona_id": "carlos",
+  "space_id": "hiring",
+  "timestamp": "2025-12-19",
+  "depth_index": 9,
+  "messages": [
+    {
+      "role": "user",
+      "content": "So I just wrapped up the final interview with Lucía Torres and honestly... I'm torn. She's incredible, no question about it. React and Python, 5 years solid experience, built some really impressive stuff at her last startup.",
+      "message_id": "msg_c_009_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds promising. What's making you feel torn about it?",
+      "message_id": "msg_c_009_02"
+    },
+    {
+      "role": "user",
+      "content": "The cultural fit is excellent - like scary good. She gets our vision, asks the right questions about PayFlow's architecture, even made some suggestions during the technical round that were spot on. But now we're at the salary negotiation and...",
+      "message_id": "msg_c_009_03"
+    },
+    {
+      "role": "assistant",
+      "content": "She's asking for more than your budget allows?",
+      "message_id": "msg_c_009_04"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. We're at that 4800 cap and she's pushing for more. I get it, she's worth it, but man... I'm already running on fumes trying to keep this whole thing together and now I have to play hardball with someone I actually want on the team?",
+      "message_id": "msg_c_009_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a tough position. Have you explored any alternatives - equity, performance bonuses, or other non-salary compensation?",
+      "message_id": "msg_c_009_06"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, we talked equity but she's been burned before by startup promises. Can't blame her. The thing is, we really need someone strong right now - our onboarding flow is still the number one complaint and with MRR climbing we can't afford to mess this up.",
+      "message_id": "msg_c_009_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you know she's the right person for the role. Sometimes the best investments feel uncomfortable in the moment.",
+      "message_id": "msg_c_009_08"
+    },
+    {
+      "role": "user",
+      "content": "You're right. God, I hate this part of being a founder. Like, I want to pay everyone what they're worth but then I look at our runway and... whatever. Lucia is worth fighting for. I'll figure out how to make the numbers work.",
+      "message_id": "msg_c_009_09"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like the right call. A strong hire who fits the culture and has the technical skills you need is invaluable, especially at this stage.",
+      "message_id": "msg_c_009_10"
+    }
+  ],
+  "mentioned_entities": [
+    "lucia_torres",
+    "payflow",
+    "mrr",
+    "salary_cap"
+  ],
+  "cross_space_refs": [
+    "personal"
+  ],
+  "summary": "Carlos discusses his final interview with Lucía Torres, praising her technical skills and cultural fit but struggling with salary negotiations above his budget cap. Despite financial pressures and founder burnout, he decides she's worth the investment.",
+  "fact_count": 4
+}

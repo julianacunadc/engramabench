@@ -1,0 +1,66 @@
+{
+  "conversation_id": "conv_p_005",
+  "persona_id": "priya",
+  "space_id": "collaboration",
+  "timestamp": "2025-11-11",
+  "depth_index": 5,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Just got off a call with Marcus at Stanford - things are actually going really well with our collaboration now. We managed to hash out the authorship thing for the joint paper we've been working on.",
+      "message_id": "msg_p_005_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great to hear! Authorship discussions can be tricky. How did you resolve it?",
+      "message_id": "msg_p_005_02"
+    },
+    {
+      "role": "user",
+      "content": "We decided Anika will be first author since she's been driving most of the computational work, Marcus's postdoc will be second, and then Marcus and I will be co-corresponding. Fair compromise I think - his postdoc did contribute the experimental validation.",
+      "message_id": "msg_p_005_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a solid arrangement that recognizes everyone's contributions. What's the timeline looking like for the paper?",
+      "message_id": "msg_p_005_04"
+    },
+    {
+      "role": "user",
+      "content": "Well we already submitted our RECOMB abstract last week, which is exciting. The full paper... hmm, speaking of papers, I need to check on the Nature Methods submission status. We sent that draft out what, two weeks ago? Time flies when you're juggling everything.",
+      "message_id": "msg_p_005_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It does sound like you have a lot moving at once. Are the RECOMB abstract and the joint paper with Marcus related projects?",
+      "message_id": "msg_p_005_06"
+    },
+    {
+      "role": "user",
+      "content": "Oh no, totally different things. RECOMB is for the Marcus collaboration - we're presenting our joint work on chromatin accessibility prediction. The Nature Methods thing is just my lab's pipeline paper. I'm terrible at keeping track of all these moving pieces sometimes.",
+      "message_id": "msg_p_005_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It's understandable with multiple projects running in parallel. Sounds like the Marcus collaboration is really picking up momentum though.",
+      "message_id": "msg_p_005_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I'm actually optimistic about it now. After that initial friction about authorship, we've found a good rhythm. His experimental expertise plus our computational approach is working out better than I expected. Plus having that Stanford connection doesn't hurt for future collaborations.",
+      "message_id": "msg_p_005_09"
+    }
+  ],
+  "mentioned_entities": [
+    "marcus_wei",
+    "stanford",
+    "anika_patel",
+    "recomb_conference",
+    "nature_methods"
+  ],
+  "cross_space_refs": [
+    "publications"
+  ],
+  "summary": "Priya discusses her improving collaboration with Marcus Wei at Stanford, including their resolution of authorship issues for their joint paper and submission of a RECOMB abstract. The conversation drifts to her other publication activities including a Nature Methods submission.",
+  "fact_count": 3
+}

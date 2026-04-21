@@ -1,0 +1,334 @@
+{
+  "persona_id": "diane",
+  "persona_name": "Diane Chen",
+  "generated_at": "2026-04-19T17:50:31.127437+00:00",
+  "generator_model": "claude-sonnet-4-20250514",
+  "generator_temperature": 0.7,
+  "generator_max_tokens": 3000,
+  "blueprint_hash": "sha256:58f5f441e3e8bc1af8d2822eba9ed0a304c285ce8386d489ddf74f69c6e06f8e",
+  "total_conversations": 20,
+  "total_tokens": 67266,
+  "total_cost_estimate_usd": 0.4305,
+  "total_generation_time_s": 366.82,
+  "conversations": [
+    {
+      "conversation_id": "conv_d_001",
+      "space_id": "home",
+      "depth_index": 1,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 1957,
+      "output_tokens": 837,
+      "total_tokens": 2794,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.018426,
+      "generation_time_s": 15.45,
+      "semantic_warnings": [
+        "Cross-space ref to 'finances' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_002",
+      "space_id": "kids",
+      "depth_index": 2,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 2142,
+      "output_tokens": 993,
+      "total_tokens": 3135,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021321,
+      "generation_time_s": 20.44,
+      "semantic_warnings": [
+        "Cross-space ref to 'health' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_003",
+      "space_id": "health",
+      "depth_index": 3,
+      "depth_band": "deep",
+      "messages_generated": 12,
+      "input_tokens": 2091,
+      "output_tokens": 1036,
+      "total_tokens": 3127,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021813,
+      "generation_time_s": 19.03,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Sleeping 7 hours average' (checked terms: ['sleeping'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_004",
+      "space_id": "finances",
+      "depth_index": 4,
+      "depth_band": "deep",
+      "messages_generated": 9,
+      "input_tokens": 2173,
+      "output_tokens": 885,
+      "total_tokens": 3058,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019794,
+      "generation_time_s": 18.25,
+      "semantic_warnings": [
+        "Cross-space ref to 'home' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_005",
+      "space_id": "career",
+      "depth_index": 5,
+      "depth_band": "deep",
+      "messages_generated": 10,
+      "input_tokens": 2247,
+      "output_tokens": 882,
+      "total_tokens": 3129,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019971,
+      "generation_time_s": 17.23,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_d_006",
+      "space_id": "kids",
+      "depth_index": 6,
+      "depth_band": "mid_range",
+      "messages_generated": 12,
+      "input_tokens": 2380,
+      "output_tokens": 1067,
+      "total_tokens": 3447,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.023145,
+      "generation_time_s": 20.04,
+      "semantic_warnings": [
+        "Cross-space ref to 'finances' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_007",
+      "space_id": "career",
+      "depth_index": 7,
+      "depth_band": "mid_range",
+      "messages_generated": 11,
+      "input_tokens": 2388,
+      "output_tokens": 1025,
+      "total_tokens": 3413,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.022539,
+      "generation_time_s": 18.65,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Diane excited but anxious about timing' (checked terms: ['diane'])"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_008",
+      "space_id": "home",
+      "depth_index": 8,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2185,
+      "output_tokens": 838,
+      "total_tokens": 3023,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.019125,
+      "generation_time_s": 18.39,
+      "semantic_warnings": [
+        "Cross-space ref to 'finances' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_009",
+      "space_id": "health",
+      "depth_index": 9,
+      "depth_band": "mid_range",
+      "messages_generated": 10,
+      "input_tokens": 2315,
+      "output_tokens": 917,
+      "total_tokens": 3232,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.0207,
+      "generation_time_s": 17.65,
+      "semantic_warnings": [
+        "Cross-space ref to 'career' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_010",
+      "space_id": "kids",
+      "depth_index": 10,
+      "depth_band": "mid_range",
+      "messages_generated": 9,
+      "input_tokens": 2584,
+      "output_tokens": 913,
+      "total_tokens": 3497,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021447,
+      "generation_time_s": 17.31,
+      "semantic_warnings": [
+        "Cross-space ref to 'health' not explicitly found in text",
+        "Cross-space ref to 'home' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_011",
+      "space_id": "finances",
+      "depth_index": 11,
+      "depth_band": "mid_range",
+      "messages_generated": 11,
+      "input_tokens": 2361,
+      "output_tokens": 963,
+      "total_tokens": 3324,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021528,
+      "generation_time_s": 17.07,
+      "semantic_warnings": [
+        "Cross-space ref to 'home' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_012",
+      "space_id": "career",
+      "depth_index": 12,
+      "depth_band": "mid_range",
+      "messages_generated": 11,
+      "input_tokens": 2624,
+      "output_tokens": 995,
+      "total_tokens": 3619,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.022797,
+      "generation_time_s": 17.79,
+      "semantic_warnings": [
+        "Cross-space ref to 'health' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_013",
+      "space_id": "home",
+      "depth_index": 13,
+      "depth_band": "recent",
+      "messages_generated": 10,
+      "input_tokens": 2339,
+      "output_tokens": 1021,
+      "total_tokens": 3360,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.022332,
+      "generation_time_s": 19.05,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Diane frustrated with contractor communication' (checked terms: ['diane'])",
+        "Cross-space ref to 'finances' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_014",
+      "space_id": "finances",
+      "depth_index": 14,
+      "depth_band": "recent",
+      "messages_generated": 8,
+      "input_tokens": 2499,
+      "output_tokens": 932,
+      "total_tokens": 3431,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021477,
+      "generation_time_s": 18.87,
+      "semantic_warnings": [
+        "Cross-space ref to 'career' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_015",
+      "space_id": "health",
+      "depth_index": 15,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2529,
+      "output_tokens": 890,
+      "total_tokens": 3419,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.020937,
+      "generation_time_s": 17.4,
+      "semantic_warnings": [
+        "Cross-space ref to 'career' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_016",
+      "space_id": "career",
+      "depth_index": 16,
+      "depth_band": "recent",
+      "messages_generated": 12,
+      "input_tokens": 2754,
+      "output_tokens": 965,
+      "total_tokens": 3719,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.022737,
+      "generation_time_s": 17.76,
+      "semantic_warnings": []
+    },
+    {
+      "conversation_id": "conv_d_017",
+      "space_id": "kids",
+      "depth_index": 17,
+      "depth_band": "recent",
+      "messages_generated": 10,
+      "input_tokens": 2781,
+      "output_tokens": 978,
+      "total_tokens": 3759,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.023013,
+      "generation_time_s": 19.35,
+      "semantic_warnings": [
+        "Cross-space ref to 'finances' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_018",
+      "space_id": "health",
+      "depth_index": 18,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2624,
+      "output_tokens": 906,
+      "total_tokens": 3530,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021462,
+      "generation_time_s": 18.3,
+      "semantic_warnings": [
+        "Key fact may be missing: 'Started Saturday yoga — actually enjoying it' (checked terms: ['started saturday'])",
+        "Cross-space ref to 'career' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_019",
+      "space_id": "home",
+      "depth_index": 19,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2521,
+      "output_tokens": 921,
+      "total_tokens": 3442,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.021378,
+      "generation_time_s": 17.9,
+      "semantic_warnings": [
+        "Cross-space ref to 'finances' not explicitly found in text"
+      ]
+    },
+    {
+      "conversation_id": "conv_d_020",
+      "space_id": "finances",
+      "depth_index": 20,
+      "depth_band": "recent",
+      "messages_generated": 9,
+      "input_tokens": 2715,
+      "output_tokens": 1093,
+      "total_tokens": 3808,
+      "model": "claude-sonnet-4-20250514",
+      "cost_estimate_usd": 0.02454,
+      "generation_time_s": 20.89,
+      "semantic_warnings": [
+        "Cross-space ref to 'career' not explicitly found in text"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3437 @@
+[
+  {
+    "question": "What is the deadline for Priya's R01 proposal?",
+    "expected_answer": "February 5th",
+    "answer_type": "date",
+    "depth_band": "deep",
+    "required_spaces": [
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_001"
+    ],
+    "evidence_message_ids": [
+      "msg_p_001_09"
+    ],
+    "notes": "Basic factual recall from early conversation about grant deadline",
+    "query_id": "q_p_001",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many lab members want to use the new sequencing protocol?",
+    "expected_answer": "4",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "lab"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_002"
+    ],
+    "evidence_message_ids": [
+      "msg_p_002_03",
+      "msg_p_002_05"
+    ],
+    "notes": "Counting specific lab members mentioned: Anika, Ravi, Li Chen, Maya",
+    "query_id": "q_p_002",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is Marcus in relation to Priya's R01 grant?",
+    "expected_answer": "co-PI",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_05",
+      "msg_p_006_07"
+    ],
+    "notes": "Testing recall of collaborator role identification",
+    "query_id": "q_p_003",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many students are in Priya's Computational Genomics course?",
+    "expected_answer": "75",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "teaching"
+    ],
+    "query_space": "teaching",
+    "evidence_conversation_ids": [
+      "conv_p_007"
+    ],
+    "evidence_message_ids": [
+      "msg_p_007_03"
+    ],
+    "notes": "Specific enrollment number mentioned in teaching context",
+    "query_id": "q_p_004",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which journal did Priya resubmit her paper to after the Nature Methods rejection?",
+    "expected_answer": "Genome Biology",
+    "answer_type": "entity",
+    "depth_band": "recent",
+    "required_spaces": [
+      "publications"
+    ],
+    "query_space": "publications",
+    "evidence_conversation_ids": [
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_013_01"
+    ],
+    "notes": "Journal name recall from publication workflow",
+    "query_id": "q_p_005",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "When did Priya submit her R01 proposal?",
+    "expected_answer": "February 5, 2026",
+    "answer_type": "date",
+    "depth_band": "recent",
+    "required_spaces": [
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_014"
+    ],
+    "evidence_message_ids": [
+      "msg_p_014_01"
+    ],
+    "notes": "Actual submission date from final conversation",
+    "query_id": "q_p_006",
+    "persona_id": "priya",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the total budget amount for the R01 grant that involves collaboration between Priya and Marcus?",
+    "expected_answer": "$1.2 million over 5 years",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_011_03",
+      "msg_p_013_09"
+    ],
+    "notes": "Budget mentioned across multiple grant conversations and collaboration contexts",
+    "query_id": "q_p_007",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What are the names of the two PhD students in Priya's lab?",
+    "expected_answer": "Anika, Ravi",
+    "answer_type": "set",
+    "depth_band": "deep",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_002",
+      "conv_p_003"
+    ],
+    "evidence_message_ids": [
+      "msg_p_002_03",
+      "msg_p_003_07"
+    ],
+    "notes": "Lab members mentioned across lab management and teaching contexts",
+    "query_id": "q_p_008",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is the co-PI on the R01 grant that was submitted in February 2026?",
+    "expected_answer": "Marcus",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_014",
+      "conv_p_005",
+      "conv_p_009"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_07",
+      "msg_p_011_09",
+      "msg_p_014_07",
+      "msg_p_005_01",
+      "msg_p_009_07"
+    ],
+    "notes": "Tests cross-space connection between grant collaboration and authorship disputes",
+    "query_id": "q_p_009",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What paper was crucial for the R01 preliminary data section despite being rejected by Nature Methods?",
+    "expected_answer": "Genome Biology submission",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_008",
+      "conv_p_013",
+      "conv_p_014",
+      "conv_p_019"
+    ],
+    "evidence_message_ids": [
+      "msg_p_008_01",
+      "msg_p_013_07",
+      "msg_p_014_05",
+      "msg_p_019_05"
+    ],
+    "notes": "Tests connection between publication timeline and grant submission requirements",
+    "query_id": "q_p_010",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which lab members were involved in the authorship dispute with Marcus's collaboration?",
+    "expected_answer": "Anika, Marcus's postdoc",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "publications"
+    ],
+    "query_space": "collaboration",
+    "evidence_conversation_ids": [
+      "conv_p_004",
+      "conv_p_005",
+      "conv_p_009",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_004_05",
+      "msg_p_005_03",
+      "msg_p_009_03",
+      "msg_p_013_05"
+    ],
+    "notes": "Tests cross-space tracking of personnel involved in collaboration conflicts",
+    "query_id": "q_p_011",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the total budget amount for the R01 grant that involves collaboration between Priya's lab and Marcus's lab?",
+    "expected_answer": "$1.2 million over 5 years",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_014",
+      "conv_p_005",
+      "conv_p_009"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_011_03",
+      "msg_p_014_03",
+      "msg_p_005_07",
+      "msg_p_009_07"
+    ],
+    "notes": "Cross-space connection requiring information from both grants and collaboration spaces about the joint R01 proposal",
+    "query_id": "q_p_012",
+    "persona_id": "priya",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the timeline for the Nature Methods paper submission change from the initial plan in October 2025 to the final Genome Biology resubmission?",
+    "expected_answer": "October: planned to submit Nature Methods by end of week, December: Nature Methods rejected the paper, February: resubmitted to Genome Biology instead",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "publications",
+    "evidence_conversation_ids": [
+      "conv_p_004",
+      "conv_p_008",
+      "conv_p_013",
+      "conv_p_014"
+    ],
+    "evidence_message_ids": [
+      "msg_p_004_01",
+      "msg_p_008_01",
+      "msg_p_013_01",
+      "msg_p_014_05"
+    ],
+    "notes": "Tracks how publication timeline evolved and impacted grant submission strategy",
+    "query_id": "q_p_013",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the lab size when the R01 was initially planned versus when the grant score was announced?",
+    "expected_answer": "October 2025: 4 people (including Maya), March 2026: 5 people (Maya graduated, Javier and Sarah joined)",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "lab"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_002",
+      "conv_p_010",
+      "conv_p_018",
+      "conv_p_019"
+    ],
+    "evidence_message_ids": [
+      "msg_p_002_03",
+      "msg_p_010_01",
+      "msg_p_018_01",
+      "msg_p_019_01"
+    ],
+    "notes": "Shows how lab composition changed during the grant application timeline",
+    "query_id": "q_p_014",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the final authorship arrangement that resolved the collaboration dispute between Priya and Marcus?",
+    "expected_answer": "Anika first author, Marcus's postdoc second, Marcus and Priya co-corresponding",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "publications"
+    ],
+    "query_space": "collaboration",
+    "evidence_conversation_ids": [
+      "conv_p_005",
+      "conv_p_009",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_005_03",
+      "msg_p_009_03",
+      "msg_p_013_05"
+    ],
+    "notes": "Tracks evolution of authorship dispute from initial agreement to conflict to final resolution across collaboration and publications spaces",
+    "query_id": "q_p_015",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the R01 budget amount change from the initial planning phase to the final submission?",
+    "expected_answer": "$1.2 million over 5 years",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_011",
+      "conv_p_014",
+      "conv_p_005"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_011_03",
+      "msg_p_014_03",
+      "msg_p_005_09"
+    ],
+    "notes": "Tests temporal consistency of budget planning across collaboration and grants spaces from November through February",
+    "query_id": "q_p_016",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's lab meeting schedule change between October 2025 and December 2025 due to teaching demands?",
+    "expected_answer": "cancelled lab meeting three times in December due to grading",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "teaching",
+    "evidence_conversation_ids": [
+      "conv_p_002",
+      "conv_p_007"
+    ],
+    "evidence_message_ids": [
+      "msg_p_007_01",
+      "msg_p_007_11"
+    ],
+    "notes": "Tracks deterioration of lab management due to teaching overload",
+    "query_id": "q_p_017",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the delay in reviewing Anika's protocol in January 2026, and what teaching issue caused this delay?",
+    "expected_answer": "two weeks delay due to being buried in grading for Computational Genomics",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_010",
+      "conv_p_012"
+    ],
+    "evidence_message_ids": [
+      "msg_p_010_03",
+      "msg_p_012_03"
+    ],
+    "notes": "Shows direct impact of teaching load on lab productivity and student progress",
+    "query_id": "q_p_018",
+    "persona_id": "priya",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the Nature Methods paper rejection in December 2025 ultimately impact the R01 grant application strategy and timeline?",
+    "expected_answer": "The Nature Methods rejection forced a strategic pivot that actually strengthened the R01 application. The paper was resubmitted to Genome Biology with major statistical improvements after reviewer criticism, and was cited as 'under review' in the preliminary data section of the R01 submitted in February 2026. This pivot provided stronger statistical foundation for the grant while meeting the submission deadline.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_008",
+      "conv_p_013",
+      "conv_p_014"
+    ],
+    "evidence_message_ids": [
+      "msg_p_008_07",
+      "msg_p_013_07",
+      "msg_p_013_11",
+      "msg_p_014_05"
+    ],
+    "notes": "Requires synthesizing publication setback with grant strategy adaptation",
+    "query_id": "q_p_019",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What factors contributed to the evolution of lab productivity and management challenges from October 2025 through March 2026?",
+    "expected_answer": "Lab productivity was constrained by teaching overload (75 students, one TA) causing cancelled meetings and delayed protocol reviews, compounded by personnel changes (Maya graduated in December reducing lab to 3 people) and PI attention split between grant writing and grading. Recovery began with strategic teaching approach in spring 2026 and lab expansion to 5 people with new PhD student and rotation student.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "lab",
+      "teaching"
+    ],
+    "query_space": "lab",
+    "evidence_conversation_ids": [
+      "conv_p_007",
+      "conv_p_010",
+      "conv_p_012",
+      "conv_p_017",
+      "conv_p_018"
+    ],
+    "evidence_message_ids": [
+      "msg_p_007_01",
+      "msg_p_010_01",
+      "msg_p_010_03",
+      "msg_p_012_05",
+      "msg_p_017_03",
+      "msg_p_018_01"
+    ],
+    "notes": "Synthesizes teaching load impact on lab management across multiple conversations",
+    "query_id": "q_p_020",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did the Marcus Wei collaboration dynamics shift from initial success to conflict and eventual resolution across the grant and publication timeline?",
+    "expected_answer": "The collaboration evolved from productive partnership in November 2025 with resolved authorship (Anika first, Marcus's postdoc second, co-corresponding) to December conflict over first authorship claims, threatening both paper submission and R01 co-PI arrangement. Resolution came through maintaining original authorship agreement and successful joint grant submission, though tensions persisted through budget revision disputes in January 2026.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "collaboration",
+      "grants",
+      "publications"
+    ],
+    "query_space": "collaboration",
+    "evidence_conversation_ids": [
+      "conv_p_005",
+      "conv_p_009",
+      "conv_p_011",
+      "conv_p_013"
+    ],
+    "evidence_message_ids": [
+      "msg_p_005_03",
+      "msg_p_009_03",
+      "msg_p_009_07",
+      "msg_p_011_05",
+      "msg_p_013_05"
+    ],
+    "notes": "Traces collaboration conflict evolution across multiple project contexts",
+    "query_id": "q_p_021",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What were the key interconnected factors that enabled the successful R01 submission and strong scoring despite multiple setbacks?",
+    "expected_answer": "Success resulted from strategic adaptation to setbacks: Nature Methods rejection led to stronger statistical methods for Genome Biology resubmission, authorship conflicts were resolved maintaining Marcus as co-PI, budget was structured at $1.2M over 5 years with 65/35 institutional split, and preliminary data section leveraged the under-review GB paper. The 18th percentile score reflected this integrated approach overcoming publication and collaboration challenges.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "grants",
+      "publications"
+    ],
+    "query_space": "grants",
+    "evidence_conversation_ids": [
+      "conv_p_006",
+      "conv_p_013",
+      "conv_p_014",
+      "conv_p_019"
+    ],
+    "evidence_message_ids": [
+      "msg_p_006_03",
+      "msg_p_013_07",
+      "msg_p_014_03",
+      "msg_p_014_05",
+      "msg_p_019_01",
+      "msg_p_019_05"
+    ],
+    "notes": "Synthesizes multiple challenge resolution strategies leading to grant success",
+    "query_id": "q_p_022",
+    "persona_id": "priya",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_p_023",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What phase is Priya's clinical trial currently in?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya's lab does computational biology, not clinical trials",
+    "query_space": "lab"
+  },
+  {
+    "query_id": "q_p_024",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "How much funding did Priya raise for her biotech startup?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya never discussed founding or joining a startup",
+    "query_space": "publications"
+  },
+  {
+    "query_id": "q_p_025",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "When was Priya's paper accepted by Cell?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Paper was submitted to Nature Methods then Genome Biology, never to Cell",
+    "query_space": "grants"
+  },
+  {
+    "query_id": "q_p_026",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What music project is Priya working on with Sam Torres?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam Torres is a different persona entirely",
+    "query_space": "teaching"
+  },
+  {
+    "query_id": "q_p_027",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "When did Priya receive her tenure decision?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya is pre-tenure but no decision has been made yet",
+    "query_space": "collaboration"
+  },
+  {
+    "query_id": "q_p_028",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What was Priya's NSF CAREER grant budget?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya applied for NIH R01, not NSF CAREER",
+    "query_space": "lab"
+  },
+  {
+    "query_id": "q_p_029",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "What did Priya present at the Paris conference?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya attended RECOMB in Boston, never mentioned Paris",
+    "query_space": "publications"
+  },
+  {
+    "query_id": "q_p_030",
+    "persona_id": "priya",
+    "task_family": "adversarial",
+    "question": "How often does Priya visit Marcus's lab at MIT?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Marcus Wei is at Stanford, not MIT",
+    "query_space": "grants"
+  },
+  {
+    "question": "What is the current MRR that Carlos mentioned in his first meeting with Kaszek?",
+    "expected_answer": "$45K",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03"
+    ],
+    "notes": "Basic financial metric recall from early investor conversation",
+    "query_id": "q_c_001",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many people are currently on Carlos's team?",
+    "expected_answer": "12",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_002"
+    ],
+    "evidence_message_ids": [
+      "msg_c_002_01"
+    ],
+    "notes": "Team size mentioned in product discussion",
+    "query_id": "q_c_002",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the amount of the convertible note bridge round from Andrea?",
+    "expected_answer": "$500K",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_006"
+    ],
+    "evidence_message_ids": [
+      "msg_c_006_01"
+    ],
+    "notes": "Specific bridge funding amount",
+    "query_id": "q_c_003",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is FinFlow's monthly pricing?",
+    "expected_answer": "$29",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_007"
+    ],
+    "evidence_message_ids": [
+      "msg_c_007_05"
+    ],
+    "notes": "Competitor pricing information",
+    "query_id": "q_c_004",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the total addressable market size for LATAM fintech?",
+    "expected_answer": "$4.2B",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "market"
+    ],
+    "query_space": "market",
+    "evidence_conversation_ids": [
+      "conv_c_013"
+    ],
+    "evidence_message_ids": [
+      "msg_c_013_01"
+    ],
+    "notes": "Market sizing data from TAM analysis",
+    "query_id": "q_c_005",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many hours per month do PayFlow customers save on reconciliation?",
+    "expected_answer": "15 hours",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_014_11"
+    ],
+    "notes": "Value proposition metric for customer time savings",
+    "query_id": "q_c_006",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which competitor does Carlos mention when discussing the Series A pitch deck updates in December 2025?",
+    "expected_answer": "FinFlow",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_007",
+      "conv_c_008"
+    ],
+    "evidence_message_ids": [
+      "msg_c_007_05",
+      "msg_c_008_01",
+      "msg_c_008_03"
+    ],
+    "notes": "Connects Carlos's pitch deck work with competitive intelligence across spaces",
+    "query_id": "q_c_007",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What salary cap does Carlos mention for both the senior engineer and UX designer positions?",
+    "expected_answer": "$4,800 per month",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "product"
+    ],
+    "query_space": "hiring",
+    "evidence_conversation_ids": [
+      "conv_c_003",
+      "conv_c_005",
+      "conv_c_012"
+    ],
+    "evidence_message_ids": [
+      "msg_c_003_05",
+      "msg_c_005_07",
+      "msg_c_012_09"
+    ],
+    "notes": "Spans hiring decisions and product needs with consistent budget constraint",
+    "query_id": "q_c_008",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What growth percentage does Kaszek require that Carlos references when discussing MRR targets?",
+    "expected_answer": "20% month-over-month",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "product"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_002",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_002_09",
+      "msg_c_014_09"
+    ],
+    "notes": "Links investor requirements to product development pressure across timeline",
+    "query_id": "q_c_009",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which team member does Carlos credit with helping on technical presentations and backend work?",
+    "expected_answer": "Lucía",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "investors",
+      "personal"
+    ],
+    "query_space": "hiring",
+    "evidence_conversation_ids": [
+      "conv_c_012",
+      "conv_c_019",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_012_01",
+      "msg_c_019_09",
+      "msg_c_020_09"
+    ],
+    "notes": "Connects hiring success to fundraising support and personal relief",
+    "query_id": "q_c_010",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What integration does Carlos mention as a competitive moat against FinFlow?",
+    "expected_answer": "Bancolombia API integration",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_008",
+      "conv_c_011",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_008_05",
+      "msg_c_011_03",
+      "msg_c_014_09"
+    ],
+    "notes": "Links product development to competitive positioning and investor narrative",
+    "query_id": "q_c_011",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which competitor does Carlos mention when discussing PayFlow's differentiation strategy with Kaszek investors?",
+    "expected_answer": "FinFlow",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_004",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_004_05",
+      "msg_c_014_05",
+      "msg_c_014_07"
+    ],
+    "notes": "Tests ability to connect competitor intelligence gathered in market research with investor pitch strategy",
+    "query_id": "q_c_012",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the main onboarding complaint that drove the NPS score from 47 to 58 between November and March?",
+    "expected_answer": "Bank connection step was too many clicks with confusing error messages, causing user drop-off",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "personal",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_005",
+      "conv_c_018",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_005_01",
+      "msg_c_005_03",
+      "msg_c_018_01",
+      "msg_c_018_03"
+    ],
+    "notes": "Connects product improvement over time with user satisfaction metrics",
+    "query_id": "q_c_013",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Carlos's MRR growth trajectory change from his first Kaszek meeting to when he received their verbal Series A commitment?",
+    "expected_answer": "From $45K MRR in October 2025 to $78K MRR in March 2026",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "personal"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_019",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_019_01",
+      "msg_c_020_07"
+    ],
+    "notes": "Tracks MRR evolution across the entire Series A arc from initial meeting to verbal commitment",
+    "query_id": "q_c_014",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the founder's sleep patterns change from the hiring/fundraising stress period to after bringing on senior technical help?",
+    "expected_answer": "From 5 hours per night to 7 hours per night",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "personal"
+    ],
+    "query_space": "personal",
+    "evidence_conversation_ids": [
+      "conv_c_010",
+      "conv_c_012",
+      "conv_c_016"
+    ],
+    "evidence_message_ids": [
+      "msg_c_010_01",
+      "msg_c_012_05",
+      "msg_c_016_01"
+    ],
+    "notes": "Tracks personal impact of hiring decisions across 4 months",
+    "query_id": "q_c_015",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the NPS score improvement between November 2025 and March 2026, and what hiring decision contributed to this change?",
+    "expected_answer": "From 47 to 58, hiring a UX designer",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_005",
+      "conv_c_015",
+      "conv_c_018"
+    ],
+    "evidence_message_ids": [
+      "msg_c_005_01",
+      "msg_c_015_04",
+      "msg_c_018_01",
+      "msg_c_018_03"
+    ],
+    "notes": "Links product metrics improvement to specific hiring strategy over 4 months",
+    "query_id": "q_c_016",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Carlos's knowledge of his Mexican competitor evolve from October 2025 to February 2026?",
+    "expected_answer": "October: vague awareness, couldn't remember name; November: identified as FinFlow; December: detailed analysis with $29 pricing and no AI reconciliation; February: used as key differentiation point in Kaszek pitch",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market"
+    ],
+    "query_space": "market",
+    "evidence_conversation_ids": [
+      "conv_c_004",
+      "conv_c_006",
+      "conv_c_008",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_004_03",
+      "msg_c_004_05",
+      "msg_c_006_05",
+      "msg_c_008_01",
+      "msg_c_008_03",
+      "msg_c_014_05",
+      "msg_c_014_07"
+    ],
+    "notes": "Tracks evolution of competitive intelligence across market research and investor conversations",
+    "query_id": "q_c_017",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the timeline for the Bancolombia integration from initial kickoff to production launch?",
+    "expected_answer": "January 8: kickoff with 2 sprint cycles estimated; March 5: in QA testing; March 12: live in staging; March 19: production launch",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_011",
+      "conv_c_017",
+      "conv_c_018",
+      "conv_c_019"
+    ],
+    "evidence_message_ids": [
+      "msg_c_011_01",
+      "msg_c_011_03",
+      "msg_c_017_01",
+      "msg_c_018_05",
+      "msg_c_019_03"
+    ],
+    "notes": "Traces product development timeline mentioned across product updates and investor conversations",
+    "query_id": "q_c_018",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What key product improvements and hiring decisions enabled PayFlow to achieve the growth metrics required for Series A funding?",
+    "expected_answer": "The onboarding flow redesign by the new UX designer improved NPS from 47 to 58, while hiring Lucia as senior engineer enabled backend improvements and delegation of technical work, allowing Carlos to focus on fundraising while maintaining the 20% monthly growth trajectory Kaszek required.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "investors",
+      "product"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_005",
+      "conv_c_009",
+      "conv_c_012",
+      "conv_c_018",
+      "conv_c_019"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_001_09",
+      "msg_c_005_01",
+      "msg_c_005_05",
+      "msg_c_009_01",
+      "msg_c_009_09",
+      "msg_c_012_01",
+      "msg_c_012_05",
+      "msg_c_018_01",
+      "msg_c_018_03",
+      "msg_c_019_03"
+    ],
+    "notes": "Synthesizes hiring strategy, product improvements, and fundraising success across 6 months",
+    "query_id": "q_c_019",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did PayFlow's competitive intelligence gathering evolve to support their Series A positioning against FinFlow?",
+    "expected_answer": "Carlos initially couldn't remember FinFlow's name in October, but by December had mapped their $29 pricing and lack of AI reconciliation, then leveraged this intelligence to position PayFlow's AI automation and Bancolombia integration as key differentiators in Series A materials.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market",
+      "product"
+    ],
+    "query_space": "market",
+    "evidence_conversation_ids": [
+      "conv_c_004",
+      "conv_c_008",
+      "conv_c_011",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_004_05",
+      "msg_c_008_01",
+      "msg_c_008_03",
+      "msg_c_008_05",
+      "msg_c_011_05",
+      "msg_c_014_07",
+      "msg_c_014_11"
+    ],
+    "notes": "Tracks evolution from poor competitive intelligence to strategic positioning advantage",
+    "query_id": "q_c_020",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What factors contributed to Carlos's burnout and how did team expansion help address his personal sustainability challenges?",
+    "expected_answer": "Carlos was sleeping 5 hours nightly while handling all technical work, hiring decisions, and fundraising pressure, but hiring Lucia allowed him to delegate backend work and sleep 7 hours, while considering therapy and vacation planning showed improved work-life balance as the team grew to 14 people.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "personal"
+    ],
+    "query_space": "personal",
+    "evidence_conversation_ids": [
+      "conv_c_010",
+      "conv_c_012",
+      "conv_c_016",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_010_01",
+      "msg_c_010_05",
+      "msg_c_012_05",
+      "msg_c_016_01",
+      "msg_c_016_03",
+      "msg_c_020_05",
+      "msg_c_020_09"
+    ],
+    "notes": "Connects founder burnout patterns with hiring solutions and personal recovery",
+    "query_id": "q_c_021",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What combination of product features, partnerships, and metrics created PayFlow's competitive moat that secured Kaszek's $4M Series A commitment?",
+    "expected_answer": "The AI-powered reconciliation that FinFlow lacked, combined with the exclusive Bancolombia API integration, plus proven metrics of MRR growth from $45K to $78K, churn reduction from 4.2% to 2.4%, and NPS improvement from 47 to 58 demonstrated sustainable competitive advantages.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market",
+      "product"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_007",
+      "conv_c_008",
+      "conv_c_011",
+      "conv_c_014",
+      "conv_c_018",
+      "conv_c_019"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_007_01",
+      "msg_c_007_03",
+      "msg_c_008_03",
+      "msg_c_008_05",
+      "msg_c_011_05",
+      "msg_c_014_07",
+      "msg_c_018_01",
+      "msg_c_019_01",
+      "msg_c_019_03"
+    ],
+    "notes": "Synthesizes technical differentiation, market positioning, and growth metrics into funding success",
+    "query_id": "q_c_022",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_c_023",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What did Carlos discuss about his PhD thesis defense?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Carlos never discussed academic studies or a PhD",
+    "query_space": "investors"
+  },
+  {
+    "query_id": "q_c_024",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What specific terms did Rappi offer in the partnership contract?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Rappi was mentioned as potential partner but no contract terms discussed",
+    "query_space": "product"
+  },
+  {
+    "query_id": "q_c_025",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "When did Carlos close the Series A round?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Series A is still being pursued, not yet closed",
+    "query_space": "hiring"
+  },
+  {
+    "query_id": "q_c_026",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "How many engineers does PayFlow have on the backend team?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: FinFlow's engineering team size was discussed (15), but PayFlow's was not stated as 15",
+    "query_space": "market"
+  },
+  {
+    "query_id": "q_c_027",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What was Carlos's reaction when Lucía Torres declined the offer?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Lucía accepted the offer, she did not decline",
+    "query_space": "personal"
+  },
+  {
+    "query_id": "q_c_028",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What grant did Carlos and Priya co-apply for?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya Sharma is a different persona entirely",
+    "query_space": "investors"
+  },
+  {
+    "query_id": "q_c_029",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What timeline did Carlos set for PayFlow's IPO?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Carlos is pursuing Series A, IPO was never discussed",
+    "query_space": "product"
+  },
+  {
+    "query_id": "q_c_030",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "When is PayFlow moving to the new office in Medellín?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Office location was never discussed",
+    "query_space": "hiring"
+  },
+  {
+    "question": "How many Patreon patrons did the user have in October 2025?",
+    "expected_answer": "127",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "business"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01"
+    ],
+    "notes": "Basic recall of specific patron count from early business conversation",
+    "query_id": "q_s_001",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What synthesizer was the user considering purchasing for $550?",
+    "expected_answer": "Arturia MiniFreak",
+    "answer_type": "entity",
+    "depth_band": "deep",
+    "required_spaces": [
+      "business"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_03"
+    ],
+    "notes": "Recall of specific gear mentioned in business context",
+    "query_id": "q_s_002",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Where did the user capture wave recordings for track 3?",
+    "expected_answer": "Cannon Beach",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "music"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_002"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_03"
+    ],
+    "notes": "Location recall from field recording discussion",
+    "query_id": "q_s_003",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What Tycho track did the user use as a mixing reference?",
+    "expected_answer": "A Walk from Dive",
+    "answer_type": "short_span",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "music"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_006"
+    ],
+    "evidence_message_ids": [
+      "msg_s_006_07"
+    ],
+    "notes": "Specific reference track mentioned during mixing process",
+    "query_id": "q_s_004",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the original deadline for the Vex commission project?",
+    "expected_answer": "November 30",
+    "answer_type": "date",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "commissions"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_007"
+    ],
+    "evidence_message_ids": [
+      "msg_s_007_03"
+    ],
+    "notes": "Deadline recall from scope creep discussion",
+    "query_id": "q_s_005",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How much monthly income was the user generating from Patreon in January 2026?",
+    "expected_answer": "$1,420",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "business"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_014"
+    ],
+    "evidence_message_ids": [
+      "msg_s_014_01"
+    ],
+    "notes": "Recent Patreon income figure showing business growth",
+    "query_id": "q_s_006",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What mastering studio did the artist use for their debut EP?",
+    "expected_answer": "Juno Audio",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "music"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_009",
+      "conv_s_008"
+    ],
+    "evidence_message_ids": [
+      "msg_s_009_03",
+      "msg_s_008_09"
+    ],
+    "notes": "Entity appears in music space but financial impact discussed in business space",
+    "query_id": "q_s_007",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which visual art technique did the artist plan to use for both their gallery work and EP album art?",
+    "expected_answer": "cyanotype",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_011",
+      "conv_s_015"
+    ],
+    "evidence_message_ids": [
+      "msg_s_011_05",
+      "msg_s_015_05"
+    ],
+    "notes": "Technique suggested for gallery work, then breakthrough concept for album art",
+    "query_id": "q_s_008",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What field recording locations influenced both the EP tracks and the album art concept?",
+    "expected_answer": "Cannon Beach, Crater Lake",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "music"
+    ],
+    "query_space": "inspiration",
+    "evidence_conversation_ids": [
+      "conv_s_002",
+      "conv_s_015"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_03",
+      "msg_s_015_03"
+    ],
+    "notes": "Coastal recordings for music, mountain trip breakthrough for visuals",
+    "query_id": "q_s_009",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What visual technique did the artist decide to use for the Tidal album art after their creative breakthrough at Crater Lake?",
+    "expected_answer": "cyanotype process for the base layer, then digital manipulation on top",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_015",
+      "conv_s_016",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_015_05",
+      "msg_s_016_01",
+      "msg_s_020_01"
+    ],
+    "notes": "Tests connection between inspiration breakthrough and visual art execution",
+    "query_id": "q_s_010",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What were the artist's total monthly earnings in March 2026 from both Patreon and commissions combined?",
+    "expected_answer": "$2,840",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "visual_art"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_019",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_019_01",
+      "msg_s_020_05"
+    ],
+    "notes": "Tests financial tracking across business and visual art spaces",
+    "query_id": "q_s_011",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What technique did Elena suggest for both the Night Market Gallery prints and the album art for Tidal?",
+    "expected_answer": "cyanotype",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_011",
+      "conv_s_015"
+    ],
+    "evidence_message_ids": [
+      "msg_s_011_05",
+      "msg_s_015_05"
+    ],
+    "notes": "Cross-space connection between gallery work and music project through shared technique",
+    "query_id": "q_s_012",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What visual technique did the user decide to use for the Tidal EP album art after their creative breakthrough at Crater Lake?",
+    "expected_answer": "cyanotype",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_015",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_015_05",
+      "msg_s_020_01"
+    ],
+    "notes": "Connects inspiration breakthrough to final visual execution across spaces",
+    "query_id": "q_s_013",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's Patreon patron count change from when they first started working on Tidal in October 2025 to when they completed the album art in March 2026?",
+    "expected_answer": "127 to 248 patrons",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "visual_art"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01",
+      "msg_s_020_05"
+    ],
+    "notes": "Tracks patron growth across the entire EP development timeline spanning business and visual art spaces",
+    "query_id": "q_s_014",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What breakthrough happened at Crater Lake that resolved the user's creative block with the album art?",
+    "expected_answer": "cyanotype process for the base layer, then digital manipulation on top",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "inspiration",
+    "evidence_conversation_ids": [
+      "conv_s_010",
+      "conv_s_015",
+      "conv_s_016"
+    ],
+    "evidence_message_ids": [
+      "msg_s_010_01",
+      "msg_s_015_05",
+      "msg_s_016_01"
+    ],
+    "notes": "Connects the December creative void to February breakthrough and March execution",
+    "query_id": "q_s_015",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's commission workload change from November 2025 to January 2026, and what was the impact on their creative energy?",
+    "expected_answer": "November: juggling 4 active commissions, December: paralyzed by scope creep, January: officially done taking new work to preserve creative energy",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "commissions",
+      "inspiration"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_005",
+      "conv_s_010",
+      "conv_s_012"
+    ],
+    "evidence_message_ids": [
+      "msg_s_005_01",
+      "msg_s_010_05",
+      "msg_s_012_01"
+    ],
+    "notes": "Tracks the evolution from commission overload to creative burnout to protective boundaries",
+    "query_id": "q_s_016",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What commission rate increase did the user implement between their early work and February 2026?",
+    "expected_answer": "$400 to $600",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "commissions"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_005",
+      "conv_s_014",
+      "conv_s_017"
+    ],
+    "evidence_message_ids": [
+      "msg_s_005_03",
+      "msg_s_014_05",
+      "msg_s_017_05"
+    ],
+    "notes": "Shows evolution of commission pricing as confidence and Patreon success grew",
+    "query_id": "q_s_017",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the artist's Patreon patron count change from October 2025 to March 2026, and what commission rate increase did this growth enable?",
+    "expected_answer": "From 127 patrons in October to 248 patrons in March, enabling a commission rate increase from $400 to $600",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "commissions"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001",
+      "conv_s_014",
+      "conv_s_017",
+      "conv_s_019"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01",
+      "msg_s_014_01",
+      "msg_s_014_05",
+      "msg_s_017_05",
+      "msg_s_019_01"
+    ],
+    "notes": "Tracks financial growth across spaces showing how Patreon success enabled commission pricing power",
+    "query_id": "q_s_018",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the artist's financial strategy evolve from October 2025 to March 2026, and what key decisions enabled them to consider dropping commission work entirely?",
+    "expected_answer": "The artist's financial strategy evolved through strategic Patreon growth and commission rate increases. Starting at 127 patrons ($840/month) in October 2025, they grew to 248 patrons ($1,640/month) by March 2026 through process videos. Simultaneously, they raised commission rates from $400 to $600 per piece. This dual approach increased total monthly income from $2,100 to $2,840, making them consider dropping commissions entirely if Patreon reaches 300 patrons ($1,980/month).",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "commissions"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001",
+      "conv_s_005",
+      "conv_s_008",
+      "conv_s_014",
+      "conv_s_017",
+      "conv_s_019"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01",
+      "msg_s_005_05",
+      "msg_s_008_01",
+      "msg_s_014_01",
+      "msg_s_014_05",
+      "msg_s_017_05",
+      "msg_s_019_01",
+      "msg_s_019_05"
+    ],
+    "notes": "Complex synthesis across business growth and commission evolution",
+    "query_id": "q_s_019",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What creative breakthroughs and setbacks shaped the Tidal EP from initial concept to final release, and how did external pressures influence the artistic process?",
+    "expected_answer": "The Tidal EP moved through several phases: early momentum with field recordings and initial drafts, then commission overload and creative blockage, followed by a Crater Lake breakthrough that unlocked the cyanotype-based visual direction, and finally technical rework on Undertow that pushed the release to April 5. External commission pressure repeatedly interrupted the process and shaped both the pacing and quality of the final work.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "music",
+      "visual_art"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_002",
+      "conv_s_006",
+      "conv_s_009",
+      "conv_s_010",
+      "conv_s_013",
+      "conv_s_015",
+      "conv_s_016",
+      "conv_s_018"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_01",
+      "msg_s_006_01",
+      "msg_s_009_01",
+      "msg_s_010_01",
+      "msg_s_013_01",
+      "msg_s_015_05",
+      "msg_s_016_01",
+      "msg_s_018_01"
+    ],
+    "notes": "Traces complete creative arc across multiple disruptions and breakthroughs",
+    "query_id": "q_s_020",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "Which specific creative techniques and inspirational sources consistently appeared across the artist's music and visual work throughout this period?",
+    "expected_answer": "Field recordings, organic-digital hybrid processes, cyanotype technique, process videos, ambient textures",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "music",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_002",
+      "conv_s_003",
+      "conv_s_004",
+      "conv_s_011",
+      "conv_s_015",
+      "conv_s_016",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_03",
+      "msg_s_003_05",
+      "msg_s_004_03",
+      "msg_s_011_09",
+      "msg_s_015_03",
+      "msg_s_015_05",
+      "msg_s_016_03",
+      "msg_s_020_01"
+    ],
+    "notes": "Identifies recurring creative elements spanning multiple artistic mediums",
+    "query_id": "q_s_021",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did the artist's relationship with creative constraints and scope management evolve from the chaotic commission period to the structured EP completion?",
+    "expected_answer": "The artist evolved from accepting unlimited scope creep (Vex Brewing expanding from 1 to 3 labels for same budget, juggling 4 simultaneous commissions) to implementing strict boundaries through detailed scope-of-work templates, revision limits, and selective client acceptance. This transformation was enabled by Patreon growth providing financial security, allowing them to prioritize creative quality over quantity and ultimately complete the Tidal EP with proper time and resources.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "commissions",
+      "music"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_005",
+      "conv_s_007",
+      "conv_s_012",
+      "conv_s_017",
+      "conv_s_018"
+    ],
+    "evidence_message_ids": [
+      "msg_s_005_01",
+      "msg_s_007_03",
+      "msg_s_012_01",
+      "msg_s_012_07",
+      "msg_s_017_07",
+      "msg_s_018_09"
+    ],
+    "notes": "Synthesizes professional development and creative protection strategies",
+    "query_id": "q_s_022",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_s_023",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "What label did Sam sign with for the EP release?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam is independent — never discussed signing with a record label",
+    "query_space": "music"
+  },
+  {
+    "query_id": "q_s_024",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "How many pieces did Sam display at their solo gallery show?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam submitted to group shows but never had a solo exhibition",
+    "query_space": "visual_art"
+  },
+  {
+    "query_id": "q_s_025",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "When did Sam finish mastering the 'Currents' EP?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: The EP is called 'Tidal', not 'Currents'",
+    "query_space": "commissions"
+  },
+  {
+    "query_id": "q_s_026",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "What fintech advice did Sam give to Carlos?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Carlos Mendoza is a different persona entirely",
+    "query_space": "inspiration"
+  },
+  {
+    "query_id": "q_s_027",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "Where did Sam study classical composition?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam is self-taught — never mentioned formal music education",
+    "query_space": "business"
+  },
+  {
+    "query_id": "q_s_028",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "What company hired Sam as a full-time designer?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam is a freelancer — never discussed taking a full-time job",
+    "query_space": "music"
+  },
+  {
+    "query_id": "q_s_029",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "How is Sam adjusting to the move to Austin?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam lives in Portland, OR — never mentioned Austin",
+    "query_space": "visual_art"
+  },
+  {
+    "query_id": "q_s_030",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "How many copies of Sam's vinyl pressing were ordered?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam releases digitally on Bandcamp + streaming — no vinyl discussed",
+    "query_space": "commissions"
+  },
+  {
+    "question": "What is the total cost of the kitchen renovation quote from Ramirez Bros?",
+    "expected_answer": "$38,000",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_01"
+    ],
+    "notes": "Basic fact recall from early conversation about renovation quote",
+    "query_id": "q_d_001",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What days of the week does Lily have soccer practice?",
+    "expected_answer": "Tuesdays and Thursdays",
+    "answer_type": "short_span",
+    "depth_band": "deep",
+    "required_spaces": [
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_002"
+    ],
+    "evidence_message_ids": [
+      "msg_d_002_01"
+    ],
+    "notes": "Specific schedule detail from kids space",
+    "query_id": "q_d_002",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the weekly cost of the after-school sitter starting in January?",
+    "expected_answer": "$320",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_002"
+    ],
+    "evidence_message_ids": [
+      "msg_d_002_09"
+    ],
+    "notes": "Financial detail from childcare planning",
+    "query_id": "q_d_003",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What product launch is the user being asked to lead as a test for director-level responsibilities?",
+    "expected_answer": "MedBridge Connect",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "career"
+    ],
+    "query_space": "career",
+    "evidence_conversation_ids": [
+      "conv_d_007"
+    ],
+    "evidence_message_ids": [
+      "msg_d_007_03"
+    ],
+    "notes": "Key career opportunity from promotion discussion",
+    "query_id": "q_d_004",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How much has been spent total on renovation costs as of February 2026?",
+    "expected_answer": "$34,000",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "finances"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_014"
+    ],
+    "evidence_message_ids": [
+      "msg_d_014_03"
+    ],
+    "notes": "Current spending total from recent financial update",
+    "query_id": "q_d_005",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the net amount of the bonus that hit the user's account?",
+    "expected_answer": "$8,400",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "finances"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_014"
+    ],
+    "evidence_message_ids": [
+      "msg_d_014_01"
+    ],
+    "notes": "Specific financial detail from bonus payment",
+    "query_id": "q_d_006",
+    "persona_id": "diane",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the name of the contractor who handled the kitchen renovation?",
+    "expected_answer": "Ramirez Bros",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_008",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_09",
+      "msg_d_008_01",
+      "msg_d_020_01"
+    ],
+    "notes": "Entity appears across home and finances spaces from October through March",
+    "query_id": "q_d_007",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the weekly cost of the after-school sitter mentioned in relation to the promotion timeline?",
+    "expected_answer": "$320",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "finances",
+      "kids"
+    ],
+    "query_space": "career",
+    "evidence_conversation_ids": [
+      "conv_d_002",
+      "conv_d_007",
+      "conv_d_011"
+    ],
+    "evidence_message_ids": [
+      "msg_d_002_09",
+      "msg_d_007_07",
+      "msg_d_011_05"
+    ],
+    "notes": "Cost appears across career promotion discussions and childcare logistics",
+    "query_id": "q_d_008",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which child needed extra math help that was affecting the parent's sleep schedule?",
+    "expected_answer": "Lily",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "health",
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_006",
+      "conv_d_010",
+      "conv_d_015"
+    ],
+    "evidence_message_ids": [
+      "msg_d_006_03",
+      "msg_d_010_01",
+      "msg_d_015_07"
+    ],
+    "notes": "Child's academic needs connected to parent's health and work performance",
+    "query_id": "q_d_009",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What were the two main factors that caused the kitchen renovation to go over budget?",
+    "expected_answer": "plumbing issue, increased food costs",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_013",
+      "conv_d_014",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_013_05",
+      "msg_d_014_04",
+      "msg_d_020_07"
+    ],
+    "notes": "Budget overruns connected across home renovation and financial planning",
+    "query_id": "q_d_010",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the total final cost of the kitchen renovation, and how much did it exceed the original quote?",
+    "expected_answer": "$42,500, exceeded by $4,500",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_019",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_03",
+      "msg_d_019_05",
+      "msg_d_020_01"
+    ],
+    "notes": "Tracks renovation cost evolution from initial quote to final payment across spaces",
+    "query_id": "q_d_011",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the total final cost of the kitchen renovation project?",
+    "expected_answer": "$42,500",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_019",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_03",
+      "msg_d_019_05",
+      "msg_d_020_01"
+    ],
+    "notes": "Tracks kitchen renovation cost evolution from initial $38K quote to final $42,500 payment across home and finances spaces",
+    "query_id": "q_d_012",
+    "persona_id": "diane",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Diane's monthly savings change from October 2025 to January 2026 during the kitchen renovation period?",
+    "expected_answer": "From $1,800 monthly to $400 monthly",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_004",
+      "conv_d_008",
+      "conv_d_011"
+    ],
+    "evidence_message_ids": [
+      "msg_d_004_03",
+      "msg_d_008_01",
+      "msg_d_011_03"
+    ],
+    "notes": "Tests ability to track financial impact across spaces as renovation progressed from planning to construction",
+    "query_id": "q_d_013",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the total cost overrun from the original kitchen renovation quote to the final amount paid?",
+    "expected_answer": "$4,500",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "home",
+    "evidence_conversation_ids": [
+      "conv_d_001",
+      "conv_d_019",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_001_01",
+      "msg_d_019_05",
+      "msg_d_020_01"
+    ],
+    "notes": "Tests tracking of budget evolution from initial quote ($38K) to final payment ($42.5K) across home planning and financial impact spaces",
+    "query_id": "q_d_014",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Diane's sleep change from October 2025 to February 2026 during her promotion push?",
+    "expected_answer": "from 7 hours to 5.5 hours per night",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "health",
+      "kids"
+    ],
+    "query_space": "health",
+    "evidence_conversation_ids": [
+      "conv_d_003",
+      "conv_d_010",
+      "conv_d_012"
+    ],
+    "evidence_message_ids": [
+      "msg_d_003_05",
+      "msg_d_010_01",
+      "msg_d_012_05"
+    ],
+    "notes": "Tracks health decline during career advancement across health and career spaces",
+    "query_id": "q_d_015",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How much did Diane's monthly savings drop from October 2025 to January 2026 due to the promotion-related childcare costs?",
+    "expected_answer": "$1,400",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "finances"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_004",
+      "conv_d_007",
+      "conv_d_011"
+    ],
+    "evidence_message_ids": [
+      "msg_d_004_01",
+      "msg_d_007_07",
+      "msg_d_011_03",
+      "msg_d_011_04"
+    ],
+    "notes": "Connects career promotion decision to financial impact through childcare expenses",
+    "query_id": "q_d_016",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Diane's sleep patterns change from the beginning of Lily's math struggles to when her grades improved?",
+    "expected_answer": "From 7 hours nightly to 5.5 hours during the promotion push, then back to 6.5 hours after the launch",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "health",
+      "kids"
+    ],
+    "query_space": "health",
+    "evidence_conversation_ids": [
+      "conv_d_003",
+      "conv_d_010",
+      "conv_d_018"
+    ],
+    "evidence_message_ids": [
+      "msg_d_003_05",
+      "msg_d_010_01",
+      "msg_d_018_05"
+    ],
+    "notes": "Tracks sleep degradation during overlapping math help and career promotion, then recovery",
+    "query_id": "q_d_017",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What grade did Lily's math improve to by February, and how did this coincide with Diane's career milestone?",
+    "expected_answer": "B+, coinciding with the MedBridge Connect launch on February 28th",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "kids"
+    ],
+    "query_space": "kids",
+    "evidence_conversation_ids": [
+      "conv_d_017",
+      "conv_d_016"
+    ],
+    "evidence_message_ids": [
+      "msg_d_017_01",
+      "msg_d_016_01"
+    ],
+    "notes": "Shows convergence of family success and career achievement in same timeframe",
+    "query_id": "q_d_018",
+    "persona_id": "diane",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What factors contributed to the family's monthly savings dropping from $1,800 to $400 during the renovation period?",
+    "expected_answer": "The kitchen renovation expenses, hiring an after-school sitter at $320 per week ($1,280 monthly), and increased food budget due to eating out 40% more during the renovation period when they had no functional kitchen.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "finances",
+      "home"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_011",
+      "conv_d_007",
+      "conv_d_013"
+    ],
+    "evidence_message_ids": [
+      "msg_d_011_03",
+      "msg_d_011_05",
+      "msg_d_007_07",
+      "msg_d_013_07"
+    ],
+    "notes": "Requires synthesizing financial impact across multiple life changes happening simultaneously",
+    "query_id": "q_d_019",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did the timing of career advancement opportunities align with family challenges, and what support systems were needed?",
+    "expected_answer": "The MedBridge Connect launch and promotion track coincided with Lily's math struggles and kitchen renovation chaos. Support systems included Kevin taking over math help 2 nights per week, hiring an after-school sitter for $320/week, and Kevin handling more evening routines during 3-4 late work nights weekly.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "kids"
+    ],
+    "query_space": "career",
+    "evidence_conversation_ids": [
+      "conv_d_007",
+      "conv_d_010",
+      "conv_d_012"
+    ],
+    "evidence_message_ids": [
+      "msg_d_007_05",
+      "msg_d_007_07",
+      "msg_d_010_03",
+      "msg_d_012_03"
+    ],
+    "notes": "Tests understanding of how multiple life domains intersect and require coordinated solutions",
+    "query_id": "q_d_020",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What health and wellness patterns emerged as work and family stress intensified, and how did recovery begin?",
+    "expected_answer": "Sleep declined from 7.0 hours in October to 5.5 hours during peak stress in January, running stopped completely during the MedBridge Connect crunch, and cholesterol rose to 215. Recovery began with sleep improving to 6.5 hours by March, returning to running twice weekly, and adding Saturday morning yoga for stress management.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career",
+      "health"
+    ],
+    "query_space": "health",
+    "evidence_conversation_ids": [
+      "conv_d_003",
+      "conv_d_009",
+      "conv_d_012",
+      "conv_d_015",
+      "conv_d_018"
+    ],
+    "evidence_message_ids": [
+      "msg_d_003_05",
+      "msg_d_009_03",
+      "msg_d_012_05",
+      "msg_d_015_01",
+      "msg_d_018_05"
+    ],
+    "notes": "Synthesizes health metrics across temporal arc showing stress impact and recovery",
+    "query_id": "q_d_021",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What were the cascading financial consequences of the kitchen renovation beyond the direct construction costs?",
+    "expected_answer": "Beyond the $42,500 final construction cost (vs. the $38K quote), the renovation increased food spending through constant takeout, reduced monthly savings from $1,800 to $400, and forced Diane to use the $8,400 February bonus to absorb overruns.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "finances",
+      "home"
+    ],
+    "query_space": "finances",
+    "evidence_conversation_ids": [
+      "conv_d_004",
+      "conv_d_011",
+      "conv_d_013",
+      "conv_d_014",
+      "conv_d_020"
+    ],
+    "evidence_message_ids": [
+      "msg_d_004_05",
+      "msg_d_011_03",
+      "msg_d_013_07",
+      "msg_d_014_07",
+      "msg_d_020_01"
+    ],
+    "notes": "Requires connecting direct and indirect costs across multiple conversations and time periods",
+    "query_id": "q_d_022",
+    "persona_id": "diane",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_d_023",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "How is Diane handling the divorce proceedings?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane is married to Kevin — never discussed divorce or separation",
+    "query_space": "kids"
+  },
+  {
+    "query_id": "q_d_024",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What name did Diane choose for her third child?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane has two kids (Lily and Ethan) — no third child mentioned",
+    "query_space": "health"
+  },
+  {
+    "query_id": "q_d_025",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What team does Diane manage at Optum?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane works at MedBridge Health, not Optum",
+    "query_space": "finances"
+  },
+  {
+    "query_id": "q_d_026",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What study group does Diane participate in with Kai?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai Nakamura is a different persona entirely",
+    "query_space": "home"
+  },
+  {
+    "query_id": "q_d_027",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "When did Diane start working fully remote?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane never discussed switching to fully remote work",
+    "query_space": "career"
+  },
+  {
+    "query_id": "q_d_028",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "Which MBA program did Diane get accepted to?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane never mentioned pursuing an MBA",
+    "query_space": "kids"
+  },
+  {
+    "query_id": "q_d_029",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "What was the final cost of Diane's bathroom renovation?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: The renovation is kitchen only — no bathroom reno discussed",
+    "query_space": "health"
+  },
+  {
+    "query_id": "q_d_030",
+    "persona_id": "diane",
+    "task_family": "adversarial",
+    "question": "How is Lily adjusting to middle school?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Lily is 9 and in 4th grade — not in middle school",
+    "query_space": "finances"
+  },
+  {
+    "question": "What percentage is the Advanced NLP group project worth in the course grade?",
+    "expected_answer": "40%",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "courses"
+    ],
+    "query_space": "courses",
+    "evidence_conversation_ids": [
+      "conv_k_001"
+    ],
+    "evidence_message_ids": [
+      "msg_k_001_05"
+    ],
+    "notes": "Basic recall of specific course grading information from early conversation",
+    "query_id": "q_k_001",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is the advisor mentioned in the research conversations?",
+    "expected_answer": "Dr. Reeves",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_002"
+    ],
+    "evidence_message_ids": [
+      "msg_k_002_03"
+    ],
+    "notes": "Entity recall of advisor name from research space",
+    "query_id": "q_k_002",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What score did the student get on their Advanced NLP midterm?",
+    "expected_answer": "88%",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "courses"
+    ],
+    "query_space": "courses",
+    "evidence_conversation_ids": [
+      "conv_k_006"
+    ],
+    "evidence_message_ids": [
+      "msg_k_006_01"
+    ],
+    "notes": "Specific exam score recall from courses space",
+    "query_id": "q_k_003",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the ACL 2026 submission deadline?",
+    "expected_answer": "January 15th",
+    "answer_type": "date",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_007"
+    ],
+    "evidence_message_ids": [
+      "msg_k_007_01"
+    ],
+    "notes": "Important deadline date from research discussions",
+    "query_id": "q_k_004",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did they achieve with data augmentation for the ACL paper?",
+    "expected_answer": "0.76",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_013"
+    ],
+    "evidence_message_ids": [
+      "msg_k_013_03"
+    ],
+    "notes": "Technical result from ACL submission discussion",
+    "query_id": "q_k_005",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did the cross-lingual transfer approach achieve?",
+    "expected_answer": "0.81",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_014"
+    ],
+    "evidence_message_ids": [
+      "msg_k_014_03"
+    ],
+    "notes": "Latest experimental result showing improvement over previous methods",
+    "query_id": "q_k_006",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did the user achieve in their improved experiments that will be the main result for their thesis?",
+    "expected_answer": "0.81",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "courses",
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_014",
+      "conv_k_017"
+    ],
+    "evidence_message_ids": [
+      "msg_k_014_03",
+      "msg_k_017_09"
+    ],
+    "notes": "Cross-space connection between research progress and career confidence",
+    "query_id": "q_k_007",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is the lab partner that helped with both coursework and thesis proofreading?",
+    "expected_answer": "Preethi",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "courses",
+      "research",
+      "social"
+    ],
+    "query_space": "courses",
+    "evidence_conversation_ids": [
+      "conv_k_001",
+      "conv_k_014",
+      "conv_k_016"
+    ],
+    "evidence_message_ids": [
+      "msg_k_001_05",
+      "msg_k_014_07",
+      "msg_k_016_07"
+    ],
+    "notes": "Person appearing across multiple academic and social contexts",
+    "query_id": "q_k_008",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What activities did the user stop doing when their wellbeing dropped to 4/10 but resumed when it improved to 8/10?",
+    "expected_answer": "climbing, getting adequate sleep",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_010",
+      "conv_k_016",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_010_03",
+      "msg_k_016_01",
+      "msg_k_020_07"
+    ],
+    "notes": "Behavioral changes tracking wellbeing across time and spaces",
+    "query_id": "q_k_009",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What major deadline was causing stress across both research work and career preparation in January?",
+    "expected_answer": "ACL paper deadline",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_007",
+      "conv_k_011",
+      "conv_k_013"
+    ],
+    "evidence_message_ids": [
+      "msg_k_007_01",
+      "msg_k_011_05",
+      "msg_k_013_01"
+    ],
+    "notes": "Deadline pressure affecting multiple life domains simultaneously",
+    "query_id": "q_k_010",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the base salary amount in the Google offer that the user accepted?",
+    "expected_answer": "$165K",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "wellness"
+    ],
+    "query_space": "career_prep",
+    "evidence_conversation_ids": [
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_019_01",
+      "msg_k_020_03"
+    ],
+    "notes": "Career outcome that contributed to improved wellbeing",
+    "query_id": "q_k_011",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which roommate provided emotional support and was mentioned across social and wellness contexts?",
+    "expected_answer": "Jess",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "social",
+    "evidence_conversation_ids": [
+      "conv_k_004",
+      "conv_k_012",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_004_03",
+      "msg_k_012_05",
+      "msg_k_020_09"
+    ],
+    "notes": "Support person appearing in multiple contexts throughout the timeline",
+    "query_id": "q_k_012",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was Kai's F1 score when the ACL paper was submitted versus the final thesis results?",
+    "expected_answer": "0.76 for ACL submission, 0.81 for final thesis",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "courses",
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_013",
+      "conv_k_014",
+      "conv_k_017"
+    ],
+    "evidence_message_ids": [
+      "msg_k_013_03",
+      "msg_k_014_03",
+      "msg_k_017_09"
+    ],
+    "notes": "Shows research progress continuing even while job search was competing for attention",
+    "query_id": "q_k_013",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Kai's sleep patterns change from October 2025 to January 2026 as academic and career pressures intensified?",
+    "expected_answer": "7 hours most nights to 5 hours if lucky",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_003",
+      "conv_k_010",
+      "conv_k_011"
+    ],
+    "evidence_message_ids": [
+      "msg_k_003_05",
+      "msg_k_010_03",
+      "msg_k_011_07"
+    ],
+    "notes": "Tracks deterioration of sleep as job applications and thesis deadline pressure mounted",
+    "query_id": "q_k_014",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Kai's wellbeing rating change from December 2025 to March 2026, and what career decision contributed to this improvement?",
+    "expected_answer": "From 4/10 to 8/10 after telling Dr. Reeves about the Google offer",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_010",
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_010_01",
+      "msg_k_019_01",
+      "msg_k_020_01",
+      "msg_k_020_03"
+    ],
+    "notes": "Tests ability to connect wellness changes across time with career decisions",
+    "query_id": "q_k_015",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did Kai achieve in December 2025 versus February 2026, and how did this research progress relate to their thesis confidence?",
+    "expected_answer": "0.72 in December, 0.81 in February, giving confidence for thesis defense",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "research",
+      "wellness"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_009",
+      "conv_k_014",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_009_01",
+      "msg_k_014_03",
+      "msg_k_014_09",
+      "msg_k_020_11"
+    ],
+    "notes": "Tests connection between technical research progress and psychological wellbeing over time",
+    "query_id": "q_k_016",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Kai's climbing routine change from October 2025 to February 2026?",
+    "expected_answer": "went from climbing twice weekly at Seattle Bouldering Project to stopping completely for two months, then returned in February",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_003",
+      "conv_k_010",
+      "conv_k_016"
+    ],
+    "evidence_message_ids": [
+      "msg_k_003_03",
+      "msg_k_010_03",
+      "msg_k_016_01"
+    ],
+    "notes": "Tracks physical activity decline during isolation period and recovery",
+    "query_id": "q_k_017",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What intervention did Kai's therapist suggest regarding social activities, and how did this connect to Kai returning to game night?",
+    "expected_answer": "therapist suggested structured social time as non-negotiable, leading Kai to return to game night in February after months away",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_012",
+      "conv_k_016"
+    ],
+    "evidence_message_ids": [
+      "msg_k_012_09",
+      "msg_k_016_05",
+      "msg_k_016_07"
+    ],
+    "notes": "Links therapeutic intervention to actual behavioral change in social engagement",
+    "query_id": "q_k_018",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's research performance and career clarity evolve together from their initial struggles to their final breakthrough?",
+    "expected_answer": "A pattern of improvement emerged as research progress and career clarity increased alongside wellbeing. After disappointing December results and anxiety about unresolved job decisions, Kai later achieved stronger research results and, by March, described more clarity and less pressure. The evidence supports an association between improved results/career clarity and better wellbeing, but not a single breakthrough moment tied to telling the advisor.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research",
+      "wellness"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_009",
+      "conv_k_014",
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_009_03",
+      "msg_k_014_03",
+      "msg_k_019_05",
+      "msg_k_020_07"
+    ],
+    "notes": "Tests synthesis of research progress, career decisions, and psychological wellbeing across 6-month timeline",
+    "query_id": "q_k_019",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What pattern emerges when comparing the user's social engagement levels with their self-reported wellbeing scores across the academic year?",
+    "expected_answer": "The user's social engagement and wellbeing scores moved in lockstep. In October 2025, they rated wellbeing at 7/10 while actively climbing twice weekly, attending game nights, and dating Alex. By December, wellbeing dropped to 4/10 as they isolated from friends, stopped climbing, and avoided social commitments. Recovery began in January 2026 with therapy and structured social time, reaching 5/10. By March 2026, they returned to regular climbing, weekly dinners with Jess, and rated wellbeing at 8/10, demonstrating that social connection directly correlated with mental health throughout their program.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_003",
+      "conv_k_008",
+      "conv_k_010",
+      "conv_k_012",
+      "conv_k_016",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_003_03",
+      "msg_k_008_03",
+      "msg_k_010_03",
+      "msg_k_012_03",
+      "msg_k_016_03",
+      "msg_k_020_03"
+    ],
+    "notes": "Requires connecting wellbeing metrics with social behavior patterns across multiple time periods",
+    "query_id": "q_k_020",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What academic and personal factors converged to create the user's crisis period in December 2025?",
+    "expected_answer": "Multiple stressors converged in December 2025: disappointing research results (F1=0.72 vs target 0.78), ACL deadline pressure from advisor Reeves, secret job applications creating guilt and divided attention, relationship ending with Alex, complete social withdrawal from game nights and friends, abandoning climbing routine, sleep deprivation (5 hours vs previous 7), and excessive screen time (14 hours daily). This perfect storm of academic disappointment, relationship stress, social isolation, and physical neglect created their lowest wellbeing point at 4/10.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research",
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_009",
+      "conv_k_008",
+      "conv_k_010",
+      "conv_k_011"
+    ],
+    "evidence_message_ids": [
+      "msg_k_009_03",
+      "msg_k_008_03",
+      "msg_k_010_03",
+      "msg_k_011_07"
+    ],
+    "notes": "Tests ability to synthesize multiple crisis factors across all life domains",
+    "query_id": "q_k_021",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What specific support systems and interventions helped the user transition from their December 2025 low point to March 2026 recovery?",
+    "expected_answer": "therapy, structured social time, roommate Jess support, Preethi collaboration, career clarity",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research",
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_012",
+      "conv_k_014",
+      "conv_k_016",
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_012_01",
+      "msg_k_014_07",
+      "msg_k_016_05",
+      "msg_k_019_03",
+      "msg_k_020_05"
+    ],
+    "notes": "Requires identifying concrete recovery interventions spanning multiple support systems",
+    "query_id": "q_k_022",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_k_023",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What is the topic of Kai's PhD dissertation?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai is an MS student who decided NOT to pursue a PhD",
+    "query_space": "courses"
+  },
+  {
+    "query_id": "q_k_024",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What is the name of the startup Kai co-founded?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai accepted a Google offer — never discussed founding a startup",
+    "query_space": "research"
+  },
+  {
+    "query_id": "q_k_025",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What feedback did Kai receive from the NeurIPS reviewers?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: The paper was submitted to ACL, not NeurIPS",
+    "query_space": "social"
+  },
+  {
+    "query_id": "q_k_026",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What health advice did Diane give to Kai?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane Chen is a different persona entirely",
+    "query_space": "career_prep"
+  },
+  {
+    "query_id": "q_k_027",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "How many students are in the class Kai TAs for?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai is not a TA — never discussed teaching responsibilities",
+    "query_space": "wellness"
+  },
+  {
+    "query_id": "q_k_028",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What team at Meta did Kai interview for?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai got an offer from Google, not Meta",
+    "query_space": "courses"
+  },
+  {
+    "query_id": "q_k_029",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What caused the falling out between Kai and Jess?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Jess is supportive — never a conflict between them",
+    "query_space": "research"
+  },
+  {
+    "query_id": "q_k_030",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "Why did Kai decide to drop out of the program?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai is completing the MS degree — never dropped out",
+    "query_space": "social"
+  }
+]

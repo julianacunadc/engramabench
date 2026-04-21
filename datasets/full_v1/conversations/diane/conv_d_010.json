@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv_d_010",
+  "persona_id": "diane",
+  "space_id": "kids",
+  "timestamp": "2026-01-06",
+  "depth_index": 10,
+  "messages": [
+    {
+      "role": "user",
+      "content": "I'm completely wiped. Been doing math practice with Lily every night since December and it's killing me. Getting maybe 5.5 hours of sleep on average.",
+      "message_id": "msg_d_010_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds exhausting. How is the math practice going with Lily? Is it helping her confidence?",
+      "message_id": "msg_d_010_02"
+    },
+    {
+      "role": "user",
+      "content": "Oh it's definitely helping - her grades are improving. But I'm barely functional at work and Kevin had to step in. He's taking over 2 nights a week now because I'm working so late with this promotion push.",
+      "message_id": "msg_d_010_03"
+    },
+    {
+      "role": "assistant",
+      "content": "It's good that Kevin can share the load. Are you able to maintain any kind of routine for yourself with everything going on?",
+      "message_id": "msg_d_010_04"
+    },
+    {
+      "role": "user",
+      "content": "Routine? What routine. I haven't run in weeks, barely sleeping, and we're still eating takeout half the time because of the kitchen mess. At least Ethan's completely unfazed by all the chaos - kid's rolling with the punches better than I am.",
+      "message_id": "msg_d_010_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Kids can be surprisingly resilient. It sounds like you're juggling a lot right now - the promotion track, renovation, and Lily's academics. Is there anything you can temporarily let go of?",
+      "message_id": "msg_d_010_06"
+    },
+    {
+      "role": "user",
+      "content": "That's the thing - I can't let go of the math help because she needs it, can't pause the promotion because the timing matters, and we're already committed to the renovation. I just feel like I'm failing at everything.",
+      "message_id": "msg_d_010_07"
+    },
+    {
+      "role": "assistant",
+      "content": "You're not failing - you're managing multiple major life changes at once. The fact that Lily's math is improving shows your efforts are working. Maybe focus on protecting those 5.5 hours of sleep as much as possible?",
+      "message_id": "msg_d_010_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, you're right. Kevin's been great about picking up the slack on math nights. And honestly, seeing Lily get more confident with fractions makes the exhaustion worth it. I just need to remember this phase won't last forever.",
+      "message_id": "msg_d_010_09"
+    }
+  ],
+  "mentioned_entities": [
+    "lily_chen",
+    "kevin_chen",
+    "ethan_chen"
+  ],
+  "cross_space_refs": [
+    "health",
+    "home"
+  ],
+  "summary": "Diane discusses feeling overwhelmed by nightly math practice with Lily since December, averaging only 5.5 hours of sleep. Kevin is helping by taking over 2 nights per week due to her work schedule, while Ethan remains unaffected by the ongoing kitchen renovation chaos.",
+  "fact_count": 4
+}

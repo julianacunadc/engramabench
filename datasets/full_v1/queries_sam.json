@@ -1,0 +1,687 @@
+[
+  {
+    "question": "How many Patreon patrons did the user have in October 2025?",
+    "expected_answer": "127",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "business"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01"
+    ],
+    "notes": "Basic recall of specific patron count from early business conversation",
+    "query_id": "q_s_001",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What synthesizer was the user considering purchasing for $550?",
+    "expected_answer": "Arturia MiniFreak",
+    "answer_type": "entity",
+    "depth_band": "deep",
+    "required_spaces": [
+      "business"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_03"
+    ],
+    "notes": "Recall of specific gear mentioned in business context",
+    "query_id": "q_s_002",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Where did the user capture wave recordings for track 3?",
+    "expected_answer": "Cannon Beach",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "music"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_002"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_03"
+    ],
+    "notes": "Location recall from field recording discussion",
+    "query_id": "q_s_003",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What Tycho track did the user use as a mixing reference?",
+    "expected_answer": "A Walk from Dive",
+    "answer_type": "short_span",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "music"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_006"
+    ],
+    "evidence_message_ids": [
+      "msg_s_006_07"
+    ],
+    "notes": "Specific reference track mentioned during mixing process",
+    "query_id": "q_s_004",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the original deadline for the Vex commission project?",
+    "expected_answer": "November 30",
+    "answer_type": "date",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "commissions"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_007"
+    ],
+    "evidence_message_ids": [
+      "msg_s_007_03"
+    ],
+    "notes": "Deadline recall from scope creep discussion",
+    "query_id": "q_s_005",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How much monthly income was the user generating from Patreon in January 2026?",
+    "expected_answer": "$1,420",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "business"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_014"
+    ],
+    "evidence_message_ids": [
+      "msg_s_014_01"
+    ],
+    "notes": "Recent Patreon income figure showing business growth",
+    "query_id": "q_s_006",
+    "persona_id": "sam",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What mastering studio did the artist use for their debut EP?",
+    "expected_answer": "Juno Audio",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "music"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_009",
+      "conv_s_008"
+    ],
+    "evidence_message_ids": [
+      "msg_s_009_03",
+      "msg_s_008_09"
+    ],
+    "notes": "Entity appears in music space but financial impact discussed in business space",
+    "query_id": "q_s_007",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which visual art technique did the artist plan to use for both their gallery work and EP album art?",
+    "expected_answer": "cyanotype",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_011",
+      "conv_s_015"
+    ],
+    "evidence_message_ids": [
+      "msg_s_011_05",
+      "msg_s_015_05"
+    ],
+    "notes": "Technique suggested for gallery work, then breakthrough concept for album art",
+    "query_id": "q_s_008",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What field recording locations influenced both the EP tracks and the album art concept?",
+    "expected_answer": "Cannon Beach, Crater Lake",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "music"
+    ],
+    "query_space": "inspiration",
+    "evidence_conversation_ids": [
+      "conv_s_002",
+      "conv_s_015"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_03",
+      "msg_s_015_03"
+    ],
+    "notes": "Coastal recordings for music, mountain trip breakthrough for visuals",
+    "query_id": "q_s_009",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What visual technique did the artist decide to use for the Tidal album art after their creative breakthrough at Crater Lake?",
+    "expected_answer": "cyanotype process for the base layer, then digital manipulation on top",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_015",
+      "conv_s_016",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_015_05",
+      "msg_s_016_01",
+      "msg_s_020_01"
+    ],
+    "notes": "Tests connection between inspiration breakthrough and visual art execution",
+    "query_id": "q_s_010",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What were the artist's total monthly earnings in March 2026 from both Patreon and commissions combined?",
+    "expected_answer": "$2,840",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "visual_art"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_019",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_019_01",
+      "msg_s_020_05"
+    ],
+    "notes": "Tests financial tracking across business and visual art spaces",
+    "query_id": "q_s_011",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What technique did Elena suggest for both the Night Market Gallery prints and the album art for Tidal?",
+    "expected_answer": "cyanotype",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_011",
+      "conv_s_015"
+    ],
+    "evidence_message_ids": [
+      "msg_s_011_05",
+      "msg_s_015_05"
+    ],
+    "notes": "Cross-space connection between gallery work and music project through shared technique",
+    "query_id": "q_s_012",
+    "persona_id": "sam",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What visual technique did the user decide to use for the Tidal EP album art after their creative breakthrough at Crater Lake?",
+    "expected_answer": "cyanotype",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_015",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_015_05",
+      "msg_s_020_01"
+    ],
+    "notes": "Connects inspiration breakthrough to final visual execution across spaces",
+    "query_id": "q_s_013",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's Patreon patron count change from when they first started working on Tidal in October 2025 to when they completed the album art in March 2026?",
+    "expected_answer": "127 to 248 patrons",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "visual_art"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01",
+      "msg_s_020_05"
+    ],
+    "notes": "Tracks patron growth across the entire EP development timeline spanning business and visual art spaces",
+    "query_id": "q_s_014",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What breakthrough happened at Crater Lake that resolved the user's creative block with the album art?",
+    "expected_answer": "cyanotype process for the base layer, then digital manipulation on top",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "visual_art"
+    ],
+    "query_space": "inspiration",
+    "evidence_conversation_ids": [
+      "conv_s_010",
+      "conv_s_015",
+      "conv_s_016"
+    ],
+    "evidence_message_ids": [
+      "msg_s_010_01",
+      "msg_s_015_05",
+      "msg_s_016_01"
+    ],
+    "notes": "Connects the December creative void to February breakthrough and March execution",
+    "query_id": "q_s_015",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's commission workload change from November 2025 to January 2026, and what was the impact on their creative energy?",
+    "expected_answer": "November: juggling 4 active commissions, December: paralyzed by scope creep, January: officially done taking new work to preserve creative energy",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "commissions",
+      "inspiration"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_005",
+      "conv_s_010",
+      "conv_s_012"
+    ],
+    "evidence_message_ids": [
+      "msg_s_005_01",
+      "msg_s_010_05",
+      "msg_s_012_01"
+    ],
+    "notes": "Tracks the evolution from commission overload to creative burnout to protective boundaries",
+    "query_id": "q_s_016",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What commission rate increase did the user implement between their early work and February 2026?",
+    "expected_answer": "$400 to $600",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "commissions"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_005",
+      "conv_s_014",
+      "conv_s_017"
+    ],
+    "evidence_message_ids": [
+      "msg_s_005_03",
+      "msg_s_014_05",
+      "msg_s_017_05"
+    ],
+    "notes": "Shows evolution of commission pricing as confidence and Patreon success grew",
+    "query_id": "q_s_017",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the artist's Patreon patron count change from October 2025 to March 2026, and what commission rate increase did this growth enable?",
+    "expected_answer": "From 127 patrons in October to 248 patrons in March, enabling a commission rate increase from $400 to $600",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "commissions"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001",
+      "conv_s_014",
+      "conv_s_017",
+      "conv_s_019"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01",
+      "msg_s_014_01",
+      "msg_s_014_05",
+      "msg_s_017_05",
+      "msg_s_019_01"
+    ],
+    "notes": "Tracks financial growth across spaces showing how Patreon success enabled commission pricing power",
+    "query_id": "q_s_018",
+    "persona_id": "sam",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the artist's financial strategy evolve from October 2025 to March 2026, and what key decisions enabled them to consider dropping commission work entirely?",
+    "expected_answer": "The artist's financial strategy evolved through strategic Patreon growth and commission rate increases. Starting at 127 patrons ($840/month) in October 2025, they grew to 248 patrons ($1,640/month) by March 2026 through process videos. Simultaneously, they raised commission rates from $400 to $600 per piece. This dual approach increased total monthly income from $2,100 to $2,840, making them consider dropping commissions entirely if Patreon reaches 300 patrons ($1,980/month).",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "business",
+      "commissions"
+    ],
+    "query_space": "business",
+    "evidence_conversation_ids": [
+      "conv_s_001",
+      "conv_s_005",
+      "conv_s_008",
+      "conv_s_014",
+      "conv_s_017",
+      "conv_s_019"
+    ],
+    "evidence_message_ids": [
+      "msg_s_001_01",
+      "msg_s_005_05",
+      "msg_s_008_01",
+      "msg_s_014_01",
+      "msg_s_014_05",
+      "msg_s_017_05",
+      "msg_s_019_01",
+      "msg_s_019_05"
+    ],
+    "notes": "Complex synthesis across business growth and commission evolution",
+    "query_id": "q_s_019",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What creative breakthroughs and setbacks shaped the Tidal EP from initial concept to final release, and how did external pressures influence the artistic process?",
+    "expected_answer": "The Tidal EP moved through several phases: early momentum with field recordings and initial drafts, then commission overload and creative blockage, followed by a Crater Lake breakthrough that unlocked the cyanotype-based visual direction, and finally technical rework on Undertow that pushed the release to April 5. External commission pressure repeatedly interrupted the process and shaped both the pacing and quality of the final work.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "music",
+      "visual_art"
+    ],
+    "query_space": "music",
+    "evidence_conversation_ids": [
+      "conv_s_002",
+      "conv_s_006",
+      "conv_s_009",
+      "conv_s_010",
+      "conv_s_013",
+      "conv_s_015",
+      "conv_s_016",
+      "conv_s_018"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_01",
+      "msg_s_006_01",
+      "msg_s_009_01",
+      "msg_s_010_01",
+      "msg_s_013_01",
+      "msg_s_015_05",
+      "msg_s_016_01",
+      "msg_s_018_01"
+    ],
+    "notes": "Traces complete creative arc across multiple disruptions and breakthroughs",
+    "query_id": "q_s_020",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "Which specific creative techniques and inspirational sources consistently appeared across the artist's music and visual work throughout this period?",
+    "expected_answer": "Field recordings, organic-digital hybrid processes, cyanotype technique, process videos, ambient textures",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "inspiration",
+      "music",
+      "visual_art"
+    ],
+    "query_space": "visual_art",
+    "evidence_conversation_ids": [
+      "conv_s_002",
+      "conv_s_003",
+      "conv_s_004",
+      "conv_s_011",
+      "conv_s_015",
+      "conv_s_016",
+      "conv_s_020"
+    ],
+    "evidence_message_ids": [
+      "msg_s_002_03",
+      "msg_s_003_05",
+      "msg_s_004_03",
+      "msg_s_011_09",
+      "msg_s_015_03",
+      "msg_s_015_05",
+      "msg_s_016_03",
+      "msg_s_020_01"
+    ],
+    "notes": "Identifies recurring creative elements spanning multiple artistic mediums",
+    "query_id": "q_s_021",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did the artist's relationship with creative constraints and scope management evolve from the chaotic commission period to the structured EP completion?",
+    "expected_answer": "The artist evolved from accepting unlimited scope creep (Vex Brewing expanding from 1 to 3 labels for same budget, juggling 4 simultaneous commissions) to implementing strict boundaries through detailed scope-of-work templates, revision limits, and selective client acceptance. This transformation was enabled by Patreon growth providing financial security, allowing them to prioritize creative quality over quantity and ultimately complete the Tidal EP with proper time and resources.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "commissions",
+      "music"
+    ],
+    "query_space": "commissions",
+    "evidence_conversation_ids": [
+      "conv_s_005",
+      "conv_s_007",
+      "conv_s_012",
+      "conv_s_017",
+      "conv_s_018"
+    ],
+    "evidence_message_ids": [
+      "msg_s_005_01",
+      "msg_s_007_03",
+      "msg_s_012_01",
+      "msg_s_012_07",
+      "msg_s_017_07",
+      "msg_s_018_09"
+    ],
+    "notes": "Synthesizes professional development and creative protection strategies",
+    "query_id": "q_s_022",
+    "persona_id": "sam",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_s_023",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "What label did Sam sign with for the EP release?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam is independent — never discussed signing with a record label",
+    "query_space": "music"
+  },
+  {
+    "query_id": "q_s_024",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "How many pieces did Sam display at their solo gallery show?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam submitted to group shows but never had a solo exhibition",
+    "query_space": "visual_art"
+  },
+  {
+    "query_id": "q_s_025",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "When did Sam finish mastering the 'Currents' EP?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: The EP is called 'Tidal', not 'Currents'",
+    "query_space": "commissions"
+  },
+  {
+    "query_id": "q_s_026",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "What fintech advice did Sam give to Carlos?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Carlos Mendoza is a different persona entirely",
+    "query_space": "inspiration"
+  },
+  {
+    "query_id": "q_s_027",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "Where did Sam study classical composition?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam is self-taught — never mentioned formal music education",
+    "query_space": "business"
+  },
+  {
+    "query_id": "q_s_028",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "What company hired Sam as a full-time designer?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam is a freelancer — never discussed taking a full-time job",
+    "query_space": "music"
+  },
+  {
+    "query_id": "q_s_029",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "How is Sam adjusting to the move to Austin?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam lives in Portland, OR — never mentioned Austin",
+    "query_space": "visual_art"
+  },
+  {
+    "query_id": "q_s_030",
+    "persona_id": "sam",
+    "task_family": "adversarial",
+    "question": "How many copies of Sam's vinyl pressing were ordered?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Sam releases digitally on Bandcamp + streaming — no vinyl discussed",
+    "query_space": "commissions"
+  }
+]

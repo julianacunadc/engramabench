@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv_c_010",
+  "persona_id": "carlos",
+  "space_id": "personal",
+  "timestamp": "2025-12-28",
+  "depth_index": 10,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Man, I don't know... I've been sleeping like 5 hours a night for weeks now. My mind just won't shut off, you know? Keep thinking about the pitch deck, about Lucia's interview, about whether we can actually hit those numbers Kaszek wants.",
+      "message_id": "msg_c_010_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds exhausting. The combination of fundraising pressure and hiring decisions would keep anyone up. How are you managing during the day with so little sleep?",
+      "message_id": "msg_c_010_02"
+    },
+    {
+      "role": "user",
+      "content": "Barely, honestly. Coffee and adrenaline mostly. But it's starting to show - I snapped at Andrea yesterday over nothing, and my girlfriend keeps asking if I'm okay. She's worried, says I look like shit. Which... fair.",
+      "message_id": "msg_c_010_03"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like the people close to you are noticing the toll this is taking. Have you thought about what might help you get better rest, or ways to manage the stress?",
+      "message_id": "msg_c_010_04"
+    },
+    {
+      "role": "user",
+      "content": "Actually yeah, I've been thinking about... maybe talking to someone? Like therapy? Never done it before but this whole fundraising and hiring crunch is just... it's a lot. My girlfriend suggested it too.",
+      "message_id": "msg_c_010_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a really thoughtful step. Many founders find therapy helpful for managing the unique pressures of building a company. What's holding you back from taking that step?",
+      "message_id": "msg_c_010_06"
+    },
+    {
+      "role": "user",
+      "content": "I guess... time? Money? But mostly just admitting I need help, you know? Like, I'm supposed to have all the answers for my team, for investors. But I'm barely keeping it together. Maybe that's exactly why I should do it.",
+      "message_id": "msg_c_010_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That's actually a sign of strong leadership - recognizing when you need support to be at your best. Taking care of yourself isn't separate from taking care of your company; they're connected.",
+      "message_id": "msg_c_010_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah... you're right. I can't keep running on empty like this. The investors need me sharp, the team needs me present, and honestly my girlfriend deserves better than this zombie version of me. Maybe I'll look into it after New Year's.",
+      "message_id": "msg_c_010_09"
+    }
+  ],
+  "mentioned_entities": [
+    "kaszek_ventures",
+    "lucia_torres",
+    "andrea_gomez"
+  ],
+  "cross_space_refs": [
+    "investors",
+    "hiring"
+  ],
+  "summary": "Carlos opens up about sleeping only 5 hours a night due to fundraising and hiring pressure, with his girlfriend expressing concern. He considers therapy for the first time as the stress affects his relationships and work performance.",
+  "fact_count": 4
+}

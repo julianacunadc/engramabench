@@ -1,0 +1,63 @@
+{
+  "conversation_id": "conv_d_015",
+  "persona_id": "diane",
+  "space_id": "health",
+  "timestamp": "2026-02-17",
+  "depth_index": 15,
+  "messages": [
+    {
+      "role": "user",
+      "content": "I need to get back on track with my health. Haven't been running since January and I'm barely sleeping 5.8 hours a night on average. This work crunch is killing me.",
+      "message_id": "msg_d_015_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a tough combination - lack of exercise and sleep deprivation can really compound each other. What's been the biggest barrier to getting back to running?",
+      "message_id": "msg_d_015_02"
+    },
+    {
+      "role": "user",
+      "content": "Time, honestly. Between the product launch prep keeping me up until midnight and Lily's math homework sessions, I just can't find the windows I used to have. Kevin's been suggesting we get a couples gym membership.",
+      "message_id": "msg_d_015_03"
+    },
+    {
+      "role": "assistant",
+      "content": "A couples membership could help with accountability and make it more social. What's your initial reaction to that idea?",
+      "message_id": "msg_d_015_04"
+    },
+    {
+      "role": "user",
+      "content": "I'm skeptical, to be honest. We've tried the 'let's work out together' thing before and it never sticks. But maybe something low-key to start? I told him I'd try Saturday morning yoga if he's serious about it.",
+      "message_id": "msg_d_015_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Saturday morning yoga sounds like a gentle way to test the waters. It's also great for stress relief, which might help with your sleep quality too.",
+      "message_id": "msg_d_015_06"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, I need something for the stress. The sleep thing is partially work but also just my brain not shutting off. Even when Lily's math grades improved to a B+ last week, I'm still lying there at night thinking about all the things I'm not doing well enough.",
+      "message_id": "msg_d_015_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're carrying a lot of mental load. Yoga might actually be perfect for that - the mindfulness component could help with the racing thoughts at bedtime. How are you feeling about committing to the Saturday sessions?",
+      "message_id": "msg_d_015_08"
+    },
+    {
+      "role": "user",
+      "content": "I think I can manage Saturdays, especially if it means Kevin and I actually spend time together that isn't about logistics or kids' schedules. Worst case scenario, I get an hour of stretching and we figure out it's not for us.",
+      "message_id": "msg_d_015_09"
+    }
+  ],
+  "mentioned_entities": [
+    "kevin_chen",
+    "lily_chen"
+  ],
+  "cross_space_refs": [
+    "career"
+  ],
+  "summary": "Diane discusses her declining health habits since January, including stopped running and poor sleep averaging 5.8 hours. She's skeptical but agrees to try Saturday morning yoga with Kevin as part of a couples gym membership to address stress and reconnect.",
+  "fact_count": 4
+}

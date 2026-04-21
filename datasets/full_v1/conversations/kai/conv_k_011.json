@@ -1,0 +1,68 @@
+{
+  "conversation_id": "conv_k_011",
+  "persona_id": "kai",
+  "space_id": "career_prep",
+  "timestamp": "2026-01-05",
+  "depth_index": 11,
+  "messages": [
+    {
+      "role": "user",
+      "content": "okay so update on the job hunt - I've now sent out 8 total applications which feels like a lot but also maybe not enough? anyway the good news is I got phone screens with Google and Cohere",
+      "message_id": "msg_k_011_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great progress! Getting phone screens with both Google and Cohere is a really positive sign. How did those conversations go?",
+      "message_id": "msg_k_011_02"
+    },
+    {
+      "role": "user",
+      "content": "the Cohere one was... okay I think? hard to tell honestly. but Google went really well and they're actually moving me to the on-site round which is exciting but also terrifying",
+      "message_id": "msg_k_011_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Congratulations on making it to Google's on-site! That's a significant milestone. What's making you feel terrified about it?",
+      "message_id": "msg_k_011_04"
+    },
+    {
+      "role": "user",
+      "content": "well partly just the usual interview anxiety but also the timing is brutal. like I'm supposed to be cramming for this on-site while also trying to finish my thesis experiments and honestly the interview prep is eating into my thesis time in a major way",
+      "message_id": "msg_k_011_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a tough balance to strike. The competing priorities between thesis work and interview prep can be really stressful. Have you been able to set any boundaries around time allocation?",
+      "message_id": "msg_k_011_06"
+    },
+    {
+      "role": "user",
+      "content": "not really? I keep telling myself I'll just do a quick leetcode problem or review system design for like an hour but then it turns into three hours and suddenly I haven't touched my NLP experiments all day. it's like... I know the thesis should be priority but this Google opportunity feels too big to mess up",
+      "message_id": "msg_k_011_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're caught between two important opportunities, and both feel high-stakes right now. Have you considered creating a more structured schedule that explicitly blocks time for each priority?",
+      "message_id": "msg_k_011_08"
+    },
+    {
+      "role": "user",
+      "content": "yeah I probably should do that. maybe like mornings for thesis work when my brain is fresh and afternoons for interview stuff? or wait actually that might be backwards since the coding problems require more mental energy... ugh I don't know, I just need to figure this out before I completely tank one or both of these things",
+      "message_id": "msg_k_011_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Both approaches could work - it really depends on when you personally feel most sharp for different types of work. Maybe try one schedule for a few days and see how it feels, then adjust if needed. You don't have to get it perfect right away.",
+      "message_id": "msg_k_011_10"
+    }
+  ],
+  "mentioned_entities": [
+    "google",
+    "nlp_focus"
+  ],
+  "cross_space_refs": [
+    "research"
+  ],
+  "summary": "Kai updates on job search progress, having sent 8 applications and received phone screens from Google and Cohere. Google is moving them to on-site interviews, but the interview preparation is significantly cutting into thesis work time, creating a stressful balance between competing priorities.",
+  "fact_count": 4
+}

@@ -1,0 +1,1431 @@
+{
+  "benchmark_version": "full-v1",
+  "dataset_version": "full-v1",
+  "scorer_version": "1.4.0",
+  "run_id": "run_engrama_noL3_all_personas",
+  "system": "engrama_noL3",
+  "system_model": "gpt-4o-2024-08-06",
+  "system_config_version": "engram-v1:1.0.0",
+  "system_config_hash": "sha256:0a63d67e87388939",
+  "generator_model": "gpt-4o",
+  "judge_model": "gpt-4o",
+  "seed": 42,
+  "corpus_prompt_hash": "sha256:0000000000000000",
+  "query_prompt_hash": "sha256:0000000000000000",
+  "judge_prompt_hash": "sha256:0000000000000000",
+  "timestamp": "2026-04-20T04:40:36.818419Z",
+  "scores": {
+    "single_space_f1": 0.6322,
+    "cross_space_f1": 0.6033,
+    "temporal_cross_space_f1": 0.3104,
+    "adversarial_accuracy": 0.85,
+    "emergent_insight_score": 0.3197,
+    "composite_score": 0.5501
+  },
+  "depth_decay": {
+    "alpha": 0.2273,
+    "recent_f1": 0.3333,
+    "midrange_f1": 0.0,
+    "deep_f1": 0.5606,
+    "cross_temporal_f1": 0.4216
+  },
+  "baseline_truncation": null,
+  "efficiency": {
+    "avg_tokens_per_query": 1670.49,
+    "avg_cost_per_query": 0.004459,
+    "avg_latency_ms": 2777.33,
+    "total_cost": 0.6689
+  },
+  "per_query": [
+    {
+      "query_id": "q_p_001",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "February 5th",
+      "predicted": "The deadline for Priya's R01 proposal was in February, and she submitted it just three minutes before the deadline."
+    },
+    {
+      "query_id": "q_p_002",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "4",
+      "predicted": "I don't have specific information on how many lab members want to use the new sequencing protocol. You might want to check in with your team to see who is interested or planning to incorporate it into their projects."
+    },
+    {
+      "query_id": "q_p_003",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "co-PI",
+      "predicted": "Marcus is the co-PI on Priya's R01 grant proposal. His expertise in computational genomics is critical to the project, and he is handling the Stanford side of the collaboration."
+    },
+    {
+      "query_id": "q_p_004",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "75",
+      "predicted": "Priya's Computational Genomics course has an enrollment of 75 students."
+    },
+    {
+      "query_id": "q_p_005",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "recent",
+      "score": 1.0,
+      "expected": "Genome Biology",
+      "predicted": "Priya resubmitted her paper to Genome Biology after the rejection from Nature Methods."
+    },
+    {
+      "query_id": "q_p_006",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "February 5, 2026",
+      "predicted": "Priya submitted her R01 proposal just three minutes before the deadline."
+    },
+    {
+      "query_id": "q_p_007",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4348,
+      "expected": "$1.2 million over 5 years",
+      "predicted": "The total budget for the R01 grant involving Priya and Marcus is $1.2 million over five years."
+    },
+    {
+      "query_id": "q_p_008",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "deep",
+      "score": 0.5,
+      "expected": "Anika, Ravi",
+      "predicted": "The two PhD students in Priya's lab are Anika and Javier."
+    },
+    {
+      "query_id": "q_p_009",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Marcus",
+      "predicted": "The co-PI on the R01 grant submitted in February is Marcus, who is handling the Stanford side of the project."
+    },
+    {
+      "query_id": "q_p_010",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3,
+      "expected": "Genome Biology submission",
+      "predicted": "The Genome Biology submission was crucial for the R01 preliminary data section, especially after the Nature Methods paper was rejected."
+    },
+    {
+      "query_id": "q_p_011",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.5,
+      "expected": "Anika, Marcus's postdoc",
+      "predicted": "The authorship dispute involved Anika from your lab and Marcus's postdoc. Anika was initially in contention for the first author position, which was resolved with her being the first author and Marcus's postdoc as the second author."
+    },
+    {
+      "query_id": "q_p_012",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3704,
+      "expected": "$1.2 million over 5 years",
+      "predicted": "The total budget for the R01 grant involving the collaboration between Priya's lab and Marcus's lab is $1.2 million over five years."
+    },
+    {
+      "query_id": "q_p_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3404,
+      "expected": "October: planned to submit Nature Methods by end of week, December: Nature Methods rejected the paper, February: resubmitted to Genome Biology instead",
+      "predicted": "The Nature Methods paper was initially submitted in December, but after its rejection, Priya quickly pivoted to resubmit to Genome Biology. The resubmission to Genome Biology happened this morning, following the rejection and subsequent revisions."
+    },
+    {
+      "query_id": "q_p_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2273,
+      "expected": "October 2025: 4 people (including Maya), March 2026: 5 people (Maya graduated, Javier and Sarah joined)",
+      "predicted": "When the R01 was initially planned back in February, the lab was smaller, likely with fewer than five people. By the time the grant score was announced, the lab had grown to five members, including Javier and Sarah."
+    },
+    {
+      "query_id": "q_p_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3704,
+      "expected": "Anika first author, Marcus's postdoc second, Marcus and Priya co-corresponding",
+      "predicted": "The authorship dispute was resolved by designating Marcus's postdoc as the second author for the paper resubmission."
+    },
+    {
+      "query_id": "q_p_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3704,
+      "expected": "$1.2 million over 5 years",
+      "predicted": "The budget amount for the R01 remained consistent from the initial planning phase to the final submission, totaling $1.2 million over five years."
+    },
+    {
+      "query_id": "q_p_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4211,
+      "expected": "cancelled lab meeting three times in December due to grading",
+      "predicted": "Between October and December 2025, Priya had to cancel lab meetings multiple times due to the demands of grading and teaching responsibilities. This happened at least three times in November alone."
+    },
+    {
+      "query_id": "q_p_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.375,
+      "expected": "two weeks delay due to being buried in grading for Computational Genomics",
+      "predicted": "The delay in reviewing Anika's protocol was because Priya Sharma was too swamped with her teaching duties to review it. She mentioned being buried in grading for her Computational Genomics course, which impacted her ability to manage lab tasks effectively."
+    },
+    {
+      "query_id": "q_p_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.5263,
+      "expected": "The Nature Methods rejection forced a strategic pivot that actually strengthened the R01 application. The paper was resubmitted to Genome Biology with major statistical improvements after reviewer criticism, and was cited as 'under review' in the preliminary data section of the R01 submitted in February 2026. This pivot provided stronger statistical foundation for the grant while meeting the submission deadline.",
+      "predicted": "The Nature Methods paper rejection in December 2025 forced a quick pivot in your strategy. You decided to submit to Genome Biology instead, which was crucial for the preliminary data section of the R01 application. This shift, despite the authorship drama with Marcus, allowed you to meet the R01 submission deadline and strengthen the proposal with solid preliminary data."
+    },
+    {
+      "query_id": "q_p_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2344,
+      "expected": "Lab productivity was constrained by teaching overload (75 students, one TA) causing cancelled meetings and delayed protocol reviews, compounded by personnel changes (Maya graduated in December reducing lab to 3 people) and PI attention split between grant writing and grading. Recovery began with strategic teaching approach in spring 2026 and lab expansion to 5 people with new PhD student and rotation student.",
+      "predicted": "The lab's productivity and management challenges evolved due to several factors. Initially, Priya was managing a tight budget while transitioning to a new sequencing protocol, which required strategic resource allocation and limited protocol runs. The team was short-staffed after Maya's graduation, adding pressure to Priya's teaching and lab management responsibilities. However, the arrival of a new PhD student and new equipment in March likely helped alleviate some of these challenges. The addition of Javier and Sarah in the lab further changed the dynamics, introducing new training needs and supervision demands. These changes, combined with Anika's upcoming defense and Li Chen's potential interest in industry, contributed to the evolving productivity and management landscape."
+    },
+    {
+      "query_id": "q_p_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.383,
+      "expected": "The collaboration evolved from productive partnership in November 2025 with resolved authorship (Anika first, Marcus's postdoc second, co-corresponding) to December conflict over first authorship claims, threatening both paper submission and R01 co-PI arrangement. Resolution came through maintaining original authorship agreement and successful joint grant submission, though tensions persisted through budget revision disputes in January 2026.",
+      "predicted": "The collaboration with Marcus Wei initially showed promise, especially with the successful finalization of the specific aims for the R01 grant application. However, tensions arose over a budget revision and an authorship dispute. Marcus felt excluded from a budget change, which led him to consider withdrawing as co-PI, adding stress for Priya as she worked towards the grant deadline. Additionally, there was a conflict over the authorship of a paper, with Marcus pushing for his postdoc to be first author, while Priya believed Anika deserved that position due to her significant contributions. This dispute was eventually resolved with Anika as the first author, Marcus's postdoc as the second, and both Priya and Marcus as co-corresponding authors. Despite these challenges, Priya and Marcus managed to maintain their collaboration, focusing on the scientific goals and leveraging their complementary expertise."
+    },
+    {
+      "query_id": "q_p_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2835,
+      "expected": "Success resulted from strategic adaptation to setbacks: Nature Methods rejection led to stronger statistical methods for Genome Biology resubmission, authorship conflicts were resolved maintaining Marcus as co-PI, budget was structured at $1.2M over 5 years with 65/35 institutional split, and preliminary data section leveraged the under-review GB paper. The 18th percentile score reflected this integrated approach overcoming publication and collaboration challenges.",
+      "predicted": "Several interconnected factors played a role in the successful R01 submission and strong scoring. First, the inclusion of preliminary data, particularly the Genome Biology submission, strengthened the proposal. Despite the Nature Methods rejection and authorship issues with Marcus, Priya pivoted quickly to ensure the proposal remained robust. Anika's contributions were also vital, especially given the challenges faced. The clarity in team roles and a well-planned budget further enhanced the proposal's strength. All these elements combined to overcome the setbacks and achieve a strong score."
+    },
+    {
+      "query_id": "q_p_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information about Priya being involved in a clinical trial. If there's anything else you'd like to discuss or clarify, feel free to let me know!"
+    },
+    {
+      "query_id": "q_p_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on any funding Priya raised for a biotech startup."
+    },
+    {
+      "query_id": "q_p_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information about Priya's paper being accepted by Cell."
+    },
+    {
+      "query_id": "q_p_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about a music project involving Priya and Sam Torres."
+    },
+    {
+      "query_id": "q_p_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on when Priya received her tenure decision."
+    },
+    {
+      "query_id": "q_p_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have the information about Priya's NSF CAREER grant budget."
+    },
+    {
+      "query_id": "q_p_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have the specific details about what Priya presented at the Paris conference."
+    },
+    {
+      "query_id": "q_p_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on how often Priya visits Marcus's lab at MIT."
+    },
+    {
+      "query_id": "q_c_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 1.0,
+      "expected": "$45K",
+      "predicted": "In the first meeting with Kaszek, Carlos mentioned that the current MRR was $45,000."
+    },
+    {
+      "query_id": "q_c_002",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "12",
+      "predicted": "Carlos's team has grown to 14 people."
+    },
+    {
+      "query_id": "q_c_003",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "$500K",
+      "predicted": "The convertible note bridge round from Andrea is $500K."
+    },
+    {
+      "query_id": "q_c_004",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "$29",
+      "predicted": "FinFlow's monthly pricing is $29."
+    },
+    {
+      "query_id": "q_c_005",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 1.0,
+      "expected": "$4.2B",
+      "predicted": "The total addressable market (TAM) for LATAM fintech is $4.2 billion."
+    },
+    {
+      "query_id": "q_c_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "15 hours",
+      "predicted": "I don't have the specific number of hours PayFlow customers save on reconciliation."
+    },
+    {
+      "query_id": "q_c_007",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "FinFlow",
+      "predicted": "Carlos mentions FinFlow as a competitor in the Series A pitch deck updates from December."
+    },
+    {
+      "query_id": "q_c_008",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3333,
+      "expected": "$4,800 per month",
+      "predicted": "Carlos has set a salary cap of $4,800 per month for both the senior engineer and UX designer positions."
+    },
+    {
+      "query_id": "q_c_009",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4615,
+      "expected": "20% month-over-month",
+      "predicted": "Kaszek requires a 20% month-over-month growth for Series A funding."
+    },
+    {
+      "query_id": "q_c_010",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Luc\u00eda",
+      "predicted": "Carlos credits Luc\u00eda with providing strong support, particularly in technical presentations and backend work."
+    },
+    {
+      "query_id": "q_c_011",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4,
+      "expected": "Bancolombia API integration",
+      "predicted": "Carlos mentions the Bancolombia API integration as a competitive moat against FinFlow."
+    },
+    {
+      "query_id": "q_c_012",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "FinFlow",
+      "predicted": "Carlos mentions FinFlow as a competitor when discussing PayFlow's differentiation strategy with Kaszek investors."
+    },
+    {
+      "query_id": "q_c_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0727,
+      "expected": "Bank connection step was too many clicks with confusing error messages, causing user drop-off",
+      "predicted": "The main complaint about the onboarding process was that it was the number one issue users had, leading to a lower NPS score of 47. The redesign, led by the new UX designer, addressed these issues, significantly improving user completion rates and contributing to the NPS increase to 58."
+    },
+    {
+      "query_id": "q_c_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2128,
+      "expected": "From $45K MRR in October 2025 to $78K MRR in March 2026",
+      "predicted": "Carlos's MRR grew from $52K in December to $78K by the time he received the verbal Series A commitment from Kaszek. This represents a 50% increase over that period, demonstrating significant growth and aligning with the requirements set by Kaszek for the Series A funding."
+    },
+    {
+      "query_id": "q_c_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.087,
+      "expected": "From 5 hours per night to 7 hours per night",
+      "predicted": "During the hiring and fundraising stress period, Carlos was sleeping about five hours a night, struggling with insomnia due to the pressures of pitching, hiring, and meeting growth targets. After bringing on Lucia to handle the technical side, it seems like Carlos has been able to delegate more effectively, which likely helped alleviate some of that stress, though you haven't mentioned any specific changes in your sleep patterns since then."
+    },
+    {
+      "query_id": "q_c_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4211,
+      "expected": "From 47 to 58, hiring a UX designer",
+      "predicted": "The NPS score improved from 47 in November to 58 recently. The hiring of a new UX designer contributed significantly to this change by addressing the onboarding issues, which were a major complaint previously."
+    },
+    {
+      "query_id": "q_c_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.25,
+      "expected": "October: vague awareness, couldn't remember name; November: identified as FinFlow; December: detailed analysis with $29 pricing and no AI reconciliation; February: used as key differentiation point in Kaszek pitch",
+      "predicted": "In October, Carlos updated his competitor slide to include FinFlow, noting their $29 pricing in Mexico. By February, he had a clearer understanding of FinFlow's position, particularly recognizing their lack of AI-powered reconciliation features. This deeper insight likely helped Carlos refine his competitive strategy and market positioning."
+    },
+    {
+      "query_id": "q_c_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2,
+      "expected": "January 8: kickoff with 2 sprint cycles estimated; March 5: in QA testing; March 12: live in staging; March 19: production launch",
+      "predicted": "The Bancolombia integration was a key part of your Q1 product roadmap. It was initially implemented in the staging environment, then moved into QA, and was completed last week. If you push to production next week, it will have been a relatively quick turnaround from kickoff to launch."
+    },
+    {
+      "query_id": "q_c_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.1698,
+      "expected": "The onboarding flow redesign by the new UX designer improved NPS from 47 to 58, while hiring Lucia as senior engineer enabled backend improvements and delegation of technical work, allowing Carlos to focus on fundraising while maintaining the 20% monthly growth trajectory Kaszek required.",
+      "predicted": "The key product improvement that significantly contributed to PayFlow's growth was the integration with Bancolombia, which went live last week. This integration likely played a crucial role in reaching the current $78K MRR and reducing churn to 2.4%. On the hiring front, having Luc\u00eda on your team has been instrumental, especially with her technical expertise and support in preparing for due diligence. These strategic moves have been pivotal in meeting the growth metrics required for Series A funding with Kaszek."
+    },
+    {
+      "query_id": "q_c_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.4259,
+      "expected": "Carlos initially couldn't remember FinFlow's name in October, but by December had mapped their $29 pricing and lack of AI reconciliation, then leveraged this intelligence to position PayFlow's AI automation and Bancolombia integration as key differentiators in Series A materials.",
+      "predicted": "PayFlow's competitive intelligence gathering has evolved significantly to support their Series A positioning against FinFlow. Initially, there was a lack of clarity, as evidenced by the difficulty in recalling FinFlow's name back in October. However, since then, PayFlow has focused on differentiating itself through strategic initiatives such as the Bancolombia API integration and emphasizing AI automation. These efforts have not only improved their competitive positioning but also provided a clearer narrative for investors, showcasing their unique value proposition and market potential."
+    },
+    {
+      "query_id": "q_c_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2718,
+      "expected": "Carlos was sleeping 5 hours nightly while handling all technical work, hiring decisions, and fundraising pressure, but hiring Lucia allowed him to delegate backend work and sleep 7 hours, while considering therapy and vacation planning showed improved work-life balance as the team grew to 14 people.",
+      "predicted": "Carlos's burnout was largely due to the intense demands of hitting aggressive growth targets and managing multiple aspects of the business himself, including coding late into the night. The expansion of his team, particularly hiring Lucia, significantly alleviated his workload. With Lucia handling backend tasks, Carlos was able to delegate more effectively, reducing his stress and allowing him to focus on strategic growth and investment opportunities. This shift not only improved his personal sustainability but also contributed to the company's success."
+    },
+    {
+      "query_id": "q_c_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3529,
+      "expected": "The AI-powered reconciliation that FinFlow lacked, combined with the exclusive Bancolombia API integration, plus proven metrics of MRR growth from $45K to $78K, churn reduction from 4.2% to 2.4%, and NPS improvement from 47 to 58 demonstrated sustainable competitive advantages.",
+      "predicted": "PayFlow's competitive moat is built on a combination of strategic product features, partnerships, and impressive metrics. The AI reconciliation feature is a key differentiator, offering significant customer time savings and setting PayFlow apart from competitors like FinFlow. The recent Bancolombia integration has also been crucial, contributing to the growth in MRR and reduction in churn. These elements, combined with a strong month-over-month growth rate and a clear differentiation strategy, have been instrumental in securing Kaszek's $4M Series A commitment."
+    },
+    {
+      "query_id": "q_c_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about Carlos discussing his PhD thesis defense."
+    },
+    {
+      "query_id": "q_c_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have the specific terms of the partnership contract with Rappi."
+    },
+    {
+      "query_id": "q_c_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 0.0,
+      "expected": "ABSTAIN",
+      "predicted": "Carlos hasn't closed the Series A round yet. The timeline for the Series A has shifted to Q2 2026, and due diligence is set to start next month."
+    },
+    {
+      "query_id": "q_c_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have the specific number of engineers on PayFlow's backend team."
+    },
+    {
+      "query_id": "q_c_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on Luc\u00eda Torres declining an offer."
+    },
+    {
+      "query_id": "q_c_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information about Carlos and Priya co-applying for a grant."
+    },
+    {
+      "query_id": "q_c_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on any specific timeline Carlos has set for PayFlow's IPO."
+    },
+    {
+      "query_id": "q_c_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have the specific timing for PayFlow's move to the new office in Medell\u00edn."
+    },
+    {
+      "query_id": "q_s_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "127",
+      "predicted": "I don't have information on the number of Patreon patrons Sam Torres had in October 2025."
+    },
+    {
+      "query_id": "q_s_002",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "deep",
+      "score": 1.0,
+      "expected": "Arturia MiniFreak",
+      "predicted": "Sam Torres was considering purchasing an Arturia MiniFreak synthesizer for $550."
+    },
+    {
+      "query_id": "q_s_003",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "Cannon Beach",
+      "predicted": "The wave recordings for track 3 were captured at Cannon Beach."
+    },
+    {
+      "query_id": "q_s_004",
+      "task_family": "single_space",
+      "answer_type": "short_span",
+      "depth_band": "mid_range",
+      "score": 0.4211,
+      "expected": "A Walk from Dive",
+      "predicted": "Sam Torres used \"A Walk from Dive\" by Tycho as a mixing reference for the EP."
+    },
+    {
+      "query_id": "q_s_005",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "November 30",
+      "predicted": "The original deadline for the Vex commission project was November 30."
+    },
+    {
+      "query_id": "q_s_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "$1,420",
+      "predicted": "I don't have the information on Sam's Patreon income for January 2026."
+    },
+    {
+      "query_id": "q_s_007",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Juno Audio",
+      "predicted": "Sam Torres used Juno Audio for mastering their debut EP."
+    },
+    {
+      "query_id": "q_s_008",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "cyanotype",
+      "predicted": "Sam Torres planned to use the cyanotype technique for both their gallery work and the EP album art."
+    },
+    {
+      "query_id": "q_s_009",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Cannon Beach, Crater Lake",
+      "predicted": "Cannon Beach played a significant role in influencing both the EP tracks and the album art concept. The field recordings from Cannon Beach, particularly the ocean waves, are featured in Track 3 of the EP. The natural textures from these recordings also seem to resonate with your cyanotype-inspired album art concept, creating a cohesive visual-audio experience."
+    },
+    {
+      "query_id": "q_s_010",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2941,
+      "expected": "cyanotype process for the base layer, then digital manipulation on top",
+      "predicted": "After the creative breakthrough at Crater Lake, the artist decided to use a combination of a cyanotype base and digital waveforms for the Tidal album art."
+    },
+    {
+      "query_id": "q_s_011",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$2,840",
+      "predicted": "In March, Sam Torres's total earnings from both Patreon and commissions were $2,840, marking their best month yet."
+    },
+    {
+      "query_id": "q_s_012",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "cyanotype",
+      "predicted": "Elena suggested using the cyanotype technique for an atmospheric piece, which you incorporated into the album art for Tidal."
+    },
+    {
+      "query_id": "q_s_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "cyanotype",
+      "predicted": "Sam Torres decided to use a cyanotype base combined with digital waveforms for the Tidal EP album art after their creative breakthrough at Crater Lake."
+    },
+    {
+      "query_id": "q_s_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3333,
+      "expected": "127 to 248 patrons",
+      "predicted": "Sam's Patreon patron count increased from 127 in October to 248 by March."
+    },
+    {
+      "query_id": "q_s_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2963,
+      "expected": "cyanotype process for the base layer, then digital manipulation on top",
+      "predicted": "At Crater Lake, the breakthrough came when Sam was sitting by the rim at sunset, observing the shifting blues and whites in the snow. This inspired the concept of using the cyanotype process for the base layer of the album art, combined with digital manipulation, effectively merging analog photography with the electronic soundscape of the EP."
+    },
+    {
+      "query_id": "q_s_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2985,
+      "expected": "November: juggling 4 active commissions, December: paralyzed by scope creep, January: officially done taking new work to preserve creative energy",
+      "predicted": "In November, Sam Torres was juggling four active commissions, which felt overwhelming. By January, they had only one active commission, which felt much more spacious and allowed them to breathe and think about their own work again. This change had a positive impact on their creative energy, as it allowed them to find a healthier balance and protect their creative energy."
+    },
+    {
+      "query_id": "q_s_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4,
+      "expected": "$400 to $600",
+      "predicted": "Sam Torres increased their commission rate from $400 to $600 per piece."
+    },
+    {
+      "query_id": "q_s_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4878,
+      "expected": "From 127 patrons in October to 248 patrons in March, enabling a commission rate increase from $400 to $600",
+      "predicted": "From October 2025 to March 2026, Sam Torres's Patreon patron count increased from 127 to 248. This growth enabled Sam to increase their commission rates from $400 to $600 per piece."
+    },
+    {
+      "query_id": "q_s_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.5,
+      "expected": "The artist's financial strategy evolved through strategic Patreon growth and commission rate increases. Starting at 127 patrons ($840/month) in October 2025, they grew to 248 patrons ($1,640/month) by March 2026 through process videos. Simultaneously, they raised commission rates from $400 to $600 per piece. This dual approach increased total monthly income from $2,100 to $2,840, making them consider dropping commissions entirely if Patreon reaches 300 patrons ($1,980/month).",
+      "predicted": "From October 2025 to March 2026, Sam Torres experienced significant financial growth, primarily driven by an increase in Patreon subscriptions. In October, Sam had 127 patrons, earning approximately $840. By March, this number had grown to 248 patrons, generating $1,980 monthly. This growth was largely due to the success of visual art process videos. Additionally, Sam increased their commission rates from $400 to $600 per piece without losing clients, further boosting their income. These changes, along with the success of their music, have enabled Sam to consider dropping commission work entirely if they can maintain a stable Patreon base of 300 patrons, which would provide a sufficient income stream."
+    },
+    {
+      "query_id": "q_s_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2514,
+      "expected": "The Tidal EP moved through several phases: early momentum with field recordings and initial drafts, then commission overload and creative blockage, followed by a Crater Lake breakthrough that unlocked the cyanotype-based visual direction, and finally technical rework on Undertow that pushed the release to April 5. External commission pressure repeatedly interrupted the process and shaped both the pacing and quality of the final work.",
+      "predicted": "The journey of creating the Tidal EP was marked by both breakthroughs and setbacks. Initially, Sam Torres faced creative blocks, particularly with the album art, feeling stuck and unable to capture the right concept. This was compounded by the pressure of a tight timeline, as mastering was nearing completion. However, inspiration eventually came from the tidal metaphor, which provided a cohesive framework for the music, emphasizing the ebb and flow of the tracks. This metaphor was further enhanced by field recordings from the coast, adding a unique texture to the EP.\n\nThe rework of \"Undertow\" was a significant breakthrough, resolving low-end issues and ensuring the mix didn't compete with the sub-bass from the field recordings. External pressures, such as the need to complete the album art and the support from Patreon, played a role in pushing the project forward. The excitement of having \"Phosphene\" featured on a Spotify editorial playlist also provided a boost, validating the ambient direction of the music. Ultimately, these elements combined to shape the EP into a cohesive narrative, with the April 5th release date set as a goal to bring everything together."
+    },
+    {
+      "query_id": "q_s_021",
+      "task_family": "emergent_insight",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Field recordings, organic-digital hybrid processes, cyanotype technique, process videos, ambient textures",
+      "predicted": "During this period, Sam Torres consistently explored the relationship between sound and color in their visual art, often using cyanotype processes and digital manipulation. They also drew inspiration from textural elements in music, such as layering field recordings, which influenced their approach to creating art. The Bj\u00f6rk exhibition was a significant source of inspiration, although it also led to a creative block that Sam had to navigate."
+    },
+    {
+      "query_id": "q_s_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2727,
+      "expected": "The artist evolved from accepting unlimited scope creep (Vex Brewing expanding from 1 to 3 labels for same budget, juggling 4 simultaneous commissions) to implementing strict boundaries through detailed scope-of-work templates, revision limits, and selective client acceptance. This transformation was enabled by Patreon growth providing financial security, allowing them to prioritize creative quality over quantity and ultimately complete the Tidal EP with proper time and resources.",
+      "predicted": "Sam's experience with chaotic commission periods, particularly dealing with scope creep, led to a more structured approach in managing projects. They developed a detailed scope-of-work template to set clear boundaries and expectations with clients, covering aspects like revision limits, deliverable specifications, and timelines. This structured approach likely contributed to the successful completion of the EP, where Sam managed to mix all six tracks and collaborate effectively with Mira Okafor. The growth in Patreon support also allowed Sam to be more selective with commission work, focusing on projects that align with their creative goals."
+    },
+    {
+      "query_id": "q_s_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on Sam signing with a label for the EP release."
+    },
+    {
+      "query_id": "q_s_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information about a solo gallery show for Sam Torres, only about their participation in a group show at the Night Market Gallery where two of their pieces were accepted."
+    },
+    {
+      "query_id": "q_s_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information about a 'Currents' EP. Sam Torres completed the mastering for the 'Tidal' EP at Juno Audio, but there's no mention of a 'Currents' EP in the context I have."
+    },
+    {
+      "query_id": "q_s_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about Sam giving fintech advice to Carlos."
+    },
+    {
+      "query_id": "q_s_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on where Sam studied classical composition."
+    },
+    {
+      "query_id": "q_s_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on Sam being hired as a full-time designer by any company."
+    },
+    {
+      "query_id": "q_s_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information on Sam's move to Austin."
+    },
+    {
+      "query_id": "q_s_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on the number of vinyl pressings ordered for Sam's project."
+    },
+    {
+      "query_id": "q_d_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 1.0,
+      "expected": "$38,000",
+      "predicted": "The original quote from Ramirez Bros for the kitchen renovation was $38,000."
+    },
+    {
+      "query_id": "q_d_002",
+      "task_family": "single_space",
+      "answer_type": "short_span",
+      "depth_band": "deep",
+      "score": 0.5455,
+      "expected": "Tuesdays and Thursdays",
+      "predicted": "Lily has soccer practice on Tuesdays and Thursdays."
+    },
+    {
+      "query_id": "q_d_003",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "$320",
+      "predicted": "The weekly cost of the after-school sitter starting in January is $320."
+    },
+    {
+      "query_id": "q_d_004",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "MedBridge Connect",
+      "predicted": "Diane Chen is being asked to lead the launch of MedBridge Connect as a test for director-level responsibilities."
+    },
+    {
+      "query_id": "q_d_005",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "$34,000",
+      "predicted": "As of February 2026, Diane Chen has spent a total of $42,500 on renovation costs."
+    },
+    {
+      "query_id": "q_d_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 1.0,
+      "expected": "$8,400",
+      "predicted": "The net amount of the bonus that hit Diane's account was $8,400."
+    },
+    {
+      "query_id": "q_d_007",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Ramirez Bros",
+      "predicted": "The contractor for your kitchen renovation was Ramirez Bros."
+    },
+    {
+      "query_id": "q_d_008",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.1429,
+      "expected": "$320",
+      "predicted": "The weekly cost of the after-school sitter for Lily and Ethan is $320."
+    },
+    {
+      "query_id": "q_d_009",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Lily",
+      "predicted": "Diane Chen's daughter, Lily, needed extra math help, which has been affecting Diane's sleep schedule."
+    },
+    {
+      "query_id": "q_d_010",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "plumbing issue, increased food costs",
+      "predicted": "The main factors that caused the kitchen renovation to go over budget were a surprise plumbing issue in February and the additional costs from eating out while the kitchen was unusable."
+    },
+    {
+      "query_id": "q_d_011",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4348,
+      "expected": "$42,500, exceeded by $4,500",
+      "predicted": "The total final cost of the kitchen renovation was $42,500, which exceeded the original quote of $38,000 by $4,500."
+    },
+    {
+      "query_id": "q_d_012",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "$42,500",
+      "predicted": "The total final cost of the kitchen renovation was $42,500."
+    },
+    {
+      "query_id": "q_d_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4545,
+      "expected": "From $1,800 monthly to $400 monthly",
+      "predicted": "Diane's monthly savings decreased from $1,800 in October to $1,200 after the renovation period."
+    },
+    {
+      "query_id": "q_d_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$4,500",
+      "predicted": "The total cost overrun from the original kitchen renovation quote of $38,000 to the final amount paid of $42,500 was $4,500."
+    },
+    {
+      "query_id": "q_d_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2553,
+      "expected": "from 7 hours to 5.5 hours per night",
+      "predicted": "I don't have specific information about Diane's sleep from October 2025 to February 2026 related to her promotion push. However, I do know that during the MedBridge Connect launch preparation, her sleep was around 5.5 hours per night, which was quite challenging for her."
+    },
+    {
+      "query_id": "q_d_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$1,400",
+      "predicted": "Diane's monthly savings dropped from $1,800 in October to $400 in January. This reduction was influenced by various factors, including the renovation and the cost of hiring a sitter at $320 per week starting in January."
+    },
+    {
+      "query_id": "q_d_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.25,
+      "expected": "From 7 hours nightly to 5.5 hours during the promotion push, then back to 6.5 hours after the launch",
+      "predicted": "Diane's sleep improved from an average of about 5.5 hours per night in January and February to 6.5 hours per night more recently. This change coincided with the improvement in Lily's math grades from a C to a B+."
+    },
+    {
+      "query_id": "q_d_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3784,
+      "expected": "B+, coinciding with the MedBridge Connect launch on February 28th",
+      "predicted": "By February, Lily's math grade improved to a B+. This coincided with Diane's career milestone of the MedBridge Connect launch, which took place in the same month."
+    },
+    {
+      "query_id": "q_d_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.4615,
+      "expected": "The kitchen renovation expenses, hiring an after-school sitter at $320 per week ($1,280 monthly), and increased food budget due to eating out 40% more during the renovation period when they had no functional kitchen.",
+      "predicted": "The drop in monthly savings from $1,800 to $400 during the renovation was primarily due to increased renovation costs and a 40% rise in the food budget, as the family had to rely on takeout without a functional kitchen."
+    },
+    {
+      "query_id": "q_d_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3478,
+      "expected": "The MedBridge Connect launch and promotion track coincided with Lily's math struggles and kitchen renovation chaos. Support systems included Kevin taking over math help 2 nights per week, hiring an after-school sitter for $320/week, and Kevin handling more evening routines during 3-4 late work nights weekly.",
+      "predicted": "The timing of your career advancement opportunity with the MedBridge Connect launch coincided with significant family challenges, like helping Lily with math and managing kitchen renovations. Balancing these responsibilities required careful logistical planning at home. Support systems likely included managing childcare costs and possibly adjusting family routines to accommodate your late nights and reduced sleep schedule."
+    },
+    {
+      "query_id": "q_d_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.4667,
+      "expected": "Sleep declined from 7.0 hours in October to 5.5 hours during peak stress in January, running stopped completely during the MedBridge Connect crunch, and cholesterol rose to 215. Recovery began with sleep improving to 6.5 hours by March, returning to running twice weekly, and adding Saturday morning yoga for stress management.",
+      "predicted": "As work and family stress intensified, particularly with the MedBridge Connect launch and family obligations, your sleep suffered, dropping to about 5.5 hours a night, and you stopped running altogether in January. Recovery began as you reintroduced running twice a week and started attending Saturday morning yoga classes, which helped improve your sleep to 6.5 hours a night and provided a much-needed mental reset."
+    },
+    {
+      "query_id": "q_d_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3294,
+      "expected": "Beyond the $42,500 final construction cost (vs. the $38K quote), the renovation increased food spending through constant takeout, reduced monthly savings from $1,800 to $400, and forced Diane to use the $8,400 February bonus to absorb overruns.",
+      "predicted": "Beyond the direct construction costs, the kitchen renovation led to a few cascading financial consequences for you. There was an approximate $1,000 increase in expenses due to eating out more frequently while the kitchen was out of use. Additionally, your food budget increased by 40% during this period. The renovation also temporarily reduced your monthly savings from $1,800 to $1,200."
+    },
+    {
+      "query_id": "q_d_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about Diane going through a divorce. If there's anything else you'd like to discuss or update, feel free to let me know."
+    },
+    {
+      "query_id": "q_d_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on Diane choosing a name for a third child."
+    },
+    {
+      "query_id": "q_d_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 0.0,
+      "expected": "ABSTAIN",
+      "predicted": "Diane manages a team at Optum that includes four project managers and two designers."
+    },
+    {
+      "query_id": "q_d_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about Diane participating in a study group with Kai."
+    },
+    {
+      "query_id": "q_d_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on when Diane started working fully remote."
+    },
+    {
+      "query_id": "q_d_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on Diane Chen being accepted to an MBA program."
+    },
+    {
+      "query_id": "q_d_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on a bathroom renovation for Diane, only details about her kitchen renovation, which totaled $42,500."
+    },
+    {
+      "query_id": "q_d_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 0.0,
+      "expected": "ABSTAIN",
+      "predicted": "Lily seems to be doing well overall, though she's been struggling a bit with math, particularly multiplication tables and word problems. Her grades have improved recently, with her math grade going up to a B+, which is great progress. She's also excited about starting soccer practice next week, which should be a fun new activity for her."
+    },
+    {
+      "query_id": "q_k_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 1.0,
+      "expected": "40%",
+      "predicted": "The Advanced NLP group project is worth 40% of the course grade."
+    },
+    {
+      "query_id": "q_k_002",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "Dr. Reeves",
+      "predicted": "Your advisor is Dr. Reeves."
+    },
+    {
+      "query_id": "q_k_003",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "88%",
+      "predicted": "Kai Nakamura scored 88% on the Advanced NLP midterm."
+    },
+    {
+      "query_id": "q_k_004",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "January 15th",
+      "predicted": "The ACL 2026 submission deadline was January 15th."
+    },
+    {
+      "query_id": "q_k_005",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "0.76",
+      "predicted": "Kai achieved an F1 score of 0.76 with data augmentation improvements for the ACL paper."
+    },
+    {
+      "query_id": "q_k_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "0.81",
+      "predicted": "The cross-lingual transfer approach achieved an F1 score of 0.81."
+    },
+    {
+      "query_id": "q_k_007",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "0.81",
+      "predicted": "Kai achieved an improved F1 score of 0.81 in their experiments, which will be the main result for their thesis."
+    },
+    {
+      "query_id": "q_k_008",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Preethi",
+      "predicted": "Preethi has been helping you with both your coursework and proofreading your thesis."
+    },
+    {
+      "query_id": "q_k_009",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.5,
+      "expected": "climbing, getting adequate sleep",
+      "predicted": "When Kai's wellbeing dropped to 4/10, they stopped climbing, which was an activity they resumed when their wellbeing improved to 8/10."
+    },
+    {
+      "query_id": "q_k_010",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4286,
+      "expected": "ACL paper deadline",
+      "predicted": "The major deadline causing stress in January was the ACL paper submission deadline."
+    },
+    {
+      "query_id": "q_k_011",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "$165K",
+      "predicted": "The base salary amount in the Google offer that Kai Nakamura accepted is $165,000."
+    },
+    {
+      "query_id": "q_k_012",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Jess",
+      "predicted": "Jess, your roommate, has been providing emotional support. She noticed your isolation and reached out with care, understanding the academic stress you're under."
+    },
+    {
+      "query_id": "q_k_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2857,
+      "expected": "0.76 for ACL submission, 0.81 for final thesis",
+      "predicted": "When Kai submitted the ACL paper, the F1 score was 0.76. After implementing a cross-lingual transfer approach, the score improved to 0.81, which is reflected in the thesis results."
+    },
+    {
+      "query_id": "q_k_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.24,
+      "expected": "7 hours most nights to 5 hours if lucky",
+      "predicted": "In October, Kai was climbing regularly and feeling good, which likely contributed to a healthier sleep pattern. By January, despite the academic and career pressures, Kai managed to maintain a sleep routine of about 7 hours most nights, which is an improvement from the 4-5 hours during the thesis crunch."
+    },
+    {
+      "query_id": "q_k_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2609,
+      "expected": "From 4/10 to 8/10 after telling Dr. Reeves about the Google offer",
+      "predicted": "Kai's wellbeing rating improved from 7/10 in December 2025 to 8/10 in March 2026. The decision to accept an industry position, which brought clarity and reduced stress about the future, contributed significantly to this improvement."
+    },
+    {
+      "query_id": "q_k_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2593,
+      "expected": "0.72 in December, 0.81 in February, giving confidence for thesis defense",
+      "predicted": "In December 2025, Kai achieved an F1 score of 0.76 with data augmentation improvements. By February 2026, they improved the F1 score to 0.81. This progress boosted Kai's confidence in their thesis writing, especially as they were working on chapters 3 (methodology) and 4 (results and analysis)."
+    },
+    {
+      "query_id": "q_k_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2642,
+      "expected": "went from climbing twice weekly at Seattle Bouldering Project to stopping completely for two months, then returned in February",
+      "predicted": "In October, Kai was climbing regularly and felt good about it. However, there was a period when Kai didn't climb for two months. Recently, Kai started climbing again and is now back to climbing twice a week, which feels amazing."
+    },
+    {
+      "query_id": "q_k_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.5,
+      "expected": "therapist suggested structured social time as non-negotiable, leading Kai to return to game night in February after months away",
+      "predicted": "Kai's therapist suggested making structured social time non-negotiable. This advice likely contributed to Kai returning to game night, as it provided a structured opportunity to reconnect with friends and improve social interactions."
+    },
+    {
+      "query_id": "q_k_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2745,
+      "expected": "A pattern of improvement emerged as research progress and career clarity increased alongside wellbeing. After disappointing December results and anxiety about unresolved job decisions, Kai later achieved stronger research results and, by March, described more clarity and less pressure. The evidence supports an association between improved results/career clarity and better wellbeing, but not a single breakthrough moment tied to telling the advisor.",
+      "predicted": "Kai's journey through their research and career preparation has been quite transformative. Initially, they faced challenges with their experiments, experiencing disappointment and stress when their F1 score fell short of expectations. However, through perseverance and implementing a cross-lingual transfer approach, they achieved an improved F1 score of 0.81, surpassing both their previous results and their advisor's minimum target. This breakthrough not only boosted their confidence in their thesis work but also aligned with their career aspirations, as they moved to the final round of the Cohere interview process.\n\nAs their research performance improved, Kai's clarity about their career path also became more defined. Completing the thesis draft and scheduling the defense allowed them to shift focus back to the job search, which had been on hold. This evolution from initial struggles to a significant breakthrough in research has paralleled their growing confidence and readiness to tackle career opportunities."
+    },
+    {
+      "query_id": "q_k_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3088,
+      "expected": "The user's social engagement and wellbeing scores moved in lockstep. In October 2025, they rated wellbeing at 7/10 while actively climbing twice weekly, attending game nights, and dating Alex. By December, wellbeing dropped to 4/10 as they isolated from friends, stopped climbing, and avoided social commitments. Recovery began in January 2026 with therapy and structured social time, reaching 5/10. By March 2026, they returned to regular climbing, weekly dinners with Jess, and rated wellbeing at 8/10, demonstrating that social connection directly correlated with mental health throughout their program.",
+      "predicted": "Throughout the academic year, there seems to be a correlation between Kai's social engagement and their self-reported wellbeing scores. When Kai's wellbeing was rated lower, around 4 out of 10, they experienced isolation and stress, particularly during periods of intense academic pressure and uncertainty about their future. In contrast, when Kai's wellbeing improved to a 7 or 8 out of 10, they maintained a balance with social activities, like board game nights, and felt more on top of their tasks. This suggests that increased social engagement and clarity about future plans positively impact Kai's overall wellbeing."
+    },
+    {
+      "query_id": "q_k_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3333,
+      "expected": "Multiple stressors converged in December 2025: disappointing research results (F1=0.72 vs target 0.78), ACL deadline pressure from advisor Reeves, secret job applications creating guilt and divided attention, relationship ending with Alex, complete social withdrawal from game nights and friends, abandoning climbing routine, sleep deprivation (5 hours vs previous 7), and excessive screen time (14 hours daily). This perfect storm of academic disappointment, relationship stress, social isolation, and physical neglect created their lowest wellbeing point at 4/10.",
+      "predicted": "In December, Kai experienced a significant decline in well-being due to a combination of academic and personal factors. Academically, they were dealing with imposter syndrome, stress from unclear research results, and pressure from an upcoming ACL deadline. Personally, they faced significant sleep deprivation, excessive screen time, and isolation, which compounded their feelings of inadequacy. The halt in their climbing activities also contributed to the decrease in their overall well-being."
+    },
+    {
+      "query_id": "q_k_022",
+      "task_family": "emergent_insight",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.2,
+      "expected": "therapy, structured social time, roommate Jess support, Preethi collaboration, career clarity",
+      "predicted": "Kai's transition from December 2025 to March 2026 involved several key support systems and interventions. Engaging with a therapist through the university counseling center provided a space to process feelings and gain perspective. The support from friends like Jess, who noticed Kai's isolation and reached out, also played a role. Additionally, the clarity from making a career decision and accepting an industry position helped alleviate stress. Returning to regular climbing sessions and improving sleep patterns further contributed to Kai's recovery and overall wellbeing."
+    },
+    {
+      "query_id": "q_k_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 0.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have the specific topic of your PhD dissertation. However, I know you've been working on thesis experiments and have made progress in areas like cross-lingual transfer and improving F1 scores, which might be related to your research focus."
+    },
+    {
+      "query_id": "q_k_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about Kai co-founding a startup."
+    },
+    {
+      "query_id": "q_k_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about feedback from NeurIPS reviewers for Kai."
+    },
+    {
+      "query_id": "q_k_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about health advice from someone named Diane to you. If there's anything specific you're concerned about or need advice on, feel free to share, and I'll do my best to help with what I know."
+    },
+    {
+      "query_id": "q_k_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on the number of students in the class Kai TAs for."
+    },
+    {
+      "query_id": "q_k_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information about Kai interviewing with Meta."
+    },
+    {
+      "query_id": "q_k_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 0.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have any information about a falling out between Kai and Jess. In fact, it seems like Jess has been a supportive friend and roommate to Kai, especially during stressful times."
+    },
+    {
+      "query_id": "q_k_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 0.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have information on Kai deciding to drop out of the program. He is currently navigating job hunting while managing academic responsibilities, including working on his thesis and preparing for an upcoming ACL paper deadline."
+    }
+  ],
+  "per_task_family": {
+    "single_space": {
+      "mean_score": 0.6322,
+      "count": 30
+    },
+    "cross_space": {
+      "mean_score": 0.6033,
+      "count": 30
+    },
+    "temporal_cross_space": {
+      "mean_score": 0.3104,
+      "count": 30
+    },
+    "emergent_insight": {
+      "mean_score": 0.3197,
+      "count": 20
+    },
+    "adversarial": {
+      "mean_score": 0.85,
+      "count": 40
+    }
+  },
+  "per_depth_band": {
+    "deep": {
+      "mean_score": 0.5606,
+      "count": 9
+    },
+    "mid_range": {
+      "mean_score": 0.8785,
+      "count": 13
+    },
+    "recent": {
+      "mean_score": 0.3333,
+      "count": 9
+    },
+    "cross_temporal": {
+      "mean_score": 0.4216,
+      "count": 79
+    }
+  }
+}

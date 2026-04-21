@@ -1,0 +1,67 @@
+{
+  "conversation_id": "conv_k_008",
+  "persona_id": "kai",
+  "space_id": "social",
+  "timestamp": "2025-12-01",
+  "depth_index": 8,
+  "messages": [
+    {
+      "role": "user",
+      "content": "ugh I bailed on game night again last night... that's like the second time in a row now? maybe third? I'm losing track honestly",
+      "message_id": "msg_k_008_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds frustrating. What's been making it hard to show up lately?",
+      "message_id": "msg_k_008_02"
+    },
+    {
+      "role": "user",
+      "content": "I don't know, just... everything feels like too much right now? Like I keep making plans and then when the time comes I just can't. Plus things with Alex didn't work out so that whole situation is just awkward now",
+      "message_id": "msg_k_008_03"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry about things with Alex. It makes sense that you'd need some space to process that. Are your friends understanding about you needing to step back?",
+      "message_id": "msg_k_008_04"
+    },
+    {
+      "role": "user",
+      "content": "I think so? I mean I haven't really explained what's going on... I just keep saying I'm busy with school stuff which isn't totally wrong but also isn't the whole story. And now I'm realizing I've been cancelling on other stuff too, not just game night",
+      "message_id": "msg_k_008_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're dealing with a lot right now. Sometimes pulling back socially can be a way of coping with stress, but it can also make things feel more isolating. What feels most manageable for you?",
+      "message_id": "msg_k_008_06"
+    },
+    {
+      "role": "user",
+      "content": "honestly I don't know... but I do need to figure something out because Jess's birthday is coming up and I can't bail on that. she's been such a good roommate and friend, especially lately when I've been kind of a mess. I should probably plan something nice for her",
+      "message_id": "msg_k_008_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a really thoughtful way to reconnect. Planning something for Jess could be a good step back into social situations at your own pace. Do you have any ideas for what she might enjoy?",
+      "message_id": "msg_k_008_08"
+    },
+    {
+      "role": "user",
+      "content": "maybe something low-key? she's always stressed about law school so probably not a big party... I was thinking maybe just a nice dinner or something we could do at home. I need to ask around and see when people are free but without making it obvious it's for her birthday",
+      "message_id": "msg_k_008_09"
+    },
+    {
+      "role": "assistant",
+      "content": "A low-key celebration sounds perfect, especially if she's been stressed. Planning something thoughtful like that might also help you feel more connected to your friend group again, even if you start small.",
+      "message_id": "msg_k_008_10"
+    }
+  ],
+  "mentioned_entities": [
+    "jess"
+  ],
+  "cross_space_refs": [
+    "wellness"
+  ],
+  "summary": "Kai discusses feeling overwhelmed and cancelling social plans repeatedly, including missing game night for the second time in a row. Things with Alex didn't work out, and Kai has been withdrawing socially but wants to plan something special for roommate Jess's upcoming birthday.",
+  "fact_count": 4
+}

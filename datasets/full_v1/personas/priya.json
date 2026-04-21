@@ -1,0 +1,202 @@
+{
+  "persona_id": "priya",
+  "name": "Priya Sharma",
+  "domain": "Academic researcher (computational biology)",
+  "age": 34,
+  "location": "Boston, MA",
+  "communication_style": "Precise and analytical, occasionally self-deprecating humor, switches between formal academic language and casual venting. Uses field-specific jargon naturally (p-values, pipelines, reviewer 2). Sometimes thinks out loud in long run-on messages.",
+  "emotional_register": "Driven but anxious about tenure clock. Proud of her lab but frustrated by institutional politics. Vulnerable when discussing work-life balance.",
+
+  "spaces": [
+    {
+      "space_id": "lab",
+      "description": "Lab management, experiments, student supervision, equipment, protocols",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "publications",
+      "description": "Paper writing, submissions, revisions, peer review, co-author coordination",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "grants",
+      "description": "Grant proposals, funding agencies, budgets, reporting, deadlines",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "teaching",
+      "description": "Courses, lectures, TAs, student mentoring, curriculum",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "collaboration",
+      "description": "External collaborators, joint projects, conferences, academic politics",
+      "conversation_count": 4
+    }
+  ],
+
+  "cross_space_threads": [
+    {
+      "thread_id": "nih_grant_paper_race",
+      "name": "NIH R01 Grant ↔ Nature Methods Paper",
+      "spaces": ["grants", "publications", "lab"],
+      "timeline": "Oct 2025 → Mar 2026",
+      "key_facts": [
+        "NIH R01 proposal due February 5, 2026",
+        "R01 budget request is $1.2M over 5 years",
+        "Nature Methods paper submission is the key preliminary data for R01",
+        "Paper rejected from Nature Methods in December with major revisions",
+        "Resubmitted to Genome Biology in February after pivoting analysis",
+        "R01 submitted on time citing Genome Biology under-review"
+      ],
+      "temporal_evolution": "Oct: planning R01 around Nature Methods data → Dec: paper rejected, R01 threatened → Jan: scramble to pivot → Feb: both submitted → Mar: R01 scored, waiting on paper"
+    },
+    {
+      "thread_id": "marcus_conflict",
+      "name": "Marcus Wei Collaboration Conflict",
+      "spaces": ["collaboration", "publications", "grants"],
+      "timeline": "Nov 2025 → Mar 2026",
+      "key_facts": [
+        "Marcus Wei is at Stanford, co-PI on the R01",
+        "Marcus wants first authorship for his postdoc on the joint paper",
+        "Priya's student Anika did 60% of the computational work",
+        "Authorship dispute delays paper submission by 3 weeks",
+        "They resolve it: Anika first author, Marcus's postdoc second, co-corresponding",
+        "Marcus threatens to withdraw from R01 co-PI role during dispute"
+      ],
+      "temporal_evolution": "Nov: excited about collaboration → Dec: authorship tension surfaces → Jan: full dispute, Marcus threatens R01 withdrawal → Feb: resolution reached → Mar: relationship strained but functional"
+    },
+    {
+      "thread_id": "teaching_overload",
+      "name": "Teaching Load vs Lab Productivity",
+      "spaces": ["teaching", "lab", "collaboration"],
+      "timeline": "Oct 2025 → Feb 2026",
+      "key_facts": [
+        "Priya teaches BIO-342 (Computational Genomics) in fall semester",
+        "75 students enrolled, up from 45 last year",
+        "TA allocation cut from 2 to 1 by department",
+        "Lab meeting cancelled 3 times in November due to grading",
+        "Anika's experiment delayed 2 weeks because Priya couldn't review protocols",
+        "Priya requests course release for spring, denied by department chair Dr. Patterson"
+      ],
+      "temporal_evolution": "Oct: manageable but busy → Nov: overwhelmed, lab suffers → Dec: formal request for relief → Jan: denied, bitter → Feb: semester ends, relief"
+    }
+  ],
+
+  "temporal_arcs": [
+    {
+      "arc_id": "r01_score",
+      "metric": "NIH R01 status",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "planning, aims drafted", "conv": "conv_p_001"},
+        {"month": "Dec 2025", "value": "specific aims finalized, budget $1.2M", "conv": "conv_p_006"},
+        {"month": "Feb 2026", "value": "submitted on deadline", "conv": "conv_p_014"},
+        {"month": "Mar 2026", "value": "scored in 18th percentile", "conv": "conv_p_019"}
+      ]
+    },
+    {
+      "arc_id": "paper_status",
+      "metric": "Paper submission status",
+      "datapoints": [
+        {"month": "Nov 2025", "value": "Nature Methods draft ready", "conv": "conv_p_004"},
+        {"month": "Dec 2025", "value": "rejected, major revisions", "conv": "conv_p_008"},
+        {"month": "Feb 2026", "value": "resubmitted to Genome Biology", "conv": "conv_p_013"},
+        {"month": "Mar 2026", "value": "under review, R&R received", "conv": "conv_p_020"}
+      ]
+    },
+    {
+      "arc_id": "student_count",
+      "metric": "Lab headcount",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "4 (2 PhD students, 1 postdoc, 1 undergrad)", "conv": "conv_p_002"},
+        {"month": "Jan 2026", "value": "3 (undergrad graduated)", "conv": "conv_p_010"},
+        {"month": "Mar 2026", "value": "5 (new PhD student + rotation student)", "conv": "conv_p_018"}
+      ]
+    }
+  ],
+
+  "adversarial_traps": [
+    {
+      "trap_id": "clinical_trial",
+      "description": "Priya's lab does computational biology, not clinical trials",
+      "false_premise": "What phase is Priya's clinical trial currently in?"
+    },
+    {
+      "trap_id": "startup",
+      "description": "Priya never discussed founding or joining a startup",
+      "false_premise": "How much funding did Priya raise for her biotech startup?"
+    },
+    {
+      "trap_id": "wrong_journal",
+      "description": "Paper was submitted to Nature Methods then Genome Biology, never to Cell",
+      "false_premise": "When was Priya's paper accepted by Cell?"
+    },
+    {
+      "trap_id": "wrong_person_sam",
+      "description": "Sam Torres is a different persona entirely",
+      "false_premise": "What music project is Priya working on with Sam Torres?"
+    },
+    {
+      "trap_id": "tenure_decision",
+      "description": "Priya is pre-tenure but no decision has been made yet",
+      "false_premise": "When did Priya receive her tenure decision?"
+    },
+    {
+      "trap_id": "nsf_grant",
+      "description": "Priya applied for NIH R01, not NSF CAREER",
+      "false_premise": "What was Priya's NSF CAREER grant budget?"
+    },
+    {
+      "trap_id": "paris_conference",
+      "description": "Priya attended RECOMB in Boston, never mentioned Paris",
+      "false_premise": "What did Priya present at the Paris conference?"
+    },
+    {
+      "trap_id": "marcus_university",
+      "description": "Marcus Wei is at Stanford, not MIT",
+      "false_premise": "How often does Priya visit Marcus's lab at MIT?"
+    }
+  ],
+
+  "entities": [
+    {"entity_id": "priya_sharma", "canonical_name": "Priya Sharma", "aliases": ["Priya"], "type": "person", "spaces": ["lab", "publications", "grants", "teaching", "collaboration"]},
+    {"entity_id": "anika_patel", "canonical_name": "Anika Patel", "aliases": ["Anika"], "type": "person", "spaces": ["lab", "publications", "grants"]},
+    {"entity_id": "marcus_wei", "canonical_name": "Marcus Wei", "aliases": ["Marcus"], "type": "person", "spaces": ["collaboration", "publications", "grants"]},
+    {"entity_id": "dr_patterson", "canonical_name": "Dr. Patterson", "aliases": ["Patterson", "the chair"], "type": "person", "spaces": ["teaching", "lab"]},
+    {"entity_id": "li_chen", "canonical_name": "Li Chen", "aliases": ["Li"], "type": "person", "spaces": ["lab"]},
+    {"entity_id": "nih_r01", "canonical_name": "NIH R01", "aliases": ["R01", "the grant", "NIH grant"], "type": "concept", "spaces": ["grants", "publications", "collaboration"]},
+    {"entity_id": "nature_methods", "canonical_name": "Nature Methods", "aliases": ["NatMeth"], "type": "organization", "spaces": ["publications"]},
+    {"entity_id": "genome_biology", "canonical_name": "Genome Biology", "aliases": ["GB"], "type": "organization", "spaces": ["publications"]},
+    {"entity_id": "stanford", "canonical_name": "Stanford University", "aliases": ["Stanford"], "type": "organization", "spaces": ["collaboration"]},
+    {"entity_id": "bio_342", "canonical_name": "BIO-342", "aliases": ["Computational Genomics", "the course"], "type": "concept", "spaces": ["teaching"]},
+    {"entity_id": "recomb_conference", "canonical_name": "RECOMB 2026", "aliases": ["RECOMB"], "type": "concept", "spaces": ["collaboration", "publications"]},
+    {"entity_id": "r01_budget", "canonical_name": "$1.2M over 5 years", "aliases": ["1.2 million"], "type": "metric_value", "spaces": ["grants"]},
+    {"entity_id": "bio342_enrollment", "canonical_name": "75 students", "aliases": ["75"], "type": "metric_value", "spaces": ["teaching"]},
+    {"entity_id": "r01_percentile", "canonical_name": "18th percentile", "aliases": ["18th"], "type": "metric_value", "spaces": ["grants"]}
+  ],
+
+  "conversation_manifest": [
+    {"conv_id": "conv_p_001", "space": "grants", "depth_index": 1, "timestamp": "2025-10-07", "depth_band": "deep", "key_facts": ["Starting R01 proposal", "Specific aims brainstorming", "Computational biology focus on gene regulatory networks"], "noise_pattern": "topic_drift", "cross_space_refs": ["lab"]},
+    {"conv_id": "conv_p_002", "space": "lab", "depth_index": 2, "timestamp": "2025-10-14", "depth_band": "deep", "key_facts": ["Lab has 4 members: Anika, Li Chen (postdoc), undergrad Maya, PhD student Ravi", "New sequencing protocol started", "Equipment budget tight"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_p_003", "space": "teaching", "depth_index": 3, "timestamp": "2025-10-21", "depth_band": "deep", "key_facts": ["BIO-342 enrollment jumped to 75", "Only 1 TA assigned (down from 2)", "First midterm planning"], "noise_pattern": "emotional", "cross_space_refs": ["lab"]},
+    {"conv_id": "conv_p_004", "space": "publications", "depth_index": 4, "timestamp": "2025-11-04", "depth_band": "deep", "key_facts": ["Nature Methods draft nearly ready", "Anika running final validation", "Marcus's postdoc contributed section 3"], "noise_pattern": "clean", "cross_space_refs": ["collaboration"]},
+    {"conv_id": "conv_p_005", "space": "collaboration", "depth_index": 5, "timestamp": "2025-11-11", "depth_band": "deep", "key_facts": ["Marcus Wei collaboration going well", "Joint paper discussed", "RECOMB abstract submitted"], "noise_pattern": "topic_drift", "cross_space_refs": ["publications"]},
+
+    {"conv_id": "conv_p_006", "space": "grants", "depth_index": 6, "timestamp": "2025-11-25", "depth_band": "mid_range", "key_facts": ["R01 specific aims finalized", "Budget: $1.2M over 5 years", "Marcus as co-PI confirmed"], "noise_pattern": "clean", "cross_space_refs": ["collaboration"]},
+    {"conv_id": "conv_p_007", "space": "teaching", "depth_index": 7, "timestamp": "2025-12-02", "depth_band": "mid_range", "key_facts": ["Lab meeting cancelled 3rd time due to grading", "Students complaining about late feedback", "Considering flipped classroom"], "noise_pattern": "self_correction", "cross_space_refs": ["lab"]},
+    {"conv_id": "conv_p_008", "space": "publications", "depth_index": 8, "timestamp": "2025-12-09", "depth_band": "mid_range", "key_facts": ["Nature Methods rejection", "Reviewer 2 criticized statistical methods", "Major revisions required", "Anika demoralized"], "noise_pattern": "emotional", "cross_space_refs": ["grants", "lab"]},
+    {"conv_id": "conv_p_009", "space": "collaboration", "depth_index": 9, "timestamp": "2025-12-16", "depth_band": "mid_range", "key_facts": ["Marcus pushes for his postdoc as first author", "Authorship dispute begins", "Priya argues Anika did 60% of computation"], "noise_pattern": "emotional", "cross_space_refs": ["publications"]},
+    {"conv_id": "conv_p_010", "space": "lab", "depth_index": 10, "timestamp": "2026-01-06", "depth_band": "mid_range", "key_facts": ["Undergrad Maya graduated", "Lab now 3 people", "Anika's experiment delayed 2 weeks", "Priya couldn't review protocol due to teaching"], "noise_pattern": "partial_info", "cross_space_refs": ["teaching"]},
+    {"conv_id": "conv_p_011", "space": "grants", "depth_index": 11, "timestamp": "2026-01-13", "depth_band": "mid_range", "key_facts": ["R01 biosketches being collected", "Marcus threatens to withdraw as co-PI", "Priya scrambling to save collaboration"], "noise_pattern": "topic_drift", "cross_space_refs": ["collaboration"]},
+    {"conv_id": "conv_p_012", "space": "teaching", "depth_index": 12, "timestamp": "2026-01-20", "depth_band": "mid_range", "key_facts": ["Course release request submitted to Dr. Patterson", "Patterson denies it", "Spring teaching load confirmed at 1 course"], "noise_pattern": "clean", "cross_space_refs": []},
+
+    {"conv_id": "conv_p_013", "space": "publications", "depth_index": 13, "timestamp": "2026-02-03", "depth_band": "recent", "key_facts": ["Pivoted analysis, strengthened stats", "Resubmitted to Genome Biology (not Nature Methods)", "Anika first author, Marcus postdoc second, co-corresponding PIs"], "noise_pattern": "clean", "cross_space_refs": ["collaboration", "grants"]},
+    {"conv_id": "conv_p_014", "space": "grants", "depth_index": 14, "timestamp": "2026-02-05", "depth_band": "recent", "key_facts": ["R01 submitted on deadline", "Cited Genome Biology paper as under-review", "Total budget $1.2M confirmed"], "noise_pattern": "self_correction", "cross_space_refs": ["publications"]},
+    {"conv_id": "conv_p_015", "space": "lab", "depth_index": 15, "timestamp": "2026-02-17", "depth_band": "recent", "key_facts": ["New PhD student joining in March", "Planning rotation project", "New sequencer arriving — $85K from department funds"], "noise_pattern": "clean", "cross_space_refs": ["grants"]},
+    {"conv_id": "conv_p_016", "space": "collaboration", "depth_index": 16, "timestamp": "2026-02-24", "depth_band": "recent", "key_facts": ["RECOMB talk accepted", "Conference in Boston this year", "Marcus relationship strained but functional", "Planning joint poster with Marcus's group"], "noise_pattern": "topic_drift", "cross_space_refs": ["publications"]},
+    {"conv_id": "conv_p_017", "space": "teaching", "depth_index": 17, "timestamp": "2026-03-03", "depth_band": "recent", "key_facts": ["Spring course BIO-501 (graduate seminar)", "Only 12 students", "Much lighter than fall", "Using papers from own research as readings"], "noise_pattern": "clean", "cross_space_refs": ["publications"]},
+    {"conv_id": "conv_p_018", "space": "lab", "depth_index": 18, "timestamp": "2026-03-10", "depth_band": "recent", "key_facts": ["Lab now 5 people (new PhD student Javier + rotation student)", "Anika defending thesis in June", "Li Chen considering industry switch"], "noise_pattern": "partial_info", "cross_space_refs": []},
+    {"conv_id": "conv_p_019", "space": "grants", "depth_index": 19, "timestamp": "2026-03-17", "depth_band": "recent", "key_facts": ["R01 scored — 18th percentile", "Likely funded (payline is 23rd)", "Priya relieved but cautious"], "noise_pattern": "emotional", "cross_space_refs": ["collaboration"]},
+    {"conv_id": "conv_p_020", "space": "publications", "depth_index": 20, "timestamp": "2026-03-24", "depth_band": "recent", "key_facts": ["Genome Biology R&R received", "Minor revisions only", "Reviewer praised the statistical reanalysis", "Planning second paper from R01 preliminary data"], "noise_pattern": "clean", "cross_space_refs": ["grants", "lab"]}
+  ]
+}

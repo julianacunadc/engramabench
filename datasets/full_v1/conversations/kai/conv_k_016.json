@@ -1,0 +1,93 @@
+{
+  "conversation_id": "conv_k_016",
+  "persona_id": "kai",
+  "space_id": "social",
+  "timestamp": "2026-02-17",
+  "depth_index": 16,
+  "messages": [
+    {
+      "role": "user",
+      "content": "okay so I actually went climbing yesterday for the first time in like... two months? felt good to get back on the wall even though my grip strength is basically nonexistent now",
+      "message_id": "msg_k_016_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great that you got back to climbing! Two months is a decent break - how did it feel overall? Just the grip strength that felt off or were you rusty in other ways too?",
+      "message_id": "msg_k_016_02"
+    },
+    {
+      "role": "user",
+      "content": "honestly everything felt rusty but in a weirdly satisfying way? like my body remembered the movements but had to relearn them. been trying to get back into social stuff more consistently - Jess and I are doing weekly dinners now which has been nice",
+      "message_id": "msg_k_016_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a really positive shift! Weekly dinners with your roommate is such a good way to build in regular social connection. How's that been working out with everything else you have going on?",
+      "message_id": "msg_k_016_04"
+    },
+    {
+      "role": "user",
+      "content": "yeah it's been good, we just cook something simple and catch up. also finally went back to game night last week - first time since like November I think? everyone was cool about it but I definitely felt weird just showing up again after ghosting for months",
+      "message_id": "msg_k_016_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It can feel awkward to re-engage after being away, but it sounds like your friends were understanding. That's a good sign that they care about you being there. What made you feel ready to go back to game night?",
+      "message_id": "msg_k_016_06"
+    },
+    {
+      "role": "user",
+      "content": "honestly my therapist has been pushing me to do more structured social stuff as like non-negotiable self care. which sounds cheesy but it's working I guess? speaking of social dynamics though, Preethi mentioned something kinda concerning about Reeves the other day",
+      "message_id": "msg_k_016_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Good that the therapy approach is helping! What did Preethi say about Reeves? That sounds like it might be weighing on you.",
+      "message_id": "msg_k_016_08"
+    },
+    {
+      "role": "user",
+      "content": "she said he takes it really personally when students leave for industry instead of staying in academia. like apparently he got pretty cold with this one student who took a job at Microsoft a couple years ago. which is... not great timing for me to hear that given everything",
+      "message_id": "msg_k_016_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh wow, that timing is definitely not ideal. Are you feeling more pressure now about how to handle that conversation with him, or were you already worried about his reaction?",
+      "message_id": "msg_k_016_10"
+    },
+    {
+      "role": "user",
+      "content": "I mean I was already dreading it but now I'm like actively spiraling about it. like what if he stops supporting my thesis work if he finds out I'm interviewing? but also I can't just keep this secret forever especially if things work out with Google",
+      "message_id": "msg_k_016_11"
+    },
+    {
+      "role": "assistant",
+      "content": "That's such a tough position to be in. The uncertainty about his reaction versus needing to be honest about your plans. Have you thought about when or how you might bring it up, or are you still figuring that out?",
+      "message_id": "msg_k_016_12"
+    },
+    {
+      "role": "user",
+      "content": "honestly no idea. part of me thinks I should wait until I actually have an offer in hand but then part of me thinks that makes it worse? like hey surprise I've been lying to you for months. ugh anyway sorry this got heavy - was supposed to be talking about climbing and game nights",
+      "message_id": "msg_k_016_13"
+    },
+    {
+      "role": "assistant",
+      "content": "No need to apologize - these things are all connected anyway. It sounds like getting back into climbing and social stuff is helping you process some of the bigger stressful decisions. That's actually pretty healthy.",
+      "message_id": "msg_k_016_14"
+    }
+  ],
+  "mentioned_entities": [
+    "climbing",
+    "jess",
+    "preethi",
+    "dr_reeves",
+    "google",
+    "university_counseling"
+  ],
+  "cross_space_refs": [
+    "wellness",
+    "research"
+  ],
+  "summary": "Kai shares about returning to climbing after a two-month break and resuming social activities like game nights and weekly dinners with roommate Jess. The conversation shifts to concerns about advisor Dr. Reeves after Preethi warned that he takes industry departures personally, creating anxiety about revealing job applications.",
+  "fact_count": 4
+}

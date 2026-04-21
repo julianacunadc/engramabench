@@ -1,0 +1,59 @@
+{
+  "conversation_id": "conv_c_006",
+  "persona_id": "carlos",
+  "space_id": "investors",
+  "timestamp": "2025-11-14",
+  "depth_index": 6,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Andrea just sent over the bridge terms. 500K convertible note with 20% discount on the next round. Pretty standard stuff but good to have it in writing.",
+      "message_id": "msg_c_006_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great news Carlos! A 20% discount is solid for a bridge round. How are you feeling about the timing with your Series A prep?",
+      "message_id": "msg_c_006_02"
+    },
+    {
+      "role": "user",
+      "content": "Good timing actually. This bridge gives us runway to really nail the pitch deck. I started working on a new iteration yesterday - want to make sure we hit all of Kaszek's points about growth trajectory and market positioning.",
+      "message_id": "msg_c_006_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Smart approach. What are the key areas you're focusing on for this iteration?",
+      "message_id": "msg_c_006_04"
+    },
+    {
+      "role": "user",
+      "content": "The growth story is getting stronger - we're tracking well on that 20% MoM requirement they mentioned back in October. Also adding more competitive intelligence, especially around what FinFlow is doing in Mexico.",
+      "message_id": "msg_c_006_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds like you're building a comprehensive narrative. How long are you planning to spend on this iteration before you start pitching again?",
+      "message_id": "msg_c_006_06"
+    },
+    {
+      "role": "user",
+      "content": "Maybe two weeks to get it right. Andrea's bridge buys us time to be strategic instead of rushed. Better to have one killer deck than three mediocre ones, you know?",
+      "message_id": "msg_c_006_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Absolutely. Quality over quantity, especially when you're building toward that Series A. The bridge timing sounds perfect for giving you that strategic space.",
+      "message_id": "msg_c_006_08"
+    }
+  ],
+  "mentioned_entities": [
+    "andrea_gomez",
+    "bridge_round",
+    "series_a",
+    "kaszek_ventures",
+    "finflow"
+  ],
+  "cross_space_refs": [],
+  "summary": "Carlos discusses Andrea Gómez's $500K bridge round offer with convertible note terms and 20% discount. He's started iterating on the pitch deck, focusing on growth metrics and competitive positioning to strengthen the Series A fundraising narrative.",
+  "fact_count": 3
+}

@@ -1,0 +1,205 @@
+{
+  "persona_id": "sam",
+  "name": "Sam Torres",
+  "domain": "Creative freelancer (music production + visual art)",
+  "age": 27,
+  "location": "Portland, OR",
+  "communication_style": "Stream-of-consciousness, poetic tangents, heavy use of metaphors. Switches between excited creative rambling and flat affect when burnt out. Uses music terminology naturally (BPM, mix, stems, mastering). Casual punctuation, sometimes no caps.",
+  "emotional_register": "Passionate and expressive but prone to creative paralysis. Vulnerable about financial instability. Euphoric when a project clicks, despondent when stuck. Self-aware about patterns but struggles to break them.",
+
+  "spaces": [
+    {
+      "space_id": "music",
+      "description": "Music production, songwriting, DAW workflow, mixing, collaborations with other musicians, releases",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "visual_art",
+      "description": "Illustration, digital art, gallery submissions, art style evolution, tools (Procreate, Photoshop)",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "commissions",
+      "description": "Client work, deadlines, pricing, contracts, scope creep, client communication",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "inspiration",
+      "description": "Creative influences, exhibitions, albums, books, nature walks, idea journaling, synesthesia experiences",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "business",
+      "description": "Freelance finances, invoicing, taxes, savings, gear purchases, Patreon, career strategy",
+      "conversation_count": 4
+    }
+  ],
+
+  "cross_space_threads": [
+    {
+      "thread_id": "album_launch",
+      "name": "Debut EP Launch Arc",
+      "spaces": ["music", "visual_art", "business", "inspiration"],
+      "timeline": "Oct 2025 → Mar 2026",
+      "key_facts": [
+        "EP titled 'Tidal' — 6 tracks, ambient electronic with field recordings",
+        "Sam is designing the album art themselves (visual_art + music crossover)",
+        "Target release date: March 15, 2026 on Bandcamp + streaming",
+        "Mastering outsourced to Juno Audio — costs $1,200",
+        "Release delayed 3 weeks due to track 4 ('Undertow') rework",
+        "Actual release: April 5, 2026",
+        "Pre-release single 'Phosphene' gets featured on a curated Spotify playlist in February"
+      ],
+      "temporal_evolution": "Oct: writing + recording → Dec: mixing done, art concepts started → Jan: mastering delays, track 4 crisis → Feb: single release, momentum → Mar: final push, release date slips → Apr: EP out"
+    },
+    {
+      "thread_id": "commission_burnout",
+      "name": "Commission Overload ↔ Creative Block",
+      "spaces": ["commissions", "music", "visual_art", "inspiration"],
+      "timeline": "Nov 2025 → Feb 2026",
+      "key_facts": [
+        "Sam takes on 4 commissions simultaneously in November to cover gear costs",
+        "Commission for Vex Brewing (beer label art) becomes scope creep nightmare",
+        "Creative block hits in December — can't work on EP or personal art",
+        "Sam starts saying no to new commissions in January",
+        "Inspiration returns after a 3-day hiking trip to Crater Lake in late January",
+        "Vex Brewing commission finally delivered in February, 5 weeks late"
+      ],
+      "temporal_evolution": "Nov: overloaded but optimistic → Dec: paralyzed, nothing feels good → Jan: deliberate pullback, nature reset → Feb: energy returns, Vex delivered"
+    },
+    {
+      "thread_id": "patreon_pivot",
+      "name": "Patreon Growth ↔ Art Direction",
+      "spaces": ["business", "visual_art", "music", "commissions"],
+      "timeline": "Oct 2025 → Mar 2026",
+      "key_facts": [
+        "Patreon at 127 patrons in October ($840/month)",
+        "Sam experiments with posting process videos (timelapse art + production breakdowns)",
+        "Process videos double engagement — Patreon grows to 215 patrons by February ($1,420/month)",
+        "This lets Sam raise commission rates from $400 to $600 per piece",
+        "Sam considers dropping commissions entirely if Patreon hits 300",
+        "By March: 248 patrons ($1,640/month)"
+      ],
+      "temporal_evolution": "Oct: Patreon as side income → Dec: process videos experiment → Jan: engagement spike → Feb: rate increase → Mar: nearing sustainability threshold"
+    }
+  ],
+
+  "temporal_arcs": [
+    {
+      "arc_id": "patreon_growth",
+      "metric": "Patreon patrons",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "127 patrons ($840/mo)", "conv": "conv_s_001"},
+        {"month": "Dec 2025", "value": "168 patrons ($1,110/mo)", "conv": "conv_s_008"},
+        {"month": "Feb 2026", "value": "215 patrons ($1,420/mo)", "conv": "conv_s_014"},
+        {"month": "Mar 2026", "value": "248 patrons ($1,640/mo)", "conv": "conv_s_019"}
+      ]
+    },
+    {
+      "arc_id": "ep_progress",
+      "metric": "EP completion status",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "4/6 tracks drafted", "conv": "conv_s_002"},
+        {"month": "Dec 2025", "value": "6/6 tracks mixed, sent to mastering", "conv": "conv_s_009"},
+        {"month": "Feb 2026", "value": "5/6 mastered, track 4 rework in progress", "conv": "conv_s_013"},
+        {"month": "Mar 2026", "value": "all 6 mastered, release date set April 5", "conv": "conv_s_018"}
+      ]
+    },
+    {
+      "arc_id": "monthly_income",
+      "metric": "Total freelance income",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "$2,100 (commissions $1,260 + Patreon $840)", "conv": "conv_s_005"},
+        {"month": "Dec 2025", "value": "$2,710 (commissions $1,600 + Patreon $1,110)", "conv": "conv_s_010"},
+        {"month": "Feb 2026", "value": "$2,620 (commissions $1,200 + Patreon $1,420)", "conv": "conv_s_015"},
+        {"month": "Mar 2026", "value": "$2,840 (commissions $1,200 + Patreon $1,640)", "conv": "conv_s_020"}
+      ]
+    }
+  ],
+
+  "adversarial_traps": [
+    {
+      "trap_id": "record_label",
+      "description": "Sam is independent — never discussed signing with a record label",
+      "false_premise": "What label did Sam sign with for the EP release?"
+    },
+    {
+      "trap_id": "gallery_solo_show",
+      "description": "Sam submitted to group shows but never had a solo exhibition",
+      "false_premise": "How many pieces did Sam display at their solo gallery show?"
+    },
+    {
+      "trap_id": "wrong_ep_name",
+      "description": "The EP is called 'Tidal', not 'Currents'",
+      "false_premise": "When did Sam finish mastering the 'Currents' EP?"
+    },
+    {
+      "trap_id": "wrong_persona_carlos",
+      "description": "Carlos Mendoza is a different persona entirely",
+      "false_premise": "What fintech advice did Sam give to Carlos?"
+    },
+    {
+      "trap_id": "classical_training",
+      "description": "Sam is self-taught — never mentioned formal music education",
+      "false_premise": "Where did Sam study classical composition?"
+    },
+    {
+      "trap_id": "employee_job",
+      "description": "Sam is a freelancer — never discussed taking a full-time job",
+      "false_premise": "What company hired Sam as a full-time designer?"
+    },
+    {
+      "trap_id": "wrong_city",
+      "description": "Sam lives in Portland, OR — never mentioned Austin",
+      "false_premise": "How is Sam adjusting to the move to Austin?"
+    },
+    {
+      "trap_id": "vinyl_pressing",
+      "description": "Sam releases digitally on Bandcamp + streaming — no vinyl discussed",
+      "false_premise": "How many copies of Sam's vinyl pressing were ordered?"
+    }
+  ],
+
+  "entities": [
+    {"entity_id": "sam_torres", "canonical_name": "Sam Torres", "aliases": ["Sam"], "type": "person", "spaces": ["music", "visual_art", "commissions", "inspiration", "business"]},
+    {"entity_id": "tidal_ep", "canonical_name": "Tidal (EP)", "aliases": ["Tidal", "the EP", "the album"], "type": "product", "spaces": ["music", "visual_art", "business"]},
+    {"entity_id": "phosphene_single", "canonical_name": "Phosphene", "aliases": ["the single", "first single"], "type": "product", "spaces": ["music", "business"]},
+    {"entity_id": "undertow_track", "canonical_name": "Undertow", "aliases": ["track 4"], "type": "product", "spaces": ["music"]},
+    {"entity_id": "juno_audio", "canonical_name": "Juno Audio", "aliases": ["Juno", "the mastering studio"], "type": "organization", "spaces": ["music", "business"]},
+    {"entity_id": "vex_brewing", "canonical_name": "Vex Brewing", "aliases": ["Vex", "the brewery client"], "type": "organization", "spaces": ["commissions", "business"]},
+    {"entity_id": "crater_lake", "canonical_name": "Crater Lake", "aliases": ["the hiking trip"], "type": "location", "spaces": ["inspiration"]},
+    {"entity_id": "mira_okafor", "canonical_name": "Mira Okafor", "aliases": ["Mira"], "type": "person", "spaces": ["music", "inspiration"]},
+    {"entity_id": "patreon", "canonical_name": "Patreon", "aliases": ["the Patreon"], "type": "organization", "spaces": ["business", "visual_art"]},
+    {"entity_id": "bandcamp", "canonical_name": "Bandcamp", "aliases": [], "type": "organization", "spaces": ["music", "business"]},
+    {"entity_id": "commission_rate", "canonical_name": "$600 per piece", "aliases": ["600", "new rate"], "type": "metric_value", "spaces": ["commissions", "business"]},
+    {"entity_id": "mastering_cost", "canonical_name": "$1,200", "aliases": ["mastering budget"], "type": "metric_value", "spaces": ["music", "business"]},
+    {"entity_id": "patreon_count_mar", "canonical_name": "248 patrons", "aliases": ["248"], "type": "metric_value", "spaces": ["business"]},
+    {"entity_id": "elena_voss", "canonical_name": "Elena Voss", "aliases": ["Elena"], "type": "person", "spaces": ["visual_art", "commissions"]},
+    {"entity_id": "night_market_gallery", "canonical_name": "Night Market Gallery", "aliases": ["Night Market", "the gallery"], "type": "organization", "spaces": ["visual_art"]}
+  ],
+
+  "conversation_manifest": [
+    {"conv_id": "conv_s_001", "space": "business", "depth_index": 1, "timestamp": "2025-10-05", "depth_band": "deep", "key_facts": ["Patreon at 127 patrons ($840/mo)", "Considering new gear: Arturia MiniFreak ($550)", "Tax prep stress — estimated Q3 payment due"], "noise_pattern": "topic_drift", "cross_space_refs": ["music"]},
+    {"conv_id": "conv_s_002", "space": "music", "depth_index": 2, "timestamp": "2025-10-12", "depth_band": "deep", "key_facts": ["EP 'Tidal' in progress — 4/6 tracks drafted", "Track 3 uses field recordings from the Oregon coast", "Collaborating with Mira Okafor on vocals for track 5"], "noise_pattern": "clean", "cross_space_refs": ["inspiration"]},
+    {"conv_id": "conv_s_003", "space": "visual_art", "depth_index": 3, "timestamp": "2025-10-19", "depth_band": "deep", "key_facts": ["Submitted 3 pieces to Night Market Gallery group show", "Experimenting with generative art (Processing + hand-drawing overlay)", "Art style shifting toward more abstract/organic forms"], "noise_pattern": "emotional", "cross_space_refs": []},
+    {"conv_id": "conv_s_004", "space": "inspiration", "depth_index": 4, "timestamp": "2025-10-26", "depth_band": "deep", "key_facts": ["Went to Björk exhibition at MoMA (visited NYC)", "Synesthesia-like experience with color and sound", "Started idea journal — analog, no screens"], "noise_pattern": "topic_drift", "cross_space_refs": ["music", "visual_art"]},
+    {"conv_id": "conv_s_005", "space": "commissions", "depth_index": 5, "timestamp": "2025-11-03", "depth_band": "deep", "key_facts": ["4 active commissions (record: usually max 2)", "Vex Brewing beer label commission — $800 budget", "Elena Voss referred a new client (indie game studio)", "Total commission income this month: $1,260"], "noise_pattern": "clean", "cross_space_refs": ["business"]},
+
+    {"conv_id": "conv_s_006", "space": "music", "depth_index": 6, "timestamp": "2025-11-17", "depth_band": "mid_range", "key_facts": ["Tracks 5 and 6 drafted", "Mira recorded vocal stems — they're perfect", "Mixing started, using reference track from Tycho"], "noise_pattern": "clean", "cross_space_refs": ["inspiration"]},
+    {"conv_id": "conv_s_007", "space": "commissions", "depth_index": 7, "timestamp": "2025-11-24", "depth_band": "mid_range", "key_facts": ["Vex Brewing scope creep — they want 3 label variants instead of 1", "No additional budget offered", "Sam frustrated but doesn't want to lose the client", "Delivery originally due Nov 30"], "noise_pattern": "emotional", "cross_space_refs": ["business"]},
+    {"conv_id": "conv_s_008", "space": "business", "depth_index": 8, "timestamp": "2025-12-01", "depth_band": "mid_range", "key_facts": ["Patreon at 168 patrons ($1,110/mo)", "Started posting process videos (timelapse + commentary)", "Considering raising commission rates"], "noise_pattern": "self_correction", "cross_space_refs": ["visual_art"]},
+    {"conv_id": "conv_s_009", "space": "music", "depth_index": 9, "timestamp": "2025-12-08", "depth_band": "mid_range", "key_facts": ["All 6 tracks mixed", "Sent to Juno Audio for mastering — $1,200 total", "Mastering estimated 3-4 weeks"], "noise_pattern": "clean", "cross_space_refs": ["business"]},
+    {"conv_id": "conv_s_010", "space": "inspiration", "depth_index": 10, "timestamp": "2025-12-15", "depth_band": "mid_range", "key_facts": ["Creative block setting in", "Can't work on album art — everything feels derivative", "Binging ambient music but not feeling inspired", "Total income Dec: $2,710"], "noise_pattern": "emotional", "cross_space_refs": ["visual_art", "music"]},
+    {"conv_id": "conv_s_011", "space": "visual_art", "depth_index": 11, "timestamp": "2025-12-22", "depth_band": "mid_range", "key_facts": ["Night Market Gallery accepted 2 of 3 submitted pieces", "Show opening in February", "Still stuck on album art concept", "Elena Voss suggests cyanotype technique"], "noise_pattern": "partial_info", "cross_space_refs": ["music"]},
+    {"conv_id": "conv_s_012", "space": "commissions", "depth_index": 12, "timestamp": "2026-01-05", "depth_band": "mid_range", "key_facts": ["Declining new commissions to protect creative energy", "Vex Brewing still not delivered (5 weeks overdue)", "Only 1 active commission (the indie game studio)", "Sam drafting a scope-of-work template for future clients"], "noise_pattern": "clean", "cross_space_refs": ["business"]},
+
+    {"conv_id": "conv_s_013", "space": "music", "depth_index": 13, "timestamp": "2026-01-19", "depth_band": "recent", "key_facts": ["5/6 tracks mastered by Juno", "Track 4 'Undertow' needs rework — low end is muddy", "Sam re-recording bass parts this week", "Release date pushed from March 15"], "noise_pattern": "self_correction", "cross_space_refs": ["business"]},
+    {"conv_id": "conv_s_014", "space": "business", "depth_index": 14, "timestamp": "2026-01-26", "depth_band": "recent", "key_facts": ["Patreon at 215 patrons ($1,420/mo)", "Process videos driving most growth", "Raised commission rate from $400 to $600 per piece", "Crater Lake hiking trip planned for next weekend"], "noise_pattern": "topic_drift", "cross_space_refs": ["commissions", "inspiration"]},
+    {"conv_id": "conv_s_015", "space": "inspiration", "depth_index": 15, "timestamp": "2026-02-02", "depth_band": "recent", "key_facts": ["3-day Crater Lake hiking trip completed", "Recorded field recordings (ice cracking, wind, bird calls)", "Breakthrough on album art concept: cyanotype + digital layering", "Total income Feb: $2,620"], "noise_pattern": "emotional", "cross_space_refs": ["music", "visual_art"]},
+    {"conv_id": "conv_s_016", "space": "visual_art", "depth_index": 16, "timestamp": "2026-02-09", "depth_band": "recent", "key_facts": ["Album art in progress — cyanotype base with digital wave forms overlaid", "Night Market Gallery show opens Feb 22", "Elena Voss doing a joint artist talk at the opening", "2 pieces sold at the show ($750 each)"], "noise_pattern": "clean", "cross_space_refs": ["music", "commissions"]},
+    {"conv_id": "conv_s_017", "space": "commissions", "depth_index": 17, "timestamp": "2026-02-17", "depth_band": "recent", "key_facts": ["Vex Brewing commission finally delivered — 5 weeks late", "Client happy with result despite delays", "New commission inquiry from a podcast network ($600 at new rate)", "Scope-of-work template being used for all new clients"], "noise_pattern": "clean", "cross_space_refs": ["business"]},
+    {"conv_id": "conv_s_018", "space": "music", "depth_index": 18, "timestamp": "2026-03-02", "depth_band": "recent", "key_facts": ["All 6 tracks mastered — Undertow rework approved by Juno", "Release date confirmed: April 5, 2026", "Pre-release single 'Phosphene' featured on Spotify editorial playlist", "Planning a small listening party at a Portland venue"], "noise_pattern": "clean", "cross_space_refs": ["business", "visual_art"]},
+    {"conv_id": "conv_s_019", "space": "business", "depth_index": 19, "timestamp": "2026-03-10", "depth_band": "recent", "key_facts": ["Patreon at 248 patrons ($1,640/mo)", "Phosphene streaming numbers: 12K plays first week", "Considering Bandcamp-exclusive bonus track to drive album sales", "If Patreon hits 300, could drop commissions entirely"], "noise_pattern": "topic_drift", "cross_space_refs": ["music"]},
+    {"conv_id": "conv_s_020", "space": "visual_art", "depth_index": 20, "timestamp": "2026-03-17", "depth_band": "recent", "key_facts": ["Album art finalized — cyanotype + digital, Sam very proud", "Considering selling limited prints of the album art", "Total income Mar: $2,840", "Planning a visual art series inspired by each EP track"], "noise_pattern": "clean", "cross_space_refs": ["music", "business"]}
+  ]
+}

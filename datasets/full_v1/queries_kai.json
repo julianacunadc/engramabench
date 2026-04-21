@@ -1,0 +1,681 @@
+[
+  {
+    "question": "What percentage is the Advanced NLP group project worth in the course grade?",
+    "expected_answer": "40%",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "courses"
+    ],
+    "query_space": "courses",
+    "evidence_conversation_ids": [
+      "conv_k_001"
+    ],
+    "evidence_message_ids": [
+      "msg_k_001_05"
+    ],
+    "notes": "Basic recall of specific course grading information from early conversation",
+    "query_id": "q_k_001",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is the advisor mentioned in the research conversations?",
+    "expected_answer": "Dr. Reeves",
+    "answer_type": "entity",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_002"
+    ],
+    "evidence_message_ids": [
+      "msg_k_002_03"
+    ],
+    "notes": "Entity recall of advisor name from research space",
+    "query_id": "q_k_002",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What score did the student get on their Advanced NLP midterm?",
+    "expected_answer": "88%",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "courses"
+    ],
+    "query_space": "courses",
+    "evidence_conversation_ids": [
+      "conv_k_006"
+    ],
+    "evidence_message_ids": [
+      "msg_k_006_01"
+    ],
+    "notes": "Specific exam score recall from courses space",
+    "query_id": "q_k_003",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the ACL 2026 submission deadline?",
+    "expected_answer": "January 15th",
+    "answer_type": "date",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_007"
+    ],
+    "evidence_message_ids": [
+      "msg_k_007_01"
+    ],
+    "notes": "Important deadline date from research discussions",
+    "query_id": "q_k_004",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did they achieve with data augmentation for the ACL paper?",
+    "expected_answer": "0.76",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_013"
+    ],
+    "evidence_message_ids": [
+      "msg_k_013_03"
+    ],
+    "notes": "Technical result from ACL submission discussion",
+    "query_id": "q_k_005",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did the cross-lingual transfer approach achieve?",
+    "expected_answer": "0.81",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_014"
+    ],
+    "evidence_message_ids": [
+      "msg_k_014_03"
+    ],
+    "notes": "Latest experimental result showing improvement over previous methods",
+    "query_id": "q_k_006",
+    "persona_id": "kai",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did the user achieve in their improved experiments that will be the main result for their thesis?",
+    "expected_answer": "0.81",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "courses",
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_014",
+      "conv_k_017"
+    ],
+    "evidence_message_ids": [
+      "msg_k_014_03",
+      "msg_k_017_09"
+    ],
+    "notes": "Cross-space connection between research progress and career confidence",
+    "query_id": "q_k_007",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Who is the lab partner that helped with both coursework and thesis proofreading?",
+    "expected_answer": "Preethi",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "courses",
+      "research",
+      "social"
+    ],
+    "query_space": "courses",
+    "evidence_conversation_ids": [
+      "conv_k_001",
+      "conv_k_014",
+      "conv_k_016"
+    ],
+    "evidence_message_ids": [
+      "msg_k_001_05",
+      "msg_k_014_07",
+      "msg_k_016_07"
+    ],
+    "notes": "Person appearing across multiple academic and social contexts",
+    "query_id": "q_k_008",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What activities did the user stop doing when their wellbeing dropped to 4/10 but resumed when it improved to 8/10?",
+    "expected_answer": "climbing, getting adequate sleep",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_010",
+      "conv_k_016",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_010_03",
+      "msg_k_016_01",
+      "msg_k_020_07"
+    ],
+    "notes": "Behavioral changes tracking wellbeing across time and spaces",
+    "query_id": "q_k_009",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What major deadline was causing stress across both research work and career preparation in January?",
+    "expected_answer": "ACL paper deadline",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_007",
+      "conv_k_011",
+      "conv_k_013"
+    ],
+    "evidence_message_ids": [
+      "msg_k_007_01",
+      "msg_k_011_05",
+      "msg_k_013_01"
+    ],
+    "notes": "Deadline pressure affecting multiple life domains simultaneously",
+    "query_id": "q_k_010",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the base salary amount in the Google offer that the user accepted?",
+    "expected_answer": "$165K",
+    "answer_type": "number",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "wellness"
+    ],
+    "query_space": "career_prep",
+    "evidence_conversation_ids": [
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_019_01",
+      "msg_k_020_03"
+    ],
+    "notes": "Career outcome that contributed to improved wellbeing",
+    "query_id": "q_k_011",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which roommate provided emotional support and was mentioned across social and wellness contexts?",
+    "expected_answer": "Jess",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "social",
+    "evidence_conversation_ids": [
+      "conv_k_004",
+      "conv_k_012",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_004_03",
+      "msg_k_012_05",
+      "msg_k_020_09"
+    ],
+    "notes": "Support person appearing in multiple contexts throughout the timeline",
+    "query_id": "q_k_012",
+    "persona_id": "kai",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was Kai's F1 score when the ACL paper was submitted versus the final thesis results?",
+    "expected_answer": "0.76 for ACL submission, 0.81 for final thesis",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "courses",
+      "research"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_013",
+      "conv_k_014",
+      "conv_k_017"
+    ],
+    "evidence_message_ids": [
+      "msg_k_013_03",
+      "msg_k_014_03",
+      "msg_k_017_09"
+    ],
+    "notes": "Shows research progress continuing even while job search was competing for attention",
+    "query_id": "q_k_013",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Kai's sleep patterns change from October 2025 to January 2026 as academic and career pressures intensified?",
+    "expected_answer": "7 hours most nights to 5 hours if lucky",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_003",
+      "conv_k_010",
+      "conv_k_011"
+    ],
+    "evidence_message_ids": [
+      "msg_k_003_05",
+      "msg_k_010_03",
+      "msg_k_011_07"
+    ],
+    "notes": "Tracks deterioration of sleep as job applications and thesis deadline pressure mounted",
+    "query_id": "q_k_014",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Kai's wellbeing rating change from December 2025 to March 2026, and what career decision contributed to this improvement?",
+    "expected_answer": "From 4/10 to 8/10 after telling Dr. Reeves about the Google offer",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_010",
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_010_01",
+      "msg_k_019_01",
+      "msg_k_020_01",
+      "msg_k_020_03"
+    ],
+    "notes": "Tests ability to connect wellness changes across time with career decisions",
+    "query_id": "q_k_015",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What F1 score did Kai achieve in December 2025 versus February 2026, and how did this research progress relate to their thesis confidence?",
+    "expected_answer": "0.72 in December, 0.81 in February, giving confidence for thesis defense",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "research",
+      "wellness"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_009",
+      "conv_k_014",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_009_01",
+      "msg_k_014_03",
+      "msg_k_014_09",
+      "msg_k_020_11"
+    ],
+    "notes": "Tests connection between technical research progress and psychological wellbeing over time",
+    "query_id": "q_k_016",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Kai's climbing routine change from October 2025 to February 2026?",
+    "expected_answer": "went from climbing twice weekly at Seattle Bouldering Project to stopping completely for two months, then returned in February",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_003",
+      "conv_k_010",
+      "conv_k_016"
+    ],
+    "evidence_message_ids": [
+      "msg_k_003_03",
+      "msg_k_010_03",
+      "msg_k_016_01"
+    ],
+    "notes": "Tracks physical activity decline during isolation period and recovery",
+    "query_id": "q_k_017",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What intervention did Kai's therapist suggest regarding social activities, and how did this connect to Kai returning to game night?",
+    "expected_answer": "therapist suggested structured social time as non-negotiable, leading Kai to return to game night in February after months away",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_012",
+      "conv_k_016"
+    ],
+    "evidence_message_ids": [
+      "msg_k_012_09",
+      "msg_k_016_05",
+      "msg_k_016_07"
+    ],
+    "notes": "Links therapeutic intervention to actual behavioral change in social engagement",
+    "query_id": "q_k_018",
+    "persona_id": "kai",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the user's research performance and career clarity evolve together from their initial struggles to their final breakthrough?",
+    "expected_answer": "A pattern of improvement emerged as research progress and career clarity increased alongside wellbeing. After disappointing December results and anxiety about unresolved job decisions, Kai later achieved stronger research results and, by March, described more clarity and less pressure. The evidence supports an association between improved results/career clarity and better wellbeing, but not a single breakthrough moment tied to telling the advisor.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research",
+      "wellness"
+    ],
+    "query_space": "research",
+    "evidence_conversation_ids": [
+      "conv_k_009",
+      "conv_k_014",
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_009_03",
+      "msg_k_014_03",
+      "msg_k_019_05",
+      "msg_k_020_07"
+    ],
+    "notes": "Tests synthesis of research progress, career decisions, and psychological wellbeing across 6-month timeline",
+    "query_id": "q_k_019",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What pattern emerges when comparing the user's social engagement levels with their self-reported wellbeing scores across the academic year?",
+    "expected_answer": "The user's social engagement and wellbeing scores moved in lockstep. In October 2025, they rated wellbeing at 7/10 while actively climbing twice weekly, attending game nights, and dating Alex. By December, wellbeing dropped to 4/10 as they isolated from friends, stopped climbing, and avoided social commitments. Recovery began in January 2026 with therapy and structured social time, reaching 5/10. By March 2026, they returned to regular climbing, weekly dinners with Jess, and rated wellbeing at 8/10, demonstrating that social connection directly correlated with mental health throughout their program.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_003",
+      "conv_k_008",
+      "conv_k_010",
+      "conv_k_012",
+      "conv_k_016",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_003_03",
+      "msg_k_008_03",
+      "msg_k_010_03",
+      "msg_k_012_03",
+      "msg_k_016_03",
+      "msg_k_020_03"
+    ],
+    "notes": "Requires connecting wellbeing metrics with social behavior patterns across multiple time periods",
+    "query_id": "q_k_020",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What academic and personal factors converged to create the user's crisis period in December 2025?",
+    "expected_answer": "Multiple stressors converged in December 2025: disappointing research results (F1=0.72 vs target 0.78), ACL deadline pressure from advisor Reeves, secret job applications creating guilt and divided attention, relationship ending with Alex, complete social withdrawal from game nights and friends, abandoning climbing routine, sleep deprivation (5 hours vs previous 7), and excessive screen time (14 hours daily). This perfect storm of academic disappointment, relationship stress, social isolation, and physical neglect created their lowest wellbeing point at 4/10.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research",
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_009",
+      "conv_k_008",
+      "conv_k_010",
+      "conv_k_011"
+    ],
+    "evidence_message_ids": [
+      "msg_k_009_03",
+      "msg_k_008_03",
+      "msg_k_010_03",
+      "msg_k_011_07"
+    ],
+    "notes": "Tests ability to synthesize multiple crisis factors across all life domains",
+    "query_id": "q_k_021",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What specific support systems and interventions helped the user transition from their December 2025 low point to March 2026 recovery?",
+    "expected_answer": "therapy, structured social time, roommate Jess support, Preethi collaboration, career clarity",
+    "answer_type": "set",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "career_prep",
+      "research",
+      "social",
+      "wellness"
+    ],
+    "query_space": "wellness",
+    "evidence_conversation_ids": [
+      "conv_k_012",
+      "conv_k_014",
+      "conv_k_016",
+      "conv_k_019",
+      "conv_k_020"
+    ],
+    "evidence_message_ids": [
+      "msg_k_012_01",
+      "msg_k_014_07",
+      "msg_k_016_05",
+      "msg_k_019_03",
+      "msg_k_020_05"
+    ],
+    "notes": "Requires identifying concrete recovery interventions spanning multiple support systems",
+    "query_id": "q_k_022",
+    "persona_id": "kai",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_k_023",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What is the topic of Kai's PhD dissertation?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai is an MS student who decided NOT to pursue a PhD",
+    "query_space": "courses"
+  },
+  {
+    "query_id": "q_k_024",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What is the name of the startup Kai co-founded?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai accepted a Google offer — never discussed founding a startup",
+    "query_space": "research"
+  },
+  {
+    "query_id": "q_k_025",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What feedback did Kai receive from the NeurIPS reviewers?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: The paper was submitted to ACL, not NeurIPS",
+    "query_space": "social"
+  },
+  {
+    "query_id": "q_k_026",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What health advice did Diane give to Kai?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Diane Chen is a different persona entirely",
+    "query_space": "career_prep"
+  },
+  {
+    "query_id": "q_k_027",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "How many students are in the class Kai TAs for?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai is not a TA — never discussed teaching responsibilities",
+    "query_space": "wellness"
+  },
+  {
+    "query_id": "q_k_028",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What team at Meta did Kai interview for?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai got an offer from Google, not Meta",
+    "query_space": "courses"
+  },
+  {
+    "query_id": "q_k_029",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "What caused the falling out between Kai and Jess?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Jess is supportive — never a conflict between them",
+    "query_space": "research"
+  },
+  {
+    "query_id": "q_k_030",
+    "persona_id": "kai",
+    "task_family": "adversarial",
+    "question": "Why did Kai decide to drop out of the program?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Kai is completing the MS degree — never dropped out",
+    "query_space": "social"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "conversation_id": "conv_d_007",
+  "persona_id": "diane",
+  "space_id": "career",
+  "timestamp": "2025-11-17",
+  "depth_index": 7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "So that happened. My VP just pulled me into a one-on-one and basically said I'm being considered for Director of Product. Like, the actual promotion track we've been dancing around for months.",
+      "message_id": "msg_d_007_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's huge! What did they say about timeline and expectations?",
+      "message_id": "msg_d_007_02"
+    },
+    {
+      "role": "user",
+      "content": "Here's the thing - they want me to lead the Q1 launch of MedBridge Connect. Full ownership, cross-functional team coordination, the works. It's basically the test case for whether I can handle director-level responsibilities.",
+      "message_id": "msg_d_007_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a significant opportunity. How are you feeling about taking on that scope?",
+      "message_id": "msg_d_007_04"
+    },
+    {
+      "role": "user",
+      "content": "Excited and terrified in equal measure. Q1 is going to be insane - Connect launch, plus I've got Lily needing extra math help every night, and we're still dealing with kitchen renovation chaos. The timing feels impossible but also like I can't say no.",
+      "message_id": "msg_d_007_05"
+    },
+    {
+      "role": "assistant",
+      "content": "The timing does sound challenging. Have you thought about what support systems you'd need to make this work?",
+      "message_id": "msg_d_007_06"
+    },
+    {
+      "role": "user",
+      "content": "That's exactly what I need to figure out. We already hired the after-school sitter for January - 320 a week but worth every penny if this promotion comes through. I just keep thinking about whether I can actually do justice to both the launch and being present for the kids.",
+      "message_id": "msg_d_007_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're already thinking strategically about the logistics. What would success look like for you on both fronts?",
+      "message_id": "msg_d_007_08"
+    },
+    {
+      "role": "user",
+      "content": "Good question. For Connect - clean launch, user adoption targets hit, minimal technical debt. For home - Lily's math progress continues, Ethan doesn't feel neglected, and I don't completely lose my mind during the kitchen renovation. Honestly, I think I can pull this off, but the next few months are going to test everything.",
+      "message_id": "msg_d_007_09"
+    },
+    {
+      "role": "assistant",
+      "content": "You seem to have a clear view of what needs to happen. When do you need to give them an answer about taking on the Connect launch?",
+      "message_id": "msg_d_007_10"
+    },
+    {
+      "role": "user",
+      "content": "End of this week. Which means I need to have the hard conversation with Kevin tonight about what this actually means for our family logistics. But honestly? I think I'm going to say yes. This is the break I've been working toward.",
+      "message_id": "msg_d_007_11"
+    }
+  ],
+  "mentioned_entities": [
+    "promotion_title",
+    "medbridge_connect",
+    "lily_chen",
+    "ethan_chen",
+    "sitter_cost",
+    "kevin_chen"
+  ],
+  "cross_space_refs": [
+    "kids"
+  ],
+  "summary": "Diane discusses being offered a Director promotion track that requires leading the Q1 MedBridge Connect launch. She's excited but anxious about balancing the increased responsibility with family needs during an already challenging period.",
+  "fact_count": 3
+}

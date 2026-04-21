@@ -1,0 +1,214 @@
+{
+  "version": "2.0",
+  "persona_id": "sam",
+  "entity_count": 15,
+  "type_counts": {
+    "person": 3,
+    "product": 3,
+    "organization": 5,
+    "location": 1,
+    "metric_value": 3
+  },
+  "entities": [
+    {
+      "entity_id": "sam_torres",
+      "canonical_name": "Sam Torres",
+      "aliases": [
+        "Sam"
+      ],
+      "type": "person",
+      "spaces": [
+        "music",
+        "visual_art",
+        "commissions",
+        "inspiration",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "tidal_ep",
+      "canonical_name": "Tidal (EP)",
+      "aliases": [
+        "Tidal",
+        "the EP",
+        "the album"
+      ],
+      "type": "product",
+      "spaces": [
+        "music",
+        "visual_art",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "phosphene_single",
+      "canonical_name": "Phosphene",
+      "aliases": [
+        "the single",
+        "first single"
+      ],
+      "type": "product",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "undertow_track",
+      "canonical_name": "Undertow",
+      "aliases": [
+        "track 4"
+      ],
+      "type": "product",
+      "spaces": [
+        "music"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "juno_audio",
+      "canonical_name": "Juno Audio",
+      "aliases": [
+        "Juno",
+        "the mastering studio"
+      ],
+      "type": "organization",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "vex_brewing",
+      "canonical_name": "Vex Brewing",
+      "aliases": [
+        "Vex",
+        "the brewery client"
+      ],
+      "type": "organization",
+      "spaces": [
+        "commissions",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "crater_lake",
+      "canonical_name": "Crater Lake",
+      "aliases": [
+        "the hiking trip"
+      ],
+      "type": "location",
+      "spaces": [
+        "inspiration"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "mira_okafor",
+      "canonical_name": "Mira Okafor",
+      "aliases": [
+        "Mira"
+      ],
+      "type": "person",
+      "spaces": [
+        "music",
+        "inspiration"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "patreon",
+      "canonical_name": "Patreon",
+      "aliases": [
+        "the Patreon"
+      ],
+      "type": "organization",
+      "spaces": [
+        "business",
+        "visual_art"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "bandcamp",
+      "canonical_name": "Bandcamp",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "commission_rate",
+      "canonical_name": "$600 per piece",
+      "aliases": [
+        "600",
+        "new rate"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "commissions",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "mastering_cost",
+      "canonical_name": "$1,200",
+      "aliases": [
+        "mastering budget"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "patreon_count_mar",
+      "canonical_name": "248 patrons",
+      "aliases": [
+        "248"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "elena_voss",
+      "canonical_name": "Elena Voss",
+      "aliases": [
+        "Elena"
+      ],
+      "type": "person",
+      "spaces": [
+        "visual_art",
+        "commissions"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "night_market_gallery",
+      "canonical_name": "Night Market Gallery",
+      "aliases": [
+        "Night Market",
+        "the gallery"
+      ],
+      "type": "organization",
+      "spaces": [
+        "visual_art"
+      ],
+      "persona_id": "sam"
+    }
+  ]
+}

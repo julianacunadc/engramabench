@@ -1,0 +1,71 @@
+{
+  "conversation_id": "conv_p_011",
+  "persona_id": "priya",
+  "space_id": "grants",
+  "timestamp": "2026-01-13",
+  "depth_index": 11,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Okay so I'm collecting biosketches for the R01 and Marcus is being... well, Marcus. He's threatening to withdraw as co-PI again because apparently I didn't loop him in on some budget revision early enough? Like we literally talked about this in December but whatever.",
+      "message_id": "msg_p_011_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds incredibly stressful with the February deadline approaching. What specific budget revision is he concerned about?",
+      "message_id": "msg_p_011_02"
+    },
+    {
+      "role": "user",
+      "content": "It's honestly minor - I shifted some equipment costs to year 2 instead of year 1 to match the timeline better. The total is still 1.2 million over 5 years, nothing changed there. But now he's all huffy about not being consulted and I'm scrambling to save this whole collaboration before it implodes.",
+      "message_id": "msg_p_011_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Have you considered scheduling a call to walk through the changes together? Sometimes seeing the rationale behind budget timing can help smooth things over.",
+      "message_id": "msg_p_011_04"
+    },
+    {
+      "role": "user",
+      "content": "Yeah I probably should. God, this whole thing has been such a mess since the authorship drama in November. You'd think we sorted that out but apparently not? Like we agreed Anika first author, his postdoc second, co-corresponding - everyone was happy! Or so I thought.",
+      "message_id": "msg_p_011_05"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like there might be some lingering tension from that earlier conflict. Are you getting the sense this budget issue is really about the budget, or is it more about feeling excluded from decisions in general?",
+      "message_id": "msg_p_011_06"
+    },
+    {
+      "role": "user",
+      "content": "Ugh you're probably right. He's probably still salty about the whole thing even though we resolved it. Stanford politics, you know? Anyway, I need to get these biosketches sorted - mine's done, his is supposedly coming tomorrow, and I still need to chase down the other collaborators. February 5th is breathing down my neck.",
+      "message_id": "msg_p_011_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That timeline is tight but manageable. Would it help to send Marcus a quick email acknowledging his concerns and proposing a brief call to review the budget changes together? Sometimes a proactive gesture can prevent things from escalating further.",
+      "message_id": "msg_p_011_08"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, good call. I'll draft something diplomatic. Can't afford to lose him as co-PI at this point - the preliminary data from our joint work is literally the foundation of the whole proposal. Plus honestly his computational genomics expertise fills a gap I can't cover alone.",
+      "message_id": "msg_p_011_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Exactly - you both bring essential expertise to make this R01 competitive. A collaborative tone in your email emphasizing the shared goals might help reset the dynamic. Good luck with the biosketch collection!",
+      "message_id": "msg_p_011_10"
+    }
+  ],
+  "mentioned_entities": [
+    "nih_r01",
+    "marcus_wei",
+    "anika_patel",
+    "stanford",
+    "r01_budget"
+  ],
+  "cross_space_refs": [
+    "collaboration"
+  ],
+  "summary": "Priya discusses collecting biosketches for her R01 grant while dealing with co-PI Marcus Wei threatening to withdraw over a budget revision. She reflects on ongoing collaboration tensions stemming from previous authorship disputes and strategizes how to salvage the partnership before the February deadline.",
+  "fact_count": 3
+}

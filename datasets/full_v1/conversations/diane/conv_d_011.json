@@ -1,0 +1,78 @@
+{
+  "conversation_id": "conv_d_011",
+  "persona_id": "diane",
+  "space_id": "finances",
+  "timestamp": "2026-01-13",
+  "depth_index": 11,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Need to look at our budget numbers again. The kitchen reno plus the new sitter is really hitting us hard.",
+      "message_id": "msg_d_011_01"
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you review your budget. What specific changes are you seeing in your monthly expenses?",
+      "message_id": "msg_d_011_02"
+    },
+    {
+      "role": "user",
+      "content": "Our monthly savings dropped to $400. Used to be putting away $1,800 back in October before all this started.",
+      "message_id": "msg_d_011_03"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a significant drop. What are the main drivers behind the $1,400 reduction?",
+      "message_id": "msg_d_011_04"
+    },
+    {
+      "role": "user",
+      "content": "Well, we hired the after-school sitter this week - $320 per week for Lily and Ethan since I'm swamped at work. Plus our food budget is up 40% because we're eating out constantly during the renovation.",
+      "message_id": "msg_d_011_05"
+    },
+    {
+      "role": "assistant",
+      "content": "The sitter cost alone is about $1,280 monthly, which explains most of the difference. How long do you expect these elevated expenses to continue?",
+      "message_id": "msg_d_011_06"
+    },
+    {
+      "role": "user",
+      "content": "Kitchen should be done by March, so the food situation will improve. The sitter might be longer term though - depends how the promotion track goes. At least my bonus is expected in February.",
+      "message_id": "msg_d_011_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That February bonus should provide some relief. Are you planning to use it to offset these temporary expenses or put it toward the renovation costs?",
+      "message_id": "msg_d_011_08"
+    },
+    {
+      "role": "user",
+      "content": "Probably split it. We already paid the 30% deposit to Ramirez Bros, but we'll need more for the final payment. Just trying to keep our heads above water until things settle down.",
+      "message_id": "msg_d_011_09"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you have a clear timeline for when some of these costs will decrease. Would it help to map out a month-by-month projection through March?",
+      "message_id": "msg_d_011_10"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, that would be good. Need to make sure we can still cover everything without dipping into the kids' college funds.",
+      "message_id": "msg_d_011_11"
+    }
+  ],
+  "mentioned_entities": [
+    "sitter_cost",
+    "lily_chen",
+    "ethan_chen",
+    "bonus_amount",
+    "ramirez_bros",
+    "five_twenty_nine"
+  ],
+  "cross_space_refs": [
+    "kids",
+    "home"
+  ],
+  "summary": "Diane reviews her strained budget, noting monthly savings dropped to $400 due to new $320/week sitter costs and increased food expenses during kitchen renovation. She discusses timeline for relief and plans for February bonus allocation.",
+  "fact_count": 4
+}

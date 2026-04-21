@@ -1,0 +1,63 @@
+{
+  "conversation_id": "conv_d_018",
+  "persona_id": "diane",
+  "space_id": "health",
+  "timestamp": "2026-03-10",
+  "depth_index": 18,
+  "messages": [
+    {
+      "role": "user",
+      "content": "So I actually did something for myself this weekend - started going to this Saturday morning yoga class. Never thought I'd be a yoga person but honestly? I'm kind of loving it.",
+      "message_id": "msg_d_018_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's wonderful! What drew you to try yoga, and what are you enjoying about it?",
+      "message_id": "msg_d_018_02"
+    },
+    {
+      "role": "user",
+      "content": "Well, I needed something that wasn't running. I was doing 3x a week before but dropped to zero in January when work got crazy. Now I'm back to running twice a week but my body was craving something different. The yoga is more about slowing down, which apparently I desperately needed.",
+      "message_id": "msg_d_018_03"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're finding a good balance between different types of movement. How has the shift back to exercise been affecting other areas of your health?",
+      "message_id": "msg_d_018_04"
+    },
+    {
+      "role": "user",
+      "content": "Sleep is finally getting better. I'm averaging 6.5 hours now, which feels like luxury compared to January and February. Those were brutal - I was running on maybe 5.5 hours a night with the MedBridge Connect launch prep.",
+      "message_id": "msg_d_018_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a significant improvement! Product launches can really take a toll. How are you feeling overall now that the launch pressure is behind you?",
+      "message_id": "msg_d_018_06"
+    },
+    {
+      "role": "user",
+      "content": "Honestly? More balanced than I've felt in months. The launch was successful but I was completely fried by February. Now I can actually think about taking care of myself again instead of just surviving each day. The yoga thing is part of that - it's my one hour a week where I'm not managing anyone or anything.",
+      "message_id": "msg_d_018_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It's great that you're prioritizing that self-care time. Having that dedicated hour sounds like it's serving multiple purposes - physical activity and mental reset.",
+      "message_id": "msg_d_018_08"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. And the Saturday timing works well - Kevin can handle the kids for that hour, and it sets a better tone for the weekend. I'm hoping to keep this up even when work gets intense again, which it inevitably will.",
+      "message_id": "msg_d_018_09"
+    }
+  ],
+  "mentioned_entities": [
+    "kevin_chen",
+    "medbridge_connect"
+  ],
+  "cross_space_refs": [
+    "career"
+  ],
+  "summary": "Diane shares that she's started Saturday yoga classes and is enjoying the slower pace. Her sleep has improved to 6.5 hours nightly, and she's running twice weekly again after stopping during the intense MedBridge Connect launch period. She feels more balanced now that work pressure has eased.",
+  "fact_count": 4
+}

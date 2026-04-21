@@ -1,0 +1,72 @@
+{
+  "conversation_id": "conv_p_014",
+  "persona_id": "priya",
+  "space_id": "grants",
+  "timestamp": "2026-02-05",
+  "depth_index": 14,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Just hit submit on the R01 literally 3 minutes before the deadline. My heart is still racing. I can't believe we actually made it after all the drama with Marcus and the paper situation.",
+      "message_id": "msg_p_014_01"
+    },
+    {
+      "role": "assistant",
+      "content": "Congratulations on getting it submitted! That must be such a relief after everything you've been dealing with. How are you feeling about the final version?",
+      "message_id": "msg_p_014_02"
+    },
+    {
+      "role": "user",
+      "content": "Honestly? I think it's solid. The budget came out to exactly what we planned - 1.2 million over 5 years. Wait, actually let me double check that... no, yeah, 1.2M is right. I kept second-guessing myself on the numbers this morning.",
+      "message_id": "msg_p_014_03"
+    },
+    {
+      "role": "assistant",
+      "content": "It's completely normal to second-guess yourself on submission day! The budget sounds well-planned. How did you handle the preliminary data section given the paper situation?",
+      "message_id": "msg_p_014_04"
+    },
+    {
+      "role": "user",
+      "content": "That was actually the trickiest part. Since the Nature Methods rejection happened right when we needed the paper for the R01, I had to pivot fast. I cited the Genome Biology submission as under review - which is technically true since we just resubmitted it there last week.",
+      "message_id": "msg_p_014_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Smart move citing it as under review at Genome Biology. That should still carry weight with the reviewers. How confident are you about the GB submission going forward?",
+      "message_id": "msg_p_014_06"
+    },
+    {
+      "role": "user",
+      "content": "Much more confident than I was with NatMeth honestly. The reviewers there wanted us to completely redo the validation experiments but GB seems like a better fit for our approach anyway. Plus now that Marcus and I sorted out the authorship mess, Anika can focus on addressing any reviewer comments instead of wondering if her work will even get credited.",
+      "message_id": "msg_p_014_07"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like resolving the authorship issue was crucial for moving forward productively. Having that clarity must help the whole team focus on the science rather than politics.",
+      "message_id": "msg_p_014_08"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. And honestly, having that paper as preliminary data - even under review - makes the R01 so much stronger. The whole computational pipeline we developed is the foundation for what we're proposing to do with the grant money. Now I just need to not think about it for the next 6 months while they review it.",
+      "message_id": "msg_p_014_09"
+    },
+    {
+      "role": "assistant",
+      "content": "Easier said than done, but you've done everything you can at this point! The foundation sounds solid with the pipeline work and the budget planning. Time to celebrate getting it submitted on time.",
+      "message_id": "msg_p_014_10"
+    }
+  ],
+  "mentioned_entities": [
+    "nih_r01",
+    "marcus_wei",
+    "r01_budget",
+    "nature_methods",
+    "genome_biology",
+    "anika_patel"
+  ],
+  "cross_space_refs": [
+    "publications"
+  ],
+  "summary": "Priya successfully submitted her R01 grant proposal on deadline after navigating paper rejections and authorship conflicts. She confirmed the $1.2M budget and cited her Genome Biology submission as preliminary data.",
+  "fact_count": 3
+}

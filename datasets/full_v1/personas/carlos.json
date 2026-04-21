@@ -1,0 +1,211 @@
+{
+  "persona_id": "carlos",
+  "name": "Carlos Mendoza",
+  "domain": "Entrepreneur (PayFlow — AI-powered fintech)",
+  "age": 31,
+  "location": "Bogotá, Colombia",
+  "communication_style": "Informal and direct, sometimes rambling. Mixes English and Spanish business terms ('el pitch deck', 'la runway'). Sharp but fragmented when stressed. Product space is more analytical with numbers; personal space is shorter, more vulnerable.",
+  "emotional_register": "Optimistic but carrying heavy pressure. Oscillates between founder confidence and quiet exhaustion. Personal space reveals burnout and self-doubt.",
+
+  "spaces": [
+    {
+      "space_id": "investors",
+      "description": "VC meetings, fundraising strategy, pitch deck, financial metrics for investors, term sheets",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "product",
+      "description": "PayFlow features, NPS, DAU, integrations, UX issues, technical debt, roadmap",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "hiring",
+      "description": "Recruiting, interviews, offers, team building, compensation, culture",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "market",
+      "description": "Competitors, market sizing, partnerships, go-to-market, pricing, LATAM expansion",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "personal",
+      "description": "Burnout, sleep, relationships, self-doubt, life outside work, milestones",
+      "conversation_count": 4
+    }
+  ],
+
+  "cross_space_threads": [
+    {
+      "thread_id": "series_a_arc",
+      "name": "Series A Fundraising Arc",
+      "spaces": ["investors", "product", "market", "personal"],
+      "timeline": "Oct 2025 → Mar 2026",
+      "key_facts": [
+        "Kaszek Ventures requires 20% MoM growth for Series A commitment",
+        "MRR grows from $45K (Oct) to $52K (Dec) to $68K (Feb) to $78K (Mar)",
+        "Andrea Gómez offers a $500K bridge round in November",
+        "Churn drops from 4.2% (Oct) to 3.1% (Dec) to 2.4% (Mar)",
+        "Series A target moved from Q1 2026 to Q2 2026",
+        "Carlos's insomnia worsens during fundraising crunch"
+      ],
+      "temporal_evolution": "Oct: first Kaszek meeting, optimistic → Nov: bridge offer as safety net → Dec: metrics improving, pitch deck iteration → Feb: strong growth, Series A timeline crystallizes → Mar: Q2 target confirmed, cautious confidence"
+    },
+    {
+      "thread_id": "hiring_burnout",
+      "name": "Hiring Decisions ↔ Founder Burnout",
+      "spaces": ["hiring", "personal", "product"],
+      "timeline": "Nov 2025 → Mar 2026",
+      "key_facts": [
+        "Lucía Torres interviews for senior engineer — strong candidate",
+        "Salary cap is $4,800/month (COP equivalent)",
+        "Lucía accepts in January, starts February",
+        "Carlos opens UX designer position after NPS survey (NPS 47)",
+        "Onboarding flow is the #1 product complaint",
+        "Carlos sleeping 5 hours/night during hiring + fundraising crunch",
+        "After Lucía starts, Carlos delegates backend and sleeps better"
+      ],
+      "temporal_evolution": "Nov: interviewing, excited about Lucía → Dec: negotiating, stress piling up → Jan: Lucía accepts, relief → Feb: onboarding her + opening UX role → Mar: delegation helps burnout"
+    },
+    {
+      "thread_id": "competitor_intel",
+      "name": "Competitor Intelligence → Pitch Strategy",
+      "spaces": ["market", "investors", "product"],
+      "timeline": "Oct 2025 → Feb 2026",
+      "key_facts": [
+        "FinFlow identified as main competitor in Mexico, $29/month pricing",
+        "FinFlow has 15-person engineering team",
+        "Carlos initially can't remember competitor name in October",
+        "FinFlow's weakness: no AI-powered reconciliation (PayFlow's differentiator)",
+        "Bancolombia API integration is PayFlow's moat — target Q1 2026",
+        "Competitor slide added to pitch deck in December"
+      ],
+      "temporal_evolution": "Oct: vague awareness of Mexican competitor → Nov: identifies FinFlow by name → Dec: deep competitive analysis, adds to pitch → Feb: uses differentiation in Kaszek follow-up"
+    }
+  ],
+
+  "temporal_arcs": [
+    {
+      "arc_id": "mrr_growth",
+      "metric": "MRR",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "$45K", "conv": "conv_c_001"},
+        {"month": "Dec 2025", "value": "$52K", "conv": "conv_c_007"},
+        {"month": "Feb 2026", "value": "$68K", "conv": "conv_c_014"},
+        {"month": "Mar 2026", "value": "$78K", "conv": "conv_c_019"}
+      ]
+    },
+    {
+      "arc_id": "churn_rate",
+      "metric": "Churn rate",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "4.2%", "conv": "conv_c_001"},
+        {"month": "Dec 2025", "value": "3.1%", "conv": "conv_c_007"},
+        {"month": "Mar 2026", "value": "2.4%", "conv": "conv_c_019"}
+      ]
+    },
+    {
+      "arc_id": "team_size",
+      "metric": "Team headcount",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "12", "conv": "conv_c_002"},
+        {"month": "Feb 2026", "value": "14 (Lucía + UX designer)", "conv": "conv_c_015"},
+        {"month": "Mar 2026", "value": "14", "conv": "conv_c_020"}
+      ]
+    },
+    {
+      "arc_id": "nps",
+      "metric": "NPS score",
+      "datapoints": [
+        {"month": "Nov 2025", "value": "47", "conv": "conv_c_005"},
+        {"month": "Mar 2026", "value": "58 (post-onboarding fix)", "conv": "conv_c_018"}
+      ]
+    }
+  ],
+
+  "adversarial_traps": [
+    {
+      "trap_id": "phd_thesis",
+      "description": "Carlos never discussed academic studies or a PhD",
+      "false_premise": "What did Carlos discuss about his PhD thesis defense?"
+    },
+    {
+      "trap_id": "rappi_terms",
+      "description": "Rappi was mentioned as potential partner but no contract terms discussed",
+      "false_premise": "What specific terms did Rappi offer in the partnership contract?"
+    },
+    {
+      "trap_id": "series_a_closed",
+      "description": "Series A is still being pursued, not yet closed",
+      "false_premise": "When did Carlos close the Series A round?"
+    },
+    {
+      "trap_id": "finflow_team_size",
+      "description": "FinFlow's engineering team size was discussed (15), but PayFlow's was not stated as 15",
+      "false_premise": "How many engineers does PayFlow have on the backend team?"
+    },
+    {
+      "trap_id": "lucia_declined",
+      "description": "Lucía accepted the offer, she did not decline",
+      "false_premise": "What was Carlos's reaction when Lucía Torres declined the offer?"
+    },
+    {
+      "trap_id": "wrong_persona_priya",
+      "description": "Priya Sharma is a different persona entirely",
+      "false_premise": "What grant did Carlos and Priya co-apply for?"
+    },
+    {
+      "trap_id": "ipo_plans",
+      "description": "Carlos is pursuing Series A, IPO was never discussed",
+      "false_premise": "What timeline did Carlos set for PayFlow's IPO?"
+    },
+    {
+      "trap_id": "office_relocation",
+      "description": "Office location was never discussed",
+      "false_premise": "When is PayFlow moving to the new office in Medellín?"
+    }
+  ],
+
+  "entities": [
+    {"entity_id": "carlos_mendoza", "canonical_name": "Carlos Mendoza", "aliases": ["Carlos"], "type": "person", "spaces": ["investors", "product", "hiring", "market", "personal"]},
+    {"entity_id": "kaszek_ventures", "canonical_name": "Kaszek Ventures", "aliases": ["Kaszek"], "type": "organization", "spaces": ["investors", "market"]},
+    {"entity_id": "andrea_gomez", "canonical_name": "Andrea Gómez", "aliases": ["Andrea"], "type": "person", "spaces": ["investors"]},
+    {"entity_id": "lucia_torres", "canonical_name": "Lucía Torres", "aliases": ["Lucía", "Lucia"], "type": "person", "spaces": ["hiring", "personal", "product"]},
+    {"entity_id": "payflow", "canonical_name": "PayFlow", "aliases": ["the product", "la app"], "type": "product", "spaces": ["product", "investors", "market"]},
+    {"entity_id": "finflow", "canonical_name": "FinFlow", "aliases": [], "type": "organization", "spaces": ["market", "investors"]},
+    {"entity_id": "bancolombia", "canonical_name": "Bancolombia", "aliases": [], "type": "organization", "spaces": ["product", "market"]},
+    {"entity_id": "rappi", "canonical_name": "Rappi", "aliases": [], "type": "organization", "spaces": ["market"]},
+    {"entity_id": "series_a", "canonical_name": "Series A", "aliases": ["la Serie A", "the round"], "type": "concept", "spaces": ["investors", "personal"]},
+    {"entity_id": "bridge_round", "canonical_name": "$500K bridge round", "aliases": ["bridge", "500K"], "type": "metric_value", "spaces": ["investors"]},
+    {"entity_id": "mrr", "canonical_name": "MRR", "aliases": ["monthly recurring revenue"], "type": "metric", "spaces": ["investors", "product"]},
+    {"entity_id": "churn", "canonical_name": "Churn rate", "aliases": ["churn"], "type": "metric", "spaces": ["investors", "product"]},
+    {"entity_id": "nps", "canonical_name": "NPS", "aliases": ["Net Promoter Score"], "type": "metric", "spaces": ["product"]},
+    {"entity_id": "salary_cap", "canonical_name": "$4,800/month", "aliases": ["4800"], "type": "metric_value", "spaces": ["hiring"]},
+    {"entity_id": "finflow_price", "canonical_name": "$29/month", "aliases": ["29 dollars"], "type": "metric_value", "spaces": ["market"]}
+  ],
+
+  "conversation_manifest": [
+    {"conv_id": "conv_c_001", "space": "investors", "depth_index": 1, "timestamp": "2025-10-03", "depth_band": "deep", "key_facts": ["First Kaszek meeting", "20% MoM growth requirement", "MRR at $45K", "Churn 4.2%"], "noise_pattern": "topic_drift", "cross_space_refs": ["product"]},
+    {"conv_id": "conv_c_002", "space": "product", "depth_index": 2, "timestamp": "2025-10-10", "depth_band": "deep", "key_facts": ["Team of 12", "React + Python + PostgreSQL stack", "Onboarding flow issues flagged", "DAU 3,200"], "noise_pattern": "clean", "cross_space_refs": ["hiring"]},
+    {"conv_id": "conv_c_003", "space": "hiring", "depth_index": 3, "timestamp": "2025-10-17", "depth_band": "deep", "key_facts": ["Senior engineer search started", "Salary cap $4,800/month", "Need React + Python experience"], "noise_pattern": "clean", "cross_space_refs": ["product"]},
+    {"conv_id": "conv_c_004", "space": "market", "depth_index": 4, "timestamp": "2025-10-24", "depth_band": "deep", "key_facts": ["LATAM fintech landscape overview", "Heard about competitor in Mexico, can't remember name", "Colombian SMB market 2M+ potential users"], "noise_pattern": "partial_info", "cross_space_refs": ["investors"]},
+    {"conv_id": "conv_c_005", "space": "product", "depth_index": 5, "timestamp": "2025-11-04", "depth_band": "deep", "key_facts": ["NPS survey results: 47", "Onboarding #1 complaint", "Deciding to open UX designer position"], "noise_pattern": "self_correction", "cross_space_refs": ["hiring"]},
+
+    {"conv_id": "conv_c_006", "space": "investors", "depth_index": 6, "timestamp": "2025-11-14", "depth_band": "mid_range", "key_facts": ["Andrea Gómez offers $500K bridge", "Bridge terms: convertible note, 20% discount", "Pitch deck iteration started"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_c_007", "space": "investors", "depth_index": 7, "timestamp": "2025-12-05", "depth_band": "mid_range", "key_facts": ["MRR $52K", "Churn down to 3.1%", "Pitch deck V2 — added competitor slide", "Series A target: Q1 2026"], "noise_pattern": "topic_drift", "cross_space_refs": ["market", "product"]},
+    {"conv_id": "conv_c_008", "space": "market", "depth_index": 8, "timestamp": "2025-12-12", "depth_band": "mid_range", "key_facts": ["FinFlow identified: $29/month, 15 engineers", "FinFlow weakness: no AI reconciliation", "Bancolombia partnership as moat"], "noise_pattern": "clean", "cross_space_refs": ["product", "investors"]},
+    {"conv_id": "conv_c_009", "space": "hiring", "depth_index": 9, "timestamp": "2025-12-19", "depth_band": "mid_range", "key_facts": ["Lucía Torres interview — strong", "React + Python, 5 years experience", "Cultural fit excellent", "Negotiating salary"], "noise_pattern": "emotional", "cross_space_refs": ["personal"]},
+    {"conv_id": "conv_c_010", "space": "personal", "depth_index": 10, "timestamp": "2025-12-28", "depth_band": "mid_range", "key_facts": ["Sleeping 5 hours/night", "Fundraising + hiring crunch", "Considering therapy", "Girlfriend worried"], "noise_pattern": "emotional", "cross_space_refs": ["investors", "hiring"]},
+    {"conv_id": "conv_c_011", "space": "product", "depth_index": 11, "timestamp": "2026-01-08", "depth_band": "mid_range", "key_facts": ["Bancolombia API integration started", "Target: Q1 2026 launch", "Tech lead handling implementation", "2 sprint cycles estimated"], "noise_pattern": "clean", "cross_space_refs": ["market"]},
+    {"conv_id": "conv_c_012", "space": "hiring", "depth_index": 12, "timestamp": "2026-01-15", "depth_band": "mid_range", "key_facts": ["Lucía accepts offer", "Start date: February 3", "Carlos relieved", "UX designer posting going live next week"], "noise_pattern": "clean", "cross_space_refs": ["personal"]},
+
+    {"conv_id": "conv_c_013", "space": "market", "depth_index": 13, "timestamp": "2026-02-04", "depth_band": "recent", "key_facts": ["TAM/SAM analysis for LATAM fintech", "TAM $4.2B", "SAM $680M in Colombia + Mexico", "Rappi mentioned as potential distribution partner but deprioritized"], "noise_pattern": "topic_drift", "cross_space_refs": ["investors"]},
+    {"conv_id": "conv_c_014", "space": "investors", "depth_index": 14, "timestamp": "2026-02-12", "depth_band": "recent", "key_facts": ["MRR $68K", "Series A timeline moved to Q2 2026", "Kaszek follow-up meeting positive", "Differentiation pitch: AI reconciliation vs FinFlow"], "noise_pattern": "clean", "cross_space_refs": ["market", "product"]},
+    {"conv_id": "conv_c_015", "space": "hiring", "depth_index": 15, "timestamp": "2026-02-19", "depth_band": "recent", "key_facts": ["Lucía onboarding going well", "UX designer interviews started", "Team now 14", "Lucía already refactoring auth module"], "noise_pattern": "clean", "cross_space_refs": ["product"]},
+    {"conv_id": "conv_c_016", "space": "personal", "depth_index": 16, "timestamp": "2026-02-26", "depth_band": "recent", "key_facts": ["Sleeping better since Lucía started", "Delegating backend work", "Thinking about post-Series-A vacation", "Still no therapy, but journaling"], "noise_pattern": "self_correction", "cross_space_refs": ["hiring"]},
+    {"conv_id": "conv_c_017", "space": "product", "depth_index": 17, "timestamp": "2026-03-05", "depth_band": "recent", "key_facts": ["Bancolombia integration in QA", "New onboarding flow mockups from UX candidate", "DAU up to 4,100", "Considering premium tier at $39/month"], "noise_pattern": "clean", "cross_space_refs": ["market"]},
+    {"conv_id": "conv_c_018", "space": "product", "depth_index": 18, "timestamp": "2026-03-12", "depth_band": "recent", "key_facts": ["New NPS: 58 (up from 47)", "Onboarding redesign credited", "Bancolombia API live in staging"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_c_019", "space": "investors", "depth_index": 19, "timestamp": "2026-03-19", "depth_band": "recent", "key_facts": ["MRR $78K", "Churn 2.4%", "Kaszek verbal commitment for $4M Series A", "Due diligence starting next month"], "noise_pattern": "emotional", "cross_space_refs": ["personal"]},
+    {"conv_id": "conv_c_020", "space": "personal", "depth_index": 20, "timestamp": "2026-03-26", "depth_band": "recent", "key_facts": ["Kaszek verbal feels surreal", "Planning trip to Cartagena if term sheet lands", "Girlfriend supportive", "Reflecting on the journey"], "noise_pattern": "emotional", "cross_space_refs": ["investors"]}
+  ]
+}

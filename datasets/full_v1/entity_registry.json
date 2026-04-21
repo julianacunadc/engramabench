@@ -1,0 +1,972 @@
+{
+  "version": "2.0",
+  "total_entities": 72,
+  "personas": [
+    "priya",
+    "carlos",
+    "sam",
+    "diane",
+    "kai"
+  ],
+  "entities": [
+    {
+      "entity_id": "priya_sharma",
+      "canonical_name": "Priya Sharma",
+      "aliases": [
+        "Priya"
+      ],
+      "type": "person",
+      "spaces": [
+        "lab",
+        "publications",
+        "grants",
+        "teaching",
+        "collaboration"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "anika_patel",
+      "canonical_name": "Anika Patel",
+      "aliases": [
+        "Anika"
+      ],
+      "type": "person",
+      "spaces": [
+        "lab",
+        "publications",
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "marcus_wei",
+      "canonical_name": "Marcus Wei",
+      "aliases": [
+        "Marcus"
+      ],
+      "type": "person",
+      "spaces": [
+        "collaboration",
+        "publications",
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "dr_patterson",
+      "canonical_name": "Dr. Patterson",
+      "aliases": [
+        "Patterson",
+        "the chair"
+      ],
+      "type": "person",
+      "spaces": [
+        "teaching",
+        "lab"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "li_chen",
+      "canonical_name": "Li Chen",
+      "aliases": [
+        "Li"
+      ],
+      "type": "person",
+      "spaces": [
+        "lab"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "nih_r01",
+      "canonical_name": "NIH R01",
+      "aliases": [
+        "R01",
+        "the grant",
+        "NIH grant"
+      ],
+      "type": "concept",
+      "spaces": [
+        "grants",
+        "publications",
+        "collaboration"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "nature_methods",
+      "canonical_name": "Nature Methods",
+      "aliases": [
+        "NatMeth"
+      ],
+      "type": "organization",
+      "spaces": [
+        "publications"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "genome_biology",
+      "canonical_name": "Genome Biology",
+      "aliases": [
+        "GB"
+      ],
+      "type": "organization",
+      "spaces": [
+        "publications"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "stanford",
+      "canonical_name": "Stanford University",
+      "aliases": [
+        "Stanford"
+      ],
+      "type": "organization",
+      "spaces": [
+        "collaboration"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "bio_342",
+      "canonical_name": "BIO-342",
+      "aliases": [
+        "Computational Genomics",
+        "the course"
+      ],
+      "type": "concept",
+      "spaces": [
+        "teaching"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "recomb_conference",
+      "canonical_name": "RECOMB 2026",
+      "aliases": [
+        "RECOMB"
+      ],
+      "type": "concept",
+      "spaces": [
+        "collaboration",
+        "publications"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "r01_budget",
+      "canonical_name": "$1.2M over 5 years",
+      "aliases": [
+        "1.2 million"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "bio342_enrollment",
+      "canonical_name": "75 students",
+      "aliases": [
+        "75"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "teaching"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "r01_percentile",
+      "canonical_name": "18th percentile",
+      "aliases": [
+        "18th"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "grants"
+      ],
+      "persona_id": "priya"
+    },
+    {
+      "entity_id": "carlos_mendoza",
+      "canonical_name": "Carlos Mendoza",
+      "aliases": [
+        "Carlos"
+      ],
+      "type": "person",
+      "spaces": [
+        "investors",
+        "product",
+        "hiring",
+        "market",
+        "personal"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "kaszek_ventures",
+      "canonical_name": "Kaszek Ventures",
+      "aliases": [
+        "Kaszek"
+      ],
+      "type": "organization",
+      "spaces": [
+        "investors",
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "andrea_gomez",
+      "canonical_name": "Andrea Gómez",
+      "aliases": [
+        "Andrea"
+      ],
+      "type": "person",
+      "spaces": [
+        "investors"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "lucia_torres",
+      "canonical_name": "Lucía Torres",
+      "aliases": [
+        "Lucía",
+        "Lucia"
+      ],
+      "type": "person",
+      "spaces": [
+        "hiring",
+        "personal",
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "payflow",
+      "canonical_name": "PayFlow",
+      "aliases": [
+        "the product",
+        "la app"
+      ],
+      "type": "product",
+      "spaces": [
+        "product",
+        "investors",
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "finflow",
+      "canonical_name": "FinFlow",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "market",
+        "investors"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "bancolombia",
+      "canonical_name": "Bancolombia",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "product",
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "rappi",
+      "canonical_name": "Rappi",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "series_a",
+      "canonical_name": "Series A",
+      "aliases": [
+        "la Serie A",
+        "the round"
+      ],
+      "type": "concept",
+      "spaces": [
+        "investors",
+        "personal"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "bridge_round",
+      "canonical_name": "$500K bridge round",
+      "aliases": [
+        "bridge",
+        "500K"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "investors"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "mrr",
+      "canonical_name": "MRR",
+      "aliases": [
+        "monthly recurring revenue"
+      ],
+      "type": "metric",
+      "spaces": [
+        "investors",
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "churn",
+      "canonical_name": "Churn rate",
+      "aliases": [
+        "churn"
+      ],
+      "type": "metric",
+      "spaces": [
+        "investors",
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "nps",
+      "canonical_name": "NPS",
+      "aliases": [
+        "Net Promoter Score"
+      ],
+      "type": "metric",
+      "spaces": [
+        "product"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "salary_cap",
+      "canonical_name": "$4,800/month",
+      "aliases": [
+        "4800"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "hiring"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "finflow_price",
+      "canonical_name": "$29/month",
+      "aliases": [
+        "29 dollars"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "market"
+      ],
+      "persona_id": "carlos"
+    },
+    {
+      "entity_id": "sam_torres",
+      "canonical_name": "Sam Torres",
+      "aliases": [
+        "Sam"
+      ],
+      "type": "person",
+      "spaces": [
+        "music",
+        "visual_art",
+        "commissions",
+        "inspiration",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "tidal_ep",
+      "canonical_name": "Tidal (EP)",
+      "aliases": [
+        "Tidal",
+        "the EP",
+        "the album"
+      ],
+      "type": "product",
+      "spaces": [
+        "music",
+        "visual_art",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "phosphene_single",
+      "canonical_name": "Phosphene",
+      "aliases": [
+        "the single",
+        "first single"
+      ],
+      "type": "product",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "undertow_track",
+      "canonical_name": "Undertow",
+      "aliases": [
+        "track 4"
+      ],
+      "type": "product",
+      "spaces": [
+        "music"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "juno_audio",
+      "canonical_name": "Juno Audio",
+      "aliases": [
+        "Juno",
+        "the mastering studio"
+      ],
+      "type": "organization",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "vex_brewing",
+      "canonical_name": "Vex Brewing",
+      "aliases": [
+        "Vex",
+        "the brewery client"
+      ],
+      "type": "organization",
+      "spaces": [
+        "commissions",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "crater_lake",
+      "canonical_name": "Crater Lake",
+      "aliases": [
+        "the hiking trip"
+      ],
+      "type": "location",
+      "spaces": [
+        "inspiration"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "mira_okafor",
+      "canonical_name": "Mira Okafor",
+      "aliases": [
+        "Mira"
+      ],
+      "type": "person",
+      "spaces": [
+        "music",
+        "inspiration"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "patreon",
+      "canonical_name": "Patreon",
+      "aliases": [
+        "the Patreon"
+      ],
+      "type": "organization",
+      "spaces": [
+        "business",
+        "visual_art"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "bandcamp",
+      "canonical_name": "Bandcamp",
+      "aliases": [],
+      "type": "organization",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "commission_rate",
+      "canonical_name": "$600 per piece",
+      "aliases": [
+        "600",
+        "new rate"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "commissions",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "mastering_cost",
+      "canonical_name": "$1,200",
+      "aliases": [
+        "mastering budget"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "music",
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "patreon_count_mar",
+      "canonical_name": "248 patrons",
+      "aliases": [
+        "248"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "business"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "elena_voss",
+      "canonical_name": "Elena Voss",
+      "aliases": [
+        "Elena"
+      ],
+      "type": "person",
+      "spaces": [
+        "visual_art",
+        "commissions"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "night_market_gallery",
+      "canonical_name": "Night Market Gallery",
+      "aliases": [
+        "Night Market",
+        "the gallery"
+      ],
+      "type": "organization",
+      "spaces": [
+        "visual_art"
+      ],
+      "persona_id": "sam"
+    },
+    {
+      "entity_id": "diane_chen",
+      "canonical_name": "Diane Chen",
+      "aliases": [
+        "Diane"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "health",
+        "finances",
+        "home",
+        "career"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "kevin_chen",
+      "canonical_name": "Kevin",
+      "aliases": [
+        "Kevin",
+        "my husband"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "lily_chen",
+      "canonical_name": "Lily",
+      "aliases": [
+        "Lily",
+        "my daughter"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "ethan_chen",
+      "canonical_name": "Ethan",
+      "aliases": [
+        "Ethan",
+        "my son"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "medbridge_health",
+      "canonical_name": "MedBridge Health",
+      "aliases": [
+        "MedBridge",
+        "work"
+      ],
+      "type": "organization",
+      "spaces": [
+        "career",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "medbridge_connect",
+      "canonical_name": "MedBridge Connect",
+      "aliases": [
+        "the product launch",
+        "Connect"
+      ],
+      "type": "product",
+      "spaces": [
+        "career"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "ramirez_bros",
+      "canonical_name": "Ramirez Bros",
+      "aliases": [
+        "Ramirez",
+        "the contractor"
+      ],
+      "type": "organization",
+      "spaces": [
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "reno_quote",
+      "canonical_name": "$38,000 quote",
+      "aliases": [
+        "38K",
+        "the quote"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "reno_final",
+      "canonical_name": "$42,500 final cost",
+      "aliases": [
+        "42.5K"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "home",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "bonus_amount",
+      "canonical_name": "$12,000 bonus",
+      "aliases": [
+        "12K bonus",
+        "the bonus"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "career",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "sitter_cost",
+      "canonical_name": "$320/week sitter",
+      "aliases": [
+        "320/week",
+        "the sitter"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "kids",
+        "finances"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "promotion_title",
+      "canonical_name": "Director of Product",
+      "aliases": [
+        "the promotion",
+        "Director"
+      ],
+      "type": "role",
+      "spaces": [
+        "career"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "five_twenty_nine",
+      "canonical_name": "529 college savings plan",
+      "aliases": [
+        "529",
+        "college fund"
+      ],
+      "type": "concept",
+      "spaces": [
+        "finances",
+        "kids"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "dr_nakamura",
+      "canonical_name": "Dr. Nakamura",
+      "aliases": [
+        "the pediatrician"
+      ],
+      "type": "person",
+      "spaces": [
+        "kids",
+        "health"
+      ],
+      "persona_id": "diane"
+    },
+    {
+      "entity_id": "kai_nakamura",
+      "canonical_name": "Kai Nakamura",
+      "aliases": [
+        "Kai"
+      ],
+      "type": "person",
+      "spaces": [
+        "courses",
+        "research",
+        "social",
+        "career_prep",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "dr_reeves",
+      "canonical_name": "Dr. Reeves",
+      "aliases": [
+        "Reeves",
+        "my advisor"
+      ],
+      "type": "person",
+      "spaces": [
+        "research",
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "preethi",
+      "canonical_name": "Preethi",
+      "aliases": [
+        "Preethi"
+      ],
+      "type": "person",
+      "spaces": [
+        "research",
+        "social"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "jess",
+      "canonical_name": "Jess",
+      "aliases": [
+        "Jess",
+        "my roommate"
+      ],
+      "type": "person",
+      "spaces": [
+        "social",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "google",
+      "canonical_name": "Google",
+      "aliases": [
+        "the Google offer"
+      ],
+      "type": "organization",
+      "spaces": [
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "acl_2026",
+      "canonical_name": "ACL 2026",
+      "aliases": [
+        "ACL",
+        "the conference paper"
+      ],
+      "type": "concept",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "uw_seattle",
+      "canonical_name": "University of Washington",
+      "aliases": [
+        "UW",
+        "the university"
+      ],
+      "type": "organization",
+      "spaces": [
+        "courses",
+        "research",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "google_salary",
+      "canonical_name": "$165K base",
+      "aliases": [
+        "165K",
+        "the offer"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "thesis_defense",
+      "canonical_name": "May 2026 defense",
+      "aliases": [
+        "the defense",
+        "thesis defense"
+      ],
+      "type": "temporal",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "acl_deadline",
+      "canonical_name": "January 15, 2026",
+      "aliases": [
+        "ACL deadline"
+      ],
+      "type": "temporal",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "f1_score_final",
+      "canonical_name": "F1=0.81",
+      "aliases": [
+        "0.81"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "nlp_focus",
+      "canonical_name": "NLP (Natural Language Processing)",
+      "aliases": [
+        "NLP",
+        "natural language processing"
+      ],
+      "type": "concept",
+      "spaces": [
+        "research",
+        "courses",
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "climbing",
+      "canonical_name": "rock climbing",
+      "aliases": [
+        "climbing",
+        "bouldering"
+      ],
+      "type": "concept",
+      "spaces": [
+        "social",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "university_counseling",
+      "canonical_name": "university counseling center",
+      "aliases": [
+        "therapy",
+        "counseling"
+      ],
+      "type": "organization",
+      "spaces": [
+        "wellness"
+      ],
+      "persona_id": "kai"
+    }
+  ]
+}

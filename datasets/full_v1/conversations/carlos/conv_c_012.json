@@ -1,0 +1,65 @@
+{
+  "conversation_id": "conv_c_012",
+  "persona_id": "carlos",
+  "space_id": "hiring",
+  "timestamp": "2026-01-15",
+  "depth_index": 12,
+  "messages": [
+    {
+      "role": "user",
+      "content": "She said yes! Lucia just accepted the offer. I'm honestly so relieved right now.",
+      "message_id": "msg_c_012_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's fantastic news! Lucia seemed like a really strong candidate from what you mentioned before. When does she start?",
+      "message_id": "msg_c_012_02"
+    },
+    {
+      "role": "user",
+      "content": "February 3rd. Perfect timing honestly because we're hitting that crunch period with the Series A prep and I need someone who can actually ship code while I'm in meetings all day.",
+      "message_id": "msg_c_012_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Having that senior engineering support will definitely take some pressure off. Are you planning to have her jump straight into existing projects or ease her in?",
+      "message_id": "msg_c_012_04"
+    },
+    {
+      "role": "user",
+      "content": "Straight in, honestly. Our onboarding flow is still the biggest complaint from users and she has the React experience to tackle it. Plus I've been running on like 5 hours of sleep trying to juggle everything.",
+      "message_id": "msg_c_012_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That sleep schedule sounds unsustainable. Having Lucia handle the technical side should help you focus on the fundraising. Any other positions you're looking to fill?",
+      "message_id": "msg_c_012_06"
+    },
+    {
+      "role": "user",
+      "content": "Actually yes - I'm posting the UX designer role next week. That NPS of 47 we got last month was a wake up call. We need someone who can actually design user flows that don't suck.",
+      "message_id": "msg_c_012_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Good move. A dedicated UX designer working alongside Lucia on that onboarding flow could really move the needle on user experience. Do you have a similar salary range in mind for the UX role?",
+      "message_id": "msg_c_012_08"
+    },
+    {
+      "role": "user",
+      "content": "Probably similar to what we offered Lucia, maybe a bit less since it's not as senior. The 4800 cap is still our reality until we close this round. But honestly just having these two hires lined up makes me feel like I can actually sleep again.",
+      "message_id": "msg_c_012_09"
+    }
+  ],
+  "mentioned_entities": [
+    "lucia_torres",
+    "series_a",
+    "nps",
+    "salary_cap"
+  ],
+  "cross_space_refs": [
+    "personal"
+  ],
+  "summary": "Carlos celebrates Lucia Torres accepting the senior engineer offer with a February 3rd start date. He's relieved given his burnout from juggling hiring and fundraising, and announces plans to post a UX designer role next week to address their NPS issues.",
+  "fact_count": 4
+}

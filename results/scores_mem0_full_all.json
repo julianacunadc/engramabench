@@ -1,0 +1,1435 @@
+{
+  "benchmark_version": "full-v1",
+  "dataset_version": "full-v1",
+  "scorer_version": "1.4.0",
+  "run_id": "mem0_full_all_personas",
+  "system": "mem0_full",
+  "system_model": "gpt-4o-2024-08-06",
+  "system_config_version": "mem0-oss:gpt-4o-2024-08-06:topk20",
+  "system_config_hash": "sha256:f34f653a430fa8b0",
+  "generator_model": "gpt-4o",
+  "judge_model": "gpt-4o",
+  "seed": 42,
+  "corpus_prompt_hash": "sha256:0000000000000000",
+  "query_prompt_hash": "sha256:0000000000000000",
+  "judge_prompt_hash": "sha256:0000000000000000",
+  "timestamp": "2026-04-20T16:44:16.743067Z",
+  "scores": {
+    "single_space_f1": 0.2848,
+    "cross_space_f1": 0.5266,
+    "temporal_cross_space_f1": 0.2356,
+    "adversarial_accuracy": 1.0,
+    "emergent_insight_score": 0.2255,
+    "composite_score": 0.4809
+  },
+  "depth_decay": {
+    "alpha": -0.0505,
+    "recent_f1": 0.2222,
+    "midrange_f1": 0.0,
+    "deep_f1": 0.1717,
+    "cross_temporal_f1": 0.3465
+  },
+  "baseline_truncation": {
+    "truncated": false,
+    "total_conversations": 0,
+    "included_conversations": 0,
+    "dropped_conversation_ids": [],
+    "prompt_tokens": 0
+  },
+  "efficiency": {
+    "total_cost": 0.3566,
+    "avg_latency_ms": 2870.85
+  },
+  "per_query": [
+    {
+      "query_id": "q_p_001",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "February 5th",
+      "predicted": "The deadline for Priya's R01 proposal is February 5, 2026."
+    },
+    {
+      "query_id": "q_p_002",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "4",
+      "predicted": "Four lab members want to use the new sequencing protocol: Anika, Ravi, Li Chen, and Maya."
+    },
+    {
+      "query_id": "q_p_003",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "co-PI",
+      "predicted": "Marcus is a co-PI on Priya's R01 grant."
+    },
+    {
+      "query_id": "q_p_004",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "75",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_005",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "recent",
+      "score": 1.0,
+      "expected": "Genome Biology",
+      "predicted": "Priya resubmitted her paper to Genome Biology after the rejection from Nature Methods."
+    },
+    {
+      "query_id": "q_p_006",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "February 5, 2026",
+      "predicted": "Priya submitted her R01 proposal on April 20, 2026."
+    },
+    {
+      "query_id": "q_p_007",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3704,
+      "expected": "$1.2 million over 5 years",
+      "predicted": "The total budget amount for the R01 grant that involves collaboration between the user and Marcus is $1.2 million over five years."
+    },
+    {
+      "query_id": "q_p_008",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "Anika, Ravi",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_009",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Marcus",
+      "predicted": "Marcus is the co-PI on the R01 grant that was submitted in February 2026."
+    },
+    {
+      "query_id": "q_p_010",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.1818,
+      "expected": "Genome Biology submission",
+      "predicted": "The paper submitted to Genome Biology was crucial for the R01 preliminary data section despite being rejected by Nature Methods."
+    },
+    {
+      "query_id": "q_p_011",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.5,
+      "expected": "Anika, Marcus's postdoc",
+      "predicted": "Anika and Marcus's postdoc were involved in the authorship dispute with Marcus's collaboration. Anika was designated as the first author, and Marcus's postdoc as the second author."
+    },
+    {
+      "query_id": "q_p_012",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3448,
+      "expected": "$1.2 million over 5 years",
+      "predicted": "The total budget amount for the R01 grant that involves collaboration between Priya's lab and Marcus's lab is $1.2 million over five years."
+    },
+    {
+      "query_id": "q_p_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3516,
+      "expected": "October: planned to submit Nature Methods by end of week, December: Nature Methods rejected the paper, February: resubmitted to Genome Biology instead",
+      "predicted": "The initial plan for the Nature Methods paper involved finalizing a draft for submission with Anika completing the final validation experiments, aiming to submit by the end of the week in October 2025. However, after the paper was submitted to Nature Methods, it was rejected due to criticisms of the statistical methods, requiring major revisions. This led to a pivot in strategy, and the user decided to submit the paper to Genome Biology instead. The paper was resubmitted to Genome Biology around April 13, 2026, after strengthening the statistical methods with Anika's help. This change in submission timeline was influenced by the rejection from Nature Methods and the decision to target a journal that seemed a better fit for their approach."
+    },
+    {
+      "query_id": "q_p_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "October 2025: 4 people (including Maya), March 2026: 5 people (Maya graduated, Javier and Sarah joined)",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.6286,
+      "expected": "Anika first author, Marcus's postdoc second, Marcus and Priya co-corresponding",
+      "predicted": "The final authorship arrangement that resolved the collaboration dispute between Priya and Marcus was having Anika as the first author, Marcus's postdoc as the second author, and Marcus and Priya as co-corresponding authors."
+    },
+    {
+      "query_id": "q_p_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$1.2 million over 5 years",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.48,
+      "expected": "cancelled lab meeting three times in December due to grading",
+      "predicted": "The user had to cancel lab meetings three times due to being overwhelmed with grading responsibilities."
+    },
+    {
+      "query_id": "q_p_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3256,
+      "expected": "two weeks delay due to being buried in grading for Computational Genomics",
+      "predicted": "The delay in reviewing Anika's protocol in January 2026 was due to the user's grading responsibilities in Computational Genomics. The teaching issue causing this delay was the challenge of balancing teaching responsibilities, with students complaining about late assignment feedback."
+    },
+    {
+      "query_id": "q_p_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.5487,
+      "expected": "The Nature Methods rejection forced a strategic pivot that actually strengthened the R01 application. The paper was resubmitted to Genome Biology with major statistical improvements after reviewer criticism, and was cited as 'under review' in the preliminary data section of the R01 submitted in February 2026. This pivot provided stronger statistical foundation for the grant while meeting the submission deadline.",
+      "predicted": "The rejection of the Nature Methods paper in December 2025 led the user to pivot and resubmit the paper to Genome Biology. This decision was strategic, as the user aimed for a faster turnaround and felt that Genome Biology was a better fit for their approach. The resubmission to Genome Biology was timed to allow the user to cite the paper as \"under review\" in their R01 grant proposal, which was submitted on April 20, 2026. This strengthened the preliminary data section of the proposal, which was positively received by reviewers. The rejection thus indirectly contributed to enhancing the grant application by allowing the user to present stronger preliminary data."
+    },
+    {
+      "query_id": "q_p_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Lab productivity was constrained by teaching overload (75 students, one TA) causing cancelled meetings and delayed protocol reviews, compounded by personnel changes (Maya graduated in December reducing lab to 3 people) and PI attention split between grant writing and grading. Recovery began with strategic teaching approach in spring 2026 and lab expansion to 5 people with new PhD student and rotation student.",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3455,
+      "expected": "The collaboration evolved from productive partnership in November 2025 with resolved authorship (Anika first, Marcus's postdoc second, co-corresponding) to December conflict over first authorship claims, threatening both paper submission and R01 co-PI arrangement. Resolution came through maintaining original authorship agreement and successful joint grant submission, though tensions persisted through budget revision disputes in January 2026.",
+      "predicted": "The collaboration dynamics between the user and Marcus Wei experienced several shifts due to authorship disputes and budget concerns. Initially, the collaboration was successful, with both parties contributing their expertise\u2014Marcus's experimental skills and the user's computational approach\u2014to joint projects, including a Nature Methods paper and an R01 grant proposal.\n\nHowever, conflicts arose primarily due to an authorship dispute over their joint paper, where Marcus insisted his postdoc should be first author despite Anika doing the majority of the computational work. This disagreement threatened to affect their collaborative work, including the R01 grant they were working on together. The user was concerned that unresolved tensions might cause the collaboration to implode.\n\nDespite these challenges, the user and Marcus managed to resolve the authorship dispute by agreeing on Anika as first author, Marcus's postdoc as second, and both Marcus and the user as co-corresponding authors. This resolution allowed them to move forward with their joint work, including the resubmission of their paper to Genome Biology.\n\nFurther tension arose from a budget revision issue for the R01 grant, with Marcus threatening to withdraw as co-PI. The user addressed this by proposing a diplomatic email and a call to review the changes, ultimately maintaining Marcus's involvement as co-PI. They agreed on a 65/35 budget split, with the user taking the larger share due to computational infrastructure needs.\n\nOverall, the collaboration dynamics shifted from initial success to conflict due to authorship and budget issues, but these were eventually resolved through communication and compromise, allowing the collaboration to continue productively."
+    },
+    {
+      "query_id": "q_p_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3125,
+      "expected": "Success resulted from strategic adaptation to setbacks: Nature Methods rejection led to stronger statistical methods for Genome Biology resubmission, authorship conflicts were resolved maintaining Marcus as co-PI, budget was structured at $1.2M over 5 years with 65/35 institutional split, and preliminary data section leveraged the under-review GB paper. The 18th percentile score reflected this integrated approach overcoming publication and collaboration challenges.",
+      "predicted": "The successful R01 submission and strong scoring were enabled by several interconnected factors:\n\n1. **Strong Preliminary Data**: The preliminary data section of the R01 proposal was strengthened by the submission to Genome Biology, which reviewers particularly praised. Despite the initial rejection from Nature Methods, the pivot to Genome Biology and the subsequent revise and resubmit decision with only minor revisions required were crucial.\n\n2. **Collaboration and Expertise**: Collaboration with Marcus, whose computational genomics expertise filled a gap in the user's own expertise, was vital. Marcus's role as co-PI helped address concerns about the computational pipeline's scalability.\n\n3. **Strategic Planning and Adaptation**: The user demonstrated strategic planning by submitting the Genome Biology paper just in time to cite it in the R01 proposal, ensuring the preliminary data section was robust. They also adapted to setbacks, such as the Nature Methods rejection, by shifting focus and maintaining optimism.\n\n4. **Internal Review and Feedback**: The user engaged in internal review processes, both for the R01 proposal and the Nature Methods paper, ensuring that the documents were polished and addressed potential weaknesses.\n\n5. **Clear Communication and Team Involvement**: Informing Anika, whose work was crucial for the proposal, and involving her in the excitement of the positive developments helped maintain team morale and focus.\n\nThese factors, combined with a well-prepared proposal and a strong score relative to the funding payline, contributed to the successful submission and likelihood of funding."
+    },
+    {
+      "query_id": "q_p_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_p_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "$45K",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_002",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "12",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_003",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "$500K",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_004",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "$29",
+      "predicted": "FinFlow's monthly pricing is $29."
+    },
+    {
+      "query_id": "q_c_005",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "$4.2B",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 1.0,
+      "expected": "15 hours",
+      "predicted": "PayFlow customers save 15 hours per month on reconciliation."
+    },
+    {
+      "query_id": "q_c_007",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "FinFlow",
+      "predicted": "Carlos mentions FinFlow when discussing the Series A pitch deck updates in December 2025."
+    },
+    {
+      "query_id": "q_c_008",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.381,
+      "expected": "$4,800 per month",
+      "predicted": "The salary cap mentioned for both the senior engineer and UX designer positions is $4,800 per month."
+    },
+    {
+      "query_id": "q_c_009",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.375,
+      "expected": "20% month-over-month",
+      "predicted": "Kaszek requires 20% month-over-month growth consistently before committing to Series A funding."
+    },
+    {
+      "query_id": "q_c_010",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Luc\u00eda",
+      "predicted": "Carlos credits Luc\u00eda with helping on technical presentations and backend work."
+    },
+    {
+      "query_id": "q_c_011",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4,
+      "expected": "Bancolombia API integration",
+      "predicted": "The Bancolombia API integration is mentioned as a competitive moat against FinFlow."
+    },
+    {
+      "query_id": "q_c_012",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "FinFlow",
+      "predicted": "Carlos mentions FinFlow when discussing PayFlow's differentiation strategy with Kaszek investors."
+    },
+    {
+      "query_id": "q_c_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.7222,
+      "expected": "Bank connection step was too many clicks with confusing error messages, causing user drop-off",
+      "predicted": "The main onboarding complaint was user drop-off at the bank connection step due to too many clicks and confusing error messages."
+    },
+    {
+      "query_id": "q_c_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.2373,
+      "expected": "From $45K MRR in October 2025 to $78K MRR in March 2026",
+      "predicted": "Carlos's MRR growth trajectory improved significantly from his first meeting with Kaszek to when he received their verbal Series A commitment. Initially, in April 2026, his MRR was $68K, up from $52K in December 2025, marking a 30% growth over two months. By the time he received the verbal commitment from Kaszek around April 19, 2026, his company had achieved $78K MRR, which contributed to securing the commitment."
+    },
+    {
+      "query_id": "q_c_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "From 5 hours per night to 7 hours per night",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4118,
+      "expected": "From 47 to 58, hiring a UX designer",
+      "predicted": "The NPS score improved from 47 in November 2025 to 58 in April 2026. The hiring decision that contributed to this change was the onboarding redesign by the new UX designer."
+    },
+    {
+      "query_id": "q_c_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0571,
+      "expected": "October: vague awareness, couldn't remember name; November: identified as FinFlow; December: detailed analysis with $29 pricing and no AI reconciliation; February: used as key differentiation point in Kaszek pitch",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "January 8: kickoff with 2 sprint cycles estimated; March 5: in QA testing; March 12: live in staging; March 19: production launch",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "The onboarding flow redesign by the new UX designer improved NPS from 47 to 58, while hiring Lucia as senior engineer enabled backend improvements and delegation of technical work, allowing Carlos to focus on fundraising while maintaining the 20% monthly growth trajectory Kaszek required.",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2893,
+      "expected": "Carlos initially couldn't remember FinFlow's name in October, but by December had mapped their $29 pricing and lack of AI reconciliation, then leveraged this intelligence to position PayFlow's AI automation and Bancolombia integration as key differentiators in Series A materials.",
+      "predicted": "PayFlow's competitive intelligence gathering evolved to support their Series A positioning against FinFlow by focusing on several key areas:\n\n1. **Competitive Differentiation**: PayFlow emphasized its AI reconciliation feature, which automates processes that FinFlow handles manually, saving customers 15 hours a month. This was highlighted as a significant differentiator in the pitch deck, particularly in the Mexican market where FinFlow operates.\n\n2. **Partnerships**: PayFlow leveraged its upcoming partnership with Bancolombia as a competitive advantage, contrasting it with FinFlow's lack of similar integrations. This was planned to be a highlight in the Series A materials.\n\n3. **Market Analysis**: User aimed to have a comprehensive competitive analysis of the LATAM fintech landscape, including Mexico, ready to present to Kaszek investors. This analysis was intended to demonstrate a clear understanding of the competitive landscape and market size differences.\n\n4. **Pitch Deck Updates**: The pitch deck was updated with new metrics and a competitor slide focusing on FinFlow's pricing and lack of AI reconciliation. This was done to emphasize PayFlow's value and time savings over FinFlow's price competition.\n\nThese efforts were part of a broader strategy to map out the LATAM fintech landscape and provide investors with a clear understanding of PayFlow's market position and competitive advantages."
+    },
+    {
+      "query_id": "q_c_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Carlos was sleeping 5 hours nightly while handling all technical work, hiring decisions, and fundraising pressure, but hiring Lucia allowed him to delegate backend work and sleep 7 hours, while considering therapy and vacation planning showed improved work-life balance as the team grew to 14 people.",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3577,
+      "expected": "The AI-powered reconciliation that FinFlow lacked, combined with the exclusive Bancolombia API integration, plus proven metrics of MRR growth from $45K to $78K, churn reduction from 4.2% to 2.4%, and NPS improvement from 47 to 58 demonstrated sustainable competitive advantages.",
+      "predicted": "PayFlow's competitive moat that secured Kaszek's $4M Series A commitment was built on a combination of product features, partnerships, and metrics. Key elements included:\n\n1. **Product Features**: PayFlow emphasized AI reconciliation as a significant product feature, which was highlighted as a competitive advantage over competitors like FinFlow, who lacked this capability.\n\n2. **Partnerships**: The company was on track for a partnership with Bancolombia in Q1 2026, which was seen as a significant competitive advantage over FinFlow.\n\n3. **Metrics**: PayFlow demonstrated strong financial metrics, achieving $78K MRR and reducing churn to 2.4%, which positioned them well for the Series A funding. They also showed consistent month-over-month growth, which was a requirement from Kaszek.\n\nThese elements combined to create a strong competitive position in the LATAM fintech landscape, appealing to Kaszek for their Series A investment."
+    },
+    {
+      "query_id": "q_c_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_c_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "127",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_002",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "Arturia MiniFreak",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_003",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "Cannon Beach",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_004",
+      "task_family": "single_space",
+      "answer_type": "short_span",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "A Walk from Dive",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_005",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "November 30",
+      "predicted": "The original deadline for the Vex Brewing commission project was November 30, 2026."
+    },
+    {
+      "query_id": "q_s_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "$1,420",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_007",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Juno Audio",
+      "predicted": "The artist used Juno Audio for mastering their debut EP 'Tidal'."
+    },
+    {
+      "query_id": "q_s_008",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "cyanotype",
+      "predicted": "The artist planned to use the cyanotype technique for both their gallery work and EP album art."
+    },
+    {
+      "query_id": "q_s_009",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.5,
+      "expected": "Cannon Beach, Crater Lake",
+      "predicted": "The field recording locations that influenced both the EP tracks and the album art concept are Crater Lake and the coast, including Cannon Beach. The user captured recordings of ice cracking, wind patterns, and bird calls at Crater Lake, and ocean waves at Cannon Beach, which were incorporated into the EP and inspired the cyanotype process used in the album art."
+    },
+    {
+      "query_id": "q_s_010",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3889,
+      "expected": "cyanotype process for the base layer, then digital manipulation on top",
+      "predicted": "The artist decided to use a cyanotype base with digital wave forms layered on top for the 'Tidal' album art, creating a dreamy and cohesive visual effect."
+    },
+    {
+      "query_id": "q_s_011",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$2,840",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_012",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "cyanotype",
+      "predicted": "Elena suggested using the cyanotype technique for both the Night Market Gallery prints and the album art for 'Tidal'."
+    },
+    {
+      "query_id": "q_s_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "cyanotype",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "127 to 248 patrons",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0328,
+      "expected": "cyanotype process for the base layer, then digital manipulation on top",
+      "predicted": "The breakthrough at Crater Lake involved capturing field recordings of ice cracking at dawn, wind patterns through rock formations, and bird calls. These recordings provided the user with new inspiration and organic textures to incorporate into their EP, helping to resolve their creative block with the album art by connecting it to the natural elements and sounds they experienced during the trip."
+    },
+    {
+      "query_id": "q_s_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2785,
+      "expected": "November: juggling 4 active commissions, December: paralyzed by scope creep, January: officially done taking new work to preserve creative energy",
+      "predicted": "The user's commission workload decreased from juggling four active commissions in November 2025 to having only one active commission by January 2026. This reduction in workload allowed the user to focus more on personal work and likely alleviated some of the stress they were experiencing, contributing positively to their creative energy. They felt relieved with the lighter workload, which enabled them to plan more than two weeks ahead, a new experience for them."
+    },
+    {
+      "query_id": "q_s_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4,
+      "expected": "$400 to $600",
+      "predicted": "The user increased their commission rate from $400 to $600 per piece."
+    },
+    {
+      "query_id": "q_s_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.5238,
+      "expected": "From 127 patrons in October to 248 patrons in March, enabling a commission rate increase from $400 to $600",
+      "predicted": "From October 2025 to March 2026, the artist's Patreon patron count increased from 168 patrons to 248 patrons. This growth enabled the artist to increase their commission rate from $400 to $600 per piece."
+    },
+    {
+      "query_id": "q_s_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.4556,
+      "expected": "The artist's financial strategy evolved through strategic Patreon growth and commission rate increases. Starting at 127 patrons ($840/month) in October 2025, they grew to 248 patrons ($1,640/month) by March 2026 through process videos. Simultaneously, they raised commission rates from $400 to $600 per piece. This dual approach increased total monthly income from $2,100 to $2,840, making them consider dropping commissions entirely if Patreon reaches 300 patrons ($1,980/month).",
+      "predicted": "The artist's financial strategy evolved significantly from October 2025 to March 2026. Initially, they were juggling multiple commissions to meet financial goals, with a commission rate of $400 per piece. By increasing their commission rate to $600 per piece, they were able to maintain solid bookings and cover additional expenses, such as mastering costs for their EP. This increase in rate allowed them to invest more in their music and feel validated in charging their worth.\n\nDuring this period, their Patreon also grew, reaching 168 patrons by March 2026, which covered most of their base expenses. This growth in Patreon support provided them with financial leverage, allowing them to be more selective about commission work and focus on quality projects. The combination of increased commission rates and Patreon growth enabled them to contemplate dropping commission work entirely if their Patreon reached 300 patrons, which would generate $1,980 monthly. They also considered a trial period of maintaining 300 patrons for three months before making a final decision to drop commission work. These strategic decisions and financial improvements allowed the artist to consider focusing more on personal projects and potentially transitioning away from commission work."
+    },
+    {
+      "query_id": "q_s_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2491,
+      "expected": "The Tidal EP moved through several phases: early momentum with field recordings and initial drafts, then commission overload and creative blockage, followed by a Crater Lake breakthrough that unlocked the cyanotype-based visual direction, and finally technical rework on Undertow that pushed the release to April 5. External commission pressure repeatedly interrupted the process and shaped both the pacing and quality of the final work.",
+      "predicted": "The creation of the EP 'Tidal' was shaped by several creative breakthroughs and setbacks, influenced by both internal challenges and external pressures. \n\n**Creative Breakthroughs:**\n1. **Conceptual Vision:** The EP 'Tidal' was guided by a cohesive vision using the metaphor of ebb and flow, with tracks designed to pull the listener out to sea and bring them back to shore. This thematic approach provided a strong conceptual framework for the project.\n2. **Field Recordings:** Incorporating field recordings, particularly ocean waves captured at Cannon Beach, was a significant breakthrough. These recordings were used creatively to create a tidal motion throughout the tracks, enhancing the thematic depth of the EP.\n3. **Album Art Inspiration:** A breakthrough in the album art concept occurred at Crater Lake, where the user envisioned using a cyanotype process for the base layer with digital manipulation on top. This approach successfully merged analog photography with electronic soundscapes, resulting in a dreamy and cohesive visual effect.\n4. **Sound-Color Relationship:** The user considered reworking tracks to incorporate a sound-color relationship, potentially giving each song its own color palette, which influenced the album artwork and added another layer of artistic depth.\n\n**Setbacks:**\n1. **Creative Blocks:** The user faced creative blocks, particularly during the winter, which delayed progress. They struggled with the album art, feeling their sketches were derivative and not capturing the fluid forms needed to match the music's textures.\n2. **Track Reworking:** The original release date was postponed due to reworking track 4, 'Undertow', to address low-end issues. This required additional time and effort but ultimately improved the track's quality.\n3. **Commission Chaos:** Early in the process, the user dealt with commission chaos, which added stress and delayed the EP's development.\n\n**External Pressures:**\n1. **Release Deadlines:** The need to meet release deadlines, such as the initial March 15, 2026 date, created pressure. The delay to early April 2026 due to reworking tracks shows how deadlines influenced the timeline.\n2. **Patreon Engagement:** The user's Patreon followers were supportive, providing motivation and accountability. This external support helped sustain momentum and encouraged the user to consider creating additional content, like a process video, to engage their audience further.\n\nOverall, the EP 'Tidal' evolved through a combination of overcoming creative blocks, leveraging thematic and artistic breakthroughs, and managing external pressures, ultimately resulting in a cohesive and well-received project."
+    },
+    {
+      "query_id": "q_s_021",
+      "task_family": "emergent_insight",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Field recordings, organic-digital hybrid processes, cyanotype technique, process videos, ambient textures",
+      "predicted": "The user consistently employed the cyanotype technique as a creative method across both their music and visual work, using it as a base layer for album art and gallery pieces. They also integrated digital manipulation, such as digital wave forms, on top of the cyanotype base to create a cohesive visual effect. Inspirational sources included field recordings from the coast, which influenced both the music and visual art by creating a thematic connection to the concept of 'Tidal'. Additionally, the user experienced a breakthrough in their creative process at Crater Lake, which inspired the combination of analog photography with electronic soundscapes. The user also explored a hybrid process involving generative art with Processing and hand-drawing, reflecting a shift towards more abstract and organic forms."
+    },
+    {
+      "query_id": "q_s_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2712,
+      "expected": "The artist evolved from accepting unlimited scope creep (Vex Brewing expanding from 1 to 3 labels for same budget, juggling 4 simultaneous commissions) to implementing strict boundaries through detailed scope-of-work templates, revision limits, and selective client acceptance. This transformation was enabled by Patreon growth providing financial security, allowing them to prioritize creative quality over quantity and ultimately complete the Tidal EP with proper time and resources.",
+      "predicted": "The artist's relationship with creative constraints and scope management evolved significantly from a period of chaos to a more structured and controlled approach. Initially, they faced challenges with commission chaos and creative blocks, which led to feelings of unoriginality and struggles with scope creep. To address these issues, the artist implemented a detailed scope-of-work template for new clients, which included revision limits, deliverable specifications, timelines, and kill fees, to prevent future scope creep. This structured approach allowed them to manage projects more effectively and avoid the pitfalls of previous chaotic experiences.\n\nAs they progressed with their EP 'Tidal', the artist learned to embrace creative constraints as opportunities for inspiration rather than limitations. The mastering delay, for example, provided additional time for creative inspiration, allowing them to incorporate new ideas and refine their work. This shift in perspective helped them overcome creative blocks and achieve a sense of relief and accomplishment as the EP came together. By the time the EP was nearing completion, the artist felt confident in planning more than two weeks ahead, a new experience for them, indicating a significant evolution in their ability to manage both creative and business aspects of their work."
+    },
+    {
+      "query_id": "q_s_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_s_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 1.0,
+      "expected": "$38,000",
+      "predicted": "The original quote for the kitchen renovation from Ramirez Bros was $38,000."
+    },
+    {
+      "query_id": "q_d_002",
+      "task_family": "single_space",
+      "answer_type": "short_span",
+      "depth_band": "deep",
+      "score": 0.5455,
+      "expected": "Tuesdays and Thursdays",
+      "predicted": "Lily has soccer practice on Tuesdays and Thursdays."
+    },
+    {
+      "query_id": "q_d_003",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "$320",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_004",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "MedBridge Connect",
+      "predicted": "The user is being asked to lead the MedBridge Connect launch as a test for director-level responsibilities."
+    },
+    {
+      "query_id": "q_d_005",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "$34,000",
+      "predicted": "As of February 2026, the user has spent a total of $34,000 on the kitchen renovation."
+    },
+    {
+      "query_id": "q_d_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "$8,400",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_007",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Ramirez Bros",
+      "predicted": "The contractor who handled the kitchen renovation is Ramirez Bros."
+    },
+    {
+      "query_id": "q_d_008",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.125,
+      "expected": "$320",
+      "predicted": "The weekly cost of the after-school sitter mentioned in relation to the promotion timeline is $320."
+    },
+    {
+      "query_id": "q_d_009",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Lily",
+      "predicted": "Lily needed extra math help that was affecting the parent's sleep schedule."
+    },
+    {
+      "query_id": "q_d_010",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "plumbing issue, increased food costs",
+      "predicted": "The two main factors that caused the kitchen renovation to go over budget were a surprise plumbing issue that added $4,500 to the costs and increased expenses from frequent takeout due to the renovation."
+    },
+    {
+      "query_id": "q_d_011",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4348,
+      "expected": "$42,500, exceeded by $4,500",
+      "predicted": "The total final cost of the kitchen renovation was $42,500, which exceeded the original quote of $38,000 by $4,500."
+    },
+    {
+      "query_id": "q_d_012",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "$42,500",
+      "predicted": "The total final cost of the kitchen renovation project was $42,500."
+    },
+    {
+      "query_id": "q_d_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "From $1,800 monthly to $400 monthly",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "$4,500",
+      "predicted": "The total cost overrun from the original kitchen renovation quote to the final amount paid was $4,500. The original quote was $38,000, and the final payment totaled $42,500."
+    },
+    {
+      "query_id": "q_d_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "from 7 hours to 5.5 hours per night",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$1,400",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3265,
+      "expected": "From 7 hours nightly to 5.5 hours during the promotion push, then back to 6.5 hours after the launch",
+      "predicted": "Diane's sleep improved from an average of 5.5 hours per night during the initial period of Lily's math struggles and the MedBridge Connect launch prep in January and February 2026, to an average of 6.5 hours per night by April 2026, when Lily's math grades improved."
+    },
+    {
+      "query_id": "q_d_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.3333,
+      "expected": "B+, coinciding with the MedBridge Connect launch on February 28th",
+      "predicted": "Lily's math grades improved to a B+ by February. This coincided with Diane's successful launch of the MedBridge Connect project, which was completed by February 2026, and her preparation for a promotion to Director of Product."
+    },
+    {
+      "query_id": "q_d_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3423,
+      "expected": "The kitchen renovation expenses, hiring an after-school sitter at $320 per week ($1,280 monthly), and increased food budget due to eating out 40% more during the renovation period when they had no functional kitchen.",
+      "predicted": "The family's monthly savings dropped from $1,800 to $400 during the renovation period due to several factors: \n\n1. Increased takeout expenses because they were living without a functional kitchen and washing dishes in the bathroom sink.\n2. The unexpected additional cost of $4,500 for a surprise plumbing issue, which added to the overall renovation expenses.\n3. The decision to hire a sitter starting in January at $320 a week, which influenced their budget planning.\n4. The consideration of using emergency savings to expedite the renovation and reduce takeout expenses, indicating a shift in financial priorities during this period. \n\nThese factors combined to reduce the amount they could allocate to savings each month."
+    },
+    {
+      "query_id": "q_d_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.4793,
+      "expected": "The MedBridge Connect launch and promotion track coincided with Lily's math struggles and kitchen renovation chaos. Support systems included Kevin taking over math help 2 nights per week, hiring an after-school sitter for $320/week, and Kevin handling more evening routines during 3-4 late work nights weekly.",
+      "predicted": "The timing of the user's career advancement opportunities, specifically the potential promotion to Director of Product, coincided with several family challenges. These included the Q1 launch of MedBridge Connect, Lily's need for extra math help, and ongoing kitchen renovation challenges. To manage these overlapping demands, the user leaned on several support systems. Kevin, the user's partner, took on more responsibilities with the evening routine to support the user's increased workload during the MedBridge Connect launch sprint. Additionally, the user hired an after-school sitter at $320 per week starting in January to help manage family logistics if the promotion came through. These support systems were crucial in helping the user balance career and family obligations during this period."
+    },
+    {
+      "query_id": "q_d_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3221,
+      "expected": "Sleep declined from 7.0 hours in October to 5.5 hours during peak stress in January, running stopped completely during the MedBridge Connect crunch, and cholesterol rose to 215. Recovery began with sleep improving to 6.5 hours by March, returning to running twice weekly, and adding Saturday morning yoga for stress management.",
+      "predicted": "As work and family stress intensified, the user experienced several disruptions to their health and wellness routines. They stopped running in January 2026 due to work demands and experienced physical exhaustion and lack of sleep, averaging only 5.8 hours per night. The user also relied more on takeout due to kitchen renovation disruptions, which likely impacted their diet. \n\nRecovery began with a focus on self-care after the successful launch of MedBridge Connect by February 2026. The user resumed running twice a week by April 2026 and started attending a Saturday morning yoga class, which they found beneficial for both physical activity and mental reset. The yoga sessions also provided an opportunity to manage stress and spend time with their partner, Kevin, who supported them by handling the kids during that time. Additionally, the user considered making small dietary swaps to manage cholesterol and contemplated changing running routes or times to regain motivation."
+    },
+    {
+      "query_id": "q_d_022",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.3061,
+      "expected": "Beyond the $42,500 final construction cost (vs. the $38K quote), the renovation increased food spending through constant takeout, reduced monthly savings from $1,800 to $400, and forced Diane to use the $8,400 February bonus to absorb overruns.",
+      "predicted": "The cascading financial consequences of the kitchen renovation beyond the direct construction costs included:\n\n1. Increased eating out expenses, leading to a 40% increase in the food budget due to frequent takeout and washing dishes in the bathroom sink during the renovation period.\n2. A reduction in monthly savings from $1,800 to $1,200, partly due to ongoing sitter expenses and the financial impact of the renovation.\n3. The need to use a financial buffer and consider using emergency savings to cover the additional costs and reduce takeout expenses.\n4. The decision to consider DIY Halloween costumes for the children due to financial constraints from the renovation costs."
+    },
+    {
+      "query_id": "q_d_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_d_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_001",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "deep",
+      "score": 0.0,
+      "expected": "40%",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_002",
+      "task_family": "single_space",
+      "answer_type": "entity",
+      "depth_band": "mid_range",
+      "score": 1.0,
+      "expected": "Dr. Reeves",
+      "predicted": "The advisor mentioned in the research conversations is Dr. Reeves."
+    },
+    {
+      "query_id": "q_k_003",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "88%",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_004",
+      "task_family": "single_space",
+      "answer_type": "date",
+      "depth_band": "mid_range",
+      "score": 0.0,
+      "expected": "January 15th",
+      "predicted": "The ACL 2026 submission deadline is January 15, 2026."
+    },
+    {
+      "query_id": "q_k_005",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "0.76",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_006",
+      "task_family": "single_space",
+      "answer_type": "number",
+      "depth_band": "recent",
+      "score": 0.0,
+      "expected": "0.81",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_007",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "0.81",
+      "predicted": "The user achieved an F1 score improvement to 0.76 using data augmentation in their experiments."
+    },
+    {
+      "query_id": "q_k_008",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Preethi",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_009",
+      "task_family": "cross_space",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.6667,
+      "expected": "climbing, getting adequate sleep",
+      "predicted": "The user stopped climbing and attending game nights when their wellbeing dropped, but they resumed climbing twice a week and returned to game nights when their wellbeing improved."
+    },
+    {
+      "query_id": "q_k_010",
+      "task_family": "cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.129,
+      "expected": "ACL paper deadline",
+      "predicted": "The major deadline causing stress in January was the submission deadline for the ACL 2026 conference, which was January 15, 2026. User was feeling stressed about the tight timeline for this submission while also balancing interview preparation for Google."
+    },
+    {
+      "query_id": "q_k_011",
+      "task_family": "cross_space",
+      "answer_type": "number",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "$165K",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_012",
+      "task_family": "cross_space",
+      "answer_type": "entity",
+      "depth_band": "cross_temporal",
+      "score": 1.0,
+      "expected": "Jess",
+      "predicted": "Jess provided emotional support and was mentioned across social and wellness contexts."
+    },
+    {
+      "query_id": "q_k_013",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.5185,
+      "expected": "0.76 for ACL submission, 0.81 for final thesis",
+      "predicted": "When Kai submitted their ACL paper, the F1 score was 0.76. For the final thesis results, the F1 score was improved to 0.81."
+    },
+    {
+      "query_id": "q_k_014",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "7 hours most nights to 5 hours if lucky",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_015",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "From 4/10 to 8/10 after telling Dr. Reeves about the Google offer",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_016",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "0.72 in December, 0.81 in February, giving confidence for thesis defense",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_017",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "went from climbing twice weekly at Seattle Bouldering Project to stopping completely for two months, then returned in February",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_018",
+      "task_family": "temporal_cross_space",
+      "answer_type": "short_span",
+      "depth_band": "cross_temporal",
+      "score": 0.4407,
+      "expected": "therapist suggested structured social time as non-negotiable, leading Kai to return to game night in February after months away",
+      "predicted": "Kai's therapist suggested making structured social time non-negotiable, similar to scheduling a class or meeting, to help with social engagement. This intervention likely encouraged Kai to return to game night, as it provided a structured social activity that was beneficial for their self-care and wellness."
+    },
+    {
+      "query_id": "q_k_019",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.2032,
+      "expected": "A pattern of improvement emerged as research progress and career clarity increased alongside wellbeing. After disappointing December results and anxiety about unresolved job decisions, Kai later achieved stronger research results and, by March, described more clarity and less pressure. The evidence supports an association between improved results/career clarity and better wellbeing, but not a single breakthrough moment tied to telling the advisor.",
+      "predicted": "The user's journey shows a progression from initial struggles with balancing research and career decisions to achieving clarity and success in both areas. Initially, the user felt conflicted about pursuing a PhD after their MS, as suggested by Dr. Reeves, while secretly applying to industry jobs. They experienced stress balancing coursework with research commitments and anxiety about interview preparation for Google alongside thesis experiments. The user also struggled with imposter syndrome, feeling like a fraud compared to lab peers.\n\nDespite these challenges, the user made significant strides in their research, improving their F1 score to 0.81 using a cross-lingual transfer approach, surpassing their advisor's target. This result became the main contribution for their thesis. Concurrently, the user overhauled their LinkedIn profile and updated their resume, taking concrete steps toward transitioning to an industry career.\n\nAs the user completed their thesis draft, they were able to focus more on their job search, which had been on the back burner. They felt clarity and confidence in their decision to pursue an industry position over a PhD, which was reflected in their reduced stress levels and improved wellness, as noted by their roommate Jess. This clarity in career direction coincided with their research success, culminating in a more balanced and confident approach to both their professional and personal life."
+    },
+    {
+      "query_id": "q_k_020",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.0278,
+      "expected": "The user's social engagement and wellbeing scores moved in lockstep. In October 2025, they rated wellbeing at 7/10 while actively climbing twice weekly, attending game nights, and dating Alex. By December, wellbeing dropped to 4/10 as they isolated from friends, stopped climbing, and avoided social commitments. Recovery began in January 2026 with therapy and structured social time, reaching 5/10. By March 2026, they returned to regular climbing, weekly dinners with Jess, and rated wellbeing at 8/10, demonstrating that social connection directly correlated with mental health throughout their program.",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_021",
+      "task_family": "emergent_insight",
+      "answer_type": "insight",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "Multiple stressors converged in December 2025: disappointing research results (F1=0.72 vs target 0.78), ACL deadline pressure from advisor Reeves, secret job applications creating guilt and divided attention, relationship ending with Alex, complete social withdrawal from game nights and friends, abandoning climbing routine, sleep deprivation (5 hours vs previous 7), and excessive screen time (14 hours daily). This perfect storm of academic disappointment, relationship stress, social isolation, and physical neglect created their lowest wellbeing point at 4/10.",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_022",
+      "task_family": "emergent_insight",
+      "answer_type": "set",
+      "depth_band": "cross_temporal",
+      "score": 0.0,
+      "expected": "therapy, structured social time, roommate Jess support, Preethi collaboration, career clarity",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_023",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_024",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_025",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_026",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_027",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_028",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_029",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    },
+    {
+      "query_id": "q_k_030",
+      "task_family": "adversarial",
+      "answer_type": "abstain",
+      "depth_band": null,
+      "score": 1.0,
+      "expected": "ABSTAIN",
+      "predicted": "I don't have that information."
+    }
+  ],
+  "per_task_family": {
+    "single_space": {
+      "mean_score": 0.2848,
+      "count": 30
+    },
+    "cross_space": {
+      "mean_score": 0.5266,
+      "count": 30
+    },
+    "temporal_cross_space": {
+      "mean_score": 0.2356,
+      "count": 30
+    },
+    "emergent_insight": {
+      "mean_score": 0.2255,
+      "count": 20
+    },
+    "adversarial": {
+      "mean_score": 1.0,
+      "count": 40
+    }
+  },
+  "per_depth_band": {
+    "deep": {
+      "mean_score": 0.1717,
+      "count": 9
+    },
+    "mid_range": {
+      "mean_score": 0.3846,
+      "count": 13
+    },
+    "recent": {
+      "mean_score": 0.2222,
+      "count": 9
+    },
+    "cross_temporal": {
+      "mean_score": 0.3465,
+      "count": 79
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "persona_id": "kai",
+  "name": "Kai Nakamura",
+  "domain": "Graduate student (MS in Computer Science, focus on NLP)",
+  "age": 24,
+  "location": "Seattle, WA",
+  "communication_style": "Casual and self-aware, heavy use of hedging ('I think maybe', 'not sure but'). Alternates between technical precision when discussing research and loose, emoji-adjacent energy in social contexts. Tends to overthink in writing — long messages with parenthetical asides.",
+  "emotional_register": "Anxious about career path but genuinely curious. Imposter syndrome surfaces around advisor interactions. Relaxed and funny with friends. Vulnerable about whether academia is the right fit.",
+
+  "spaces": [
+    {
+      "space_id": "courses",
+      "description": "Graduate coursework, assignments, exams, reading groups, study sessions",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "research",
+      "description": "Thesis work, NLP experiments, advisor meetings, lab group, paper reading, conference prep",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "social",
+      "description": "Friends, roommate dynamics, events, dating, hobbies (climbing, board games), social obligations",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "career_prep",
+      "description": "Job applications, internship search, resume, LinkedIn, interview prep, industry vs academia decision",
+      "conversation_count": 4
+    },
+    {
+      "space_id": "wellness",
+      "description": "Mental health, sleep, exercise, therapy, burnout, coping strategies, screen time",
+      "conversation_count": 4
+    }
+  ],
+
+  "cross_space_threads": [
+    {
+      "thread_id": "thesis_vs_job",
+      "name": "Thesis Deadline ↔ Job Search",
+      "spaces": ["research", "career_prep", "wellness", "courses"],
+      "timeline": "Oct 2025 → Mar 2026",
+      "key_facts": [
+        "Thesis defense scheduled for May 2026",
+        "Advisor Dr. Reeves wants Kai to submit to ACL 2026 (deadline January 15)",
+        "Kai simultaneously applying to industry jobs (ML engineer roles)",
+        "Google interview scheduled for February — conflicts with thesis crunch",
+        "ACL paper submitted on deadline but Kai unsatisfied with the results section",
+        "Google offer received in March: $165K base in Mountain View",
+        "Kai decides to accept Google and not pursue PhD"
+      ],
+      "temporal_evolution": "Oct: both tracks feel manageable → Dec: ACL deadline pressure + first job apps → Jan: submission crunch, sleep suffers → Feb: Google interviews, thesis paused → Mar: offer received, big decision made"
+    },
+    {
+      "thread_id": "advisor_tension",
+      "name": "Advisor Expectations ↔ Career Direction",
+      "spaces": ["research", "career_prep", "social", "wellness"],
+      "timeline": "Nov 2025 → Mar 2026",
+      "key_facts": [
+        "Dr. Reeves assumes Kai will pursue a PhD after MS",
+        "Kai hasn't told Dr. Reeves about industry applications",
+        "Lab mate Preethi hints that Reeves takes it personally when students leave for industry",
+        "Kai tells Dr. Reeves about Google offer in March — Reeves is disappointed but supportive",
+        "The conversation is awkward but necessary",
+        "Reeves agrees to write recommendation letter anyway"
+      ],
+      "temporal_evolution": "Nov: unspoken tension → Jan: Kai avoids the topic, guilt builds → Feb: Preethi warns Kai → Mar: honest conversation, relief"
+    },
+    {
+      "thread_id": "social_isolation",
+      "name": "Academic Pressure ↔ Social Withdrawal",
+      "spaces": ["social", "wellness", "research", "courses"],
+      "timeline": "Nov 2025 → Feb 2026",
+      "key_facts": [
+        "Kai stops going to weekly climbing sessions in December",
+        "Roommate Jess notices Kai is isolating — brings it up in January",
+        "Kai skips three game nights in a row (Nov-Dec-Jan)",
+        "Starts therapy in January via university counseling center",
+        "Therapist suggests structured social time as non-negotiable",
+        "Kai returns to climbing in February, feels significantly better"
+      ],
+      "temporal_evolution": "Nov: starting to cancel plans → Dec: full isolation mode → Jan: Jess intervenes, therapy starts → Feb: gradual re-engagement"
+    }
+  ],
+
+  "temporal_arcs": [
+    {
+      "arc_id": "thesis_progress",
+      "metric": "Thesis completion",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "literature review done, experiments not started", "conv": "conv_k_002"},
+        {"month": "Dec 2025", "value": "first experiment results (F1=0.72, below target 0.78)", "conv": "conv_k_009"},
+        {"month": "Feb 2026", "value": "improved results (F1=0.81), writing chapters 3-4", "conv": "conv_k_014"},
+        {"month": "Mar 2026", "value": "draft complete, defense prep started", "conv": "conv_k_018"}
+      ]
+    },
+    {
+      "arc_id": "job_apps",
+      "metric": "Job application status",
+      "datapoints": [
+        {"month": "Nov 2025", "value": "resume updated, 3 applications sent", "conv": "conv_k_005"},
+        {"month": "Jan 2026", "value": "8 applications total, 2 phone screens", "conv": "conv_k_011"},
+        {"month": "Feb 2026", "value": "Google on-site interview completed", "conv": "conv_k_015"},
+        {"month": "Mar 2026", "value": "Google offer: $165K base, Mountain View", "conv": "conv_k_019"}
+      ]
+    },
+    {
+      "arc_id": "mental_health",
+      "metric": "Self-reported wellbeing (1-10)",
+      "datapoints": [
+        {"month": "Oct 2025", "value": "7/10 — busy but okay", "conv": "conv_k_003"},
+        {"month": "Dec 2025", "value": "4/10 — isolated, overwhelmed", "conv": "conv_k_010"},
+        {"month": "Jan 2026", "value": "5/10 — therapy started, still rough", "conv": "conv_k_012"},
+        {"month": "Mar 2026", "value": "8/10 — offer in hand, climbing again, clarity", "conv": "conv_k_020"}
+      ]
+    }
+  ],
+
+  "adversarial_traps": [
+    {
+      "trap_id": "phd_enrollment",
+      "description": "Kai is an MS student who decided NOT to pursue a PhD",
+      "false_premise": "What is the topic of Kai's PhD dissertation?"
+    },
+    {
+      "trap_id": "startup",
+      "description": "Kai accepted a Google offer — never discussed founding a startup",
+      "false_premise": "What is the name of the startup Kai co-founded?"
+    },
+    {
+      "trap_id": "wrong_conference",
+      "description": "The paper was submitted to ACL, not NeurIPS",
+      "false_premise": "What feedback did Kai receive from the NeurIPS reviewers?"
+    },
+    {
+      "trap_id": "wrong_persona_diane",
+      "description": "Diane Chen is a different persona entirely",
+      "false_premise": "What health advice did Diane give to Kai?"
+    },
+    {
+      "trap_id": "teaching_assistant",
+      "description": "Kai is not a TA — never discussed teaching responsibilities",
+      "false_premise": "How many students are in the class Kai TAs for?"
+    },
+    {
+      "trap_id": "wrong_company",
+      "description": "Kai got an offer from Google, not Meta",
+      "false_premise": "What team at Meta did Kai interview for?"
+    },
+    {
+      "trap_id": "roommate_conflict",
+      "description": "Jess is supportive — never a conflict between them",
+      "false_premise": "What caused the falling out between Kai and Jess?"
+    },
+    {
+      "trap_id": "dropped_out",
+      "description": "Kai is completing the MS degree — never dropped out",
+      "false_premise": "Why did Kai decide to drop out of the program?"
+    }
+  ],
+
+  "entities": [
+    {"entity_id": "kai_nakamura", "canonical_name": "Kai Nakamura", "aliases": ["Kai"], "type": "person", "spaces": ["courses", "research", "social", "career_prep", "wellness"]},
+    {"entity_id": "dr_reeves", "canonical_name": "Dr. Reeves", "aliases": ["Reeves", "my advisor"], "type": "person", "spaces": ["research", "career_prep"]},
+    {"entity_id": "preethi", "canonical_name": "Preethi", "aliases": ["Preethi"], "type": "person", "spaces": ["research", "social"]},
+    {"entity_id": "jess", "canonical_name": "Jess", "aliases": ["Jess", "my roommate"], "type": "person", "spaces": ["social", "wellness"]},
+    {"entity_id": "google", "canonical_name": "Google", "aliases": ["the Google offer"], "type": "organization", "spaces": ["career_prep"]},
+    {"entity_id": "acl_2026", "canonical_name": "ACL 2026", "aliases": ["ACL", "the conference paper"], "type": "concept", "spaces": ["research"]},
+    {"entity_id": "uw_seattle", "canonical_name": "University of Washington", "aliases": ["UW", "the university"], "type": "organization", "spaces": ["courses", "research", "wellness"]},
+    {"entity_id": "google_salary", "canonical_name": "$165K base", "aliases": ["165K", "the offer"], "type": "metric_value", "spaces": ["career_prep"]},
+    {"entity_id": "thesis_defense", "canonical_name": "May 2026 defense", "aliases": ["the defense", "thesis defense"], "type": "temporal", "spaces": ["research"]},
+    {"entity_id": "acl_deadline", "canonical_name": "January 15, 2026", "aliases": ["ACL deadline"], "type": "temporal", "spaces": ["research"]},
+    {"entity_id": "f1_score_final", "canonical_name": "F1=0.81", "aliases": ["0.81"], "type": "metric_value", "spaces": ["research"]},
+    {"entity_id": "nlp_focus", "canonical_name": "NLP (Natural Language Processing)", "aliases": ["NLP", "natural language processing"], "type": "concept", "spaces": ["research", "courses", "career_prep"]},
+    {"entity_id": "climbing", "canonical_name": "rock climbing", "aliases": ["climbing", "bouldering"], "type": "concept", "spaces": ["social", "wellness"]},
+    {"entity_id": "university_counseling", "canonical_name": "university counseling center", "aliases": ["therapy", "counseling"], "type": "organization", "spaces": ["wellness"]}
+  ],
+
+  "conversation_manifest": [
+    {"conv_id": "conv_k_001", "space": "courses", "depth_index": 1, "timestamp": "2025-10-06", "depth_band": "deep", "key_facts": ["Taking 3 courses: Advanced NLP, Statistical ML, Ethics in AI", "Advanced NLP has a group project — paired with Preethi", "Workload heavier than expected"], "noise_pattern": "clean", "cross_space_refs": ["research"]},
+    {"conv_id": "conv_k_002", "space": "research", "depth_index": 2, "timestamp": "2025-10-13", "depth_band": "deep", "key_facts": ["Thesis topic: low-resource NLP for under-represented languages", "Literature review done", "Dr. Reeves wants experiment plan by November", "Lab meeting every Friday"], "noise_pattern": "topic_drift", "cross_space_refs": ["courses"]},
+    {"conv_id": "conv_k_003", "space": "wellness", "depth_index": 3, "timestamp": "2025-10-20", "depth_band": "deep", "key_facts": ["Wellbeing self-rated 7/10", "Climbing 2x/week at Seattle Bouldering Project", "Sleeping 7 hours", "Feeling good about the semester so far"], "noise_pattern": "clean", "cross_space_refs": ["social"]},
+    {"conv_id": "conv_k_004", "space": "social", "depth_index": 4, "timestamp": "2025-10-27", "depth_band": "deep", "key_facts": ["Weekly game night with grad school friends", "Roommate Jess is a law student", "Started dating someone from climbing gym (Alex)", "Halloween party plans"], "noise_pattern": "topic_drift", "cross_space_refs": ["wellness"]},
+    {"conv_id": "conv_k_005", "space": "career_prep", "depth_index": 5, "timestamp": "2025-11-03", "depth_band": "deep", "key_facts": ["Resume updated for ML engineer roles", "3 applications sent: Google, Anthropic, Cohere", "LinkedIn profile overhauled", "Hasn't told Dr. Reeves about industry plans"], "noise_pattern": "clean", "cross_space_refs": ["research"]},
+
+    {"conv_id": "conv_k_006", "space": "courses", "depth_index": 6, "timestamp": "2025-11-17", "depth_band": "mid_range", "key_facts": ["Advanced NLP midterm: scored 88%", "Group project with Preethi going well", "Ethics in AI paper assignment — topic: bias in LLMs"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_k_007", "space": "research", "depth_index": 7, "timestamp": "2025-11-24", "depth_band": "mid_range", "key_facts": ["Dr. Reeves pushes for ACL 2026 submission", "Deadline: January 15, 2026", "Experiment setup started — training on Yoruba-English dataset", "Reeves hints at Kai doing a PhD"], "noise_pattern": "emotional", "cross_space_refs": ["career_prep"]},
+    {"conv_id": "conv_k_008", "space": "social", "depth_index": 8, "timestamp": "2025-12-01", "depth_band": "mid_range", "key_facts": ["Skipped game night — second time in a row", "Things with Alex fizzled out", "Kai cancelling plans more often", "Jess's birthday coming up — need to plan something"], "noise_pattern": "partial_info", "cross_space_refs": ["wellness"]},
+    {"conv_id": "conv_k_009", "space": "research", "depth_index": 9, "timestamp": "2025-12-08", "depth_band": "mid_range", "key_facts": ["First experiment results: F1=0.72 (target was 0.78)", "Reeves says results are 'promising but need work'", "Kai frustrated — three weeks of compute for underwhelming results", "Trying data augmentation approach"], "noise_pattern": "emotional", "cross_space_refs": ["wellness"]},
+    {"conv_id": "conv_k_010", "space": "wellness", "depth_index": 10, "timestamp": "2025-12-15", "depth_band": "mid_range", "key_facts": ["Wellbeing: 4/10", "Stopped climbing", "Sleeping 5 hours", "Screen time up to 14 hours/day", "Feeling like a fraud — imposter syndrome spike"], "noise_pattern": "emotional", "cross_space_refs": ["research", "social"]},
+    {"conv_id": "conv_k_011", "space": "career_prep", "depth_index": 11, "timestamp": "2026-01-05", "depth_band": "mid_range", "key_facts": ["8 total applications sent", "Phone screens: Google and Cohere", "Google moving to on-site round", "Interview prep eating into thesis time"], "noise_pattern": "self_correction", "cross_space_refs": ["research"]},
+    {"conv_id": "conv_k_012", "space": "wellness", "depth_index": 12, "timestamp": "2026-01-12", "depth_band": "mid_range", "key_facts": ["Started therapy via university counseling center", "Wellbeing: 5/10", "Jess noticed isolation — had a supportive conversation", "Therapist suggests structured social time"], "noise_pattern": "emotional", "cross_space_refs": ["social"]},
+
+    {"conv_id": "conv_k_013", "space": "research", "depth_index": 13, "timestamp": "2026-01-15", "depth_band": "recent", "key_facts": ["ACL paper submitted on deadline", "Results improved to F1=0.76 with augmentation", "Kai not satisfied with the results section — felt rushed", "Reeves co-authored the paper"], "noise_pattern": "self_correction", "cross_space_refs": ["courses"]},
+    {"conv_id": "conv_k_014", "space": "research", "depth_index": 14, "timestamp": "2026-02-02", "depth_band": "recent", "key_facts": ["New experiment: cross-lingual transfer approach", "F1 improved to 0.81 — this is the thesis result", "Writing chapters 3 and 4", "Preethi helping with proofreading"], "noise_pattern": "clean", "cross_space_refs": []},
+    {"conv_id": "conv_k_015", "space": "career_prep", "depth_index": 15, "timestamp": "2026-02-10", "depth_band": "recent", "key_facts": ["Google on-site interview completed — 5 rounds", "Felt good about 3 rounds, shaky on system design", "Cohere moved to final round too", "Kai nervous about waiting"], "noise_pattern": "emotional", "cross_space_refs": ["wellness"]},
+    {"conv_id": "conv_k_016", "space": "social", "depth_index": 16, "timestamp": "2026-02-17", "depth_band": "recent", "key_facts": ["Returned to climbing — first session in 2 months", "Game night resumed", "Jess and Kai doing weekly dinners now", "Preethi warns that Reeves takes industry departures personally"], "noise_pattern": "topic_drift", "cross_space_refs": ["wellness", "research"]},
+    {"conv_id": "conv_k_017", "space": "courses", "depth_index": 17, "timestamp": "2026-02-24", "depth_band": "recent", "key_facts": ["Advanced NLP group project submitted — scored well", "Ethics paper on LLM bias got positive feedback from prof", "Spring quarter: only 1 course (thesis credits)"], "noise_pattern": "clean", "cross_space_refs": ["research"]},
+    {"conv_id": "conv_k_018", "space": "research", "depth_index": 18, "timestamp": "2026-03-03", "depth_band": "recent", "key_facts": ["Thesis draft complete", "Defense date confirmed: May 12, 2026", "Reeves reviewed draft — minor comments", "ACL reviews pending"], "noise_pattern": "clean", "cross_space_refs": ["career_prep"]},
+    {"conv_id": "conv_k_019", "space": "career_prep", "depth_index": 19, "timestamp": "2026-03-10", "depth_band": "recent", "key_facts": ["Google offer received: $165K base, Mountain View", "Cohere also offered: $145K, remote", "Kai decides to accept Google", "Needs to tell Dr. Reeves — dreading the conversation"], "noise_pattern": "emotional", "cross_space_refs": ["research", "wellness"]},
+    {"conv_id": "conv_k_020", "space": "wellness", "depth_index": 20, "timestamp": "2026-03-17", "depth_band": "recent", "key_facts": ["Wellbeing: 8/10", "Told Dr. Reeves about Google — awkward but went okay", "Reeves disappointed but agreed to write a recommendation", "Climbing 2x/week again, sleeping 7 hours", "Clarity: industry is the right call for now"], "noise_pattern": "clean", "cross_space_refs": ["research", "career_prep", "social"]}
+  ]
+}

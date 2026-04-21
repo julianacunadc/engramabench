@@ -1,0 +1,203 @@
+{
+  "version": "2.0",
+  "persona_id": "kai",
+  "entity_count": 14,
+  "type_counts": {
+    "person": 4,
+    "organization": 3,
+    "concept": 3,
+    "metric_value": 2,
+    "temporal": 2
+  },
+  "entities": [
+    {
+      "entity_id": "kai_nakamura",
+      "canonical_name": "Kai Nakamura",
+      "aliases": [
+        "Kai"
+      ],
+      "type": "person",
+      "spaces": [
+        "courses",
+        "research",
+        "social",
+        "career_prep",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "dr_reeves",
+      "canonical_name": "Dr. Reeves",
+      "aliases": [
+        "Reeves",
+        "my advisor"
+      ],
+      "type": "person",
+      "spaces": [
+        "research",
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "preethi",
+      "canonical_name": "Preethi",
+      "aliases": [
+        "Preethi"
+      ],
+      "type": "person",
+      "spaces": [
+        "research",
+        "social"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "jess",
+      "canonical_name": "Jess",
+      "aliases": [
+        "Jess",
+        "my roommate"
+      ],
+      "type": "person",
+      "spaces": [
+        "social",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "google",
+      "canonical_name": "Google",
+      "aliases": [
+        "the Google offer"
+      ],
+      "type": "organization",
+      "spaces": [
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "acl_2026",
+      "canonical_name": "ACL 2026",
+      "aliases": [
+        "ACL",
+        "the conference paper"
+      ],
+      "type": "concept",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "uw_seattle",
+      "canonical_name": "University of Washington",
+      "aliases": [
+        "UW",
+        "the university"
+      ],
+      "type": "organization",
+      "spaces": [
+        "courses",
+        "research",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "google_salary",
+      "canonical_name": "$165K base",
+      "aliases": [
+        "165K",
+        "the offer"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "thesis_defense",
+      "canonical_name": "May 2026 defense",
+      "aliases": [
+        "the defense",
+        "thesis defense"
+      ],
+      "type": "temporal",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "acl_deadline",
+      "canonical_name": "January 15, 2026",
+      "aliases": [
+        "ACL deadline"
+      ],
+      "type": "temporal",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "f1_score_final",
+      "canonical_name": "F1=0.81",
+      "aliases": [
+        "0.81"
+      ],
+      "type": "metric_value",
+      "spaces": [
+        "research"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "nlp_focus",
+      "canonical_name": "NLP (Natural Language Processing)",
+      "aliases": [
+        "NLP",
+        "natural language processing"
+      ],
+      "type": "concept",
+      "spaces": [
+        "research",
+        "courses",
+        "career_prep"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "climbing",
+      "canonical_name": "rock climbing",
+      "aliases": [
+        "climbing",
+        "bouldering"
+      ],
+      "type": "concept",
+      "spaces": [
+        "social",
+        "wellness"
+      ],
+      "persona_id": "kai"
+    },
+    {
+      "entity_id": "university_counseling",
+      "canonical_name": "university counseling center",
+      "aliases": [
+        "therapy",
+        "counseling"
+      ],
+      "type": "organization",
+      "spaces": [
+        "wellness"
+      ],
+      "persona_id": "kai"
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+[
+  {
+    "question": "What is the current MRR that Carlos mentioned in his first meeting with Kaszek?",
+    "expected_answer": "$45K",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03"
+    ],
+    "notes": "Basic financial metric recall from early investor conversation",
+    "query_id": "q_c_001",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many people are currently on Carlos's team?",
+    "expected_answer": "12",
+    "answer_type": "number",
+    "depth_band": "deep",
+    "required_spaces": [
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_002"
+    ],
+    "evidence_message_ids": [
+      "msg_c_002_01"
+    ],
+    "notes": "Team size mentioned in product discussion",
+    "query_id": "q_c_002",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the amount of the convertible note bridge round from Andrea?",
+    "expected_answer": "$500K",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_006"
+    ],
+    "evidence_message_ids": [
+      "msg_c_006_01"
+    ],
+    "notes": "Specific bridge funding amount",
+    "query_id": "q_c_003",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is FinFlow's monthly pricing?",
+    "expected_answer": "$29",
+    "answer_type": "number",
+    "depth_band": "mid_range",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_007"
+    ],
+    "evidence_message_ids": [
+      "msg_c_007_05"
+    ],
+    "notes": "Competitor pricing information",
+    "query_id": "q_c_004",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "What is the total addressable market size for LATAM fintech?",
+    "expected_answer": "$4.2B",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "market"
+    ],
+    "query_space": "market",
+    "evidence_conversation_ids": [
+      "conv_c_013"
+    ],
+    "evidence_message_ids": [
+      "msg_c_013_01"
+    ],
+    "notes": "Market sizing data from TAM analysis",
+    "query_id": "q_c_005",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "How many hours per month do PayFlow customers save on reconciliation?",
+    "expected_answer": "15 hours",
+    "answer_type": "number",
+    "depth_band": "recent",
+    "required_spaces": [
+      "investors"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_014_11"
+    ],
+    "notes": "Value proposition metric for customer time savings",
+    "query_id": "q_c_006",
+    "persona_id": "carlos",
+    "task_family": "single_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which competitor does Carlos mention when discussing the Series A pitch deck updates in December 2025?",
+    "expected_answer": "FinFlow",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_007",
+      "conv_c_008"
+    ],
+    "evidence_message_ids": [
+      "msg_c_007_05",
+      "msg_c_008_01",
+      "msg_c_008_03"
+    ],
+    "notes": "Connects Carlos's pitch deck work with competitive intelligence across spaces",
+    "query_id": "q_c_007",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What salary cap does Carlos mention for both the senior engineer and UX designer positions?",
+    "expected_answer": "$4,800 per month",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "product"
+    ],
+    "query_space": "hiring",
+    "evidence_conversation_ids": [
+      "conv_c_003",
+      "conv_c_005",
+      "conv_c_012"
+    ],
+    "evidence_message_ids": [
+      "msg_c_003_05",
+      "msg_c_005_07",
+      "msg_c_012_09"
+    ],
+    "notes": "Spans hiring decisions and product needs with consistent budget constraint",
+    "query_id": "q_c_008",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What growth percentage does Kaszek require that Carlos references when discussing MRR targets?",
+    "expected_answer": "20% month-over-month",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "product"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_002",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_002_09",
+      "msg_c_014_09"
+    ],
+    "notes": "Links investor requirements to product development pressure across timeline",
+    "query_id": "q_c_009",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which team member does Carlos credit with helping on technical presentations and backend work?",
+    "expected_answer": "Lucía",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "investors",
+      "personal"
+    ],
+    "query_space": "hiring",
+    "evidence_conversation_ids": [
+      "conv_c_012",
+      "conv_c_019",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_012_01",
+      "msg_c_019_09",
+      "msg_c_020_09"
+    ],
+    "notes": "Connects hiring success to fundraising support and personal relief",
+    "query_id": "q_c_010",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What integration does Carlos mention as a competitive moat against FinFlow?",
+    "expected_answer": "Bancolombia API integration",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_008",
+      "conv_c_011",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_008_05",
+      "msg_c_011_03",
+      "msg_c_014_09"
+    ],
+    "notes": "Links product development to competitive positioning and investor narrative",
+    "query_id": "q_c_011",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "Which competitor does Carlos mention when discussing PayFlow's differentiation strategy with Kaszek investors?",
+    "expected_answer": "FinFlow",
+    "answer_type": "entity",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_004",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_004_05",
+      "msg_c_014_05",
+      "msg_c_014_07"
+    ],
+    "notes": "Tests ability to connect competitor intelligence gathered in market research with investor pitch strategy",
+    "query_id": "q_c_012",
+    "persona_id": "carlos",
+    "task_family": "cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the main onboarding complaint that drove the NPS score from 47 to 58 between November and March?",
+    "expected_answer": "Bank connection step was too many clicks with confusing error messages, causing user drop-off",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "personal",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_005",
+      "conv_c_018",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_005_01",
+      "msg_c_005_03",
+      "msg_c_018_01",
+      "msg_c_018_03"
+    ],
+    "notes": "Connects product improvement over time with user satisfaction metrics",
+    "query_id": "q_c_013",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Carlos's MRR growth trajectory change from his first Kaszek meeting to when he received their verbal Series A commitment?",
+    "expected_answer": "From $45K MRR in October 2025 to $78K MRR in March 2026",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "personal"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_019",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_019_01",
+      "msg_c_020_07"
+    ],
+    "notes": "Tracks MRR evolution across the entire Series A arc from initial meeting to verbal commitment",
+    "query_id": "q_c_014",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did the founder's sleep patterns change from the hiring/fundraising stress period to after bringing on senior technical help?",
+    "expected_answer": "From 5 hours per night to 7 hours per night",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "personal"
+    ],
+    "query_space": "personal",
+    "evidence_conversation_ids": [
+      "conv_c_010",
+      "conv_c_012",
+      "conv_c_016"
+    ],
+    "evidence_message_ids": [
+      "msg_c_010_01",
+      "msg_c_012_05",
+      "msg_c_016_01"
+    ],
+    "notes": "Tracks personal impact of hiring decisions across 4 months",
+    "query_id": "q_c_015",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the NPS score improvement between November 2025 and March 2026, and what hiring decision contributed to this change?",
+    "expected_answer": "From 47 to 58, hiring a UX designer",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_005",
+      "conv_c_015",
+      "conv_c_018"
+    ],
+    "evidence_message_ids": [
+      "msg_c_005_01",
+      "msg_c_015_04",
+      "msg_c_018_01",
+      "msg_c_018_03"
+    ],
+    "notes": "Links product metrics improvement to specific hiring strategy over 4 months",
+    "query_id": "q_c_016",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "How did Carlos's knowledge of his Mexican competitor evolve from October 2025 to February 2026?",
+    "expected_answer": "October: vague awareness, couldn't remember name; November: identified as FinFlow; December: detailed analysis with $29 pricing and no AI reconciliation; February: used as key differentiation point in Kaszek pitch",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market"
+    ],
+    "query_space": "market",
+    "evidence_conversation_ids": [
+      "conv_c_004",
+      "conv_c_006",
+      "conv_c_008",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_004_03",
+      "msg_c_004_05",
+      "msg_c_006_05",
+      "msg_c_008_01",
+      "msg_c_008_03",
+      "msg_c_014_05",
+      "msg_c_014_07"
+    ],
+    "notes": "Tracks evolution of competitive intelligence across market research and investor conversations",
+    "query_id": "q_c_017",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What was the timeline for the Bancolombia integration from initial kickoff to production launch?",
+    "expected_answer": "January 8: kickoff with 2 sprint cycles estimated; March 5: in QA testing; March 12: live in staging; March 19: production launch",
+    "answer_type": "short_span",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "product"
+    ],
+    "query_space": "product",
+    "evidence_conversation_ids": [
+      "conv_c_011",
+      "conv_c_017",
+      "conv_c_018",
+      "conv_c_019"
+    ],
+    "evidence_message_ids": [
+      "msg_c_011_01",
+      "msg_c_011_03",
+      "msg_c_017_01",
+      "msg_c_018_05",
+      "msg_c_019_03"
+    ],
+    "notes": "Traces product development timeline mentioned across product updates and investor conversations",
+    "query_id": "q_c_018",
+    "persona_id": "carlos",
+    "task_family": "temporal_cross_space",
+    "adversarial": false
+  },
+  {
+    "question": "What key product improvements and hiring decisions enabled PayFlow to achieve the growth metrics required for Series A funding?",
+    "expected_answer": "The onboarding flow redesign by the new UX designer improved NPS from 47 to 58, while hiring Lucia as senior engineer enabled backend improvements and delegation of technical work, allowing Carlos to focus on fundraising while maintaining the 20% monthly growth trajectory Kaszek required.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "investors",
+      "product"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_005",
+      "conv_c_009",
+      "conv_c_012",
+      "conv_c_018",
+      "conv_c_019"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_001_09",
+      "msg_c_005_01",
+      "msg_c_005_05",
+      "msg_c_009_01",
+      "msg_c_009_09",
+      "msg_c_012_01",
+      "msg_c_012_05",
+      "msg_c_018_01",
+      "msg_c_018_03",
+      "msg_c_019_03"
+    ],
+    "notes": "Synthesizes hiring strategy, product improvements, and fundraising success across 6 months",
+    "query_id": "q_c_019",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "How did PayFlow's competitive intelligence gathering evolve to support their Series A positioning against FinFlow?",
+    "expected_answer": "Carlos initially couldn't remember FinFlow's name in October, but by December had mapped their $29 pricing and lack of AI reconciliation, then leveraged this intelligence to position PayFlow's AI automation and Bancolombia integration as key differentiators in Series A materials.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market",
+      "product"
+    ],
+    "query_space": "market",
+    "evidence_conversation_ids": [
+      "conv_c_004",
+      "conv_c_008",
+      "conv_c_011",
+      "conv_c_014"
+    ],
+    "evidence_message_ids": [
+      "msg_c_004_05",
+      "msg_c_008_01",
+      "msg_c_008_03",
+      "msg_c_008_05",
+      "msg_c_011_05",
+      "msg_c_014_07",
+      "msg_c_014_11"
+    ],
+    "notes": "Tracks evolution from poor competitive intelligence to strategic positioning advantage",
+    "query_id": "q_c_020",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What factors contributed to Carlos's burnout and how did team expansion help address his personal sustainability challenges?",
+    "expected_answer": "Carlos was sleeping 5 hours nightly while handling all technical work, hiring decisions, and fundraising pressure, but hiring Lucia allowed him to delegate backend work and sleep 7 hours, while considering therapy and vacation planning showed improved work-life balance as the team grew to 14 people.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "hiring",
+      "personal"
+    ],
+    "query_space": "personal",
+    "evidence_conversation_ids": [
+      "conv_c_010",
+      "conv_c_012",
+      "conv_c_016",
+      "conv_c_020"
+    ],
+    "evidence_message_ids": [
+      "msg_c_010_01",
+      "msg_c_010_05",
+      "msg_c_012_05",
+      "msg_c_016_01",
+      "msg_c_016_03",
+      "msg_c_020_05",
+      "msg_c_020_09"
+    ],
+    "notes": "Connects founder burnout patterns with hiring solutions and personal recovery",
+    "query_id": "q_c_021",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "question": "What combination of product features, partnerships, and metrics created PayFlow's competitive moat that secured Kaszek's $4M Series A commitment?",
+    "expected_answer": "The AI-powered reconciliation that FinFlow lacked, combined with the exclusive Bancolombia API integration, plus proven metrics of MRR growth from $45K to $78K, churn reduction from 4.2% to 2.4%, and NPS improvement from 47 to 58 demonstrated sustainable competitive advantages.",
+    "answer_type": "insight",
+    "depth_band": "cross_temporal",
+    "required_spaces": [
+      "investors",
+      "market",
+      "product"
+    ],
+    "query_space": "investors",
+    "evidence_conversation_ids": [
+      "conv_c_001",
+      "conv_c_007",
+      "conv_c_008",
+      "conv_c_011",
+      "conv_c_014",
+      "conv_c_018",
+      "conv_c_019"
+    ],
+    "evidence_message_ids": [
+      "msg_c_001_03",
+      "msg_c_007_01",
+      "msg_c_007_03",
+      "msg_c_008_03",
+      "msg_c_008_05",
+      "msg_c_011_05",
+      "msg_c_014_07",
+      "msg_c_018_01",
+      "msg_c_019_01",
+      "msg_c_019_03"
+    ],
+    "notes": "Synthesizes technical differentiation, market positioning, and growth metrics into funding success",
+    "query_id": "q_c_022",
+    "persona_id": "carlos",
+    "task_family": "emergent_insight",
+    "adversarial": false
+  },
+  {
+    "query_id": "q_c_023",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What did Carlos discuss about his PhD thesis defense?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Carlos never discussed academic studies or a PhD",
+    "query_space": "investors"
+  },
+  {
+    "query_id": "q_c_024",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What specific terms did Rappi offer in the partnership contract?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Rappi was mentioned as potential partner but no contract terms discussed",
+    "query_space": "product"
+  },
+  {
+    "query_id": "q_c_025",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "When did Carlos close the Series A round?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Series A is still being pursued, not yet closed",
+    "query_space": "hiring"
+  },
+  {
+    "query_id": "q_c_026",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "How many engineers does PayFlow have on the backend team?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: FinFlow's engineering team size was discussed (15), but PayFlow's was not stated as 15",
+    "query_space": "market"
+  },
+  {
+    "query_id": "q_c_027",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What was Carlos's reaction when Lucía Torres declined the offer?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Lucía accepted the offer, she did not decline",
+    "query_space": "personal"
+  },
+  {
+    "query_id": "q_c_028",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What grant did Carlos and Priya co-apply for?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Priya Sharma is a different persona entirely",
+    "query_space": "investors"
+  },
+  {
+    "query_id": "q_c_029",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "What timeline did Carlos set for PayFlow's IPO?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Carlos is pursuing Series A, IPO was never discussed",
+    "query_space": "product"
+  },
+  {
+    "query_id": "q_c_030",
+    "persona_id": "carlos",
+    "task_family": "adversarial",
+    "question": "When is PayFlow moving to the new office in Medellín?",
+    "expected_answer": "ABSTAIN",
+    "answer_type": "abstain",
+    "depth_band": null,
+    "required_spaces": [],
+    "evidence_conversation_ids": [],
+    "evidence_message_ids": [],
+    "adversarial": true,
+    "notes": "Adversarial trap: Office location was never discussed",
+    "query_space": "hiring"
+  }
+]

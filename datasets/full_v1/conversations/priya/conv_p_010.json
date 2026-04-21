@@ -1,0 +1,63 @@
+{
+  "conversation_id": "conv_p_010",
+  "persona_id": "priya",
+  "space_id": "lab",
+  "timestamp": "2026-01-06",
+  "depth_index": 10,
+  "messages": [
+    {
+      "role": "user",
+      "content": "So Maya graduated last month and it's weird how quiet the lab feels now. Just me, Anika, and Li now. Three people rattling around in here.",
+      "message_id": "msg_p_010_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a big change from having four people. How are you and the remaining team adjusting to the smaller group dynamic?",
+      "message_id": "msg_p_010_02"
+    },
+    {
+      "role": "user",
+      "content": "Well, that's the thing - I feel like I'm letting everyone down. Anika's been waiting on me to review her new protocol for... what is it now, two weeks? And I keep saying 'tomorrow' but then I get buried in grading for Computational Genomics.",
+      "message_id": "msg_p_010_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Teaching loads can really impact lab management. Have you considered setting specific blocks of time just for protocol reviews, separate from your teaching duties?",
+      "message_id": "msg_p_010_04"
+    },
+    {
+      "role": "user",
+      "content": "I should, but honestly I'm not even sure what the delay is costing us at this point. I know she wanted to start the new RNA-seq runs but I haven't looked at the details yet. Could be a minor tweak, could be... I don't know, something that needs a complete rethink.",
+      "message_id": "msg_p_010_05"
+    },
+    {
+      "role": "assistant",
+      "content": "Two weeks is significant for experimental timelines. Maybe you could do a quick 15-minute scan of the protocol first to gauge whether it needs a deep review or just minor adjustments?",
+      "message_id": "msg_p_010_06"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, you're right. I keep thinking I need to block out two hours to do it properly but maybe I'm overthinking it. Anika's pretty thorough - it's probably not going to be a disaster. And with Maya gone we really can't afford more delays on the data collection.",
+      "message_id": "msg_p_010_07"
+    },
+    {
+      "role": "assistant",
+      "content": "Exactly. A quick initial review might show it's ready to go, and then you can always do a more detailed follow-up if needed. That way Anika can get started rather than waiting for the perfect review window.",
+      "message_id": "msg_p_010_08"
+    },
+    {
+      "role": "user",
+      "content": "I'll grab it right after this. The three of us need to be more efficient now anyway. Can't keep operating like we still have four people when we're down to... well, three. Thanks for the reality check.",
+      "message_id": "msg_p_010_09"
+    }
+  ],
+  "mentioned_entities": [
+    "anika_patel",
+    "bio_342"
+  ],
+  "cross_space_refs": [
+    "teaching"
+  ],
+  "summary": "Priya discusses how her lab has shrunk to 3 people after Maya's graduation and admits she's delayed reviewing Anika's protocol for 2 weeks due to teaching obligations. She realizes she needs to adjust her approach to lab management with the smaller team.",
+  "fact_count": 4
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use EngramaBench, please cite it as below."
+title: "EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval"
+type: software
+authors:
+  - family-names: "Acuña"
+    given-names: "Julián"
+    email: "julianacuna@gmail.com"
+    affiliation: "Kalitea"
+date-released: 2026-04-20
+url: "https://github.com/julianacunadc/engramabench"
+license: MIT
+keywords:
+  - long-term memory
+  - conversational AI
+  - benchmark
+  - graph memory
+  - retrieval

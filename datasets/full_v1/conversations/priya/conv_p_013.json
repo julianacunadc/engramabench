@@ -1,0 +1,84 @@
+{
+  "conversation_id": "conv_p_013",
+  "persona_id": "priya",
+  "space_id": "publications",
+  "timestamp": "2026-02-03",
+  "depth_index": 13,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Finally got the paper resubmitted to Genome Biology this morning. What a journey from that Nature Methods rejection back in December.",
+      "message_id": "msg_p_013_01"
+    },
+    {
+      "role": "assistant",
+      "content": "That's great news! How different is the version you submitted to Genome Biology compared to the original Nature Methods submission?",
+      "message_id": "msg_p_013_02"
+    },
+    {
+      "role": "user",
+      "content": "Pretty substantially different actually. We pivoted the analysis after reviewer 2 absolutely demolished our statistical methods. Anika and I spent weeks strengthening the stats - bootstrapping, permutation tests, the whole nine yards. Much more robust now.",
+      "message_id": "msg_p_013_03"
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds like the extra work paid off with a stronger paper. How did you handle the authorship with your collaborators for this resubmission?",
+      "message_id": "msg_p_013_04"
+    },
+    {
+      "role": "user",
+      "content": "Oh that was a whole drama in itself. Marcus was pushing hard for his postdoc to be first author but honestly Anika did 60% of the computational work. We finally settled on Anika first author, Marcus's postdoc second, and Marcus and I as co-corresponding PIs. Took forever to hash out but I think it's fair.",
+      "message_id": "msg_p_013_05"
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a reasonable resolution given the work contributions. How does this resubmission timing work with your other deadlines?",
+      "message_id": "msg_p_013_06"
+    },
+    {
+      "role": "user",
+      "content": "Perfect timing actually. Got it submitted just in time to cite it as under review in the R01 that's due Wednesday. The preliminary data section looks so much stronger with this paper backing up our approach, even if it's still under review at GB.",
+      "message_id": "msg_p_013_07"
+    },
+    {
+      "role": "assistant",
+      "content": "That's excellent strategic timing. Having that preliminary data in the R01 should definitely strengthen your proposal, especially with the improved statistical framework.",
+      "message_id": "msg_p_013_08"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. And after all the back and forth with Marcus about authorship, he's still on board as co-PI for the grant. For a while there in December I thought he might pull out entirely. The 1.2 million over 5 years is way more manageable split between our two labs anyway.",
+      "message_id": "msg_p_013_09"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you've navigated through some challenging collaboration dynamics successfully. Having Marcus stay on as co-PI should make the grant execution much smoother.",
+      "message_id": "msg_p_013_10"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, fingers crossed GB likes the revised version better than NatMeth did. The whole experience taught me that sometimes a rejection forces you to make the work actually better, not just different. Painful lesson but valuable.",
+      "message_id": "msg_p_013_11"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a really insightful perspective. The strengthened statistical approach will likely serve you well beyond just this paper too. Best of luck with both the GB review and the R01 deadline this week!",
+      "message_id": "msg_p_013_12"
+    }
+  ],
+  "mentioned_entities": [
+    "anika_patel",
+    "marcus_wei",
+    "genome_biology",
+    "nature_methods",
+    "nih_r01",
+    "stanford",
+    "r01_budget"
+  ],
+  "cross_space_refs": [
+    "collaboration",
+    "grants"
+  ],
+  "summary": "Priya discusses resubmitting her paper to Genome Biology after pivoting the analysis and strengthening statistics following Nature Methods rejection. She resolved authorship disputes with Marcus Wei's lab and strategically timed the submission to support her upcoming R01 grant deadline.",
+  "fact_count": 3
+}
