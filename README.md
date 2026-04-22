@@ -4,7 +4,7 @@ A benchmark for evaluating long-term conversational memory in LLM assistants.
 
 EngramaBench tests whether a system can retain, connect, and reason over information accumulated across many sessions. It is built around **5 canonical personas**, **100 multi-session conversations**, and **150 queries** spanning factual recall, cross-space integration, temporal reasoning, adversarial abstention, and emergent synthesis.
 
-**Paper:** [EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval](paper/engramabench_draft_v1.pdf)
+**Paper:** [EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval](https://zenodo.org/records/19697774) ([PDF](paper/engramabench_draft_v1.pdf))
 
 > This repository releases EngramaBench, its scorer, public baselines, and canonical results. Engrama itself is a proprietary system and is not included.
 
@@ -149,7 +149,9 @@ engramabench/
 @article{acuna2026engramabench,
   title={EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval},
   author={Acu{\~n}a, Juli{\'a}n},
-  year={2026}
+  year={2026},
+  doi={10.5281/zenodo.19697774},
+  url={https://zenodo.org/records/19697774}
 }
 ```
 

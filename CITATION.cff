@@ -7,8 +7,9 @@ authors:
     given-names: "Julián"
     email: "julianacuna@gmail.com"
     affiliation: "Kalitea"
-date-released: 2026-04-20
+date-released: 2026-04-22
 url: "https://github.com/julianacunadc/engramabench"
+doi: "10.5281/zenodo.19697774"
 license: MIT
 keywords:
   - long-term memory
@@ -16,3 +17,12 @@ keywords:
   - benchmark
   - graph memory
   - retrieval
+preferred-citation:
+  type: article
+  title: "EngramaBench: Evaluating Long-Term Conversational Memory with Structured Graph Retrieval"
+  authors:
+    - family-names: "Acuña"
+      given-names: "Julián"
+  year: 2026
+  doi: "10.5281/zenodo.19697774"
+  url: "https://zenodo.org/records/19697774"
