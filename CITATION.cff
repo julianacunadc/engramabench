@@ -11,6 +11,13 @@ date-released: 2026-04-22
 url: "https://github.com/julianacunadc/engramabench"
 doi: "10.5281/zenodo.19697774"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19697774"
+    description: "Zenodo archival record"
+  - type: other
+    value: "arXiv:2604.21229"
+    description: "arXiv preprint"
 keywords:
   - long-term memory
   - conversational AI
@@ -24,5 +31,5 @@ preferred-citation:
     - family-names: "Acuña"
       given-names: "Julián"
   year: 2026
-  doi: "10.5281/zenodo.19697774"
-  url: "https://zenodo.org/records/19697774"
+  doi: "10.48550/arXiv.2604.21229"
+  url: "https://arxiv.org/abs/2604.21229"
